@@ -1,0 +1,43 @@
+body {
+#  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+td.center, p.center {
+  text-align: center;
+}
+
+td.right {
+  text-align: right;
+}
+
+span.focus {background-color: red;}
+
+span.btn,span.runbtn,span.canbtn {
+background-color: pink;
+#margin: 12px;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#orgid {
+background-color: lightgrey;
+}
+
+.topbar {
+background-color: lightgreen;
+}
+
+.high {
+background-color: yellow;
+}
+

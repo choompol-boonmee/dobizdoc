@@ -1,0 +1,540 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-191';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมทรัพย์สินทางปัญญา </h2>
+<span id='orgid'>(or-191)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-1638_name' class=''>การขอถอนเครื่องหมายการค้าของเจ้าของ</td>
+<td id='sv-1638_count' class='edit right'></td>
+<td id='sv-1638_per' class='edit center'>เดือน</td>
+<td id='sv-1638_elec' class='edit center'></td>
+<td id='sv-1638_p66' class='edit center'></td>
+<td id='sv-1638_p67' class='edit center'></td>
+<td id='sv-1638_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1638</td>
+<td id='sv-1638_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-1646_name' class=''>การแจ้งการเปลี่ยนแปลงรายการที่ได้รับแจ้งไว้แล้ว ของผู้ทำการผลิตหรือเจ้าของลิขสิทธิ์</td>
+<td id='sv-1646_count' class='edit right'></td>
+<td id='sv-1646_per' class='edit center'>เดือน</td>
+<td id='sv-1646_elec' class='edit center'></td>
+<td id='sv-1646_p66' class='edit center'></td>
+<td id='sv-1646_p67' class='edit center'></td>
+<td id='sv-1646_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1646</td>
+<td id='sv-1646_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-1659_name' class=''>การแก้ไขเปลี่ยนแปลงข้อมูลการจดทะเบียนเครื่องหมายการค้า</td>
+<td id='sv-1659_count' class='edit right'></td>
+<td id='sv-1659_per' class='edit center'>เดือน</td>
+<td id='sv-1659_elec' class='edit center'></td>
+<td id='sv-1659_p66' class='edit center'></td>
+<td id='sv-1659_p67' class='edit center'></td>
+<td id='sv-1659_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1659</td>
+<td id='sv-1659_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-1643_name' class=''>การแจ้งขอทำการผลิตผลิตภัณฑ์ซีดีของโรงงานผลิตซีดี</td>
+<td id='sv-1643_count' class='edit right'></td>
+<td id='sv-1643_per' class='edit center'>เดือน</td>
+<td id='sv-1643_elec' class='edit center'></td>
+<td id='sv-1643_p66' class='edit center'></td>
+<td id='sv-1643_p67' class='edit center'></td>
+<td id='sv-1643_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1643</td>
+<td id='sv-1643_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-1648_name' class=''>การแจ้งย้ายสถานที่ผลิตผลิตภัณฑ์ซีดี</td>
+<td id='sv-1648_count' class='edit right'></td>
+<td id='sv-1648_per' class='edit center'>เดือน</td>
+<td id='sv-1648_elec' class='edit center'></td>
+<td id='sv-1648_p66' class='edit center'></td>
+<td id='sv-1648_p67' class='edit center'></td>
+<td id='sv-1648_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1648</td>
+<td id='sv-1648_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-1658_name' class=''>การต่ออายุการจดทะเบียนเครื่องหมายการค้า</td>
+<td id='sv-1658_count' class='edit right'></td>
+<td id='sv-1658_per' class='edit center'>เดือน</td>
+<td id='sv-1658_elec' class='edit center'></td>
+<td id='sv-1658_p66' class='edit center'></td>
+<td id='sv-1658_p67' class='edit center'></td>
+<td id='sv-1658_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>1658</td>
+<td id='sv-1658_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-1640_name' class=''>การรับจดทะเบียนเครื่องหมายการค้า</td>
+<td id='sv-1640_count' class='edit right'></td>
+<td id='sv-1640_per' class='edit center'>เดือน</td>
+<td id='sv-1640_elec' class='edit center'></td>
+<td id='sv-1640_p66' class='edit center'></td>
+<td id='sv-1640_p67' class='edit center'></td>
+<td id='sv-1640_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>1640</td>
+<td id='sv-1640_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-1651_name' class=''>การแจ้งการจำหน่าย จ่าย โอน เครื่องจักรผลิตผลิตภัณฑ์ซีดี</td>
+<td id='sv-1651_count' class='edit right'></td>
+<td id='sv-1651_per' class='edit center'>เดือน</td>
+<td id='sv-1651_elec' class='edit center'></td>
+<td id='sv-1651_p66' class='edit center'></td>
+<td id='sv-1651_p67' class='edit center'></td>
+<td id='sv-1651_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1651</td>
+<td id='sv-1651_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-1650_name' class=''>การแจ้งการได้มา หรือมีไว้ในครอบครองซึ่งเครื่องจักรผลิตผลิตภัณฑ์ซีดี</td>
+<td id='sv-1650_count' class='edit right'></td>
+<td id='sv-1650_per' class='edit center'>เดือน</td>
+<td id='sv-1650_elec' class='edit center'></td>
+<td id='sv-1650_p66' class='edit center'></td>
+<td id='sv-1650_p67' class='edit center'></td>
+<td id='sv-1650_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1650</td>
+<td id='sv-1650_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-1655_name' class=''>การแจ้งขอรับความคุ้มครองเครื่องหมายการค้า ณ จุดนำเข้าส่งออก</td>
+<td id='sv-1655_count' class='edit right'></td>
+<td id='sv-1655_per' class='edit center'>เดือน</td>
+<td id='sv-1655_elec' class='edit center'></td>
+<td id='sv-1655_p66' class='edit center'></td>
+<td id='sv-1655_p67' class='edit center'></td>
+<td id='sv-1655_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1655</td>
+<td id='sv-1655_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-1647_name' class=''>การจดทะเบียนสิทธิบัตรการออกแบบผลิตภัณฑ์</td>
+<td id='sv-1647_count' class='edit right'></td>
+<td id='sv-1647_per' class='edit center'>เดือน</td>
+<td id='sv-1647_elec' class='edit center'></td>
+<td id='sv-1647_p66' class='edit center'></td>
+<td id='sv-1647_p67' class='edit center'></td>
+<td id='sv-1647_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1647</td>
+<td id='sv-1647_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-1656_name' class=''>การจดทะเบียนสิทธิบัตรการประดิษฐ์</td>
+<td id='sv-1656_count' class='edit right'></td>
+<td id='sv-1656_per' class='edit center'>เดือน</td>
+<td id='sv-1656_elec' class='edit center'></td>
+<td id='sv-1656_p66' class='edit center'></td>
+<td id='sv-1656_p67' class='edit center'></td>
+<td id='sv-1656_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>1656</td>
+<td id='sv-1656_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-1642_name' class=''>การอนุญาตให้ใช้สิทธิบัตรการออกแบบผลิตภัณฑ์</td>
+<td id='sv-1642_count' class='edit right'></td>
+<td id='sv-1642_per' class='edit center'>เดือน</td>
+<td id='sv-1642_elec' class='edit center'></td>
+<td id='sv-1642_p66' class='edit center'></td>
+<td id='sv-1642_p67' class='edit center'></td>
+<td id='sv-1642_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1642</td>
+<td id='sv-1642_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-1637_name' class=''>การขึ้นทะเบียนสิ่งบ่งชี้ทางภูมิศาสตร์</td>
+<td id='sv-1637_count' class='edit right'></td>
+<td id='sv-1637_per' class='edit center'>เดือน</td>
+<td id='sv-1637_elec' class='edit center'></td>
+<td id='sv-1637_p66' class='edit center'></td>
+<td id='sv-1637_p67' class='edit center'></td>
+<td id='sv-1637_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>1637</td>
+<td id='sv-1637_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-1639_name' class=''>การโอนสิทธิบัตรการออกแบบผลิตภัณฑ์</td>
+<td id='sv-1639_count' class='edit right'></td>
+<td id='sv-1639_per' class='edit center'>เดือน</td>
+<td id='sv-1639_elec' class='edit center'></td>
+<td id='sv-1639_p66' class='edit center'></td>
+<td id='sv-1639_p67' class='edit center'></td>
+<td id='sv-1639_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1639</td>
+<td id='sv-1639_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-1657_name' class=''>การจดทะเบียนสัญญาอนุญาตให้ใช้เครื่องหมายการค้า</td>
+<td id='sv-1657_count' class='edit right'></td>
+<td id='sv-1657_per' class='edit center'>เดือน</td>
+<td id='sv-1657_elec' class='edit center'></td>
+<td id='sv-1657_p66' class='edit center'></td>
+<td id='sv-1657_p67' class='edit center'></td>
+<td id='sv-1657_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>1657</td>
+<td id='sv-1657_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-1649_name' class=''>การแจ้งของผู้ประสงค์จะทำการผลิตผลิตภัณฑ์ซีดีต่อไป กรณีที่โรงงานผลิตซีดีเดิมเลิกกิจการหรือไม่สามารถทำการผลิตต่อไปได้</td>
+<td id='sv-1649_count' class='edit right'></td>
+<td id='sv-1649_per' class='edit center'>เดือน</td>
+<td id='sv-1649_elec' class='edit center'></td>
+<td id='sv-1649_p66' class='edit center'></td>
+<td id='sv-1649_p67' class='edit center'></td>
+<td id='sv-1649_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1649</td>
+<td id='sv-1649_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-1654_name' class=''>การยื่นขอรับเงินสินบนตามระเบียบสำนักนายกรัฐมนตรีฯ</td>
+<td id='sv-1654_count' class='edit right'></td>
+<td id='sv-1654_per' class='edit center'>เดือน</td>
+<td id='sv-1654_elec' class='edit center'></td>
+<td id='sv-1654_p66' class='edit center'></td>
+<td id='sv-1654_p67' class='edit center'></td>
+<td id='sv-1654_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1654</td>
+<td id='sv-1654_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-1644_name' class=''>การแจ้งขอทำการผลิตหรือว่าจ้างทำการผลิตซีดีของเจ้าของลิขสิทธิ์</td>
+<td id='sv-1644_count' class='edit right'></td>
+<td id='sv-1644_per' class='edit center'>เดือน</td>
+<td id='sv-1644_elec' class='edit center'></td>
+<td id='sv-1644_p66' class='edit center'></td>
+<td id='sv-1644_p67' class='edit center'></td>
+<td id='sv-1644_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1644</td>
+<td id='sv-1644_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-1635_name' class=''>การขออนุญาตนำเข้าเครื่องผลิตแผ่นซีดี หรือเครื่องผลิตแผ่นซีดีต้นฉบับ</td>
+<td id='sv-1635_count' class='edit right'></td>
+<td id='sv-1635_per' class='edit center'>เดือน</td>
+<td id='sv-1635_elec' class='edit center'></td>
+<td id='sv-1635_p66' class='edit center'></td>
+<td id='sv-1635_p67' class='edit center'></td>
+<td id='sv-1635_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1635</td>
+<td id='sv-1635_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-1641_name' class=''>การแจ้งแก้ไขเปลี่ยนแปลงข้อมูลการจดทะเบียนสิทธิบัตรการออกแบบผลิตภัณฑ์</td>
+<td id='sv-1641_count' class='edit right'></td>
+<td id='sv-1641_per' class='edit center'>เดือน</td>
+<td id='sv-1641_elec' class='edit center'></td>
+<td id='sv-1641_p66' class='edit center'></td>
+<td id='sv-1641_p67' class='edit center'></td>
+<td id='sv-1641_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1641</td>
+<td id='sv-1641_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-1653_name' class=''>การยื่นขอรับเงินสินบนตามระเบียบกรมทรัพย์สินทางปัญญาฯ</td>
+<td id='sv-1653_count' class='edit right'></td>
+<td id='sv-1653_per' class='edit center'>เดือน</td>
+<td id='sv-1653_elec' class='edit center'></td>
+<td id='sv-1653_p66' class='edit center'></td>
+<td id='sv-1653_p67' class='edit center'></td>
+<td id='sv-1653_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1653</td>
+<td id='sv-1653_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-1662_name' class=''>การจดทะเบียนขอรับความคุ้มครองแบบผังภูมิของวงจรรวม</td>
+<td id='sv-1662_count' class='edit right'></td>
+<td id='sv-1662_per' class='edit center'>เดือน</td>
+<td id='sv-1662_elec' class='edit center'></td>
+<td id='sv-1662_p66' class='edit center'></td>
+<td id='sv-1662_p67' class='edit center'></td>
+<td id='sv-1662_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1662</td>
+<td id='sv-1662_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-1661_name' class=''>การจดทะเบียนอนุสิทธิบัตร</td>
+<td id='sv-1661_count' class='edit right'></td>
+<td id='sv-1661_per' class='edit center'>เดือน</td>
+<td id='sv-1661_elec' class='edit center'></td>
+<td id='sv-1661_p66' class='edit center'></td>
+<td id='sv-1661_p67' class='edit center'></td>
+<td id='sv-1661_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1661</td>
+<td id='sv-1661_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-1645_name' class=''>การชำระค่าธรรมเนียมรายปีสิทธิบัตรการออกแบบผลิตภัณฑ์</td>
+<td id='sv-1645_count' class='edit right'></td>
+<td id='sv-1645_per' class='edit center'>เดือน</td>
+<td id='sv-1645_elec' class='edit center'></td>
+<td id='sv-1645_p66' class='edit center'></td>
+<td id='sv-1645_p67' class='edit center'></td>
+<td id='sv-1645_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1645</td>
+<td id='sv-1645_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-1652_name' class=''>การแจ้งการได้มา หรือมีไว้ในครอบครองซึ่งเม็ดพลาสติก หรือวัสดุอื่นใดที่เป็นวัตถุดิบที่ใช้ในการผลิต</td>
+<td id='sv-1652_count' class='edit right'></td>
+<td id='sv-1652_per' class='edit center'>เดือน</td>
+<td id='sv-1652_elec' class='edit center'></td>
+<td id='sv-1652_p66' class='edit center'></td>
+<td id='sv-1652_p67' class='edit center'></td>
+<td id='sv-1652_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1652</td>
+<td id='sv-1652_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-1665_name' class=''>การแจ้งแก้ไขเปลี่ยนแปลงข้อมูลการจดทะเบียนสิทธิบัตรการประดิษฐ์และอนุสิทธิบัตรภายหลังการรับจดทะเบียน</td>
+<td id='sv-1665_count' class='edit right'></td>
+<td id='sv-1665_per' class='edit center'>เดือน</td>
+<td id='sv-1665_elec' class='edit center'></td>
+<td id='sv-1665_p66' class='edit center'></td>
+<td id='sv-1665_p67' class='edit center'></td>
+<td id='sv-1665_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1665</td>
+<td id='sv-1665_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-1663_name' class=''>การจดทะเบียนอนุญาตให้ใช้สิทธิตามสิทธิบัตรการประดิษฐ์และอนุสิทธิบัตร</td>
+<td id='sv-1663_count' class='edit right'></td>
+<td id='sv-1663_per' class='edit center'>เดือน</td>
+<td id='sv-1663_elec' class='edit center'></td>
+<td id='sv-1663_p66' class='edit center'></td>
+<td id='sv-1663_p67' class='edit center'></td>
+<td id='sv-1663_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1663</td>
+<td id='sv-1663_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-1664_name' class=''>การจดทะเบียนโอนสิทธิบัตรการประดิษฐ์และอนุสิทธิบัตร</td>
+<td id='sv-1664_count' class='edit right'></td>
+<td id='sv-1664_per' class='edit center'>เดือน</td>
+<td id='sv-1664_elec' class='edit center'></td>
+<td id='sv-1664_p66' class='edit center'></td>
+<td id='sv-1664_p67' class='edit center'></td>
+<td id='sv-1664_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1664</td>
+<td id='sv-1664_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-1660_name' class=''>การโอนหรือรับมรดกสิทธิในเครื่องหมายการค้า</td>
+<td id='sv-1660_count' class='edit right'></td>
+<td id='sv-1660_per' class='edit center'>เดือน</td>
+<td id='sv-1660_elec' class='edit center'></td>
+<td id='sv-1660_p66' class='edit center'></td>
+<td id='sv-1660_p67' class='edit center'></td>
+<td id='sv-1660_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1660</td>
+<td id='sv-1660_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-1666_name' class=''>การขอต่ออายุอนุสิทธิบัตร</td>
+<td id='sv-1666_count' class='edit right'></td>
+<td id='sv-1666_per' class='edit center'>เดือน</td>
+<td id='sv-1666_elec' class='edit center'></td>
+<td id='sv-1666_p66' class='edit center'></td>
+<td id='sv-1666_p67' class='edit center'></td>
+<td id='sv-1666_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>1666</td>
+<td id='sv-1666_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-1667_name' class=''>การฟื้นสิทธิให้คําขอระหว่างประเทศ (PCT) ยังคงมีผลในประเทศไทย</td>
+<td id='sv-1667_count' class='edit right'></td>
+<td id='sv-1667_per' class='edit center'>เดือน</td>
+<td id='sv-1667_elec' class='edit center'></td>
+<td id='sv-1667_p66' class='edit center'></td>
+<td id='sv-1667_p67' class='edit center'></td>
+<td id='sv-1667_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1667</td>
+<td id='sv-1667_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-1636_name' class=''>การขออนุญาตนำเข้าเครื่องบันทึกความเร็วสูงของแถบบันทึกเสียง (เทปเพลง) หรือเครื่องทำสำเนาแถบบันทึกภาพและเสียง (วีดีโอเทป)</td>
+<td id='sv-1636_count' class='edit right'></td>
+<td id='sv-1636_per' class='edit center'>เดือน</td>
+<td id='sv-1636_elec' class='edit center'></td>
+<td id='sv-1636_p66' class='edit center'></td>
+<td id='sv-1636_p67' class='edit center'></td>
+<td id='sv-1636_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1636</td>
+<td id='sv-1636_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

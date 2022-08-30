@@ -1,0 +1,504 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-240';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมส่งเสริมวัฒนธรรม </h2>
+<span id='orgid'>(or-240)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-2496_name' class=''>การขอใบแทนใบอนุญาต</td>
+<td id='sv-2496_count' class='edit right'></td>
+<td id='sv-2496_per' class='edit center'>เดือน</td>
+<td id='sv-2496_elec' class='edit center'></td>
+<td id='sv-2496_p66' class='edit center'></td>
+<td id='sv-2496_p67' class='edit center'></td>
+<td id='sv-2496_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2496</td>
+<td id='sv-2496_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-2473_name' class=''>การขอใช้ศูนย์วัฒนธรรมแห่งประเทศไทย</td>
+<td id='sv-2473_count' class='edit right'></td>
+<td id='sv-2473_per' class='edit center'>เดือน</td>
+<td id='sv-2473_elec' class='edit center'></td>
+<td id='sv-2473_p66' class='edit center'></td>
+<td id='sv-2473_p67' class='edit center'></td>
+<td id='sv-2473_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2473</td>
+<td id='sv-2473_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-2475_name' class=''>การขอใบอนุญาตประกอบกิจการโรงภาพยนตร์</td>
+<td id='sv-2475_count' class='edit right'></td>
+<td id='sv-2475_per' class='edit center'>เดือน</td>
+<td id='sv-2475_elec' class='edit center'></td>
+<td id='sv-2475_p66' class='edit center'></td>
+<td id='sv-2475_p67' class='edit center'></td>
+<td id='sv-2475_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2475</td>
+<td id='sv-2475_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-2474_name' class=''>การให้เงินอุดหนุนเพื่อดำเนินโครงการหรือกิจกรรมทางวัฒนธรรม</td>
+<td id='sv-2474_count' class='edit right'></td>
+<td id='sv-2474_per' class='edit center'>เดือน</td>
+<td id='sv-2474_elec' class='edit center'></td>
+<td id='sv-2474_p66' class='edit center'></td>
+<td id='sv-2474_p67' class='edit center'></td>
+<td id='sv-2474_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2474</td>
+<td id='sv-2474_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-2480_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการโรงภาพยนตร์</td>
+<td id='sv-2480_count' class='edit right'></td>
+<td id='sv-2480_per' class='edit center'>เดือน</td>
+<td id='sv-2480_elec' class='edit center'></td>
+<td id='sv-2480_p66' class='edit center'></td>
+<td id='sv-2480_p67' class='edit center'></td>
+<td id='sv-2480_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2480</td>
+<td id='sv-2480_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-2481_name' class=''>การขออนุญาตส่งภาพยนตร์ที่สร้างขึ้นในราชอาณาจักรออกไปนอกราชอาณาจักร</td>
+<td id='sv-2481_count' class='edit right'></td>
+<td id='sv-2481_per' class='edit center'>เดือน</td>
+<td id='sv-2481_elec' class='edit center'></td>
+<td id='sv-2481_p66' class='edit center'></td>
+<td id='sv-2481_p67' class='edit center'></td>
+<td id='sv-2481_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2481</td>
+<td id='sv-2481_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-2498_name' class=''>การขออนุญาตส่งวีดิทัศน์ที่สร้างขึ้นในราชอาณาจักรออกไปนอกราชอาณาจักร</td>
+<td id='sv-2498_count' class='edit right'></td>
+<td id='sv-2498_per' class='edit center'>เดือน</td>
+<td id='sv-2498_elec' class='edit center'></td>
+<td id='sv-2498_p66' class='edit center'></td>
+<td id='sv-2498_p67' class='edit center'></td>
+<td id='sv-2498_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2498</td>
+<td id='sv-2498_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-2489_name' class=''>การขอเพิ่มขนาดพื้นที่ของสถานประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายวีดิทัศน์</td>
+<td id='sv-2489_count' class='edit right'></td>
+<td id='sv-2489_per' class='edit center'>เดือน</td>
+<td id='sv-2489_elec' class='edit center'></td>
+<td id='sv-2489_p66' class='edit center'></td>
+<td id='sv-2489_p67' class='edit center'></td>
+<td id='sv-2489_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2489</td>
+<td id='sv-2489_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-2488_name' class=''>การขอเพิ่มขนาดพื้นที่ของสถานประกอบกิจการร้านให้เช่า แลกเปลี่ยน หรือจำหน่ายภาพยนตร์</td>
+<td id='sv-2488_count' class='edit right'></td>
+<td id='sv-2488_per' class='edit center'>เดือน</td>
+<td id='sv-2488_elec' class='edit center'></td>
+<td id='sv-2488_p66' class='edit center'></td>
+<td id='sv-2488_p67' class='edit center'></td>
+<td id='sv-2488_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2488</td>
+<td id='sv-2488_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-2484_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการร้านวีดิทัศน์ (เกมการเล่น)</td>
+<td id='sv-2484_count' class='edit right'></td>
+<td id='sv-2484_per' class='edit center'>เดือน</td>
+<td id='sv-2484_elec' class='edit center'></td>
+<td id='sv-2484_p66' class='edit center'></td>
+<td id='sv-2484_p67' class='edit center'></td>
+<td id='sv-2484_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2484</td>
+<td id='sv-2484_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-2476_name' class=''>การขอใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายภาพยนตร์</td>
+<td id='sv-2476_count' class='edit right'></td>
+<td id='sv-2476_per' class='edit center'>เดือน</td>
+<td id='sv-2476_elec' class='edit center'></td>
+<td id='sv-2476_p66' class='edit center'></td>
+<td id='sv-2476_p67' class='edit center'></td>
+<td id='sv-2476_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2476</td>
+<td id='sv-2476_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-2477_name' class=''>การขอใบอนุญาตประกอบกิจการร้านวีดิทัศน์ (เกมการเล่น)</td>
+<td id='sv-2477_count' class='edit right'></td>
+<td id='sv-2477_per' class='edit center'>เดือน</td>
+<td id='sv-2477_elec' class='edit center'></td>
+<td id='sv-2477_p66' class='edit center'></td>
+<td id='sv-2477_p67' class='edit center'></td>
+<td id='sv-2477_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2477</td>
+<td id='sv-2477_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-2483_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายภาพยนตร์</td>
+<td id='sv-2483_count' class='edit right'></td>
+<td id='sv-2483_per' class='edit center'>เดือน</td>
+<td id='sv-2483_elec' class='edit center'></td>
+<td id='sv-2483_p66' class='edit center'></td>
+<td id='sv-2483_p67' class='edit center'></td>
+<td id='sv-2483_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2483</td>
+<td id='sv-2483_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-2487_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายวีดิทัศน์</td>
+<td id='sv-2487_count' class='edit right'></td>
+<td id='sv-2487_per' class='edit center'>เดือน</td>
+<td id='sv-2487_elec' class='edit center'></td>
+<td id='sv-2487_p66' class='edit center'></td>
+<td id='sv-2487_p67' class='edit center'></td>
+<td id='sv-2487_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2487</td>
+<td id='sv-2487_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-2478_name' class=''>การขอใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายวีดิทัศน์</td>
+<td id='sv-2478_count' class='edit right'></td>
+<td id='sv-2478_per' class='edit center'>เดือน</td>
+<td id='sv-2478_elec' class='edit center'></td>
+<td id='sv-2478_p66' class='edit center'></td>
+<td id='sv-2478_p67' class='edit center'></td>
+<td id='sv-2478_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2478</td>
+<td id='sv-2478_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-2490_name' class=''>การขอเพิ่มจำนวนเครื่องมือ อุปกรณ์ หรือสิ่งอำนวยความสะดวก ในการให้บริการในร้านวีดิทัศน์ (เกมการเล่น)</td>
+<td id='sv-2490_count' class='edit right'></td>
+<td id='sv-2490_per' class='edit center'>เดือน</td>
+<td id='sv-2490_elec' class='edit center'></td>
+<td id='sv-2490_p66' class='edit center'></td>
+<td id='sv-2490_p67' class='edit center'></td>
+<td id='sv-2490_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2490</td>
+<td id='sv-2490_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-2470_name' class=''>การรับจดแจ้งเป็นเครือข่ายวัฒนธรรม ในพื้นที่ต่างจังหวัด</td>
+<td id='sv-2470_count' class='edit right'></td>
+<td id='sv-2470_per' class='edit center'>เดือน</td>
+<td id='sv-2470_elec' class='edit center'></td>
+<td id='sv-2470_p66' class='edit center'></td>
+<td id='sv-2470_p67' class='edit center'></td>
+<td id='sv-2470_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2470</td>
+<td id='sv-2470_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-2472_name' class=''>การรับจดแจ้งเป็นเครือข่ายวัฒนธรรม ในพื้นที่กรุงเทพมหานครและต่างประเทศ</td>
+<td id='sv-2472_count' class='edit right'></td>
+<td id='sv-2472_per' class='edit center'>เดือน</td>
+<td id='sv-2472_elec' class='edit center'></td>
+<td id='sv-2472_p66' class='edit center'></td>
+<td id='sv-2472_p67' class='edit center'></td>
+<td id='sv-2472_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2472</td>
+<td id='sv-2472_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-2497_name' class=''>การขออนุญาตนำสื่อโฆษณาวีดิทัศน์ออกเผยแพร่ในราชอาณาจักร</td>
+<td id='sv-2497_count' class='edit right'></td>
+<td id='sv-2497_per' class='edit center'>เดือน</td>
+<td id='sv-2497_elec' class='edit center'></td>
+<td id='sv-2497_p66' class='edit center'></td>
+<td id='sv-2497_p67' class='edit center'></td>
+<td id='sv-2497_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2497</td>
+<td id='sv-2497_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-2479_name' class=''>การขออนุญาตนำสื่อโฆษณาภาพยนตร์ออกเผยแพร่ในราชอาณาจักร</td>
+<td id='sv-2479_count' class='edit right'></td>
+<td id='sv-2479_per' class='edit center'>เดือน</td>
+<td id='sv-2479_elec' class='edit center'></td>
+<td id='sv-2479_p66' class='edit center'></td>
+<td id='sv-2479_p67' class='edit center'></td>
+<td id='sv-2479_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2479</td>
+<td id='sv-2479_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-2469_name' class=''>การเบิกเงินค่ารักษาพยาบาลของศิลปินแห่งชาติ ผู้ทรงคุณวุฒิทางวัฒนธรรม และผู้มีผลงานดีเด่นทางวัฒนธรรม</td>
+<td id='sv-2469_count' class='edit right'></td>
+<td id='sv-2469_per' class='edit center'>เดือน</td>
+<td id='sv-2469_elec' class='edit center'></td>
+<td id='sv-2469_p66' class='edit center'></td>
+<td id='sv-2469_p67' class='edit center'></td>
+<td id='sv-2469_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2469</td>
+<td id='sv-2469_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-2482_name' class=''>การขออนุญาตนำวีดิทัศน์ออกฉาย ให้เช่า แลกเปลี่ยน หรือจำหน่ายในราชอาณาจักร</td>
+<td id='sv-2482_count' class='edit right'></td>
+<td id='sv-2482_per' class='edit center'>เดือน</td>
+<td id='sv-2482_elec' class='edit center'></td>
+<td id='sv-2482_p66' class='edit center'></td>
+<td id='sv-2482_p67' class='edit center'></td>
+<td id='sv-2482_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2482</td>
+<td id='sv-2482_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-2485_name' class=''>การขอใบอนุญาตประกอบกิจการร้านวีดิทัศน์ (คาราโอเกะ)</td>
+<td id='sv-2485_count' class='edit right'></td>
+<td id='sv-2485_per' class='edit center'>เดือน</td>
+<td id='sv-2485_elec' class='edit center'></td>
+<td id='sv-2485_p66' class='edit center'></td>
+<td id='sv-2485_p67' class='edit center'></td>
+<td id='sv-2485_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2485</td>
+<td id='sv-2485_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-2486_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการร้านวีดิทัศน์ (คาราโอเกะ)</td>
+<td id='sv-2486_count' class='edit right'></td>
+<td id='sv-2486_per' class='edit center'>เดือน</td>
+<td id='sv-2486_elec' class='edit center'></td>
+<td id='sv-2486_p66' class='edit center'></td>
+<td id='sv-2486_p67' class='edit center'></td>
+<td id='sv-2486_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2486</td>
+<td id='sv-2486_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-2471_name' class=''>การขออนุญาตนำภาพยนตร์ออกฉาย ให้เช่า แลกเปลี่ยน หรือจำหน่ายในราชอาณาจักร</td>
+<td id='sv-2471_count' class='edit right'></td>
+<td id='sv-2471_per' class='edit center'>เดือน</td>
+<td id='sv-2471_elec' class='edit center'></td>
+<td id='sv-2471_p66' class='edit center'></td>
+<td id='sv-2471_p67' class='edit center'></td>
+<td id='sv-2471_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2471</td>
+<td id='sv-2471_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-2491_name' class=''>การขอเพิ่มจำนวนเครื่องมือ อุปกรณ์ หรือสิ่งอำนวยความสะดวก ในการให้บริการในร้านวีดิทัศน์ (คาราโอเกะ)</td>
+<td id='sv-2491_count' class='edit right'></td>
+<td id='sv-2491_per' class='edit center'>เดือน</td>
+<td id='sv-2491_elec' class='edit center'></td>
+<td id='sv-2491_p66' class='edit center'></td>
+<td id='sv-2491_p67' class='edit center'></td>
+<td id='sv-2491_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2491</td>
+<td id='sv-2491_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-2492_name' class=''>การแจ้งเปลี่ยนกรรมการ ผู้จัดการ หรือผู้มีอำนาจลงนามผูกพันนิติบุคคล ซึ่งได้รับใบอนุญาตประกอบกิจการโรงภาพยนตร์</td>
+<td id='sv-2492_count' class='edit right'></td>
+<td id='sv-2492_per' class='edit center'>เดือน</td>
+<td id='sv-2492_elec' class='edit center'></td>
+<td id='sv-2492_p66' class='edit center'></td>
+<td id='sv-2492_p67' class='edit center'></td>
+<td id='sv-2492_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2492</td>
+<td id='sv-2492_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-2495_name' class=''>การแจ้งเปลี่ยนกรรมการ ผู้จัดการ หรือผู้มีอำนาจลงนามผูกพันนิติบุคคล ซึ่งได้รับใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายวีดิทัศน์</td>
+<td id='sv-2495_count' class='edit right'></td>
+<td id='sv-2495_per' class='edit center'>เดือน</td>
+<td id='sv-2495_elec' class='edit center'></td>
+<td id='sv-2495_p66' class='edit center'></td>
+<td id='sv-2495_p67' class='edit center'></td>
+<td id='sv-2495_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2495</td>
+<td id='sv-2495_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-2494_name' class=''>การแจ้งเปลี่ยนกรรมการ ผู้จัดการ หรือผู้มีอำนาจลงนามผูกพันนิติบุคคล ซึ่งได้รับใบอนุญาตประกอบกิจการร้านวีดิทัศน์</td>
+<td id='sv-2494_count' class='edit right'></td>
+<td id='sv-2494_per' class='edit center'>เดือน</td>
+<td id='sv-2494_elec' class='edit center'></td>
+<td id='sv-2494_p66' class='edit center'></td>
+<td id='sv-2494_p67' class='edit center'></td>
+<td id='sv-2494_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2494</td>
+<td id='sv-2494_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-2493_name' class=''>การแจ้งเปลี่ยนกรรมการ ผู้จัดการ หรือผู้มีอำนาจลงนามผูกพันนิติบุคคล ซึ่งได้รับใบอนุญาตประกอบกิจการให้เช่า แลกเปลี่ยน หรือจำหน่ายภาพยนตร์</td>
+<td id='sv-2493_count' class='edit right'></td>
+<td id='sv-2493_per' class='edit center'>เดือน</td>
+<td id='sv-2493_elec' class='edit center'></td>
+<td id='sv-2493_p66' class='edit center'></td>
+<td id='sv-2493_p67' class='edit center'></td>
+<td id='sv-2493_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2493</td>
+<td id='sv-2493_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

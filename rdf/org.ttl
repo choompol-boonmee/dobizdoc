@@ -1,0 +1,1754 @@
+
+@prefix or: <http://dga.tueng.org/rdf/or#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix org:        <http://www.w3.org/ns/org#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+
+or:1  a  org:Organization ;
+rdfs:label 'กรมราชองครักษ์' .
+
+or:2  a  org:Organization ;
+rdfs:label 'กองทัพไทย' .
+
+or:3  a  org:Organization ;
+rdfs:label 'กองทัพบก' .
+
+or:4  a  org:Organization ;
+rdfs:label 'กองทัพเรือ' .
+
+or:5  a  org:Organization ;
+rdfs:label 'กองทัพอากาศ' .
+
+or:6  a  org:Organization ;
+rdfs:label 'กองบัญชาการกองทัพไทย' .
+
+or:7  a  org:Organization ;
+rdfs:label 'กองบัญชาการทหารสูงสุด' .
+
+or:8  a  org:Organization ;
+rdfs:label 'บริษัท อู่กรุงเทพ จำกัด' .
+
+or:9  a  org:Organization ;
+rdfs:label 'สถาบันเทคโนโลยีป้องกันประเทศ' .
+
+or:10  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงกลาโหม' .
+
+or:11  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงกลาโหม' .
+
+or:12  a  org:Organization ;
+rdfs:label 'หน่วยบัญชาการถวายความปลอดภัยรักษาพระองค์' .
+
+or:13  a  org:Organization ;
+rdfs:label 'กรมธนารักษ์' .
+
+or:14  a  org:Organization ;
+rdfs:label 'กรมบัญชีกลาง' .
+
+or:15  a  org:Organization ;
+rdfs:label 'กรมศุลกากร' .
+
+or:16  a  org:Organization ;
+rdfs:label 'กรมสรรพสามิต' .
+
+or:17  a  org:Organization ;
+rdfs:label 'กรมสรรพากร' .
+
+or:18  a  org:Organization ;
+rdfs:label 'กองทุนการออมแห่งชาติ' .
+
+or:19  a  org:Organization ;
+rdfs:label 'กองทุนให้กู้ยืมเพื่อการศึกษา' .
+
+or:20  a  org:Organization ;
+rdfs:label 'ธนาคารกรุงไทย จำกัด (มหาชน)' .
+
+or:21  a  org:Organization ;
+rdfs:label 'ธนาคารพัฒนาวิสาหกิจขนาดกลางและขนาดย่อมแห่งประเทศไทย' .
+
+or:22  a  org:Organization ;
+rdfs:label 'ธนาคารเพื่อการเกษตรและสหกรณ์การเกษตร' .
+
+or:23  a  org:Organization ;
+rdfs:label 'ธนาคารเพื่อการส่งออกและนำเข้าแห่งประเทศไทย' .
+
+or:24  a  org:Organization ;
+rdfs:label 'ธนาคารออมสิน' .
+
+or:25  a  org:Organization ;
+rdfs:label 'ธนาคารอาคารสงเคราะห์' .
+
+or:26  a  org:Organization ;
+rdfs:label 'ธนาคารอิสลามแห่งประเทศไทย' .
+
+or:27  a  org:Organization ;
+rdfs:label 'บรรษัทตลาดรองสินเชื่อที่อยู่อาศัย' .
+
+or:28  a  org:Organization ;
+rdfs:label 'บรรษัทประกันสินเชื่ออุตสาหกรรมขนาดย่อม' .
+
+or:29  a  org:Organization ;
+rdfs:label 'บริษัท ธนารักษ์พัฒนาสินทรัพย์ จำกัด' .
+
+or:30  a  org:Organization ;
+rdfs:label 'บริษัท สหโรงแรมไทยและการท่องเที่ยว จำกัด' .
+
+or:31  a  org:Organization ;
+rdfs:label 'โรงงานไพ่ กรมสรรพสามิต' .
+
+or:32  a  org:Organization ;
+rdfs:label 'โรงงานยาสูบ' .
+
+or:33  a  org:Organization ;
+rdfs:label 'สถาบันคุ้มครองเงินฝาก' .
+
+or:34  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับและส่งเสริมการประกอบธุรกิจประกันภัย' .
+
+or:35  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการนโยบายรัฐวิสาหกิจ' .
+
+or:36  a  org:Organization ;
+rdfs:label 'สำนักงานความร่วมมือพัฒนาเศรษฐกิจกับประเทศเพื่อนบ้าน' .
+
+or:37  a  org:Organization ;
+rdfs:label 'สำนักงานบริหารหนี้สาธารณะ' .
+
+or:38  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงการคลัง' .
+
+or:39  a  org:Organization ;
+rdfs:label 'สำนักงานเศรษฐกิจการคลัง' .
+
+or:40  a  org:Organization ;
+rdfs:label 'สำนักงานสลากกินแบ่งรัฐบาล' .
+
+or:41  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงการคลัง' .
+
+or:42  a  org:Organization ;
+rdfs:label 'องค์การสุรา กรมสรรพสามิต' .
+
+or:43  a  org:Organization ;
+rdfs:label 'กรมการกงสุล' .
+
+or:44  a  org:Organization ;
+rdfs:label 'กรมความร่วมมือระหว่างประเทศ' .
+
+or:45  a  org:Organization ;
+rdfs:label 'กรมพิธีการทูต' .
+
+or:46  a  org:Organization ;
+rdfs:label 'กรมยุโรป' .
+
+or:47  a  org:Organization ;
+rdfs:label 'กรมเศรษฐกิจระหว่างประเทศ' .
+
+or:48  a  org:Organization ;
+rdfs:label 'กรมสนธิสัญญาและกฎหมาย' .
+
+or:49  a  org:Organization ;
+rdfs:label 'กรมสารนิเทศ' .
+
+or:50  a  org:Organization ;
+rdfs:label 'กรมองค์การระหว่างประเทศ' .
+
+or:51  a  org:Organization ;
+rdfs:label 'กรมอเมริกาและแปซิฟิกใต้' .
+
+or:52  a  org:Organization ;
+rdfs:label 'กรมอาเซียน' .
+
+or:53  a  org:Organization ;
+rdfs:label 'กรมเอเชียตะวันออก' .
+
+or:54  a  org:Organization ;
+rdfs:label 'กรมเอเชียใต้ตะวันออกกลางและแอฟริกา' .
+
+or:55  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงการต่างประเทศ' .
+
+or:56  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงการต่างประเทศ' .
+
+or:57  a  org:Organization ;
+rdfs:label 'กรมการท่องเที่ยว' .
+
+or:58  a  org:Organization ;
+rdfs:label 'กรมพลศึกษา' .
+
+or:59  a  org:Organization ;
+rdfs:label 'การกีฬาแห่งประเทศไทย' .
+
+or:60  a  org:Organization ;
+rdfs:label 'การท่องเที่ยวแห่งประเทศไทย' .
+
+or:61  a  org:Organization ;
+rdfs:label 'สถาบันการพลศึกษา' .
+
+or:62  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงการท่องเที่ยวและกีฬา' .
+
+or:63  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงการท่องเที่ยวและกีฬา' .
+
+or:64  a  org:Organization ;
+rdfs:label 'กรมกิจการเด็กและเยาวชน' .
+
+or:65  a  org:Organization ;
+rdfs:label 'กรมกิจการผู้สูงอายุ' .
+
+or:66  a  org:Organization ;
+rdfs:label 'กรมกิจการสตรีและสถาบันครอบครัว' .
+
+or:67  a  org:Organization ;
+rdfs:label 'กรมกิจการสตรีและสถาบันครอบครัว (ไม่ใช้ / งดใช้ / ห้ามใช้)' .
+
+or:68  a  org:Organization ;
+rdfs:label 'กรมพัฒนาสังคมและสวัสดิการ' .
+
+or:69  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ' .
+
+or:70  a  org:Organization ;
+rdfs:label 'การเคหะแห่งชาติ' .
+
+or:71  a  org:Organization ;
+rdfs:label 'สถาบันพัฒนาองค์กรชุมชน' .
+
+or:72  a  org:Organization ;
+rdfs:label 'สำนักงานกิจการสตรีและสถาบันครอบครัว (ไม่ใช้)' .
+
+or:73  a  org:Organization ;
+rdfs:label 'สำนักงานธนานุเคราะห์ กรมพัฒนาสังคมและสวัสดิการ' .
+
+or:74  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์' .
+
+or:75  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมสวัสดิภาพและพิทักษ์เด็ก เยาวชน ผู้ด้อยโอกาส และผู้สูงอายุ' .
+
+or:76  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์' .
+
+or:77  a  org:Organization ;
+rdfs:label 'กรมวิทยาศาสตร์บริการ' .
+
+or:78  a  org:Organization ;
+rdfs:label 'กระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม' .
+
+or:79  a  org:Organization ;
+rdfs:label 'ศูนย์ความเป็นเลิศทางชีววิทยาศาสตร์' .
+
+or:80  a  org:Organization ;
+rdfs:label 'สถาบันเทคโนโลยีนิวเคลียร์แห่งชาติ' .
+
+or:81  a  org:Organization ;
+rdfs:label 'สถาบันมาตรวิทยา' .
+
+or:82  a  org:Organization ;
+rdfs:label 'สถาบันมาตรวิทยาแห่งชาติ' .
+
+or:83  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยดาราศาสตร์แห่งชาติ' .
+
+or:84  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยวิทยาศาสตร์และเทคโนโลยีแห่งประเทศไทย' .
+
+or:85  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยแสงซินโครตรอน' .
+
+or:86  a  org:Organization ;
+rdfs:label 'สถาบันสารสนเทศทรัพยากรน้ำและการเกษตร' .
+
+or:87  a  org:Organization ;
+rdfs:label 'สภาวิชาชีพวิทยาศาสตร์และเทคโนโลยี' .
+
+or:88  a  org:Organization ;
+rdfs:label 'สำนักงานการวิจัยแห่งชาติ' .
+
+or:89  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการนโยบายวิทยาศาสตร์เทคโนโลยีและนวัตกรรมแห่งชาติ (ยกเลิก)' .
+
+or:90  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการส่งเสริมวิทยาศาสตร์ วิจัยและนวัตกรรม' .
+
+or:91  a  org:Organization ;
+rdfs:label 'สำนักงานนวัตกรรมแห่งชาติ' .
+
+or:92  a  org:Organization ;
+rdfs:label 'สำนักงานปรมาณูเพื่อสันติ' .
+
+or:93  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรม' .
+
+or:94  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาเทคโนโลยีอวกาศและภูมิสารสนเทศ' .
+
+or:95  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ' .
+
+or:96  a  org:Organization ;
+rdfs:label 'สำนักงานสภานโยบายการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรมแห่งชาติ' .
+
+or:97  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงวิทยาศาสตร์และเทคโนโลยี' .
+
+or:98  a  org:Organization ;
+rdfs:label 'องค์การพิพิธภัณฑ์วิทยาศาสตร์แห่งชาติ' .
+
+or:99  a  org:Organization ;
+rdfs:label 'กรมการข้าว' .
+
+or:100  a  org:Organization ;
+rdfs:label 'กรมชลประทาน' .
+
+or:101  a  org:Organization ;
+rdfs:label 'กรมตรวจบัญชีสหกรณ์' .
+
+or:102  a  org:Organization ;
+rdfs:label 'กรมประมง' .
+
+or:103  a  org:Organization ;
+rdfs:label 'กรมปศุสัตว์' .
+
+or:104  a  org:Organization ;
+rdfs:label 'กรมฝนหลวงและการบินเกษตร' .
+
+or:105  a  org:Organization ;
+rdfs:label 'กรมพัฒนาที่ดิน' .
+
+or:106  a  org:Organization ;
+rdfs:label 'กรมวิชาการเกษตร' .
+
+or:107  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมการเกษตร' .
+
+or:108  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมสหกรณ์' .
+
+or:109  a  org:Organization ;
+rdfs:label 'กรมหม่อนไหม' .
+
+or:110  a  org:Organization ;
+rdfs:label 'การยางแห่งประเทศไทย' .
+
+or:111  a  org:Organization ;
+rdfs:label 'บริษัท ส่งเสริมธุรกิจเกษตรกรไทย จำกัด' .
+
+or:112  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยและพัฒนาพื้นที่สูง' .
+
+or:113  a  org:Organization ;
+rdfs:label 'สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม' .
+
+or:114  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงเกษตรและสหกรณ์' .
+
+or:115  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาการวิจัยการเกษตร' .
+
+or:116  a  org:Organization ;
+rdfs:label 'สำนักงานพิพิธภัณฑ์เกษตรเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว' .
+
+or:117  a  org:Organization ;
+rdfs:label 'สำนักงานมาตรฐานสินค้าเกษตรและอาหารแห่งชาติ' .
+
+or:118  a  org:Organization ;
+rdfs:label 'สำนักงานเศรษฐกิจการเกษตร' .
+
+or:119  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงเกษตรและสหกรณ์' .
+
+or:120  a  org:Organization ;
+rdfs:label 'องค์การตลาดเพื่อการเกษตร' .
+
+or:121  a  org:Organization ;
+rdfs:label 'องค์การส่งเสริมกิจการโคนมแห่งประเทศไทย' .
+
+or:122  a  org:Organization ;
+rdfs:label 'องค์การสวนยาง' .
+
+or:123  a  org:Organization ;
+rdfs:label 'องค์การสะพานปลา' .
+
+or:124  a  org:Organization ;
+rdfs:label 'กรมการขนส่งทางบก' .
+
+or:125  a  org:Organization ;
+rdfs:label 'กรมการขนส่งทางราง' .
+
+or:126  a  org:Organization ;
+rdfs:label 'กรมการบินพลเรือน' .
+
+or:127  a  org:Organization ;
+rdfs:label 'กรมเจ้าท่า' .
+
+or:128  a  org:Organization ;
+rdfs:label 'กรมทางหลวง' .
+
+or:129  a  org:Organization ;
+rdfs:label 'กรมทางหลวงชนบท' .
+
+or:130  a  org:Organization ;
+rdfs:label 'กรมท่าอากาศยาน' .
+
+or:131  a  org:Organization ;
+rdfs:label 'การทางพิเศษแห่งประเทศไทย' .
+
+or:132  a  org:Organization ;
+rdfs:label 'การท่าเรือแห่งประเทศไทย' .
+
+or:133  a  org:Organization ;
+rdfs:label 'การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย' .
+
+or:134  a  org:Organization ;
+rdfs:label 'การรถไฟแห่งประเทศไทย' .
+
+or:135  a  org:Organization ;
+rdfs:label 'บริษัท การบินไทย จำกัด (มหาชน)' .
+
+or:136  a  org:Organization ;
+rdfs:label 'บริษัท ขนส่ง จำกัด' .
+
+or:137  a  org:Organization ;
+rdfs:label 'บริษัท ท่าอากาศยานไทย จำกัด (มหาชน)' .
+
+or:138  a  org:Organization ;
+rdfs:label 'บริษัท ไทยเดินเรือทะเล จำกัด' .
+
+or:139  a  org:Organization ;
+rdfs:label 'บริษัท วิทยุการบินแห่งประเทศไทย จำกัด' .
+
+or:140  a  org:Organization ;
+rdfs:label 'สถาบันการบินพลเรือน' .
+
+or:141  a  org:Organization ;
+rdfs:label 'สำนักงานการบินพลเรือนแห่งประเทศไทย (CAAT)' .
+
+or:142  a  org:Organization ;
+rdfs:label 'สำนักงานนโยบายและแผนการขนส่งและจราจร' .
+
+or:143  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงคมนาคม' .
+
+or:144  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงคมนาคม' .
+
+or:145  a  org:Organization ;
+rdfs:label 'องค์การขนส่งมวลชนกรุงเทพ' .
+
+or:146  a  org:Organization ;
+rdfs:label 'กรมไปรษณีย์' .
+
+or:147  a  org:Organization ;
+rdfs:label 'กรมอุตุนิยมวิทยา' .
+
+or:148  a  org:Organization ;
+rdfs:label 'บริษัท กสท โทรคมนาคม จำกัด (มหาชน)' .
+
+or:149  a  org:Organization ;
+rdfs:label 'บริษัท ทีโอที จำกัด (มหาชน)' .
+
+or:150  a  org:Organization ;
+rdfs:label 'บริษัท ไปรษณีย์ไทย จำกัด' .
+
+or:151  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการคุ้มครองข้อมูลส่วนบุคคล' .
+
+or:152  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ' .
+
+or:153  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม' .
+
+or:154  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (องค์การมหาชน)' .
+
+or:155  a  org:Organization ;
+rdfs:label 'สำนักงานรัฐบาลอิเล็กทรอนิกส์' .
+
+or:156  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมเศรษฐกิจดิจิทัล' .
+
+or:157  a  org:Organization ;
+rdfs:label 'สำนักงานสถิติแห่งชาติ' .
+
+or:158  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม' .
+
+or:159  a  org:Organization ;
+rdfs:label 'กรมควบคุมมลพิษ' .
+
+or:160  a  org:Organization ;
+rdfs:label 'กรมทรัพยากรทางทะเลและชายฝั่ง' .
+
+or:161  a  org:Organization ;
+rdfs:label 'กรมทรัพยากรธรณี' .
+
+or:162  a  org:Organization ;
+rdfs:label 'กรมทรัพยากรน้ำ' .
+
+or:163  a  org:Organization ;
+rdfs:label 'กรมทรัพยากรน้ำบาดาล' .
+
+or:164  a  org:Organization ;
+rdfs:label 'กรมป่าไม้' .
+
+or:165  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมคุณภาพสิ่งแวดล้อม' .
+
+or:166  a  org:Organization ;
+rdfs:label 'กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช' .
+
+or:167  a  org:Organization ;
+rdfs:label 'สำนักงานนโยบายและแผนทรัพยากรธรรมชาติและสิ่งแวดล้อม' .
+
+or:168  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม' .
+
+or:169  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาเศรษฐกิจจากฐานชีวภาพ' .
+
+or:170  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม' .
+
+or:171  a  org:Organization ;
+rdfs:label 'องค์การจัดการน้ำเสีย' .
+
+or:172  a  org:Organization ;
+rdfs:label 'องค์การบริหารจัดการก๊าซเรือนกระจก' .
+
+or:173  a  org:Organization ;
+rdfs:label 'องค์การสวนพฤกษศาสตร์' .
+
+or:174  a  org:Organization ;
+rdfs:label 'องค์การสวนสัตว์' .
+
+or:175  a  org:Organization ;
+rdfs:label 'องค์การอุตสาหกรรมป่าไม้' .
+
+or:176  a  org:Organization ;
+rdfs:label 'กรมเชื้อเพลิงธรรมชาติ' .
+
+or:177  a  org:Organization ;
+rdfs:label 'กรมธุรกิจพลังงาน' .
+
+or:178  a  org:Organization ;
+rdfs:label 'กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน' .
+
+or:179  a  org:Organization ;
+rdfs:label 'การไฟฟ้าฝ่ายผลิตแห่งประเทศไทย' .
+
+or:180  a  org:Organization ;
+rdfs:label 'บริษัท ปตท. จำกัด (มหาชน)' .
+
+or:181  a  org:Organization ;
+rdfs:label 'สถาบันบริหารกองทุนพลังงาน (องค์การมหาชน)' .
+
+or:182  a  org:Organization ;
+rdfs:label 'สำนักงานกองทุนน้ำมันเชื้อเพลิง' .
+
+or:183  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับกิจการพลังงาน' .
+
+or:184  a  org:Organization ;
+rdfs:label 'สำนักงานนโยบายและแผนพลังงาน' .
+
+or:185  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงพลังงาน' .
+
+or:186  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงพลังงาน' .
+
+or:187  a  org:Organization ;
+rdfs:label 'กรมการค้าต่างประเทศ' .
+
+or:188  a  org:Organization ;
+rdfs:label 'กรมการค้าภายใน' .
+
+or:189  a  org:Organization ;
+rdfs:label 'กรมการประกันภัย' .
+
+or:190  a  org:Organization ;
+rdfs:label 'กรมเจรจาการค้าระหว่างประเทศ' .
+
+or:191  a  org:Organization ;
+rdfs:label 'กรมทรัพย์สินทางปัญญา' .
+
+or:192  a  org:Organization ;
+rdfs:label 'กรมพัฒนาธุรกิจการค้า' .
+
+or:193  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมการค้าระหว่างประเทศ' .
+
+or:194  a  org:Organization ;
+rdfs:label 'ตลาดสินค้าเกษตรล่วงหน้าแห่งประเทศไทย' .
+
+or:195  a  org:Organization ;
+rdfs:label 'ศูนย์ส่งเสริมศิลปาชีพระหว่างประเทศ' .
+
+or:196  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยและพัฒนาอัญมณีและเครื่องประดับแห่งชาติ' .
+
+or:197  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับการซื้อขายสินค้าเกษตรล่วงหน้า' .
+
+or:198  a  org:Organization ;
+rdfs:label 'สำนักงานนโยบายและยุทธศาสตร์การค้า' .
+
+or:199  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงพาณิชย์' .
+
+or:200  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงพาณิชย์' .
+
+or:201  a  org:Organization ;
+rdfs:label 'องค์การคลังสินค้า' .
+
+or:202  a  org:Organization ;
+rdfs:label 'กรมการปกครอง' .
+
+or:203  a  org:Organization ;
+rdfs:label 'กรมการพัฒนาชุมชน' .
+
+or:204  a  org:Organization ;
+rdfs:label 'กรมที่ดิน' .
+
+or:205  a  org:Organization ;
+rdfs:label 'กรมป้องกันและบรรเทาสาธารณภัย' .
+
+or:206  a  org:Organization ;
+rdfs:label 'กรมโยธาธิการและผังเมือง' .
+
+or:207  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมการปกครองท้องถิ่น' .
+
+or:208  a  org:Organization ;
+rdfs:label 'กรุงเทพมหานคร' .
+
+or:209  a  org:Organization ;
+rdfs:label 'การประปานครหลวง' .
+
+or:210  a  org:Organization ;
+rdfs:label 'การประปาส่วนภูมิภาค' .
+
+or:211  a  org:Organization ;
+rdfs:label 'การไฟฟ้านครหลวง' .
+
+or:212  a  org:Organization ;
+rdfs:label 'การไฟฟ้าส่วนภูมิภาค' .
+
+or:213  a  org:Organization ;
+rdfs:label 'เมืองพัทยา' .
+
+or:214  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงมหาดไทย' .
+
+or:215  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงมหาดไทย' .
+
+or:216  a  org:Organization ;
+rdfs:label 'องค์การตลาด' .
+
+or:217  a  org:Organization ;
+rdfs:label 'กรมคุ้มครองสิทธิและเสรีภาพ' .
+
+or:218  a  org:Organization ;
+rdfs:label 'กรมคุมประพฤติ' .
+
+or:219  a  org:Organization ;
+rdfs:label 'กรมบังคับคดี' .
+
+or:220  a  org:Organization ;
+rdfs:label 'กรมพินิจและคุ้มครองเด็กและเยาวชน' .
+
+or:221  a  org:Organization ;
+rdfs:label 'กรมราชทัณฑ์' .
+
+or:222  a  org:Organization ;
+rdfs:label 'กรมสอบสวนคดีพิเศษ' .
+
+or:223  a  org:Organization ;
+rdfs:label 'สถาบันนิติวิทยาศาสตร์' .
+
+or:224  a  org:Organization ;
+rdfs:label 'สถาบันเพื่อการยุติธรรมแห่งประเทศไทย' .
+
+or:225  a  org:Organization ;
+rdfs:label 'สถาบันอนุญาโตตุลาการ' .
+
+or:226  a  org:Organization ;
+rdfs:label 'สำนักงานกิจการยุติธรรม' .
+
+or:227  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตในภาครัฐ' .
+
+or:228  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการป้องกันและปราบปรามยาเสพติด' .
+
+or:229  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงยุติธรรม' .
+
+or:230  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงยุติธรรม' .
+
+or:231  a  org:Organization ;
+rdfs:label 'กรมการจัดหางาน' .
+
+or:232  a  org:Organization ;
+rdfs:label 'กรมพัฒนาฝีมือแรงงาน' .
+
+or:233  a  org:Organization ;
+rdfs:label 'กรมสวัสดิการและคุ้มครองแรงงาน' .
+
+or:234  a  org:Organization ;
+rdfs:label 'สถาบันส่งเสริมความปลอดภัย อาชีวอนามัย และสภาพแวดล้อมในการทํางาน (องค์การมหาชน)' .
+
+or:235  a  org:Organization ;
+rdfs:label 'สำนักงานประกันสังคม' .
+
+or:236  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงแรงงาน' .
+
+or:237  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงแรงงาน' .
+
+or:238  a  org:Organization ;
+rdfs:label 'กรมการศาสนา' .
+
+or:239  a  org:Organization ;
+rdfs:label 'กรมศิลปากร' .
+
+or:240  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมวัฒนธรรม' .
+
+or:241  a  org:Organization ;
+rdfs:label 'กองทุนพัฒนาสื่อปลอดภัยและสร้างสรรค์' .
+
+or:242  a  org:Organization ;
+rdfs:label 'ศูนย์คุณธรรม' .
+
+or:243  a  org:Organization ;
+rdfs:label 'ศูนย์มานุษยวิทยาสิรินธร' .
+
+or:244  a  org:Organization ;
+rdfs:label 'สถาบันบัณฑิตพัฒนศิลป์' .
+
+or:245  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการวัฒนธรรมแห่งชาติ' .
+
+or:246  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงวัฒนธรรม' .
+
+or:247  a  org:Organization ;
+rdfs:label 'สำนักงานศิลปวัฒนธรรมร่วมสมัย' .
+
+or:248  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงวัฒนธรรม' .
+
+or:249  a  org:Organization ;
+rdfs:label 'หอภาพยนตร์' .
+
+or:250  a  org:Organization ;
+rdfs:label 'โรงเรียนมหิดลวิทยานุสรณ์' .
+
+or:251  a  org:Organization ;
+rdfs:label 'สถาบันทดสอบทางการศึกษาแห่งชาติ (องค์การมหาชน)' .
+
+or:252  a  org:Organization ;
+rdfs:label 'สถาบันระหว่างประเทศเพื่อการค้าและการพัฒนา' .
+
+or:253  a  org:Organization ;
+rdfs:label 'สถาบันส่งเสริมการสอนวิทยาศาสตร์และเทคโนโลยี' .
+
+or:254  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน' .
+
+or:255  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการอาชีวศึกษา' .
+
+or:256  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการอุดมศึกษา' .
+
+or:257  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการส่งเสริมการศึกษาเอกชน' .
+
+or:258  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการส่งเสริมสวัสดิการและสวัสดิภาพครูและบุคลากรทางการศึกษา' .
+
+or:259  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงศึกษาธิการ' .
+
+or:260  a  org:Organization ;
+rdfs:label 'สำนักงานรับรองมาตรฐานและประเมินคุณภาพการศึกษา (องค์การมหาชน)' .
+
+or:261  a  org:Organization ;
+rdfs:label 'สำนักงานลูกเสือแห่งชาติ' .
+
+or:262  a  org:Organization ;
+rdfs:label 'สำนักงานเลขาธิการคุรุสภา' .
+
+or:263  a  org:Organization ;
+rdfs:label 'สำนักงานเลขาธิการสภาการศึกษา' .
+
+or:264  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงศึกษาธิการ' .
+
+or:265  a  org:Organization ;
+rdfs:label 'กรมการแพทย์' .
+
+or:266  a  org:Organization ;
+rdfs:label 'กรมการแพทย์แผนไทยและการแพทย์ทางเลือก' .
+
+or:267  a  org:Organization ;
+rdfs:label 'กรมควบคุมโรค' .
+
+or:268  a  org:Organization ;
+rdfs:label 'กรมวิทยาศาสตร์การแพทย์' .
+
+or:269  a  org:Organization ;
+rdfs:label 'กรมสนับสนุนบริการสุขภาพ' .
+
+or:270  a  org:Organization ;
+rdfs:label 'กรมสุขภาพจิต' .
+
+or:271  a  org:Organization ;
+rdfs:label 'กรมอนามัย' .
+
+or:272  a  org:Organization ;
+rdfs:label 'โรงพยาบาลบ้านแพ้ว' .
+
+or:273  a  org:Organization ;
+rdfs:label 'สถาบันการแพทย์ฉุกเฉินแห่งชาติ' .
+
+or:274  a  org:Organization ;
+rdfs:label 'สถาบันรับรองคุณภาพสถานพยาบาล' .
+
+or:275  a  org:Organization ;
+rdfs:label 'สถาบันวัคซีนแห่งชาติ' .
+
+or:276  a  org:Organization ;
+rdfs:label 'สถาบันวิจัยระบบสาธารณสุข' .
+
+or:277  a  org:Organization ;
+rdfs:label 'สำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ' .
+
+or:278  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการอาหารและยา' .
+
+or:279  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงสาธารณสุข' .
+
+or:280  a  org:Organization ;
+rdfs:label 'สำนักงานหลักประกันสุขภาพแห่งชาติ' .
+
+or:281  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงสาธารณสุข' .
+
+or:282  a  org:Organization ;
+rdfs:label 'องค์การเภสัชกรรม' .
+
+or:283  a  org:Organization ;
+rdfs:label 'จุฬาลงกรณ์มหาวิทยาลัย' .
+
+or:284  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยกรุงเทพมหานคร' .
+
+or:285  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเกษตรศาสตร์' .
+
+or:286  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยขอนแก่น' .
+
+or:287  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยจุฬาลงกรณราชวิทยาลัย' .
+
+or:288  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเชียงใหม่' .
+
+or:289  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยทักษิณ' .
+
+or:290  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี' .
+
+or:291  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ' .
+
+or:292  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคล รัตนโกสินทร์' .
+
+or:293  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ' .
+
+or:294  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลตะวันออก' .
+
+or:295  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี' .
+
+or:296  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร' .
+
+or:297  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลล้านนา' .
+
+or:298  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย' .
+
+or:299  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ' .
+
+or:300  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน' .
+
+or:301  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยเทคโนโลยีสุรนารี' .
+
+or:302  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยธรรมศาสตร์' .
+
+or:303  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยนครพนม' .
+
+or:304  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยนราธิวาสราชนครินทร์' .
+
+or:305  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยนเรศวร' .
+
+or:306  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยบูรพา' .
+
+or:307  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยพะเยา' .
+
+or:308  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยมหามกุฏราชวิทยาลัย' .
+
+or:309  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยมหาสารคาม' .
+
+or:310  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยมหิดล' .
+
+or:311  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยแม่โจ้' .
+
+or:312  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยแม่ฟ้าหลวง' .
+
+or:313  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏกาญจนบุรี' .
+
+or:314  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏกําแพงเพชร' .
+
+or:315  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏกาฬสินธุ์' .
+
+or:316  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏกำแพงเพชร' .
+
+or:317  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏจันทรเกษม' .
+
+or:318  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏชัยภูมิ' .
+
+or:319  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเชียงราย' .
+
+or:320  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเชียงใหม่' .
+
+or:321  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเทพสตรี' .
+
+or:322  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏธนบุรี' .
+
+or:323  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏนครปฐม' .
+
+or:324  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏนครราชสีมา' .
+
+or:325  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏนครศรีธรรมราช' .
+
+or:326  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏนครสวรรค์' .
+
+or:327  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา' .
+
+or:328  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏบุรีรัมย์' .
+
+or:329  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏพระนคร' .
+
+or:330  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏพระนครศรีอยุธยา' .
+
+or:331  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏพิบูลสงคราม' .
+
+or:332  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเพชรบุรี' .
+
+or:333  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเพชรบูรณ์' .
+
+or:334  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏภูเก็ต' .
+
+or:335  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏมหาสารคาม' .
+
+or:336  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏยะลา' .
+
+or:337  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏร้อยเอ็ด' .
+
+or:338  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏราชนครินทร์' .
+
+or:339  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏรําไพพรรณี' .
+
+or:340  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏลําปาง' .
+
+or:341  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏเลย' .
+
+or:342  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรมราชูปถัมภ์' .
+
+or:343  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏศรีสะเกษ' .
+
+or:344  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสกลนคร' .
+
+or:345  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสงขลา' .
+
+or:346  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสวนดุสิต' .
+
+or:347  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสวนสุนันทา' .
+
+or:348  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสุราษฎร์ธานี' .
+
+or:349  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏสุรินทร์' .
+
+or:350  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง' .
+
+or:351  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏอุดรธานี' .
+
+or:352  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏอุตรดิตถ์' .
+
+or:353  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยราชภัฏอุบลราชธานี' .
+
+or:354  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยรามคําแหง' .
+
+or:355  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยวลัยลักษณ์' .
+
+or:356  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยศรีนครินทรวิโรฒ' .
+
+or:357  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยศิลปากร' .
+
+or:358  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยสงขลานครินทร์' .
+
+or:359  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยสุโขทัยธรรมาธิราช' .
+
+or:360  a  org:Organization ;
+rdfs:label 'มหาวิทยาลัยอุบลราชธานี' .
+
+or:361  a  org:Organization ;
+rdfs:label 'สถาบันดนตรีกัลยาณิวัฒนา' .
+
+or:362  a  org:Organization ;
+rdfs:label 'สถาบันเทคโนโลยีปทุมวัน' .
+
+or:363  a  org:Organization ;
+rdfs:label 'สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง' .
+
+or:364  a  org:Organization ;
+rdfs:label 'สถาบันบัณฑิตพัฒนบริหารศาสตร์' .
+
+or:365  a  org:Organization ;
+rdfs:label 'สถาบันวิทยาลัยชุมชน' .
+
+or:366  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการอุดมศึกษา' .
+
+or:367  a  org:Organization ;
+rdfs:label 'กรมโรงงานอุตสาหกรรม' .
+
+or:368  a  org:Organization ;
+rdfs:label 'กรมส่งเสริมอุตสาหกรรม' .
+
+or:369  a  org:Organization ;
+rdfs:label 'กรมอุตสาหกรรมพื้นฐานและการเหมืองแร่' .
+
+or:370  a  org:Organization ;
+rdfs:label 'การนิคมอุตสาหกรรมแห่งประเทศไทย' .
+
+or:371  a  org:Organization ;
+rdfs:label 'สถาบันก่อสร้างแห่งประเทศไทย' .
+
+or:372  a  org:Organization ;
+rdfs:label 'สถาบันไทย-เยอรมัน' .
+
+or:373  a  org:Organization ;
+rdfs:label 'สถาบันพลาสติก' .
+
+or:374  a  org:Organization ;
+rdfs:label 'สถาบันพัฒนาวิสาหกิจขนาดกลางและขนาดย่อม' .
+
+or:375  a  org:Organization ;
+rdfs:label 'สถาบันพัฒนาอุตสาหกรรมสิ่งทอ' .
+
+or:376  a  org:Organization ;
+rdfs:label 'สถาบันเพิ่มผลผลิตแห่งชาติ' .
+
+or:377  a  org:Organization ;
+rdfs:label 'สถาบันไฟฟ้าและอิเล็กทรอนิกส์' .
+
+or:378  a  org:Organization ;
+rdfs:label 'สถาบันยานยนต์' .
+
+or:379  a  org:Organization ;
+rdfs:label 'สถาบันรับรองมาตรฐาน ไอ เอส โอ' .
+
+or:380  a  org:Organization ;
+rdfs:label 'สถาบันเหล็กและเหล็กกล้าแห่งประเทศไทย' .
+
+or:381  a  org:Organization ;
+rdfs:label 'สถาบันอาหาร' .
+
+or:382  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการอ้อยและน้ำตาลทราย' .
+
+or:383  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดกระทรวงอุตสาหกรรม' .
+
+or:384  a  org:Organization ;
+rdfs:label 'สำนักงานมาตรฐานผลิตภัณฑ์อุตสาหกรรม' .
+
+or:385  a  org:Organization ;
+rdfs:label 'สำนักงานเศรษฐกิจอุตสาหกรรม' .
+
+or:386  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมวิสาหกิจขนาดกลางและขนาดย่อม (ยกเลิกการใช้งาน)' .
+
+or:387  a  org:Organization ;
+rdfs:label 'หน่วยงานในสังกัดกระทรวงอุตสาหกรรม' .
+
+or:398  a  org:Organization ;
+rdfs:label 'สำนักการคลัง' .
+
+or:399  a  org:Organization ;
+rdfs:label 'สำนักการจราจรและขนส่ง' .
+
+or:400  a  org:Organization ;
+rdfs:label 'สำนักการแพทย์' .
+
+or:401  a  org:Organization ;
+rdfs:label 'สำนักการโยธา' .
+
+or:402  a  org:Organization ;
+rdfs:label 'สำนักการระบายน้ำ' .
+
+or:403  a  org:Organization ;
+rdfs:label 'สำนักการศึกษา' .
+
+or:404  a  org:Organization ;
+rdfs:label 'สำนักงบประมาณกรุงเทพมหานคร' .
+
+or:405  a  org:Organization ;
+rdfs:label 'สำนักงานเขตคลองเตย' .
+
+or:406  a  org:Organization ;
+rdfs:label 'สำนักงานเขตคลองสาน' .
+
+or:407  a  org:Organization ;
+rdfs:label 'สำนักงานเขตคลองสามวา' .
+
+or:408  a  org:Organization ;
+rdfs:label 'สำนักงานเขตคันนายาว' .
+
+or:409  a  org:Organization ;
+rdfs:label 'สำนักงานเขตจตุจักร' .
+
+or:410  a  org:Organization ;
+rdfs:label 'สำนักงานเขตจอมทอง' .
+
+or:411  a  org:Organization ;
+rdfs:label 'สำนักงานเขตดอนเมือง' .
+
+or:412  a  org:Organization ;
+rdfs:label 'สำนักงานเขตดินแดง' .
+
+or:413  a  org:Organization ;
+rdfs:label 'สำนักงานเขตดุสิต' .
+
+or:414  a  org:Organization ;
+rdfs:label 'สำนักงานเขตตลิ่งชัน' .
+
+or:415  a  org:Organization ;
+rdfs:label 'สำนักงานเขตทวีวัฒนา' .
+
+or:416  a  org:Organization ;
+rdfs:label 'สำนักงานเขตทุ่งครุ' .
+
+or:417  a  org:Organization ;
+rdfs:label 'สำนักงานเขตธนบุรี' .
+
+or:418  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางกอกน้อย' .
+
+or:419  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางกอกใหญ่' .
+
+or:420  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางกะปิ' .
+
+or:421  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางขุนเทียน' .
+
+or:422  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางเขน' .
+
+or:423  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางคอแหลม' .
+
+or:424  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางแค' .
+
+or:425  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางซื่อ' .
+
+or:426  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางนา' .
+
+or:427  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางบอน' .
+
+or:428  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางพลัด' .
+
+or:429  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบางรัก' .
+
+or:430  a  org:Organization ;
+rdfs:label 'สำนักงานเขตบึงกุ่ม' .
+
+or:431  a  org:Organization ;
+rdfs:label 'สำนักงานเขตปทุมวัน' .
+
+or:432  a  org:Organization ;
+rdfs:label 'สำนักงานเขตประเวศ' .
+
+or:433  a  org:Organization ;
+rdfs:label 'สำนักงานเขตป้อมปราบศัตรูพ่าย' .
+
+or:434  a  org:Organization ;
+rdfs:label 'สำนักงานเขตพญาไท' .
+
+or:435  a  org:Organization ;
+rdfs:label 'สำนักงานเขตพระโขนง' .
+
+or:436  a  org:Organization ;
+rdfs:label 'สำนักงานเขตพระนคร' .
+
+or:437  a  org:Organization ;
+rdfs:label 'สำนักงานเขตภาษีเจริญ' .
+
+or:438  a  org:Organization ;
+rdfs:label 'สำนักงานเขตมีนบุรี' .
+
+or:439  a  org:Organization ;
+rdfs:label 'สำนักงานเขตยานนาวา' .
+
+or:440  a  org:Organization ;
+rdfs:label 'สำนักงานเขตราชเทวี' .
+
+or:441  a  org:Organization ;
+rdfs:label 'สำนักงานเขตราษฎร์บูรณะ' .
+
+or:442  a  org:Organization ;
+rdfs:label 'สำนักงานเขตลาดกระบัง' .
+
+or:443  a  org:Organization ;
+rdfs:label 'สำนักงานเขตลาดพร้าว' .
+
+or:444  a  org:Organization ;
+rdfs:label 'สำนักงานเขตวังทองหลาง' .
+
+or:445  a  org:Organization ;
+rdfs:label 'สำนักงานเขตวัฒนา' .
+
+or:446  a  org:Organization ;
+rdfs:label 'สำนักงานเขตสวนหลวง' .
+
+or:447  a  org:Organization ;
+rdfs:label 'สำนักงานเขตสะพานสูง' .
+
+or:448  a  org:Organization ;
+rdfs:label 'สำนักงานเขตสัมพันธวงศ์' .
+
+or:449  a  org:Organization ;
+rdfs:label 'สำนักงานเขตสาทร' .
+
+or:450  a  org:Organization ;
+rdfs:label 'สำนักงานเขตสายไหม' .
+
+or:451  a  org:Organization ;
+rdfs:label 'สำนักงานเขตหนองแขม' .
+
+or:452  a  org:Organization ;
+rdfs:label 'สำนักงานเขตหนองจอก' .
+
+or:453  a  org:Organization ;
+rdfs:label 'สำนักงานเขตหลักสี่' .
+
+or:454  a  org:Organization ;
+rdfs:label 'สำนักงานเขตห้วยขวาง' .
+
+or:455  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการข้าราชการกรุงเทพมหานคร' .
+
+or:456  a  org:Organization ;
+rdfs:label 'สำนักเทศกิจ' .
+
+or:457  a  org:Organization ;
+rdfs:label 'สำนักปลัดกรุงเทพมหานคร' .
+
+or:458  a  org:Organization ;
+rdfs:label 'สำนักป้องกันและบรรเทาสาธารณภัย' .
+
+or:459  a  org:Organization ;
+rdfs:label 'สำนักผังเมือง' .
+
+or:460  a  org:Organization ;
+rdfs:label 'สำนักพัฒนาสังคม' .
+
+or:461  a  org:Organization ;
+rdfs:label 'สำนักยุทธศาสตร์และประเมินผล' .
+
+or:462  a  org:Organization ;
+rdfs:label 'สำนักวัฒนธรรม กีฬา และการท่องเที่ยว' .
+
+or:463  a  org:Organization ;
+rdfs:label 'สำนักสิ่งแวดล้อม' .
+
+or:464  a  org:Organization ;
+rdfs:label 'สำนักอนามัย' .
+
+or:465  a  org:Organization ;
+rdfs:label 'ธปท.' .
+
+or:466  a  org:Organization ;
+rdfs:label 'สายกำกับสถาบันการเงิน' .
+
+or:467  a  org:Organization ;
+rdfs:label 'สายช่วยงานบริหาร' .
+
+or:468  a  org:Organization ;
+rdfs:label 'สายตรวจสอบกิจการภายใน' .
+
+or:469  a  org:Organization ;
+rdfs:label 'สายตลาดการเงิน' .
+
+or:470  a  org:Organization ;
+rdfs:label 'สายทรัพยากรบุคคลและพัฒนาองค์กร' .
+
+or:471  a  org:Organization ;
+rdfs:label 'สายนโยบายการเงิน' .
+
+or:472  a  org:Organization ;
+rdfs:label 'สายนโยบายสถาบันการเงิน' .
+
+or:473  a  org:Organization ;
+rdfs:label 'สายระบบข้อสนเทศ' .
+
+or:474  a  org:Organization ;
+rdfs:label 'สายวางแผนและงบประมาณ' .
+
+or:475  a  org:Organization ;
+rdfs:label 'สายออกบัตรธนาคาร' .
+
+or:478  a  org:Organization ;
+rdfs:label 'กองบัญชาการตำรวจตระเวนชายแดน' .
+
+or:479  a  org:Organization ;
+rdfs:label 'กองบัญชาการตำรวจนครบาล' .
+
+or:480  a  org:Organization ;
+rdfs:label 'กองบัญชาการตำรวจปราบปรามยาเสพติด' .
+
+or:481  a  org:Organization ;
+rdfs:label 'กองบัญชาการตำรวจสอบสวนกลาง' .
+
+or:482  a  org:Organization ;
+rdfs:label 'กองบัญชาการตำรวจสันติบาล' .
+
+or:483  a  org:Organization ;
+rdfs:label 'กองบัญชาการศึกษา' .
+
+or:484  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 1' .
+
+or:485  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 2' .
+
+or:486  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 3' .
+
+or:487  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 4' .
+
+or:488  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 5' .
+
+or:489  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 6' .
+
+or:490  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 7' .
+
+or:491  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 8' .
+
+or:492  a  org:Organization ;
+rdfs:label 'ตำรวจภูธรภาค 9' .
+
+or:493  a  org:Organization ;
+rdfs:label 'โรงพยาบาลตำรวจ' .
+
+or:494  a  org:Organization ;
+rdfs:label 'โรงเรียนนายร้อยตำรวจ' .
+
+or:495  a  org:Organization ;
+rdfs:label 'ศูนย์ปฏิบัติการตำรวจจังหวัดชายแดนภาคใต้' .
+
+or:496  a  org:Organization ;
+rdfs:label 'ส่วนบังคับบัญชา (สำนักงาน ผบ.ตร.)' .
+
+or:497  a  org:Organization ;
+rdfs:label 'สำนักงานกฎหมายและคดี' .
+
+or:498  a  org:Organization ;
+rdfs:label 'สำนักงานกำลังพล' .
+
+or:499  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการข้าราชการตำรวจ' .
+
+or:500  a  org:Organization ;
+rdfs:label 'สำนักงานงบประมาณและการเงิน' .
+
+or:501  a  org:Organization ;
+rdfs:label 'สำนักงานจเรตำรวจ' .
+
+or:502  a  org:Organization ;
+rdfs:label 'สำนักงานตรวจคนเข้าเมือง (สตม.)' .
+
+or:503  a  org:Organization ;
+rdfs:label 'สำนักงานตรวจสอบภายใน' .
+
+or:504  a  org:Organization ;
+rdfs:label 'สำนักงานเทคโนโลยีสารสนเทศและการสื่อสาร' .
+
+or:505  a  org:Organization ;
+rdfs:label 'สำนักงานนายตำรวจราชสำนักประจำ' .
+
+or:506  a  org:Organization ;
+rdfs:label 'สำนักงานพิสูจน์หลักฐานตำรวจ' .
+
+or:507  a  org:Organization ;
+rdfs:label 'สำนักงานยุทธศาสตร์ตำรวจ' .
+
+or:508  a  org:Organization ;
+rdfs:label 'สำนักงานส่งกำลังบำรุ่ง' .
+
+or:510  a  org:Organization ;
+rdfs:label 'กรมประชาสัมพันธ์' .
+
+or:511  a  org:Organization ;
+rdfs:label 'กองทุนหมู่บ้านและชุมชนเมือง' .
+
+or:512  a  org:Organization ;
+rdfs:label 'กองอำนวยการรักษาความมั่นคงภายในราชอาณาจักร' .
+
+or:513  a  org:Organization ;
+rdfs:label 'กองอำนวยการส่งเสริมสันติสุขจังหวัดชายแดนใต้' .
+
+or:514  a  org:Organization ;
+rdfs:label 'บริษัท อสมท จำกัด (มหาชน)' .
+
+or:515  a  org:Organization ;
+rdfs:label 'สถาบันคุณวุฒิวิชาชีพ (องค์การมหาชน)' .
+
+or:516  a  org:Organization ;
+rdfs:label 'สถาบันบริหารจัดการธนาคารที่ดิน' .
+
+or:517  a  org:Organization ;
+rdfs:label 'สํานักงานคณะกรรมการนโยบายที่ดินแห่งชาติ' .
+
+or:518  a  org:Organization ;
+rdfs:label 'สำนักข่าวกรองแห่งชาติ' .
+
+or:519  a  org:Organization ;
+rdfs:label 'สำนักงบประมาณ' .
+
+or:520  a  org:Organization ;
+rdfs:label 'สำนักงานกองทุนสนับสนุนการวิจัย' .
+
+or:521  a  org:Organization ;
+rdfs:label 'สำนักงานกองทุนหมู่บ้านและชุมชนเมืองแห่งชาติ' .
+
+or:522  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกฤษฎีกา' .
+
+or:523  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกองทุนพัฒนาบทบาทสตรีแห่งชาติ' .
+
+or:524  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการรักษาความมั่นคงปลอดภัยไซเบอร์แห่งชาติ' .
+
+or:525  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการศึกษาแห่งชาติ' .
+
+or:526  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกิจการกระจายเสียงและกิจการโทรทัศน์แห่งชาติ' .
+
+or:527  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกิจการโทรคมนาคมแห่งชาติ' .
+
+or:528  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการขับเคลื่อนการปฏิรูปประเทศ ยุทธศาสตร์ชาติ และการสร้างความสามัคคีปรองดอง' .
+
+or:529  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการข้าราชการพลเรือน' .
+
+or:530  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการคุ้มครองผู้บริโภค' .
+
+or:531  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการพัฒนาการเศรษฐกิจและสังคมแห่งชาติ' .
+
+or:532  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการพัฒนาระบบราชการ' .
+
+or:533  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการส่งเสริมการลงทุน' .
+
+or:534  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการสุขภาพแห่งชาติ' .
+
+or:535  a  org:Organization ;
+rdfs:label 'สำนักงานทรัพยากรน้ำแห่งชาติ' .
+
+or:536  a  org:Organization ;
+rdfs:label 'สำนักงานบริหารการแปลงสินทรัพย์เป็นทุน' .
+
+or:537  a  org:Organization ;
+rdfs:label 'สำนักงานบริหารและพัฒนาองค์ความรู้' .
+
+or:538  a  org:Organization ;
+rdfs:label 'สำนักงานปฏิรูปการศึกษา' .
+
+or:539  a  org:Organization ;
+rdfs:label 'สำนักงานปลัดสำนักนายกรัฐมนตรี' .
+
+or:540  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนาพิงคนคร' .
+
+or:541  a  org:Organization ;
+rdfs:label 'สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน)' .
+
+or:542  a  org:Organization ;
+rdfs:label 'สำนักงานรับรองมาตรฐานและประเมินคุณภาพการศึกษา' .
+
+or:543  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมการจัดประชุมและนิทรรศการ' .
+
+or:544  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมวิสาหกิจขนาดกลางและขนาดย่อม' .
+
+or:545  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมวิสาหกิจเพื่อสังคม' .
+
+or:546  a  org:Organization ;
+rdfs:label 'สำนักงานส่งเสริมเศรษฐกิจสร้างสรรค์ (องค์การมหาชน)' .
+
+or:547  a  org:Organization ;
+rdfs:label 'สำนักงานสนับสนุนการเสริมสร้างสุขภาพ' .
+
+or:548  a  org:Organization ;
+rdfs:label 'สำนักงานสภาความมั่นคงแห่งชาติ' .
+
+or:549  a  org:Organization ;
+rdfs:label 'สำนักเลขาธิการคณะรัฐมนตรี' .
+
+or:550  a  org:Organization ;
+rdfs:label 'สำนักเลขาธิการนายกรัฐมนตรี' .
+
+or:551  a  org:Organization ;
+rdfs:label 'องค์การกระจายเสียงและแพร่ภาพสาธารณะแห่งประเทศไทย' .
+
+or:552  a  org:Organization ;
+rdfs:label 'องค์การบริหารการพัฒนาพื้นที่พิเศษเพื่อการท่องเที่ยวอย่างยั่งยืน' .
+
+or:553  a  org:Organization ;
+rdfs:label 'เนติบัณฑิตยสภา' .
+
+or:554  a  org:Organization ;
+rdfs:label 'แพทยสภา' .
+
+or:555  a  org:Organization ;
+rdfs:label 'ราชบัณฑิตยสถาน' .
+
+or:556  a  org:Organization ;
+rdfs:label 'โรงพิมพ์ตำรวจ สำนักงานตำรวจแห่งชาติ' .
+
+or:557  a  org:Organization ;
+rdfs:label 'ศูนย์อำนวยการบริหารจังหวัดชายแดนภาคใต้' .
+
+or:558  a  org:Organization ;
+rdfs:label 'สถาบันพระปกเกล้า' .
+
+or:559  a  org:Organization ;
+rdfs:label 'สภากายภาพบำบัด' .
+
+or:560  a  org:Organization ;
+rdfs:label 'สภาการพยาบาล' .
+
+or:561  a  org:Organization ;
+rdfs:label 'สภาทนายความ' .
+
+or:562  a  org:Organization ;
+rdfs:label 'สภาเทคนิคการแพทย์' .
+
+or:563  a  org:Organization ;
+rdfs:label 'สภาผู้ส่งสินค้าทางเรือแห่งประเทศไทย' .
+
+or:564  a  org:Organization ;
+rdfs:label 'สภาเภสัชกรรม' .
+
+or:565  a  org:Organization ;
+rdfs:label 'สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์' .
+
+or:566  a  org:Organization ;
+rdfs:label 'สภาวิชาชีพสังคมสงเคราะห์' .
+
+or:567  a  org:Organization ;
+rdfs:label 'สภาวิศวกร' .
+
+or:568  a  org:Organization ;
+rdfs:label 'สภาสถาปนิก' .
+
+or:569  a  org:Organization ;
+rdfs:label 'สัตวแพทยสภา' .
+
+or:570  a  org:Organization ;
+rdfs:label 'สำนักงานการตรวจเงินแผ่นดิน' .
+
+or:571  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการป้องกันและปราบปรามทุจริตแห่งชาติ' .
+
+or:572  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการการเลือกตั้ง' .
+
+or:573  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับกิจการพลังงาน' .
+
+or:574  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับและส่งเสริมการประกอบธุรกิจประกันภัย' .
+
+or:575  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์' .
+
+or:576  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ' .
+
+or:577  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการปฏิรูปกฎหมาย' .
+
+or:578  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการพิเศษเพื่อประสานงานโครงการอันเนื่องมาจากพระราชดำริ' .
+
+or:579  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการวิจัยแห่งชาติ (ยกเลิกการใช้งาน)' .
+
+or:580  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการสิทธิมนุษยชนแห่งชาติ' .
+
+or:581  a  org:Organization ;
+rdfs:label 'สำนักงานป้องกันและปราบปรามการฟอกเงิน' .
+
+or:582  a  org:Organization ;
+rdfs:label 'สำนักงานผู้ตรวจการแผ่นดิน' .
+
+or:583  a  org:Organization ;
+rdfs:label 'สำนักงานพระพุทธศาสนาแห่งชาติ' .
+
+or:584  a  org:Organization ;
+rdfs:label 'สำนักงานราชบัณฑิตยสภา' .
+
+or:585  a  org:Organization ;
+rdfs:label 'สำนักงานเลขาธิการทันตแพทยสภา' .
+
+or:586  a  org:Organization ;
+rdfs:label 'สำนักงานศาลปกครอง' .
+
+or:587  a  org:Organization ;
+rdfs:label 'สำนักงานศาลยุติธรรม' .
+
+or:588  a  org:Organization ;
+rdfs:label 'สำนักงานศาลรัฐธรรมนูญ' .
+
+or:589  a  org:Organization ;
+rdfs:label 'สำนักงานสภาที่ปรึกษาเศรษฐกิจและสังคมแห่งชาติ' .
+
+or:590  a  org:Organization ;
+rdfs:label 'สำนักงานสภาพัฒนาการเมือง' .
+
+or:591  a  org:Organization ;
+rdfs:label 'สำนักงานอัยการสูงสุด' .
+
+or:592  a  org:Organization ;
+rdfs:label 'สำนักพระราชวัง' .
+
+or:593  a  org:Organization ;
+rdfs:label 'สำนักราชเลขาธิการ' .
+
+or:594  a  org:Organization ;
+rdfs:label 'สถาบันอนุญาโตตุลาการ' .
+
+or:595  a  org:Organization ;
+rdfs:label 'สำนักงานคณะกรรมการคุ้มครองผู้บริโภค' .
+
+or:596  a  org:Organization ;
+rdfs:label 'บริษัท ข้อมูลเครดิตแห่งชาติ จำกัด (เครดิตบูโร)' .

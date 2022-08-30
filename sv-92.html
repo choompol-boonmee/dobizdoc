@@ -1,0 +1,492 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-92';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ สำนักงานปรมาณูเพื่อสันติ </h2>
+<span id='orgid'>(or-92)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-300_name' class=''>การเข้าใช้บริการสอบเทียบเครื่องวัดรังสี</td>
+<td id='sv-300_count' class='edit right'></td>
+<td id='sv-300_per' class='edit center'>เดือน</td>
+<td id='sv-300_elec' class='edit center'></td>
+<td id='sv-300_p66' class='edit center'></td>
+<td id='sv-300_p67' class='edit center'></td>
+<td id='sv-300_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>300</td>
+<td id='sv-300_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-320_name' class=''>การขออนุญาตดำเนินการสถานประกอบการทางนิวเคลียร์</td>
+<td id='sv-320_count' class='edit right'></td>
+<td id='sv-320_per' class='edit center'>เดือน</td>
+<td id='sv-320_elec' class='edit center'></td>
+<td id='sv-320_p66' class='edit center'></td>
+<td id='sv-320_p67' class='edit center'></td>
+<td id='sv-320_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>320</td>
+<td id='sv-320_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-319_name' class=''>การขออนุญาตให้ใช้พื้นที่เพื่อตั้งสถานประกอบการทางนิวเคลียร์</td>
+<td id='sv-319_count' class='edit right'></td>
+<td id='sv-319_per' class='edit center'>เดือน</td>
+<td id='sv-319_elec' class='edit center'></td>
+<td id='sv-319_p66' class='edit center'></td>
+<td id='sv-319_p67' class='edit center'></td>
+<td id='sv-319_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>319</td>
+<td id='sv-319_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-326_name' class=''>การขอใบรับรองเจ้าหน้าที่ปฏิบัติงานเดินเครื่องปฏิกรณ์นิวเคลียร์</td>
+<td id='sv-326_count' class='edit right'></td>
+<td id='sv-326_per' class='edit center'>เดือน</td>
+<td id='sv-326_elec' class='edit center'></td>
+<td id='sv-326_p66' class='edit center'></td>
+<td id='sv-326_p67' class='edit center'></td>
+<td id='sv-326_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>326</td>
+<td id='sv-326_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-321_name' class=''>การต่ออายุใบอนุญาตดำเนินการสถานประกอบการทางนิวเคลียร์</td>
+<td id='sv-321_count' class='edit right'></td>
+<td id='sv-321_per' class='edit center'>เดือน</td>
+<td id='sv-321_elec' class='edit center'></td>
+<td id='sv-321_p66' class='edit center'></td>
+<td id='sv-321_p67' class='edit center'></td>
+<td id='sv-321_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>321</td>
+<td id='sv-321_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-308_name' class=''>การขอรับใบแทนใบอนุญาตดำเนินการสถานประกอบการทางนิวเคลียร์</td>
+<td id='sv-308_count' class='edit right'></td>
+<td id='sv-308_per' class='edit center'>เดือน</td>
+<td id='sv-308_elec' class='edit center'></td>
+<td id='sv-308_p66' class='edit center'></td>
+<td id='sv-308_p67' class='edit center'></td>
+<td id='sv-308_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>308</td>
+<td id='sv-308_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-323_name' class=''>การขอเปลี่ยนแปลงแก้ไขใบอนุญาตเครื่องกำเนิดรังสี</td>
+<td id='sv-323_count' class='edit right'></td>
+<td id='sv-323_per' class='edit center'>เดือน</td>
+<td id='sv-323_elec' class='edit center'></td>
+<td id='sv-323_p66' class='edit center'></td>
+<td id='sv-323_p67' class='edit center'></td>
+<td id='sv-323_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>323</td>
+<td id='sv-323_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-324_name' class=''>การขอรับใบแทนใบอนุญาตเครื่องกำเนิดรังสี</td>
+<td id='sv-324_count' class='edit right'></td>
+<td id='sv-324_per' class='edit center'>เดือน</td>
+<td id='sv-324_elec' class='edit center'></td>
+<td id='sv-324_p66' class='edit center'></td>
+<td id='sv-324_p67' class='edit center'></td>
+<td id='sv-324_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>324</td>
+<td id='sv-324_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-317_name' class=''>การขออนุญาตนำเข้าหรือส่งออกวัสดุนิวเคลียร์</td>
+<td id='sv-317_count' class='edit right'></td>
+<td id='sv-317_per' class='edit center'>เดือน</td>
+<td id='sv-317_elec' class='edit center'></td>
+<td id='sv-317_p66' class='edit center'></td>
+<td id='sv-317_p67' class='edit center'></td>
+<td id='sv-317_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>317</td>
+<td id='sv-317_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-315_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับต้น ประเภทเครื่องกำเนิดรังสี</td>
+<td id='sv-315_count' class='edit right'></td>
+<td id='sv-315_per' class='edit center'>เดือน</td>
+<td id='sv-315_elec' class='edit center'></td>
+<td id='sv-315_p66' class='edit center'></td>
+<td id='sv-315_p67' class='edit center'></td>
+<td id='sv-315_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>315</td>
+<td id='sv-315_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-312_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับกลาง ประเภทเครื่องกำเนิดรังสี</td>
+<td id='sv-312_count' class='edit right'></td>
+<td id='sv-312_per' class='edit center'>เดือน</td>
+<td id='sv-312_elec' class='edit center'></td>
+<td id='sv-312_p66' class='edit center'></td>
+<td id='sv-312_p67' class='edit center'></td>
+<td id='sv-312_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>312</td>
+<td id='sv-312_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-304_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับสูง ประเภทเครื่องกำเนิดรังสี</td>
+<td id='sv-304_count' class='edit right'></td>
+<td id='sv-304_per' class='edit center'>เดือน</td>
+<td id='sv-304_elec' class='edit center'></td>
+<td id='sv-304_p66' class='edit center'></td>
+<td id='sv-304_p67' class='edit center'></td>
+<td id='sv-304_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>304</td>
+<td id='sv-304_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-325_name' class=''>การขอยกเลิกการมีไว้ในครอบครองหรือใช้เครื่องกำเนิดรังสี</td>
+<td id='sv-325_count' class='edit right'></td>
+<td id='sv-325_per' class='edit center'>เดือน</td>
+<td id='sv-325_elec' class='edit center'></td>
+<td id='sv-325_p66' class='edit center'></td>
+<td id='sv-325_p67' class='edit center'></td>
+<td id='sv-325_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>325</td>
+<td id='sv-325_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-322_name' class=''>การขอรับใบอนุญาตมีไว้ในครอบครองหรือใช้เครื่องกำเนิดรังสี</td>
+<td id='sv-322_count' class='edit right'></td>
+<td id='sv-322_per' class='edit center'>เดือน</td>
+<td id='sv-322_elec' class='edit center'></td>
+<td id='sv-322_p66' class='edit center'></td>
+<td id='sv-322_p67' class='edit center'></td>
+<td id='sv-322_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>322</td>
+<td id='sv-322_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-310_name' class=''>การขออนุญาตส่งออกวัสดุกัมมันตรังสี</td>
+<td id='sv-310_count' class='edit right'></td>
+<td id='sv-310_per' class='edit center'>เดือน</td>
+<td id='sv-310_elec' class='edit center'></td>
+<td id='sv-310_p66' class='edit center'></td>
+<td id='sv-310_p67' class='edit center'></td>
+<td id='sv-310_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>310</td>
+<td id='sv-310_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-318_name' class=''>การขออนุญาตมีไว้ในครอบครองหรือใช้วัสดุนิวเคลียร์</td>
+<td id='sv-318_count' class='edit right'></td>
+<td id='sv-318_per' class='edit center'>เดือน</td>
+<td id='sv-318_elec' class='edit center'></td>
+<td id='sv-318_p66' class='edit center'></td>
+<td id='sv-318_p67' class='edit center'></td>
+<td id='sv-318_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>318</td>
+<td id='sv-318_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-309_name' class=''>การขออนุญาตนำเข้าวัสดุกัมมันตรังสี</td>
+<td id='sv-309_count' class='edit right'></td>
+<td id='sv-309_per' class='edit center'>เดือน</td>
+<td id='sv-309_elec' class='edit center'></td>
+<td id='sv-309_p66' class='edit center'></td>
+<td id='sv-309_p67' class='edit center'></td>
+<td id='sv-309_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>309</td>
+<td id='sv-309_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-301_name' class=''>การขอเปลี่ยนแปลงแก้ไขใบอนุญาตวัสดุกัมมันตรังสี</td>
+<td id='sv-301_count' class='edit right'></td>
+<td id='sv-301_per' class='edit center'>เดือน</td>
+<td id='sv-301_elec' class='edit center'></td>
+<td id='sv-301_p66' class='edit center'></td>
+<td id='sv-301_p67' class='edit center'></td>
+<td id='sv-301_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>301</td>
+<td id='sv-301_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-303_name' class=''>การแจ้งขอจัดการกากกัมมันตรังสี</td>
+<td id='sv-303_count' class='edit right'></td>
+<td id='sv-303_per' class='edit center'>เดือน</td>
+<td id='sv-303_elec' class='edit center'></td>
+<td id='sv-303_p66' class='edit center'></td>
+<td id='sv-303_p67' class='edit center'></td>
+<td id='sv-303_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>303</td>
+<td id='sv-303_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-307_name' class=''>การขออนุญาตมีไว้ในครอบครอง หรือใช้ซึ่งวัสดุกัมมันตรังสี</td>
+<td id='sv-307_count' class='edit right'></td>
+<td id='sv-307_per' class='edit center'>เดือน</td>
+<td id='sv-307_elec' class='edit center'></td>
+<td id='sv-307_p66' class='edit center'></td>
+<td id='sv-307_p67' class='edit center'></td>
+<td id='sv-307_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>307</td>
+<td id='sv-307_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-302_name' class=''>การขอรับใบแทนใบอนุญาตวัสดุกัมมันตรังสี</td>
+<td id='sv-302_count' class='edit right'></td>
+<td id='sv-302_per' class='edit center'>เดือน</td>
+<td id='sv-302_elec' class='edit center'></td>
+<td id='sv-302_p66' class='edit center'></td>
+<td id='sv-302_p67' class='edit center'></td>
+<td id='sv-302_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>302</td>
+<td id='sv-302_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-327_name' class=''>การยกเลิกการครอบครองกัมมันตรังสี</td>
+<td id='sv-327_count' class='edit right'></td>
+<td id='sv-327_per' class='edit center'>เดือน</td>
+<td id='sv-327_elec' class='edit center'></td>
+<td id='sv-327_p66' class='edit center'></td>
+<td id='sv-327_p67' class='edit center'></td>
+<td id='sv-327_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>327</td>
+<td id='sv-327_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-305_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับสูง ประเภทวัสดุกัมมันตรังสี</td>
+<td id='sv-305_count' class='edit right'></td>
+<td id='sv-305_per' class='edit center'>เดือน</td>
+<td id='sv-305_elec' class='edit center'></td>
+<td id='sv-305_p66' class='edit center'></td>
+<td id='sv-305_p67' class='edit center'></td>
+<td id='sv-305_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>305</td>
+<td id='sv-305_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-306_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับกลาง ประเภทวัสดุกัมมันตรังสี</td>
+<td id='sv-306_count' class='edit right'></td>
+<td id='sv-306_per' class='edit center'>เดือน</td>
+<td id='sv-306_elec' class='edit center'></td>
+<td id='sv-306_p66' class='edit center'></td>
+<td id='sv-306_p67' class='edit center'></td>
+<td id='sv-306_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>306</td>
+<td id='sv-306_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-314_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับต้น ประเภทวัสดุกัมมันตรังสี</td>
+<td id='sv-314_count' class='edit right'></td>
+<td id='sv-314_per' class='edit center'>เดือน</td>
+<td id='sv-314_elec' class='edit center'></td>
+<td id='sv-314_p66' class='edit center'></td>
+<td id='sv-314_p67' class='edit center'></td>
+<td id='sv-314_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>314</td>
+<td id='sv-314_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-313_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับกลาง ประเภทวัสดุกัมมันตรังสีและเครื่องกำเนิดรังสี</td>
+<td id='sv-313_count' class='edit right'></td>
+<td id='sv-313_per' class='edit center'>เดือน</td>
+<td id='sv-313_elec' class='edit center'></td>
+<td id='sv-313_p66' class='edit center'></td>
+<td id='sv-313_p67' class='edit center'></td>
+<td id='sv-313_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>313</td>
+<td id='sv-313_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-316_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับต้น ประเภทวัสดุกัมมันตรังสีและเครื่องกำเนิดรังสี</td>
+<td id='sv-316_count' class='edit right'></td>
+<td id='sv-316_per' class='edit center'>เดือน</td>
+<td id='sv-316_elec' class='edit center'></td>
+<td id='sv-316_p66' class='edit center'></td>
+<td id='sv-316_p67' class='edit center'></td>
+<td id='sv-316_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>316</td>
+<td id='sv-316_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-328_name' class=''>การขอใบอนุญาตและขึ้นทะเบียนเป็นเจ้าหน้าที่ความปลอดภัยทางรังสี ระดับสูง ประเภทวัสดุกัมมันตรังสีและเครื่องกำเนิดรังสี</td>
+<td id='sv-328_count' class='edit right'></td>
+<td id='sv-328_per' class='edit center'>เดือน</td>
+<td id='sv-328_elec' class='edit center'></td>
+<td id='sv-328_p66' class='edit center'></td>
+<td id='sv-328_p67' class='edit center'></td>
+<td id='sv-328_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>328</td>
+<td id='sv-328_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-311_name' class=''>การแจ้งวัสดุกัมมันตรังสีตกค้างอยู่ในหลุมสำรวจปิโตรเลียม</td>
+<td id='sv-311_count' class='edit right'></td>
+<td id='sv-311_per' class='edit center'>เดือน</td>
+<td id='sv-311_elec' class='edit center'></td>
+<td id='sv-311_p66' class='edit center'></td>
+<td id='sv-311_p67' class='edit center'></td>
+<td id='sv-311_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>311</td>
+<td id='sv-311_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

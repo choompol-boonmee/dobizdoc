@@ -1,0 +1,1824 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-127';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมเจ้าท่า </h2>
+<span id='orgid'>(or-127)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-859_name' class=''>การเปลี่ยนประเภทการใช้</td>
+<td id='sv-859_count' class='edit right'></td>
+<td id='sv-859_per' class='edit center'>เดือน</td>
+<td id='sv-859_elec' class='edit center'></td>
+<td id='sv-859_p66' class='edit center'></td>
+<td id='sv-859_p67' class='edit center'></td>
+<td id='sv-859_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>859</td>
+<td id='sv-859_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-856_name' class=''>การเปลี่ยนประเภทเรือ</td>
+<td id='sv-856_count' class='edit right'></td>
+<td id='sv-856_per' class='edit center'>เดือน</td>
+<td id='sv-856_elec' class='edit center'></td>
+<td id='sv-856_p66' class='edit center'></td>
+<td id='sv-856_p67' class='edit center'></td>
+<td id='sv-856_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>856</td>
+<td id='sv-856_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-868_name' class=''>การแก้ไขรายการอื่นๆ</td>
+<td id='sv-868_count' class='edit right'></td>
+<td id='sv-868_per' class='edit center'>เดือน</td>
+<td id='sv-868_elec' class='edit center'></td>
+<td id='sv-868_p66' class='edit center'></td>
+<td id='sv-868_p67' class='edit center'></td>
+<td id='sv-868_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>868</td>
+<td id='sv-868_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-916_name' class=''>การตรวจสอบระยะเวลาการปฏิบัติงานในเรือ</td>
+<td id='sv-916_count' class='edit right'></td>
+<td id='sv-916_per' class='edit center'>เดือน</td>
+<td id='sv-916_elec' class='edit center'></td>
+<td id='sv-916_p66' class='edit center'></td>
+<td id='sv-916_p67' class='edit center'></td>
+<td id='sv-916_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>916</td>
+<td id='sv-916_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-922_name' class=''>การแจ้งการปฏิบัติงานในเรือ</td>
+<td id='sv-922_count' class='edit right'></td>
+<td id='sv-922_per' class='edit center'>เดือน</td>
+<td id='sv-922_elec' class='edit center'></td>
+<td id='sv-922_p66' class='edit center'></td>
+<td id='sv-922_p67' class='edit center'></td>
+<td id='sv-922_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>922</td>
+<td id='sv-922_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-795_name' class=''>การออกหนังสือคนประจำเรือ</td>
+<td id='sv-795_count' class='edit right'></td>
+<td id='sv-795_per' class='edit center'>เดือน</td>
+<td id='sv-795_elec' class='edit center'></td>
+<td id='sv-795_p66' class='edit center'></td>
+<td id='sv-795_p67' class='edit center'></td>
+<td id='sv-795_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>795</td>
+<td id='sv-795_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-854_name' class=''>การเปลี่ยนชื่อเรือไทย</td>
+<td id='sv-854_count' class='edit right'></td>
+<td id='sv-854_per' class='edit center'>เดือน</td>
+<td id='sv-854_elec' class='edit center'></td>
+<td id='sv-854_p66' class='edit center'></td>
+<td id='sv-854_p67' class='edit center'></td>
+<td id='sv-854_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>854</td>
+<td id='sv-854_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-820_name' class=''>การขอยกเลิกใบทะเบียน</td>
+<td id='sv-820_count' class='edit right'></td>
+<td id='sv-820_per' class='edit center'>เดือน</td>
+<td id='sv-820_elec' class='edit center'></td>
+<td id='sv-820_p66' class='edit center'></td>
+<td id='sv-820_p67' class='edit center'></td>
+<td id='sv-820_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>820</td>
+<td id='sv-820_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-917_name' class=''>การจัดทำหนังสือสัญญาคนประจำเรือ (คร.4)</td>
+<td id='sv-917_count' class='edit right'></td>
+<td id='sv-917_per' class='edit center'>เดือน</td>
+<td id='sv-917_elec' class='edit center'></td>
+<td id='sv-917_p66' class='edit center'></td>
+<td id='sv-917_p67' class='edit center'></td>
+<td id='sv-917_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>917</td>
+<td id='sv-917_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-822_name' class=''>การขออนุญาตเช่าและใช้เรืออื่นที่มิใช่เรือไทย</td>
+<td id='sv-822_count' class='edit right'></td>
+<td id='sv-822_per' class='edit center'>เดือน</td>
+<td id='sv-822_elec' class='edit center'></td>
+<td id='sv-822_p66' class='edit center'></td>
+<td id='sv-822_p67' class='edit center'></td>
+<td id='sv-822_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>822</td>
+<td id='sv-822_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-818_name' class=''>การขอต่ออายุใบทะเบียนการตั้งตัวแทน</td>
+<td id='sv-818_count' class='edit right'></td>
+<td id='sv-818_per' class='edit center'>เดือน</td>
+<td id='sv-818_elec' class='edit center'></td>
+<td id='sv-818_p66' class='edit center'></td>
+<td id='sv-818_p67' class='edit center'></td>
+<td id='sv-818_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>818</td>
+<td id='sv-818_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-819_name' class=''>การขอเปลี่ยนแปลงสาระสำคัญในใบทะเบียน</td>
+<td id='sv-819_count' class='edit right'></td>
+<td id='sv-819_per' class='edit center'>เดือน</td>
+<td id='sv-819_elec' class='edit center'></td>
+<td id='sv-819_p66' class='edit center'></td>
+<td id='sv-819_p67' class='edit center'></td>
+<td id='sv-819_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>819</td>
+<td id='sv-819_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-857_name' class=''>การอนุญาตระยะเวลาการฝึกและการปฏิบัติงานในเรือ</td>
+<td id='sv-857_count' class='edit right'></td>
+<td id='sv-857_per' class='edit center'>เดือน</td>
+<td id='sv-857_elec' class='edit center'></td>
+<td id='sv-857_p66' class='edit center'></td>
+<td id='sv-857_p67' class='edit center'></td>
+<td id='sv-857_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>857</td>
+<td id='sv-857_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-873_name' class=''>การออกสำเนาใบอนุญาตใช้เรือ</td>
+<td id='sv-873_count' class='edit right'></td>
+<td id='sv-873_per' class='edit center'>เดือน</td>
+<td id='sv-873_elec' class='edit center'></td>
+<td id='sv-873_p66' class='edit center'></td>
+<td id='sv-873_p67' class='edit center'></td>
+<td id='sv-873_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>873</td>
+<td id='sv-873_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-860_name' class=''>การวัดตรวจสอบแก้รายการขนาดเรือ</td>
+<td id='sv-860_count' class='edit right'></td>
+<td id='sv-860_per' class='edit center'>เดือน</td>
+<td id='sv-860_elec' class='edit center'></td>
+<td id='sv-860_p66' class='edit center'></td>
+<td id='sv-860_p67' class='edit center'></td>
+<td id='sv-860_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>860</td>
+<td id='sv-860_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-832_name' class=''>การต่ออายุใบอนุญาตใช้เรือ</td>
+<td id='sv-832_count' class='edit right'></td>
+<td id='sv-832_per' class='edit center'>เดือน</td>
+<td id='sv-832_elec' class='edit center'></td>
+<td id='sv-832_p66' class='edit center'></td>
+<td id='sv-832_p67' class='edit center'></td>
+<td id='sv-832_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>832</td>
+<td id='sv-832_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-799_name' class=''>การขออนุญาตใช้เรืออื่นที่มิใช่เรือไทย</td>
+<td id='sv-799_count' class='edit right'></td>
+<td id='sv-799_per' class='edit center'>เดือน</td>
+<td id='sv-799_elec' class='edit center'></td>
+<td id='sv-799_p66' class='edit center'></td>
+<td id='sv-799_p67' class='edit center'></td>
+<td id='sv-799_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>799</td>
+<td id='sv-799_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-798_name' class=''>การขอใบอนุญาตให้เรือออกจากท่า</td>
+<td id='sv-798_count' class='edit right'></td>
+<td id='sv-798_per' class='edit center'>เดือน</td>
+<td id='sv-798_elec' class='edit center'></td>
+<td id='sv-798_p66' class='edit center'></td>
+<td id='sv-798_p67' class='edit center'></td>
+<td id='sv-798_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>798</td>
+<td id='sv-798_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-866_name' class=''>การเปลี่ยนผู้ควบคุมเรือ</td>
+<td id='sv-866_count' class='edit right'></td>
+<td id='sv-866_per' class='edit center'>เดือน</td>
+<td id='sv-866_elec' class='edit center'></td>
+<td id='sv-866_p66' class='edit center'></td>
+<td id='sv-866_p67' class='edit center'></td>
+<td id='sv-866_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>866</td>
+<td id='sv-866_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-824_name' class=''>การดำรงหลักประกันสำหรับความรับผิด</td>
+<td id='sv-824_count' class='edit right'></td>
+<td id='sv-824_per' class='edit center'>เดือน</td>
+<td id='sv-824_elec' class='edit center'></td>
+<td id='sv-824_p66' class='edit center'></td>
+<td id='sv-824_p67' class='edit center'></td>
+<td id='sv-824_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>824</td>
+<td id='sv-824_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-812_name' class=''>การจดทะเบียนการตั้งตัวแทน</td>
+<td id='sv-812_count' class='edit right'></td>
+<td id='sv-812_per' class='edit center'>เดือน</td>
+<td id='sv-812_elec' class='edit center'></td>
+<td id='sv-812_p66' class='edit center'></td>
+<td id='sv-812_p67' class='edit center'></td>
+<td id='sv-812_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>812</td>
+<td id='sv-812_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-865_name' class=''>การเปลี่ยนแปลงตัวเรือ (ขยายตัวเรือ/ลดขนาดเรือ/เปลี่ยนเครื่องยนต์)</td>
+<td id='sv-865_count' class='edit right'></td>
+<td id='sv-865_per' class='edit center'>เดือน</td>
+<td id='sv-865_elec' class='edit center'></td>
+<td id='sv-865_p66' class='edit center'></td>
+<td id='sv-865_p67' class='edit center'></td>
+<td id='sv-865_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>865</td>
+<td id='sv-865_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-855_name' class=''>การเปลี่ยนชื่อเรือรับเฉพาะใบอนุญาตใช้เรือ</td>
+<td id='sv-855_count' class='edit right'></td>
+<td id='sv-855_per' class='edit center'>เดือน</td>
+<td id='sv-855_elec' class='edit center'></td>
+<td id='sv-855_p66' class='edit center'></td>
+<td id='sv-855_p67' class='edit center'></td>
+<td id='sv-855_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>855</td>
+<td id='sv-855_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-807_name' class=''>การชำระค่าธรรมเนียมพิเศษ</td>
+<td id='sv-807_count' class='edit right'></td>
+<td id='sv-807_per' class='edit center'>เดือน</td>
+<td id='sv-807_elec' class='edit center'></td>
+<td id='sv-807_p66' class='edit center'></td>
+<td id='sv-807_p67' class='edit center'></td>
+<td id='sv-807_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>807</td>
+<td id='sv-807_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-813_name' class=''>การขอใบแทนใบทะเบียน</td>
+<td id='sv-813_count' class='edit right'></td>
+<td id='sv-813_per' class='edit center'>เดือน</td>
+<td id='sv-813_elec' class='edit center'></td>
+<td id='sv-813_p66' class='edit center'></td>
+<td id='sv-813_p67' class='edit center'></td>
+<td id='sv-813_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>813</td>
+<td id='sv-813_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-797_name' class=''>การตรวจเรือเพื่อออกใบสำคัญรับรองการตรวจเรือ</td>
+<td id='sv-797_count' class='edit right'></td>
+<td id='sv-797_per' class='edit center'>เดือน</td>
+<td id='sv-797_elec' class='edit center'></td>
+<td id='sv-797_p66' class='edit center'></td>
+<td id='sv-797_p67' class='edit center'></td>
+<td id='sv-797_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>797</td>
+<td id='sv-797_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-821_name' class=''>การขอส่งรายงานเกี่ยวกับการประกอบการขนส่งต่อเนื่องหลายรูปแบบ</td>
+<td id='sv-821_count' class='edit right'></td>
+<td id='sv-821_per' class='edit center'>เดือน</td>
+<td id='sv-821_elec' class='edit center'></td>
+<td id='sv-821_p66' class='edit center'></td>
+<td id='sv-821_p67' class='edit center'></td>
+<td id='sv-821_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>821</td>
+<td id='sv-821_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-858_name' class=''>การเปลี่ยนเขตการเดินเรือ</td>
+<td id='sv-858_count' class='edit right'></td>
+<td id='sv-858_per' class='edit center'>เดือน</td>
+<td id='sv-858_elec' class='edit center'></td>
+<td id='sv-858_p66' class='edit center'></td>
+<td id='sv-858_p67' class='edit center'></td>
+<td id='sv-858_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>858</td>
+<td id='sv-858_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-874_name' class=''>การแจ้งงดใช้เรือ</td>
+<td id='sv-874_count' class='edit right'></td>
+<td id='sv-874_per' class='edit center'>เดือน</td>
+<td id='sv-874_elec' class='edit center'></td>
+<td id='sv-874_p66' class='edit center'></td>
+<td id='sv-874_p67' class='edit center'></td>
+<td id='sv-874_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>874</td>
+<td id='sv-874_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-801_name' class=''>การจดทะเบียนเป็นผู้ประกอบการขนส่งทางทะเล</td>
+<td id='sv-801_count' class='edit right'></td>
+<td id='sv-801_per' class='edit center'>เดือน</td>
+<td id='sv-801_elec' class='edit center'></td>
+<td id='sv-801_p66' class='edit center'></td>
+<td id='sv-801_p67' class='edit center'></td>
+<td id='sv-801_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>801</td>
+<td id='sv-801_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-872_name' class=''>การออกใบแทนใบทะเบียนเรือไทย</td>
+<td id='sv-872_count' class='edit right'></td>
+<td id='sv-872_per' class='edit center'>เดือน</td>
+<td id='sv-872_elec' class='edit center'></td>
+<td id='sv-872_p66' class='edit center'></td>
+<td id='sv-872_p67' class='edit center'></td>
+<td id='sv-872_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>872</td>
+<td id='sv-872_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-804_name' class=''>การแจ้งของที่บรรทุกโดยเรือไทย</td>
+<td id='sv-804_count' class='edit right'></td>
+<td id='sv-804_per' class='edit center'>เดือน</td>
+<td id='sv-804_elec' class='edit center'></td>
+<td id='sv-804_p66' class='edit center'></td>
+<td id='sv-804_p67' class='edit center'></td>
+<td id='sv-804_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>804</td>
+<td id='sv-804_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-838_name' class=''>การตรวจเรือเพื่อออกใบสำคัญรับรองการตรวจเรือ(ในกรณีจดทะเบียนเรือใหม่)</td>
+<td id='sv-838_count' class='edit right'></td>
+<td id='sv-838_per' class='edit center'>เดือน</td>
+<td id='sv-838_elec' class='edit center'></td>
+<td id='sv-838_p66' class='edit center'></td>
+<td id='sv-838_p67' class='edit center'></td>
+<td id='sv-838_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>838</td>
+<td id='sv-838_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-829_name' class=''>การจดทะเบียนเรือเพื่อขอรับใบทะเบียนเรือไทย</td>
+<td id='sv-829_count' class='edit right'></td>
+<td id='sv-829_per' class='edit center'>เดือน</td>
+<td id='sv-829_elec' class='edit center'></td>
+<td id='sv-829_p66' class='edit center'></td>
+<td id='sv-829_p67' class='edit center'></td>
+<td id='sv-829_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>829</td>
+<td id='sv-829_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-895_name' class=''>การออกหนังสือรับรองมาตรฐานอุปกรณ์ประจำเรือ</td>
+<td id='sv-895_count' class='edit right'></td>
+<td id='sv-895_per' class='edit center'>เดือน</td>
+<td id='sv-895_elec' class='edit center'></td>
+<td id='sv-895_p66' class='edit center'></td>
+<td id='sv-895_p67' class='edit center'></td>
+<td id='sv-895_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>895</td>
+<td id='sv-895_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-814_name' class=''>การขออนุญาตตั้งสาขาในการประกอบกิจการของผู้ประกอบการขนส่งต่อเนื่อง</td>
+<td id='sv-814_count' class='edit right'></td>
+<td id='sv-814_per' class='edit center'>เดือน</td>
+<td id='sv-814_elec' class='edit center'></td>
+<td id='sv-814_p66' class='edit center'></td>
+<td id='sv-814_p67' class='edit center'></td>
+<td id='sv-814_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>814</td>
+<td id='sv-814_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-794_name' class=''>การขอใช้บริการนำร่อง</td>
+<td id='sv-794_count' class='edit right'></td>
+<td id='sv-794_per' class='edit center'>เดือน</td>
+<td id='sv-794_elec' class='edit center'></td>
+<td id='sv-794_p66' class='edit center'></td>
+<td id='sv-794_p67' class='edit center'></td>
+<td id='sv-794_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>794</td>
+<td id='sv-794_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-871_name' class=''>โอนเมืองท่าขึ้นทะเบียนเรือ</td>
+<td id='sv-871_count' class='edit right'></td>
+<td id='sv-871_per' class='edit center'>เดือน</td>
+<td id='sv-871_elec' class='edit center'></td>
+<td id='sv-871_p66' class='edit center'></td>
+<td id='sv-871_p67' class='edit center'></td>
+<td id='sv-871_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>871</td>
+<td id='sv-871_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-879_name' class=''>การออกหนังสือคนประจำเรือประมง</td>
+<td id='sv-879_count' class='edit right'></td>
+<td id='sv-879_per' class='edit center'>เดือน</td>
+<td id='sv-879_elec' class='edit center'></td>
+<td id='sv-879_p66' class='edit center'></td>
+<td id='sv-879_p67' class='edit center'></td>
+<td id='sv-879_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>879</td>
+<td id='sv-879_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-800_name' class=''>การจดทะเบียนเป็นผู้ประกอบการขนส่งต่อเนื่องหลายรูปแบบ</td>
+<td id='sv-800_count' class='edit right'></td>
+<td id='sv-800_per' class='edit center'>เดือน</td>
+<td id='sv-800_elec' class='edit center'></td>
+<td id='sv-800_p66' class='edit center'></td>
+<td id='sv-800_p67' class='edit center'></td>
+<td id='sv-800_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>800</td>
+<td id='sv-800_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-834_name' class=''>การโอนกรรมสิทธิ์เรือขนาดต่ำกว่า 5 ตันกรอส</td>
+<td id='sv-834_count' class='edit right'></td>
+<td id='sv-834_per' class='edit center'>เดือน</td>
+<td id='sv-834_elec' class='edit center'></td>
+<td id='sv-834_p66' class='edit center'></td>
+<td id='sv-834_p67' class='edit center'></td>
+<td id='sv-834_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>834</td>
+<td id='sv-834_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-875_name' class=''>การยกเลิกการจดทะเบียนเรือ (ใบอนุญาตใช้เรือและ/หรือใบทะเบียนเรือไทย)</td>
+<td id='sv-875_count' class='edit right'></td>
+<td id='sv-875_per' class='edit center'>เดือน</td>
+<td id='sv-875_elec' class='edit center'></td>
+<td id='sv-875_p66' class='edit center'></td>
+<td id='sv-875_p67' class='edit center'></td>
+<td id='sv-875_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>875</td>
+<td id='sv-875_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-837_name' class=''>การโอนกรรมสิทธิ์เรือขนาดตั้งแต่ 5 ตันกรอสขึ้นไป</td>
+<td id='sv-837_count' class='edit right'></td>
+<td id='sv-837_per' class='edit center'>เดือน</td>
+<td id='sv-837_elec' class='edit center'></td>
+<td id='sv-837_p66' class='edit center'></td>
+<td id='sv-837_p67' class='edit center'></td>
+<td id='sv-837_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>837</td>
+<td id='sv-837_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-802_name' class=''>การจดทะเบียนเป็นผู้ประกอบกิจการอู่เรือ</td>
+<td id='sv-802_count' class='edit right'></td>
+<td id='sv-802_per' class='edit center'>เดือน</td>
+<td id='sv-802_elec' class='edit center'></td>
+<td id='sv-802_p66' class='edit center'></td>
+<td id='sv-802_p67' class='edit center'></td>
+<td id='sv-802_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>802</td>
+<td id='sv-802_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-896_name' class=''>การออกหนังสือรับรองสถานีบริการตรวจทดสอบอุปกรณ์ประจำเรือ</td>
+<td id='sv-896_count' class='edit right'></td>
+<td id='sv-896_per' class='edit center'>เดือน</td>
+<td id='sv-896_elec' class='edit center'></td>
+<td id='sv-896_p66' class='edit center'></td>
+<td id='sv-896_p67' class='edit center'></td>
+<td id='sv-896_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>896</td>
+<td id='sv-896_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-810_name' class=''>การแจ้งข้อมูลเกี่ยวกับอู่เรือ แบบแจ้งข้อมูลเกี่ยวกับการประกอบกิจการอู่เรือ ประจำปี...(ตามแบบ พว10)</td>
+<td id='sv-810_count' class='edit right'></td>
+<td id='sv-810_per' class='edit center'>เดือน</td>
+<td id='sv-810_elec' class='edit center'></td>
+<td id='sv-810_p66' class='edit center'></td>
+<td id='sv-810_p67' class='edit center'></td>
+<td id='sv-810_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>810</td>
+<td id='sv-810_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-809_name' class=''>การเปลี่ยนแปลงรายการจดทะเบียนเป็นผู้ประกอบการขนส่งทางทะเล</td>
+<td id='sv-809_count' class='edit right'></td>
+<td id='sv-809_per' class='edit center'>เดือน</td>
+<td id='sv-809_elec' class='edit center'></td>
+<td id='sv-809_p66' class='edit center'></td>
+<td id='sv-809_p67' class='edit center'></td>
+<td id='sv-809_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>809</td>
+<td id='sv-809_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-815_name' class=''>การขอใบอนุญาตจอดเรือนอกเขตการท่าเรือแห่งประเทศไทย</td>
+<td id='sv-815_count' class='edit right'></td>
+<td id='sv-815_per' class='edit center'>เดือน</td>
+<td id='sv-815_elec' class='edit center'></td>
+<td id='sv-815_p66' class='edit center'></td>
+<td id='sv-815_p67' class='edit center'></td>
+<td id='sv-815_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>815</td>
+<td id='sv-815_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-833_name' class=''>การโอนกรรมสิทธิ์เรือไทย</td>
+<td id='sv-833_count' class='edit right'></td>
+<td id='sv-833_per' class='edit center'>เดือน</td>
+<td id='sv-833_elec' class='edit center'></td>
+<td id='sv-833_p66' class='edit center'></td>
+<td id='sv-833_p67' class='edit center'></td>
+<td id='sv-833_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>833</td>
+<td id='sv-833_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-836_name' class=''>การขอต่ออายุใบอนุญาตให้เรือกลเดินประจำทาง</td>
+<td id='sv-836_count' class='edit right'></td>
+<td id='sv-836_per' class='edit center'>เดือน</td>
+<td id='sv-836_elec' class='edit center'></td>
+<td id='sv-836_p66' class='edit center'></td>
+<td id='sv-836_p67' class='edit center'></td>
+<td id='sv-836_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>836</td>
+<td id='sv-836_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-808_name' class=''>การรับจดแจ้งเป็นผู้ประกอบการขนส่งต่อเนื่องหลายรูป</td>
+<td id='sv-808_count' class='edit right'></td>
+<td id='sv-808_per' class='edit center'>เดือน</td>
+<td id='sv-808_elec' class='edit center'></td>
+<td id='sv-808_p66' class='edit center'></td>
+<td id='sv-808_p67' class='edit center'></td>
+<td id='sv-808_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>808</td>
+<td id='sv-808_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-792_name' class=''>การขอใบอนุญาตผู้นำร่อง</td>
+<td id='sv-792_count' class='edit right'></td>
+<td id='sv-792_per' class='edit center'>เดือน</td>
+<td id='sv-792_elec' class='edit center'></td>
+<td id='sv-792_p66' class='edit center'></td>
+<td id='sv-792_p67' class='edit center'></td>
+<td id='sv-792_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>792</td>
+<td id='sv-792_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>53</td>
+<td id='sv-925_name' class=''>การขอใบรับรองแรงงานประมง</td>
+<td id='sv-925_count' class='edit right'></td>
+<td id='sv-925_per' class='edit center'>เดือน</td>
+<td id='sv-925_elec' class='edit center'></td>
+<td id='sv-925_p66' class='edit center'></td>
+<td id='sv-925_p67' class='edit center'></td>
+<td id='sv-925_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>925</td>
+<td id='sv-925_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>54</td>
+<td id='sv-831_name' class=''>การขอรับใบอนุญาตใช้เรือครั้งแรก (กรณีเรือที่มิใช่เรือประมง)</td>
+<td id='sv-831_count' class='edit right'></td>
+<td id='sv-831_per' class='edit center'>เดือน</td>
+<td id='sv-831_elec' class='edit center'></td>
+<td id='sv-831_p66' class='edit center'></td>
+<td id='sv-831_p67' class='edit center'></td>
+<td id='sv-831_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>831</td>
+<td id='sv-831_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>55</td>
+<td id='sv-828_name' class=''>การอนุญาตให้มีหรือวางทุ่นหรือเครื่องส้าหรับผูกจอดเรือ</td>
+<td id='sv-828_count' class='edit right'></td>
+<td id='sv-828_per' class='edit center'>เดือน</td>
+<td id='sv-828_elec' class='edit center'></td>
+<td id='sv-828_p66' class='edit center'></td>
+<td id='sv-828_p67' class='edit center'></td>
+<td id='sv-828_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>828</td>
+<td id='sv-828_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>56</td>
+<td id='sv-823_name' class=''>การส่งสำเนาบัญชีงบดุลแสดงสินทรัพย์</td>
+<td id='sv-823_count' class='edit right'></td>
+<td id='sv-823_per' class='edit center'>เดือน</td>
+<td id='sv-823_elec' class='edit center'></td>
+<td id='sv-823_p66' class='edit center'></td>
+<td id='sv-823_p67' class='edit center'></td>
+<td id='sv-823_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>823</td>
+<td id='sv-823_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>57</td>
+<td id='sv-826_name' class=''>การเปลี่ยนแปลงรายการจดทะเบียนเป็นผู้ประกอบกิจการอู่เรือ</td>
+<td id='sv-826_count' class='edit right'></td>
+<td id='sv-826_per' class='edit center'>เดือน</td>
+<td id='sv-826_elec' class='edit center'></td>
+<td id='sv-826_p66' class='edit center'></td>
+<td id='sv-826_p67' class='edit center'></td>
+<td id='sv-826_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>826</td>
+<td id='sv-826_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>58</td>
+<td id='sv-926_name' class=''>การอนุญาตให้เททิ้งหรือระบายน้ำทิ้งลงสู่ลำน้ำสาธารณะ</td>
+<td id='sv-926_count' class='edit right'></td>
+<td id='sv-926_per' class='edit center'>เดือน</td>
+<td id='sv-926_elec' class='edit center'></td>
+<td id='sv-926_p66' class='edit center'></td>
+<td id='sv-926_p67' class='edit center'></td>
+<td id='sv-926_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>926</td>
+<td id='sv-926_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>59</td>
+<td id='sv-825_name' class=''>การขอรับและออกหนังสือรับรองขีดความสามารถของอู่เรือ</td>
+<td id='sv-825_count' class='edit right'></td>
+<td id='sv-825_per' class='edit center'>เดือน</td>
+<td id='sv-825_elec' class='edit center'></td>
+<td id='sv-825_p66' class='edit center'></td>
+<td id='sv-825_p67' class='edit center'></td>
+<td id='sv-825_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>825</td>
+<td id='sv-825_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>60</td>
+<td id='sv-816_name' class=''>การขอต่ออายุใบทะเบียนผู้ประกอบการขนส่งต่อเนื่องหลายรูปแบบ</td>
+<td id='sv-816_count' class='edit right'></td>
+<td id='sv-816_per' class='edit center'>เดือน</td>
+<td id='sv-816_elec' class='edit center'></td>
+<td id='sv-816_p66' class='edit center'></td>
+<td id='sv-816_p67' class='edit center'></td>
+<td id='sv-816_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>816</td>
+<td id='sv-816_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>61</td>
+<td id='sv-924_name' class=''>การขอใบรับรองด้านแรงงานทางทะเล</td>
+<td id='sv-924_count' class='edit right'></td>
+<td id='sv-924_per' class='edit center'>เดือน</td>
+<td id='sv-924_elec' class='edit center'></td>
+<td id='sv-924_p66' class='edit center'></td>
+<td id='sv-924_p67' class='edit center'></td>
+<td id='sv-924_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>924</td>
+<td id='sv-924_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>62</td>
+<td id='sv-931_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรชั้นนายช่างกลชั้นสอง</td>
+<td id='sv-931_count' class='edit right'></td>
+<td id='sv-931_per' class='edit center'>เดือน</td>
+<td id='sv-931_elec' class='edit center'></td>
+<td id='sv-931_p66' class='edit center'></td>
+<td id='sv-931_p67' class='edit center'></td>
+<td id='sv-931_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>931</td>
+<td id='sv-931_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>63</td>
+<td id='sv-796_name' class=''>การขอใบอนุญาตขนถ่ายสิ่งของที่อาจทำให้เกิดอันตรายได้ และการอนุญาตให้เคลื่อนย้ายเรือบรรทุกสิ่งของที่อาจทำให้เกิดอันตรายขึ้นได้</td>
+<td id='sv-796_count' class='edit right'></td>
+<td id='sv-796_per' class='edit center'>เดือน</td>
+<td id='sv-796_elec' class='edit center'></td>
+<td id='sv-796_p66' class='edit center'></td>
+<td id='sv-796_p67' class='edit center'></td>
+<td id='sv-796_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>796</td>
+<td id='sv-796_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>64</td>
+<td id='sv-806_name' class=''>การขอเปลี่ยนแปลงลักษณะของการประกอบกิจการท่าเรือตามประกาศของคณะปฎิวัติฉบับที่ 58</td>
+<td id='sv-806_count' class='edit right'></td>
+<td id='sv-806_per' class='edit center'>เดือน</td>
+<td id='sv-806_elec' class='edit center'></td>
+<td id='sv-806_p66' class='edit center'></td>
+<td id='sv-806_p67' class='edit center'></td>
+<td id='sv-806_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>806</td>
+<td id='sv-806_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>65</td>
+<td id='sv-923_name' class=''>การขออนุญาตทำการงานในเรือประมง เรือบรรทุกสินค้าประมงห้องเย็น เรือขนถ่ายเพื่อการประมง เรือบรรทุกสินค้าห้องเย็น เรือบรรทุกน้ำมันเพื่อการประมง และเรือบรรทุกน้ำจืด ขนาดตั้งแต่ 10 ตันกรอสขึ้นไป</td>
+<td id='sv-923_count' class='edit right'></td>
+<td id='sv-923_per' class='edit center'>เดือน</td>
+<td id='sv-923_elec' class='edit center'></td>
+<td id='sv-923_p66' class='edit center'></td>
+<td id='sv-923_p67' class='edit center'></td>
+<td id='sv-923_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>923</td>
+<td id='sv-923_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>66</td>
+<td id='sv-853_name' class=''>การไถ่ถอนจำนอง</td>
+<td id='sv-853_count' class='edit right'></td>
+<td id='sv-853_per' class='edit center'>เดือน</td>
+<td id='sv-853_elec' class='edit center'></td>
+<td id='sv-853_p66' class='edit center'></td>
+<td id='sv-853_p67' class='edit center'></td>
+<td id='sv-853_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>853</td>
+<td id='sv-853_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>67</td>
+<td id='sv-830_name' class=''>การอนุญาตนำเรือต่างชาติเข้ามาทำการค้าในน่านน้ำไทย</td>
+<td id='sv-830_count' class='edit right'></td>
+<td id='sv-830_per' class='edit center'>เดือน</td>
+<td id='sv-830_elec' class='edit center'></td>
+<td id='sv-830_p66' class='edit center'></td>
+<td id='sv-830_p67' class='edit center'></td>
+<td id='sv-830_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>830</td>
+<td id='sv-830_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>68</td>
+<td id='sv-852_name' class=''>การขอประกาศนียบัตรรับรองสำหรับทำการในเรือเฉพาะประเภท (กรณีผ่านหลักสูตรการอบรมสำหรับผู้ทำการในเรือเฉพาะประเภท – ชั้นสูง) ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-852_count' class='edit right'></td>
+<td id='sv-852_per' class='edit center'>เดือน</td>
+<td id='sv-852_elec' class='edit center'></td>
+<td id='sv-852_p66' class='edit center'></td>
+<td id='sv-852_p67' class='edit center'></td>
+<td id='sv-852_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>852</td>
+<td id='sv-852_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>69</td>
+<td id='sv-849_name' class=''>การตรวจเรือเพื่อออกใบสำคัญรับรองการตรวจเรือตามอนุสัญญาระหว่างประเทศ</td>
+<td id='sv-849_count' class='edit right'></td>
+<td id='sv-849_per' class='edit center'>เดือน</td>
+<td id='sv-849_elec' class='edit center'></td>
+<td id='sv-849_p66' class='edit center'></td>
+<td id='sv-849_p67' class='edit center'></td>
+<td id='sv-849_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>849</td>
+<td id='sv-849_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>70</td>
+<td id='sv-803_name' class=''>การขออนุญาตให้ประกอบกิจการท่าเรือเดินทะเล ตามประกาศของคณะปฎิวัติฉบับที่ 58</td>
+<td id='sv-803_count' class='edit right'></td>
+<td id='sv-803_per' class='edit center'>เดือน</td>
+<td id='sv-803_elec' class='edit center'></td>
+<td id='sv-803_p66' class='edit center'></td>
+<td id='sv-803_p67' class='edit center'></td>
+<td id='sv-803_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>803</td>
+<td id='sv-803_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>71</td>
+<td id='sv-921_name' class=''>การขอต่ออายุประกาศนียบัตรผู้ทำการในเรือประมง</td>
+<td id='sv-921_count' class='edit right'></td>
+<td id='sv-921_per' class='edit center'>เดือน</td>
+<td id='sv-921_elec' class='edit center'></td>
+<td id='sv-921_p66' class='edit center'></td>
+<td id='sv-921_p67' class='edit center'></td>
+<td id='sv-921_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>921</td>
+<td id='sv-921_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>72</td>
+<td id='sv-891_name' class=''>การขอต่ออายุประกาศนียบัตรแสดงความรู้ความสามารถ (ผู้ขอต่ออายุประกาศนียบัตรที่ออกตามหมวด 2 หมวด 3 และหมวด4 ข้อบังคับฯ ปี 2557)</td>
+<td id='sv-891_count' class='edit right'></td>
+<td id='sv-891_per' class='edit center'>เดือน</td>
+<td id='sv-891_elec' class='edit center'></td>
+<td id='sv-891_p66' class='edit center'></td>
+<td id='sv-891_p67' class='edit center'></td>
+<td id='sv-891_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>891</td>
+<td id='sv-891_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>73</td>
+<td id='sv-817_name' class=''>การต่ออายุใบจดแจ้งเป็นผู้ประกอบการขนส่งต่อเนื่องหลายรูปแบบ</td>
+<td id='sv-817_count' class='edit right'></td>
+<td id='sv-817_per' class='edit center'>เดือน</td>
+<td id='sv-817_elec' class='edit center'></td>
+<td id='sv-817_p66' class='edit center'></td>
+<td id='sv-817_p67' class='edit center'></td>
+<td id='sv-817_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>817</td>
+<td id='sv-817_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>74</td>
+<td id='sv-918_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรนายเรือของเรือประมง</td>
+<td id='sv-918_count' class='edit right'></td>
+<td id='sv-918_per' class='edit center'>เดือน</td>
+<td id='sv-918_elec' class='edit center'></td>
+<td id='sv-918_p66' class='edit center'></td>
+<td id='sv-918_p67' class='edit center'></td>
+<td id='sv-918_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>918</td>
+<td id='sv-918_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>75</td>
+<td id='sv-845_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญพื้นฐานการรักษาความปลอดภัย ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-845_count' class='edit right'></td>
+<td id='sv-845_per' class='edit center'>เดือน</td>
+<td id='sv-845_elec' class='edit center'></td>
+<td id='sv-845_p66' class='edit center'></td>
+<td id='sv-845_p67' class='edit center'></td>
+<td id='sv-845_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>845</td>
+<td id='sv-845_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>76</td>
+<td id='sv-848_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญพื้นฐานความปลอดภัย ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-848_count' class='edit right'></td>
+<td id='sv-848_per' class='edit center'>เดือน</td>
+<td id='sv-848_elec' class='edit center'></td>
+<td id='sv-848_p66' class='edit center'></td>
+<td id='sv-848_p67' class='edit center'></td>
+<td id='sv-848_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>848</td>
+<td id='sv-848_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>77</td>
+<td id='sv-805_name' class=''>การขอต่ออายุใบอนุญาตประกอบกิจการท่าเรือเดินทะเลตามประกาศของคณะปฏิวัติฉบับที่ 58</td>
+<td id='sv-805_count' class='edit right'></td>
+<td id='sv-805_per' class='edit center'>เดือน</td>
+<td id='sv-805_elec' class='edit center'></td>
+<td id='sv-805_p66' class='edit center'></td>
+<td id='sv-805_p67' class='edit center'></td>
+<td id='sv-805_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>805</td>
+<td id='sv-805_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>78</td>
+<td id='sv-893_name' class=''>การขอต่ออายุประกาศนียบัตรแสดงความรู้ความชำนาญที่ออกตามหมวด 6 ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-893_count' class='edit right'></td>
+<td id='sv-893_per' class='edit center'>เดือน</td>
+<td id='sv-893_elec' class='edit center'></td>
+<td id='sv-893_p66' class='edit center'></td>
+<td id='sv-893_p67' class='edit center'></td>
+<td id='sv-893_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>893</td>
+<td id='sv-893_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>79</td>
+<td id='sv-889_name' class=''>การสอบในประกาศนียบัตรชั้นนายช่างอิเลคทรอเทคนิคอล ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-889_count' class='edit right'></td>
+<td id='sv-889_per' class='edit center'>เดือน</td>
+<td id='sv-889_elec' class='edit center'></td>
+<td id='sv-889_p66' class='edit center'></td>
+<td id='sv-889_p67' class='edit center'></td>
+<td id='sv-889_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>889</td>
+<td id='sv-889_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>80</td>
+<td id='sv-907_name' class=''>การสอบประกาศนียบัตรชั้นนายเรือของเรือเดินในประเทศ (ชำนาญงาน)</td>
+<td id='sv-907_count' class='edit right'></td>
+<td id='sv-907_per' class='edit center'>เดือน</td>
+<td id='sv-907_elec' class='edit center'></td>
+<td id='sv-907_p66' class='edit center'></td>
+<td id='sv-907_p67' class='edit center'></td>
+<td id='sv-907_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>907</td>
+<td id='sv-907_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>81</td>
+<td id='sv-892_name' class=''>การขอต่ออายุประกาศนียบัตรรับรอง หรือประกาศนียบัตรแสดงความรู้ความชำนาญสำหรับทำการในเรือเฉพาะประเภทตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-892_count' class='edit right'></td>
+<td id='sv-892_per' class='edit center'>เดือน</td>
+<td id='sv-892_elec' class='edit center'></td>
+<td id='sv-892_p66' class='edit center'></td>
+<td id='sv-892_p67' class='edit center'></td>
+<td id='sv-892_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>892</td>
+<td id='sv-892_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>82</td>
+<td id='sv-840_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญการดับไฟชั้นสูงตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-840_count' class='edit right'></td>
+<td id='sv-840_per' class='edit center'>เดือน</td>
+<td id='sv-840_elec' class='edit center'></td>
+<td id='sv-840_p66' class='edit center'></td>
+<td id='sv-840_p67' class='edit center'></td>
+<td id='sv-840_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>840</td>
+<td id='sv-840_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>83</td>
+<td id='sv-843_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญนายงานรักษาความปลอดภัยประจำเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-843_count' class='edit right'></td>
+<td id='sv-843_per' class='edit center'>เดือน</td>
+<td id='sv-843_elec' class='edit center'></td>
+<td id='sv-843_p66' class='edit center'></td>
+<td id='sv-843_p67' class='edit center'></td>
+<td id='sv-843_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>843</td>
+<td id='sv-843_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>84</td>
+<td id='sv-908_name' class=''>การสอบประกาศนียบัตรชั้นนายช่างกลชั้นสาม ชำนาญงาน</td>
+<td id='sv-908_count' class='edit right'></td>
+<td id='sv-908_per' class='edit center'>เดือน</td>
+<td id='sv-908_elec' class='edit center'></td>
+<td id='sv-908_p66' class='edit center'></td>
+<td id='sv-908_p67' class='edit center'></td>
+<td id='sv-908_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>908</td>
+<td id='sv-908_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>85</td>
+<td id='sv-842_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญเจ้าหน้าที่รักษาความปลอดภัยประจำเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-842_count' class='edit right'></td>
+<td id='sv-842_per' class='edit center'>เดือน</td>
+<td id='sv-842_elec' class='edit center'></td>
+<td id='sv-842_p66' class='edit center'></td>
+<td id='sv-842_p67' class='edit center'></td>
+<td id='sv-842_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>842</td>
+<td id='sv-842_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>86</td>
+<td id='sv-894_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญเจ้าหน้าที่รักษาความปลอดภัยประจำเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-894_count' class='edit right'></td>
+<td id='sv-894_per' class='edit center'>เดือน</td>
+<td id='sv-894_elec' class='edit center'></td>
+<td id='sv-894_p66' class='edit center'></td>
+<td id='sv-894_p67' class='edit center'></td>
+<td id='sv-894_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>894</td>
+<td id='sv-894_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>87</td>
+<td id='sv-841_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญการรักษาพยาบาลในเรือตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-841_count' class='edit right'></td>
+<td id='sv-841_per' class='edit center'>เดือน</td>
+<td id='sv-841_elec' class='edit center'></td>
+<td id='sv-841_p66' class='edit center'></td>
+<td id='sv-841_p67' class='edit center'></td>
+<td id='sv-841_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>841</td>
+<td id='sv-841_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>88</td>
+<td id='sv-928_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรชั้นนายเรือของเรือกลลำน้ำ</td>
+<td id='sv-928_count' class='edit right'></td>
+<td id='sv-928_per' class='edit center'>เดือน</td>
+<td id='sv-928_elec' class='edit center'></td>
+<td id='sv-928_p66' class='edit center'></td>
+<td id='sv-928_p67' class='edit center'></td>
+<td id='sv-928_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>928</td>
+<td id='sv-928_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>89</td>
+<td id='sv-846_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญเรือเร็วช่วยชีวิตตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-846_count' class='edit right'></td>
+<td id='sv-846_per' class='edit center'>เดือน</td>
+<td id='sv-846_elec' class='edit center'></td>
+<td id='sv-846_p66' class='edit center'></td>
+<td id='sv-846_p67' class='edit center'></td>
+<td id='sv-846_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>846</td>
+<td id='sv-846_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>90</td>
+<td id='sv-811_name' class=''>การแจ้งข้อมูลเกี่ยวกับอู่เรือ แบบแจ้งข้อมูลเกี่ยวกับการประกอบกิจการอู่เรือ กรณีให้บริการ ต่อ ซ่อม ดัดแปลงตัวเรือหรือเครื่องจักร หรือทำลายเรือประมงเกินกว่า 10 ตันกรอส (ตามแบบ พว.11)</td>
+<td id='sv-811_count' class='edit right'></td>
+<td id='sv-811_per' class='edit center'>เดือน</td>
+<td id='sv-811_elec' class='edit center'></td>
+<td id='sv-811_p66' class='edit center'></td>
+<td id='sv-811_p67' class='edit center'></td>
+<td id='sv-811_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>811</td>
+<td id='sv-811_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>91</td>
+<td id='sv-793_name' class=''>การขออนญาตปลูกสร้างสิ่งล่วงล้ำลำน้ำ</td>
+<td id='sv-793_count' class='edit right'></td>
+<td id='sv-793_per' class='edit center'>เดือน</td>
+<td id='sv-793_elec' class='edit center'></td>
+<td id='sv-793_p66' class='edit center'></td>
+<td id='sv-793_p67' class='edit center'></td>
+<td id='sv-793_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>793</td>
+<td id='sv-793_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>92</td>
+<td id='sv-902_name' class=''>การสอบประกาศนียบัตรชั้น 3 (ต้นหนที่สอง) ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-902_count' class='edit right'></td>
+<td id='sv-902_per' class='edit center'>เดือน</td>
+<td id='sv-902_elec' class='edit center'></td>
+<td id='sv-902_p66' class='edit center'></td>
+<td id='sv-902_p67' class='edit center'></td>
+<td id='sv-902_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>902</td>
+<td id='sv-902_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>93</td>
+<td id='sv-901_name' class=''>การสอบประกาศนียบัตรชั้น 2 (ต้นหนที่หนึ่ง) ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-901_count' class='edit right'></td>
+<td id='sv-901_per' class='edit center'>เดือน</td>
+<td id='sv-901_elec' class='edit center'></td>
+<td id='sv-901_p66' class='edit center'></td>
+<td id='sv-901_p67' class='edit center'></td>
+<td id='sv-901_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>901</td>
+<td id='sv-901_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>94</td>
+<td id='sv-919_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรนายเรือของเรือประมงชำนาญงาน</td>
+<td id='sv-919_count' class='edit right'></td>
+<td id='sv-919_per' class='edit center'>เดือน</td>
+<td id='sv-919_elec' class='edit center'></td>
+<td id='sv-919_p66' class='edit center'></td>
+<td id='sv-919_p67' class='edit center'></td>
+<td id='sv-919_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>919</td>
+<td id='sv-919_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>95</td>
+<td id='sv-844_name' class=''>การขอรับประกาศนียบัตรรับรองความรู้ความชำนาญสำหรับคนประจำเรือตำแหน่งคนครัว ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-844_count' class='edit right'></td>
+<td id='sv-844_per' class='edit center'>เดือน</td>
+<td id='sv-844_elec' class='edit center'></td>
+<td id='sv-844_p66' class='edit center'></td>
+<td id='sv-844_p67' class='edit center'></td>
+<td id='sv-844_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>844</td>
+<td id='sv-844_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>96</td>
+<td id='sv-890_name' class=''>การขอประกาศนียบัตรรับรองประกาศนียบัตรของรัฐภาคีอื่น ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-890_count' class='edit right'></td>
+<td id='sv-890_per' class='edit center'>เดือน</td>
+<td id='sv-890_elec' class='edit center'></td>
+<td id='sv-890_p66' class='edit center'></td>
+<td id='sv-890_p67' class='edit center'></td>
+<td id='sv-890_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>890</td>
+<td id='sv-890_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>97</td>
+<td id='sv-905_name' class=''>การต่ออายุประกาศนียบัตรตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-905_count' class='edit right'></td>
+<td id='sv-905_per' class='edit center'>เดือน</td>
+<td id='sv-905_elec' class='edit center'></td>
+<td id='sv-905_p66' class='edit center'></td>
+<td id='sv-905_p67' class='edit center'></td>
+<td id='sv-905_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>905</td>
+<td id='sv-905_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>98</td>
+<td id='sv-903_name' class=''>การสอบประกาศนียบัตรชั้น 4 (ต้นหนที่สาม) ) ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-903_count' class='edit right'></td>
+<td id='sv-903_per' class='edit center'>เดือน</td>
+<td id='sv-903_elec' class='edit center'></td>
+<td id='sv-903_p66' class='edit center'></td>
+<td id='sv-903_p67' class='edit center'></td>
+<td id='sv-903_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>903</td>
+<td id='sv-903_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>99</td>
+<td id='sv-906_name' class=''>การออกใบแทนประกาศนียบัตรตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-906_count' class='edit right'></td>
+<td id='sv-906_per' class='edit center'>เดือน</td>
+<td id='sv-906_elec' class='edit center'></td>
+<td id='sv-906_p66' class='edit center'></td>
+<td id='sv-906_p67' class='edit center'></td>
+<td id='sv-906_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>906</td>
+<td id='sv-906_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>100</td>
+<td id='sv-900_name' class=''>การสอบประกาศนียบัตรชั้น 1 (นายเรือ) ) ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-900_count' class='edit right'></td>
+<td id='sv-900_per' class='edit center'>เดือน</td>
+<td id='sv-900_elec' class='edit center'></td>
+<td id='sv-900_p66' class='edit center'></td>
+<td id='sv-900_p67' class='edit center'></td>
+<td id='sv-900_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>900</td>
+<td id='sv-900_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>101</td>
+<td id='sv-827_name' class=''>การขออนุญาตขุดลอกล่องน้ำทางเดินเรือ</td>
+<td id='sv-827_count' class='edit right'></td>
+<td id='sv-827_per' class='edit center'>เดือน</td>
+<td id='sv-827_elec' class='edit center'></td>
+<td id='sv-827_p66' class='edit center'></td>
+<td id='sv-827_p67' class='edit center'></td>
+<td id='sv-827_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>827</td>
+<td id='sv-827_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>102</td>
+<td id='sv-839_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญการปฐมพยาบาลในเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-839_count' class='edit right'></td>
+<td id='sv-839_per' class='edit center'>เดือน</td>
+<td id='sv-839_elec' class='edit center'></td>
+<td id='sv-839_p66' class='edit center'></td>
+<td id='sv-839_p67' class='edit center'></td>
+<td id='sv-839_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>839</td>
+<td id='sv-839_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>103</td>
+<td id='sv-888_name' class=''>การสอบในประกาศนียบัตรชั้นลูกเรืออิเลคทรอเทคนิคอล ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-888_count' class='edit right'></td>
+<td id='sv-888_per' class='edit center'>เดือน</td>
+<td id='sv-888_elec' class='edit center'></td>
+<td id='sv-888_p66' class='edit center'></td>
+<td id='sv-888_p67' class='edit center'></td>
+<td id='sv-888_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>888</td>
+<td id='sv-888_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>104</td>
+<td id='sv-904_name' class=''>การสอบประกาศนียบัตรชั้นนายเรือของเรือเดินในประเทศตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-904_count' class='edit right'></td>
+<td id='sv-904_per' class='edit center'>เดือน</td>
+<td id='sv-904_elec' class='edit center'></td>
+<td id='sv-904_p66' class='edit center'></td>
+<td id='sv-904_p67' class='edit center'></td>
+<td id='sv-904_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>904</td>
+<td id='sv-904_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>105</td>
+<td id='sv-910_name' class=''>การสอบประกาศนียบัตรชั้นนายช่างกลชั้นหนึ่งตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-910_count' class='edit right'></td>
+<td id='sv-910_per' class='edit center'>เดือน</td>
+<td id='sv-910_elec' class='edit center'></td>
+<td id='sv-910_p66' class='edit center'></td>
+<td id='sv-910_p67' class='edit center'></td>
+<td id='sv-910_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>910</td>
+<td id='sv-910_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>106</td>
+<td id='sv-911_name' class=''>การสอบประกาศนียบัตรชั้นนายช่างกลชั้นสาม ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-911_count' class='edit right'></td>
+<td id='sv-911_per' class='edit center'>เดือน</td>
+<td id='sv-911_elec' class='edit center'></td>
+<td id='sv-911_p66' class='edit center'></td>
+<td id='sv-911_p67' class='edit center'></td>
+<td id='sv-911_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>911</td>
+<td id='sv-911_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>107</td>
+<td id='sv-881_name' class=''>การสอบในประกาศนียบัตรชั้นต้นกลของเรือกลเดินทะเลขนาดกำลังขับเคลื่อน 3,000กิโลวัตต์ หรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-881_count' class='edit right'></td>
+<td id='sv-881_per' class='edit center'>เดือน</td>
+<td id='sv-881_elec' class='edit center'></td>
+<td id='sv-881_p66' class='edit center'></td>
+<td id='sv-881_p67' class='edit center'></td>
+<td id='sv-881_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>881</td>
+<td id='sv-881_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>108</td>
+<td id='sv-878_name' class=''>การสอบในประกาศนียบัตรชั้นลูกเรือเข้ายามฝ่ายเดินเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-878_count' class='edit right'></td>
+<td id='sv-878_per' class='edit center'>เดือน</td>
+<td id='sv-878_elec' class='edit center'></td>
+<td id='sv-878_p66' class='edit center'></td>
+<td id='sv-878_p67' class='edit center'></td>
+<td id='sv-878_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>878</td>
+<td id='sv-878_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>109</td>
+<td id='sv-877_name' class=''>การสอบในประกาศนียบัตรชั้นนายประจำเรือฝ่ายเดินเรือของเรือกลเดินทะเลขนาด 500ตันกรอสหรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-877_count' class='edit right'></td>
+<td id='sv-877_per' class='edit center'>เดือน</td>
+<td id='sv-877_elec' class='edit center'></td>
+<td id='sv-877_p66' class='edit center'></td>
+<td id='sv-877_p67' class='edit center'></td>
+<td id='sv-877_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>877</td>
+<td id='sv-877_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>110</td>
+<td id='sv-863_name' class=''>การสอบและออกประกาศนียบัตรชั้นนายเรือของเรือกลเดินทะเลใกล้ฝั่งขนาดต่ำกว่า 500 ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-863_count' class='edit right'></td>
+<td id='sv-863_per' class='edit center'>เดือน</td>
+<td id='sv-863_elec' class='edit center'></td>
+<td id='sv-863_p66' class='edit center'></td>
+<td id='sv-863_p67' class='edit center'></td>
+<td id='sv-863_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>863</td>
+<td id='sv-863_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>111</td>
+<td id='sv-876_name' class=''>การสอบในประกาศนียบัตรชั้นนายประจำเรือฝ่ายเดินเรือของเรือกลเดินทะเลใกล้ฝั่งขนาดต่ำกว่า500ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-876_count' class='edit right'></td>
+<td id='sv-876_per' class='edit center'>เดือน</td>
+<td id='sv-876_elec' class='edit center'></td>
+<td id='sv-876_p66' class='edit center'></td>
+<td id='sv-876_p67' class='edit center'></td>
+<td id='sv-876_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>876</td>
+<td id='sv-876_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>112</td>
+<td id='sv-914_name' class=''>การสอบประกาศนียบัตรชั้นคนใช้เครื่องจักรยนต์ชั้นสอง ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-914_count' class='edit right'></td>
+<td id='sv-914_per' class='edit center'>เดือน</td>
+<td id='sv-914_elec' class='edit center'></td>
+<td id='sv-914_p66' class='edit center'></td>
+<td id='sv-914_p67' class='edit center'></td>
+<td id='sv-914_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>914</td>
+<td id='sv-914_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>113</td>
+<td id='sv-883_name' class=''>การสอบในประกาศนียบัตรชั้นรองต้นกลของเรือกลเดินทะเลขนาดกำลังขับเคลื่อน 3, 000กิโลวัตต์ หรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-883_count' class='edit right'></td>
+<td id='sv-883_per' class='edit center'>เดือน</td>
+<td id='sv-883_elec' class='edit center'></td>
+<td id='sv-883_p66' class='edit center'></td>
+<td id='sv-883_p67' class='edit center'></td>
+<td id='sv-883_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>883</td>
+<td id='sv-883_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>114</td>
+<td id='sv-909_name' class=''>อนุมัติแบบแปลนเรือประมง(เรือที่มีขนาดความยาว เกิน 24.00 เมตร)</td>
+<td id='sv-909_count' class='edit right'></td>
+<td id='sv-909_per' class='edit center'>เดือน</td>
+<td id='sv-909_elec' class='edit center'></td>
+<td id='sv-909_p66' class='edit center'></td>
+<td id='sv-909_p67' class='edit center'></td>
+<td id='sv-909_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>909</td>
+<td id='sv-909_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>115</td>
+<td id='sv-913_name' class=''>การสอบประกาศนียบัตรชั้นคนใช้เครื่องจักรยนต์ชั้นหนึ่ง ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-913_count' class='edit right'></td>
+<td id='sv-913_per' class='edit center'>เดือน</td>
+<td id='sv-913_elec' class='edit center'></td>
+<td id='sv-913_p66' class='edit center'></td>
+<td id='sv-913_p67' class='edit center'></td>
+<td id='sv-913_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>913</td>
+<td id='sv-913_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>116</td>
+<td id='sv-885_name' class=''>การสอบในประกาศนียบัตรชั้นนายประจำเรือฝ่ายช่างกลของเรือกลเดินทะเลขนาดกำลังขับเคลื่อน750กิโลวัตต์ หรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-885_count' class='edit right'></td>
+<td id='sv-885_per' class='edit center'>เดือน</td>
+<td id='sv-885_elec' class='edit center'></td>
+<td id='sv-885_p66' class='edit center'></td>
+<td id='sv-885_p67' class='edit center'></td>
+<td id='sv-885_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>885</td>
+<td id='sv-885_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>117</td>
+<td id='sv-851_name' class=''>การหมายเหตุแก้ข้อความในสัญญาจำนอง/เพิ่มและไม่เพิ่มทุนทรัพย์</td>
+<td id='sv-851_count' class='edit right'></td>
+<td id='sv-851_per' class='edit center'>เดือน</td>
+<td id='sv-851_elec' class='edit center'></td>
+<td id='sv-851_p66' class='edit center'></td>
+<td id='sv-851_p67' class='edit center'></td>
+<td id='sv-851_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>851</td>
+<td id='sv-851_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>118</td>
+<td id='sv-870_name' class=''>การสอบในประกาศนียบัตรชั้นต้นเรือของเรือกลเดินทะเลขนาด 500 - 3,000ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-870_count' class='edit right'></td>
+<td id='sv-870_per' class='edit center'>เดือน</td>
+<td id='sv-870_elec' class='edit center'></td>
+<td id='sv-870_p66' class='edit center'></td>
+<td id='sv-870_p67' class='edit center'></td>
+<td id='sv-870_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>870</td>
+<td id='sv-870_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>119</td>
+<td id='sv-869_name' class=''>การสอบและออกประกาศนียบัตรชั้นต้นเรือของเรือกลเดินทะเลใกล้ฝั่งขนาด 500 - 3,000 ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-869_count' class='edit right'></td>
+<td id='sv-869_per' class='edit center'>เดือน</td>
+<td id='sv-869_elec' class='edit center'></td>
+<td id='sv-869_p66' class='edit center'></td>
+<td id='sv-869_p67' class='edit center'></td>
+<td id='sv-869_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>869</td>
+<td id='sv-869_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>120</td>
+<td id='sv-867_name' class=''>การสอบในประกาศนียบัตรชั้นต้นเรือของเรือกลเดินทะเลขนาด 3,000ตันกรอสหรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-867_count' class='edit right'></td>
+<td id='sv-867_per' class='edit center'>เดือน</td>
+<td id='sv-867_elec' class='edit center'></td>
+<td id='sv-867_p66' class='edit center'></td>
+<td id='sv-867_p67' class='edit center'></td>
+<td id='sv-867_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>867</td>
+<td id='sv-867_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>121</td>
+<td id='sv-835_name' class=''>การจำนองเรือไทยตาม พ.ร.บ. เรือไทย พ.ศ. 2481</td>
+<td id='sv-835_count' class='edit right'></td>
+<td id='sv-835_per' class='edit center'>เดือน</td>
+<td id='sv-835_elec' class='edit center'></td>
+<td id='sv-835_p66' class='edit center'></td>
+<td id='sv-835_p67' class='edit center'></td>
+<td id='sv-835_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>835</td>
+<td id='sv-835_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>122</td>
+<td id='sv-861_name' class=''>การสอบและออกประกาศนียบัตรชั้นนายเรือของเรือกลเดินทะเลขนาด 3,000ตันกรอสหรือมากกว่าตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-861_count' class='edit right'></td>
+<td id='sv-861_per' class='edit center'>เดือน</td>
+<td id='sv-861_elec' class='edit center'></td>
+<td id='sv-861_p66' class='edit center'></td>
+<td id='sv-861_p67' class='edit center'></td>
+<td id='sv-861_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>861</td>
+<td id='sv-861_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>123</td>
+<td id='sv-864_name' class=''>การสอบและออกประกาศนียบัตรชั้นนายเรือของเรือกลเดินทะเลขนาด 500 - 3,000ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-864_count' class='edit right'></td>
+<td id='sv-864_per' class='edit center'>เดือน</td>
+<td id='sv-864_elec' class='edit center'></td>
+<td id='sv-864_p66' class='edit center'></td>
+<td id='sv-864_p67' class='edit center'></td>
+<td id='sv-864_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>864</td>
+<td id='sv-864_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>124</td>
+<td id='sv-912_name' class=''>การสอบประกาศนียบัตรชั้นคนใช้เครื่องจักรยนต์ชั้นหนึ่งพิเศษ ชำนาญงาน ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-912_count' class='edit right'></td>
+<td id='sv-912_per' class='edit center'>เดือน</td>
+<td id='sv-912_elec' class='edit center'></td>
+<td id='sv-912_p66' class='edit center'></td>
+<td id='sv-912_p67' class='edit center'></td>
+<td id='sv-912_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>912</td>
+<td id='sv-912_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>125</td>
+<td id='sv-847_name' class=''>การขอรับประกาศนียบัตรแสดงความรู้ความชำนาญเรือชูชีพ หรือเรือช่วยชีวิตที่ไม่ใช่เรือเร็วช่วยชีวิตตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-847_count' class='edit right'></td>
+<td id='sv-847_per' class='edit center'>เดือน</td>
+<td id='sv-847_elec' class='edit center'></td>
+<td id='sv-847_p66' class='edit center'></td>
+<td id='sv-847_p67' class='edit center'></td>
+<td id='sv-847_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>847</td>
+<td id='sv-847_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>126</td>
+<td id='sv-882_name' class=''>การสอบในประกาศนียบัตรชั้นต้นกลของเรือกลเดินทะเลขนาดกำลังขับเคลื่อน750 -3,000กิโลวัตต์ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-882_count' class='edit right'></td>
+<td id='sv-882_per' class='edit center'>เดือน</td>
+<td id='sv-882_elec' class='edit center'></td>
+<td id='sv-882_p66' class='edit center'></td>
+<td id='sv-882_p67' class='edit center'></td>
+<td id='sv-882_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>882</td>
+<td id='sv-882_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>127</td>
+<td id='sv-880_name' class=''>การสอบในประกาศนียบัตรชั้นลูกเรือชำนาญงานฝ่ายเดินเรือ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-880_count' class='edit right'></td>
+<td id='sv-880_per' class='edit center'>เดือน</td>
+<td id='sv-880_elec' class='edit center'></td>
+<td id='sv-880_p66' class='edit center'></td>
+<td id='sv-880_p67' class='edit center'></td>
+<td id='sv-880_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>880</td>
+<td id='sv-880_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>128</td>
+<td id='sv-862_name' class=''>การสอบและออกประกาศนียบัตรชั้นนายเรือของเรือกลเดินทะเลใกล้ฝั่งขนาด 500 - 3,000 ตันกรอสตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-862_count' class='edit right'></td>
+<td id='sv-862_per' class='edit center'>เดือน</td>
+<td id='sv-862_elec' class='edit center'></td>
+<td id='sv-862_p66' class='edit center'></td>
+<td id='sv-862_p67' class='edit center'></td>
+<td id='sv-862_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>862</td>
+<td id='sv-862_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>129</td>
+<td id='sv-920_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรนายท้ายเรือประมงชั้น 1</td>
+<td id='sv-920_count' class='edit right'></td>
+<td id='sv-920_per' class='edit center'>เดือน</td>
+<td id='sv-920_elec' class='edit center'></td>
+<td id='sv-920_p66' class='edit center'></td>
+<td id='sv-920_p67' class='edit center'></td>
+<td id='sv-920_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>920</td>
+<td id='sv-920_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>130</td>
+<td id='sv-929_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรนายท้ายเรือกลเดินทะเลชายแดน</td>
+<td id='sv-929_count' class='edit right'></td>
+<td id='sv-929_per' class='edit center'>เดือน</td>
+<td id='sv-929_elec' class='edit center'></td>
+<td id='sv-929_p66' class='edit center'></td>
+<td id='sv-929_p67' class='edit center'></td>
+<td id='sv-929_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>929</td>
+<td id='sv-929_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>131</td>
+<td id='sv-886_name' class=''>การสอบในประกาศนียบัตรแสดงความรู้ความชำนาญลูกเรือเข้ายามฝ่ายช่างกล ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-886_count' class='edit right'></td>
+<td id='sv-886_per' class='edit center'>เดือน</td>
+<td id='sv-886_elec' class='edit center'></td>
+<td id='sv-886_p66' class='edit center'></td>
+<td id='sv-886_p67' class='edit center'></td>
+<td id='sv-886_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>886</td>
+<td id='sv-886_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>132</td>
+<td id='sv-884_name' class=''>การสอบในประกาศนียบัตรชั้นรองต้นกลของเรือกลเดินทะเลขนาดกำลังขับเคลื่อน 750-3,000กิโลวัตต์ ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-884_count' class='edit right'></td>
+<td id='sv-884_per' class='edit center'>เดือน</td>
+<td id='sv-884_elec' class='edit center'></td>
+<td id='sv-884_p66' class='edit center'></td>
+<td id='sv-884_p67' class='edit center'></td>
+<td id='sv-884_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>884</td>
+<td id='sv-884_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>133</td>
+<td id='sv-887_name' class=''>การสอบในประกาศนียบัตรแสดงความรู้ความชำนาญลูกเรือชำนาญงานฝ่ายช่างกล ตามข้อบังคับฯ ปี 2557</td>
+<td id='sv-887_count' class='edit right'></td>
+<td id='sv-887_per' class='edit center'>เดือน</td>
+<td id='sv-887_elec' class='edit center'></td>
+<td id='sv-887_p66' class='edit center'></td>
+<td id='sv-887_p67' class='edit center'></td>
+<td id='sv-887_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>887</td>
+<td id='sv-887_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>134</td>
+<td id='sv-850_name' class=''>การจำนองเรือไทย ตามพระราชบัญญัติการจำนองเรือและบุริมสิทธิทางทะเล พ.ศ. 2537</td>
+<td id='sv-850_count' class='edit right'></td>
+<td id='sv-850_per' class='edit center'>เดือน</td>
+<td id='sv-850_elec' class='edit center'></td>
+<td id='sv-850_p66' class='edit center'></td>
+<td id='sv-850_p67' class='edit center'></td>
+<td id='sv-850_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>850</td>
+<td id='sv-850_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>135</td>
+<td id='sv-899_name' class=''>การสอบประกาศนียบัตรชั้นนายท้ายลำน้ำชั้นหนึ่ง ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-899_count' class='edit right'></td>
+<td id='sv-899_per' class='edit center'>เดือน</td>
+<td id='sv-899_elec' class='edit center'></td>
+<td id='sv-899_p66' class='edit center'></td>
+<td id='sv-899_p67' class='edit center'></td>
+<td id='sv-899_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>899</td>
+<td id='sv-899_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>136</td>
+<td id='sv-898_name' class=''>การสอบประกาศนียบัตรชั้น นายท้ายเรือกลลำน้ำชั้นสอง ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-898_count' class='edit right'></td>
+<td id='sv-898_per' class='edit center'>เดือน</td>
+<td id='sv-898_elec' class='edit center'></td>
+<td id='sv-898_p66' class='edit center'></td>
+<td id='sv-898_p67' class='edit center'></td>
+<td id='sv-898_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>898</td>
+<td id='sv-898_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>137</td>
+<td id='sv-927_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรชั้นนายท้ายทะเลชั้นสอง ตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-927_count' class='edit right'></td>
+<td id='sv-927_per' class='edit center'>เดือน</td>
+<td id='sv-927_elec' class='edit center'></td>
+<td id='sv-927_p66' class='edit center'></td>
+<td id='sv-927_p67' class='edit center'></td>
+<td id='sv-927_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>927</td>
+<td id='sv-927_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>138</td>
+<td id='sv-930_name' class=''>การสอบเพื่อขอรับประกาศนียบัตรชั้นนายท้ายทะเลชั้นหนึ่งตามข้อบังคับฯ ปี 2532</td>
+<td id='sv-930_count' class='edit right'></td>
+<td id='sv-930_per' class='edit center'>เดือน</td>
+<td id='sv-930_elec' class='edit center'></td>
+<td id='sv-930_p66' class='edit center'></td>
+<td id='sv-930_p67' class='edit center'></td>
+<td id='sv-930_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>930</td>
+<td id='sv-930_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>139</td>
+<td id='sv-897_name' class=''>อนุมัติแบบแปลนเรือน้ำมัน/ก๊าส/เคมี (เรือทีมีขนาดความยาวเรือเกิน 24.00 เมตร</td>
+<td id='sv-897_count' class='edit right'></td>
+<td id='sv-897_per' class='edit center'>เดือน</td>
+<td id='sv-897_elec' class='edit center'></td>
+<td id='sv-897_p66' class='edit center'></td>
+<td id='sv-897_p67' class='edit center'></td>
+<td id='sv-897_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>897</td>
+<td id='sv-897_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>140</td>
+<td id='sv-915_name' class=''>การอนุญาตให้เรือสำราญและกีฬาขนาดใหญ่ (Super Yacht) เข้ามาทำการค้าในน่านน้ำไทยตามมาตรา 47ทวิ</td>
+<td id='sv-915_count' class='edit right'></td>
+<td id='sv-915_per' class='edit center'>เดือน</td>
+<td id='sv-915_elec' class='edit center'></td>
+<td id='sv-915_p66' class='edit center'></td>
+<td id='sv-915_p67' class='edit center'></td>
+<td id='sv-915_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>915</td>
+<td id='sv-915_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

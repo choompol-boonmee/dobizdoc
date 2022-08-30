@@ -1,0 +1,516 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-113';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม </h2>
+<span id='orgid'>(or-113)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-560_name' class=''>การขอโอนสิทธิการเช่าหรือเช่าซื้อที่ดิน (กรณีมีทายาทรับโอนสิทธิเพียงรายเดียว)</td>
+<td id='sv-560_count' class='edit right'></td>
+<td id='sv-560_per' class='edit center'>เดือน</td>
+<td id='sv-560_elec' class='edit center'></td>
+<td id='sv-560_p66' class='edit center'></td>
+<td id='sv-560_p67' class='edit center'></td>
+<td id='sv-560_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>560</td>
+<td id='sv-560_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-561_name' class=''>การขอโอนสิทธิการเช่าหรือเช่าซื้อที่ดิน (กรณีมีทายาทรับโอนสิทธิหลายคน)</td>
+<td id='sv-561_count' class='edit right'></td>
+<td id='sv-561_per' class='edit center'>เดือน</td>
+<td id='sv-561_elec' class='edit center'></td>
+<td id='sv-561_p66' class='edit center'></td>
+<td id='sv-561_p67' class='edit center'></td>
+<td id='sv-561_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>561</td>
+<td id='sv-561_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-562_name' class=''>การขอรับมรดกสิทธิการเช่าหรือเช่าซื้อที่ดิน (กรณีมีทายาทรับมรดกสิทธิเพียงรายเดียว)</td>
+<td id='sv-562_count' class='edit right'></td>
+<td id='sv-562_per' class='edit center'>เดือน</td>
+<td id='sv-562_elec' class='edit center'></td>
+<td id='sv-562_p66' class='edit center'></td>
+<td id='sv-562_p67' class='edit center'></td>
+<td id='sv-562_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>562</td>
+<td id='sv-562_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-563_name' class=''>การขอรับมรดกสิทธิการเช่าหรือเช่าซื้อที่ดิน (กรณีมีทายาทรับมรดกสิทธิหลายคน)</td>
+<td id='sv-563_count' class='edit right'></td>
+<td id='sv-563_per' class='edit center'>เดือน</td>
+<td id='sv-563_elec' class='edit center'></td>
+<td id='sv-563_p66' class='edit center'></td>
+<td id='sv-563_p67' class='edit center'></td>
+<td id='sv-563_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>563</td>
+<td id='sv-563_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-559_name' class=''>การขออนุญาตเข้าทำประโยชน์ในเขตปฏิรูปที่ดิน (กรณีที่ดินเอกชน- ทำสัญญาเช่า และกรณีที่ดินเอกชน-ทำสัญญาเช่าซื้อ)</td>
+<td id='sv-559_count' class='edit right'></td>
+<td id='sv-559_per' class='edit center'>เดือน</td>
+<td id='sv-559_elec' class='edit center'></td>
+<td id='sv-559_p66' class='edit center'></td>
+<td id='sv-559_p67' class='edit center'></td>
+<td id='sv-559_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>559</td>
+<td id='sv-559_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-570_name' class=''>การอนุญาตให้ใช้ที่ดินตามประกาศกระทรวงเกษตรและสหกรณ์ฉบับที่ 2 ข้อ 1.5 กิจการที่เป็นการบริการหรือเกี่ยวข้องกับความเป็นอยู่ของเกษตรกร ด้านเศรษฐกิจและสังคม ซึ่งอยู่ในพื้นที่ที่กำหนดให้ประกอบกิจการได้</td>
+<td id='sv-570_count' class='edit right'></td>
+<td id='sv-570_per' class='edit center'>เดือน</td>
+<td id='sv-570_elec' class='edit center'></td>
+<td id='sv-570_p66' class='edit center'></td>
+<td id='sv-570_p67' class='edit center'></td>
+<td id='sv-570_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>570</td>
+<td id='sv-570_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-572_name' class=''>การอนุญาตให้ใช้ที่ดินเพื่อกิจการสาธารณูปโภคและกิจการอื่นๆ ในเขตปฏิรูปที่ดินกิจการอื่นๆ เช่น สร้างวิทยาลัย มหาวิทยาลัย การจัดการสิ่งแวดล้อมชุมชน</td>
+<td id='sv-572_count' class='edit right'></td>
+<td id='sv-572_per' class='edit center'>เดือน</td>
+<td id='sv-572_elec' class='edit center'></td>
+<td id='sv-572_p66' class='edit center'></td>
+<td id='sv-572_p67' class='edit center'></td>
+<td id='sv-572_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>572</td>
+<td id='sv-572_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-571_name' class=''>การอนุญาตให้ใช้ที่ดินเพื่อกิจการสาธารณูปโภคและกิจการอื่นๆ ในเขตปฏิรูปที่ดินเพื่อการศึกษา/เพื่อการอนามัยและการสาธารณสุข/เพื่อการศาสนา/เพื่อจัดสร้างศาลาประจำหมู่บ้านที่อ่านหนังสือประจำหมู่บ้าน ห้องสมุด</td>
+<td id='sv-571_count' class='edit right'></td>
+<td id='sv-571_per' class='edit center'>เดือน</td>
+<td id='sv-571_elec' class='edit center'></td>
+<td id='sv-571_p66' class='edit center'></td>
+<td id='sv-571_p67' class='edit center'></td>
+<td id='sv-571_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>571</td>
+<td id='sv-571_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-577_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดิน โครงการของรัฐซึ่งเป็นประโยชน์ส่วนรวมของประเทศเพื่อการพัฒนาโครงสร้างพื้นฐานด้านคมนาคมขนส่งและระบบโลจิสติกส์</td>
+<td id='sv-577_count' class='edit right'></td>
+<td id='sv-577_per' class='edit center'>เดือน</td>
+<td id='sv-577_elec' class='edit center'></td>
+<td id='sv-577_p66' class='edit center'></td>
+<td id='sv-577_p67' class='edit center'></td>
+<td id='sv-577_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>577</td>
+<td id='sv-577_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-578_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดิน โครงการของรัฐ ซึ่งเป็นประโยชน์ส่วนรวมของประเทศ เพื่อการพัฒนาโครงสร้างพื้นฐานและโครงข่ายในระบบโทรคมนาคม</td>
+<td id='sv-578_count' class='edit right'></td>
+<td id='sv-578_per' class='edit center'>เดือน</td>
+<td id='sv-578_elec' class='edit center'></td>
+<td id='sv-578_p66' class='edit center'></td>
+<td id='sv-578_p67' class='edit center'></td>
+<td id='sv-578_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>578</td>
+<td id='sv-578_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-580_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายบุคคล กรณีกู้ยืมไม่เกิน รายละ 50,000 บาท)</td>
+<td id='sv-580_count' class='edit right'></td>
+<td id='sv-580_per' class='edit center'>เดือน</td>
+<td id='sv-580_elec' class='edit center'></td>
+<td id='sv-580_p66' class='edit center'></td>
+<td id='sv-580_p67' class='edit center'></td>
+<td id='sv-580_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>580</td>
+<td id='sv-580_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-584_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายสถาบันเกษตรกร กรณีกู้ยืมวงเงินไม่เกิน 5,000,000 บาท)</td>
+<td id='sv-584_count' class='edit right'></td>
+<td id='sv-584_per' class='edit center'>เดือน</td>
+<td id='sv-584_elec' class='edit center'></td>
+<td id='sv-584_p66' class='edit center'></td>
+<td id='sv-584_p67' class='edit center'></td>
+<td id='sv-584_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>584</td>
+<td id='sv-584_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-568_name' class=''>การขออนุญาตขุดบ่อเพื่อการเกษตรกรรมเกินร้อยละห้าของเนื้อที่ที่ได้รับมอบที่ดินจากการปฏิรูปที่ดินเพื่อเกษตรกรรม หรือขอนำดินหรือสิ่งของที่ได้จากการขุดบ่อออกไปนอกบริเวณที่ดินที่ได้รับอนุญาต</td>
+<td id='sv-568_count' class='edit right'></td>
+<td id='sv-568_per' class='edit center'>เดือน</td>
+<td id='sv-568_elec' class='edit center'></td>
+<td id='sv-568_p66' class='edit center'></td>
+<td id='sv-568_p67' class='edit center'></td>
+<td id='sv-568_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>568</td>
+<td id='sv-568_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-586_name' class=''>การขออนุญาตเข้าทำประโยชน์ในเขตปฏิรูปที่ดิน(กรณีออกส.ป.ก. 4-01 ในแปลงเกษตรกรรม กรณีออก ส.ป.ก. 4-01 ช ในแปลงที่อยู่อาศัย กรณีออกส.ป.ก. 4-01 ในที่ดินเกิน50 ไร่ แต่ไม่เกิน 100 ไร่)</td>
+<td id='sv-586_count' class='edit right'></td>
+<td id='sv-586_per' class='edit center'>เดือน</td>
+<td id='sv-586_elec' class='edit center'></td>
+<td id='sv-586_p66' class='edit center'></td>
+<td id='sv-586_p67' class='edit center'></td>
+<td id='sv-586_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>586</td>
+<td id='sv-586_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-558_name' class=''>การอนุญาตให้ใช้ที่ดินเพื่อกิจการสาธารณูปโภค และกิจการอื่นๆในเขตปฏิรูปที่ดิน เพื่อการศึกษา/ เพื่อการอนามัยและการสาธารณสุข /เพื่อการศาสนา/ เพื่อกิจการ ระบบไฟฟ้าประปา /เพื่อก่อสร้างถนนทางลำเลียง/ เพื่อก่อสร้างปรับปรุงแหล่งน้ำเพื่อการเกษตรกรรม / เพื่อการส่งเสริมเกษตรกรรม / เพื่อก่อสร้างสถานที่นันทนาการ / เพื่อจัดสร้างศาลาประจำหมู่บ้านที่อ่านหนังสือประจำหมู่บ้านห้องสมุด</td>
+<td id='sv-558_count' class='edit right'></td>
+<td id='sv-558_per' class='edit center'>เดือน</td>
+<td id='sv-558_elec' class='edit center'></td>
+<td id='sv-558_p66' class='edit center'></td>
+<td id='sv-558_p67' class='edit center'></td>
+<td id='sv-558_p68' class='edit center'></td>
+<td class='center high'>16</td>
+<td class='center'>558</td>
+<td id='sv-558_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-569_name' class=''>การขออนุญาตกิจการสนับสนุนหรือเกี่ยวเนื่องกับการปฏิรูปที่ดินเพื่อเกษตรกรรมตามประกาศกระทรวงเกษตรและสหกรณ์ประกาศ ณ วันที่ 27 พฤศจิกายน 2553</td>
+<td id='sv-569_count' class='edit right'></td>
+<td id='sv-569_per' class='edit center'>เดือน</td>
+<td id='sv-569_elec' class='edit center'></td>
+<td id='sv-569_p66' class='edit center'></td>
+<td id='sv-569_p67' class='edit center'></td>
+<td id='sv-569_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>569</td>
+<td id='sv-569_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-576_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดินกิจการระบบโครงข่ายพลังงาน และการดำเนินการอันเกี่ยวเนื่องกับกิจการระบบโครงข่ายพลังงาน</td>
+<td id='sv-576_count' class='edit right'></td>
+<td id='sv-576_per' class='edit center'>เดือน</td>
+<td id='sv-576_elec' class='edit center'></td>
+<td id='sv-576_p66' class='edit center'></td>
+<td id='sv-576_p67' class='edit center'></td>
+<td id='sv-576_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>576</td>
+<td id='sv-576_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-574_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดิน กิจการทำเหมือง ที่ได้รับความยินยอมตามระเบียบคณะกรรมการปฏิรูปที่ดินเพื่อเกษตรกรรม เรื่องการให้ความยินยอมในการนำทรัพยากรธรรมชาติในเขตปฏิรูปที่ดินไปใช้ประโยชน์ตามกฎหมายอื่น พ.ศ. 2541 ก่อนวันที่ 23 มิถุนายน 2560 และการดำเนินการอันเกี่ยวเนื่องกับการทำเหมืองแร่</td>
+<td id='sv-574_count' class='edit right'></td>
+<td id='sv-574_per' class='edit center'>เดือน</td>
+<td id='sv-574_elec' class='edit center'></td>
+<td id='sv-574_p66' class='edit center'></td>
+<td id='sv-574_p67' class='edit center'></td>
+<td id='sv-574_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>574</td>
+<td id='sv-574_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-579_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดินโครงการของรัฐ ซึ่งเป็นประโยชน์ส่วนรวมของประเทศ โครงการที่คณะรัฐมนตรีมีมติให้ดำเนินการ</td>
+<td id='sv-579_count' class='edit right'></td>
+<td id='sv-579_per' class='edit center'>เดือน</td>
+<td id='sv-579_elec' class='edit center'></td>
+<td id='sv-579_p66' class='edit center'></td>
+<td id='sv-579_p67' class='edit center'></td>
+<td id='sv-579_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>579</td>
+<td id='sv-579_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-583_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายบุคคล กรณีกู้ยืมเกินกว่ารายละ 200,000 บาทขึ้นไป)</td>
+<td id='sv-583_count' class='edit right'></td>
+<td id='sv-583_per' class='edit center'>เดือน</td>
+<td id='sv-583_elec' class='edit center'></td>
+<td id='sv-583_p66' class='edit center'></td>
+<td id='sv-583_p67' class='edit center'></td>
+<td id='sv-583_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>583</td>
+<td id='sv-583_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-557_name' class=''>การขอรับมรดกสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีรับมรดกของคู่สมรสหรือบุตรคนใดคนหนึ่ง)</td>
+<td id='sv-557_count' class='edit right'></td>
+<td id='sv-557_per' class='edit center'>เดือน</td>
+<td id='sv-557_elec' class='edit center'></td>
+<td id='sv-557_p66' class='edit center'></td>
+<td id='sv-557_p67' class='edit center'></td>
+<td id='sv-557_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>557</td>
+<td id='sv-557_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-573_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดิน กิจการปิโตรเลียมที่ได้รับสัมปทานตามกฎหมายว่าด้วยปิโตรเลียม ก่อนวันที่ 23 มิถุนายน 2560 และการดำเนินการอันเกี่ยวเนื่องกับกิจการดังกล่าว</td>
+<td id='sv-573_count' class='edit right'></td>
+<td id='sv-573_per' class='edit center'>เดือน</td>
+<td id='sv-573_elec' class='edit center'></td>
+<td id='sv-573_p66' class='edit center'></td>
+<td id='sv-573_p67' class='edit center'></td>
+<td id='sv-573_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>573</td>
+<td id='sv-573_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-581_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายบุคคล กรณีกู้ยืมเกินกว่ารายละ 50,000 บาท แต่ไม่เกิน 100,000 บาท)</td>
+<td id='sv-581_count' class='edit right'></td>
+<td id='sv-581_per' class='edit center'>เดือน</td>
+<td id='sv-581_elec' class='edit center'></td>
+<td id='sv-581_p66' class='edit center'></td>
+<td id='sv-581_p67' class='edit center'></td>
+<td id='sv-581_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>581</td>
+<td id='sv-581_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-566_name' class=''>การขอรับมรดกสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีรับมรดกของทายาทอื่นๆ เต็มแปลง)</td>
+<td id='sv-566_count' class='edit right'></td>
+<td id='sv-566_per' class='edit center'>เดือน</td>
+<td id='sv-566_elec' class='edit center'></td>
+<td id='sv-566_p66' class='edit center'></td>
+<td id='sv-566_p67' class='edit center'></td>
+<td id='sv-566_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>566</td>
+<td id='sv-566_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-575_name' class=''>การขอความยินยอมหรือขออนุญาตใช้ประโยชน์ที่ดินในเขตปฏิรูปที่ดินกิจการผลิตพลังงานไฟฟ้าจากพลังงานลมได้รับอนุญาตตามระเบียบ คปก. ว่าด้วยหลักเกณฑ์วิธีการและเงื่อนไขในการอนุญาตและการให้ผู้รับอนุญาตถือปฏิบัติในการใช้ที่ดินหรืออสังหาริมทรัพย์สำหรับกิจการที่เป็นการสนับสนุนหรือเกี่ยวเนื่องกับการปฏิรูปที่ดินเพื่อเกษตรกรรม พ.ศ.2541ก่อนวันที่23มิถุนายน2560 และการดำเนินการอันเกี่ยวเนื่องกับกิจการผลิตไฟฟ้าจากพลังงานลม</td>
+<td id='sv-575_count' class='edit right'></td>
+<td id='sv-575_per' class='edit center'>เดือน</td>
+<td id='sv-575_elec' class='edit center'></td>
+<td id='sv-575_p66' class='edit center'></td>
+<td id='sv-575_p67' class='edit center'></td>
+<td id='sv-575_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>575</td>
+<td id='sv-575_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-567_name' class=''>การขอรับมรดกสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีแบ่งแปลงเพื่อรับมรดกของคู่สมรสกับบุตร หรือของบุตรหลายคน หรือของ ทายาทอื่นๆ )</td>
+<td id='sv-567_count' class='edit right'></td>
+<td id='sv-567_per' class='edit center'>เดือน</td>
+<td id='sv-567_elec' class='edit center'></td>
+<td id='sv-567_p66' class='edit center'></td>
+<td id='sv-567_p67' class='edit center'></td>
+<td id='sv-567_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>567</td>
+<td id='sv-567_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-564_name' class=''>การขอโอนสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีโอนให้ทายาทอื่นๆ เต็มแปลง)</td>
+<td id='sv-564_count' class='edit right'></td>
+<td id='sv-564_per' class='edit center'>เดือน</td>
+<td id='sv-564_elec' class='edit center'></td>
+<td id='sv-564_p66' class='edit center'></td>
+<td id='sv-564_p67' class='edit center'></td>
+<td id='sv-564_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>564</td>
+<td id='sv-564_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-582_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายบุคคล กรณีกู้ยืมเกินกว่ารายละ 100,000 บาท แต่ไม่เกิน 200,000 บาท)</td>
+<td id='sv-582_count' class='edit right'></td>
+<td id='sv-582_per' class='edit center'>เดือน</td>
+<td id='sv-582_elec' class='edit center'></td>
+<td id='sv-582_p66' class='edit center'></td>
+<td id='sv-582_p67' class='edit center'></td>
+<td id='sv-582_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>582</td>
+<td id='sv-582_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-565_name' class=''>การขอโอนสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีแบ่งแปลงเพื่อโอนให้คู่สมรสกับบุตร หรือให้บุตรหลายคน หรือให้ทายาทอื่นๆ)</td>
+<td id='sv-565_count' class='edit right'></td>
+<td id='sv-565_per' class='edit center'>เดือน</td>
+<td id='sv-565_elec' class='edit center'></td>
+<td id='sv-565_p66' class='edit center'></td>
+<td id='sv-565_p67' class='edit center'></td>
+<td id='sv-565_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>565</td>
+<td id='sv-565_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-556_name' class=''>การขอโอนสิทธิการเข้าทำประโยชน์ในที่ดินของเกษตรกรตาม ส.ป.ก. 4-01 (กรณีโอนให้คู่สมรสหรือบุตรคนใดคนหนึ่ง)</td>
+<td id='sv-556_count' class='edit right'></td>
+<td id='sv-556_per' class='edit center'>เดือน</td>
+<td id='sv-556_elec' class='edit center'></td>
+<td id='sv-556_p66' class='edit center'></td>
+<td id='sv-556_p67' class='edit center'></td>
+<td id='sv-556_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>556</td>
+<td id='sv-556_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-585_name' class=''>การขอกู้ยืมเงินกองทุนการปฏิรูปที่ดินเพื่อเกษตรกรรม (สินเชื่อรายสถาบันเกษตรกร กรณีกู้ยืมวงเงินเกินกว่า 5,000,000 บาทขึ้นไป)</td>
+<td id='sv-585_count' class='edit right'></td>
+<td id='sv-585_per' class='edit center'>เดือน</td>
+<td id='sv-585_elec' class='edit center'></td>
+<td id='sv-585_p66' class='edit center'></td>
+<td id='sv-585_p67' class='edit center'></td>
+<td id='sv-585_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>585</td>
+<td id='sv-585_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

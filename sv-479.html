@@ -1,0 +1,456 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-479';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กองบัญชาการตำรวจนครบาล </h2>
+<span id='orgid'>(or-479)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-3035_name' class=''>การขออนุญาตตั้งสถานบริการในท้องที่กรุงเทพมหานคร</td>
+<td id='sv-3035_count' class='edit right'></td>
+<td id='sv-3035_per' class='edit center'>เดือน</td>
+<td id='sv-3035_elec' class='edit center'></td>
+<td id='sv-3035_p66' class='edit center'></td>
+<td id='sv-3035_p67' class='edit center'></td>
+<td id='sv-3035_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3035</td>
+<td id='sv-3035_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-3038_name' class=''>การขออนุญาตประกอบธุรกิจรักษาความปลอดภัย</td>
+<td id='sv-3038_count' class='edit right'></td>
+<td id='sv-3038_per' class='edit center'>เดือน</td>
+<td id='sv-3038_elec' class='edit center'></td>
+<td id='sv-3038_p66' class='edit center'></td>
+<td id='sv-3038_p67' class='edit center'></td>
+<td id='sv-3038_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3038</td>
+<td id='sv-3038_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-3040_name' class=''>การขอเปลี่ยนแปลงแก้ไขชื่อหรือที่ตั้งสถานที่ประกอบธุรกิจรักษาความปลอดภัย</td>
+<td id='sv-3040_count' class='edit right'></td>
+<td id='sv-3040_per' class='edit center'>เดือน</td>
+<td id='sv-3040_elec' class='edit center'></td>
+<td id='sv-3040_p66' class='edit center'></td>
+<td id='sv-3040_p67' class='edit center'></td>
+<td id='sv-3040_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3040</td>
+<td id='sv-3040_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-3044_name' class=''>ขอแก้ไขสาระสำคัญในใบอนุญาตเป็นพนักงานรักษาความปลอดภัยรับอนุญาต</td>
+<td id='sv-3044_count' class='edit right'></td>
+<td id='sv-3044_per' class='edit center'>เดือน</td>
+<td id='sv-3044_elec' class='edit center'></td>
+<td id='sv-3044_p66' class='edit center'></td>
+<td id='sv-3044_p67' class='edit center'></td>
+<td id='sv-3044_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3044</td>
+<td id='sv-3044_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-3042_name' class=''>การขอรับใบอนุญาตเป็นพนักงานรักษาความปลอดภัยรับอนุญาต</td>
+<td id='sv-3042_count' class='edit right'></td>
+<td id='sv-3042_per' class='edit center'>เดือน</td>
+<td id='sv-3042_elec' class='edit center'></td>
+<td id='sv-3042_p66' class='edit center'></td>
+<td id='sv-3042_p67' class='edit center'></td>
+<td id='sv-3042_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3042</td>
+<td id='sv-3042_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-3043_name' class=''>การขอต่ออายุใบอนุญาตเป็นพนักงานรักษาความปลอดภัยรับอนุญาต</td>
+<td id='sv-3043_count' class='edit right'></td>
+<td id='sv-3043_per' class='edit center'>เดือน</td>
+<td id='sv-3043_elec' class='edit center'></td>
+<td id='sv-3043_p66' class='edit center'></td>
+<td id='sv-3043_p67' class='edit center'></td>
+<td id='sv-3043_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>3043</td>
+<td id='sv-3043_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-3039_name' class=''>การขอต่ออายุใบอนุญาตประกอบธุรกิจรักษาความปลอดภัย</td>
+<td id='sv-3039_count' class='edit right'></td>
+<td id='sv-3039_per' class='edit center'>เดือน</td>
+<td id='sv-3039_elec' class='edit center'></td>
+<td id='sv-3039_p66' class='edit center'></td>
+<td id='sv-3039_p67' class='edit center'></td>
+<td id='sv-3039_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3039</td>
+<td id='sv-3039_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-3036_name' class=''>การขออนุญาตจำหน่ายสุราในเวลาห้ามจำหน่าย ในท้องที่กรุงเทพมหานคร</td>
+<td id='sv-3036_count' class='edit right'></td>
+<td id='sv-3036_per' class='edit center'>เดือน</td>
+<td id='sv-3036_elec' class='edit center'></td>
+<td id='sv-3036_p66' class='edit center'></td>
+<td id='sv-3036_p67' class='edit center'></td>
+<td id='sv-3036_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3036</td>
+<td id='sv-3036_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-3037_name' class=''>การขอต่ออายุใบอนุญาตจำหน่ายสุราในเวลาห้ามจำหน่าย ในท้องที่กรุงเทพมหานคร</td>
+<td id='sv-3037_count' class='edit right'></td>
+<td id='sv-3037_per' class='edit center'>เดือน</td>
+<td id='sv-3037_elec' class='edit center'></td>
+<td id='sv-3037_p66' class='edit center'></td>
+<td id='sv-3037_p67' class='edit center'></td>
+<td id='sv-3037_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3037</td>
+<td id='sv-3037_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-3049_name' class=''>การขอรับการรับรองสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (ส่วนราชการ หน่วยงานของรัฐ หรือสถาบันการศึกษา)</td>
+<td id='sv-3049_count' class='edit right'></td>
+<td id='sv-3049_per' class='edit center'>เดือน</td>
+<td id='sv-3049_elec' class='edit center'></td>
+<td id='sv-3049_p66' class='edit center'></td>
+<td id='sv-3049_p67' class='edit center'></td>
+<td id='sv-3049_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3049</td>
+<td id='sv-3049_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-3053_name' class=''>การขอเปลี่ยนแปลงรายการสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (ส่วนราชการ หน่วยงานของรัฐ หรือสถาบันการศึกษา)</td>
+<td id='sv-3053_count' class='edit right'></td>
+<td id='sv-3053_per' class='edit center'>เดือน</td>
+<td id='sv-3053_elec' class='edit center'></td>
+<td id='sv-3053_p66' class='edit center'></td>
+<td id='sv-3053_p67' class='edit center'></td>
+<td id='sv-3053_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3053</td>
+<td id='sv-3053_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-3058_name' class=''>การยื่นคำขอจดทะเบียนการประกอบธุรกิจทวงถามหนี้</td>
+<td id='sv-3058_count' class='edit right'></td>
+<td id='sv-3058_per' class='edit center'>เดือน</td>
+<td id='sv-3058_elec' class='edit center'></td>
+<td id='sv-3058_p66' class='edit center'></td>
+<td id='sv-3058_p67' class='edit center'></td>
+<td id='sv-3058_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3058</td>
+<td id='sv-3058_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-3060_name' class=''>การยื่นคำขอรับใบแทนหนังสือสำคัญแสดงการจดทะเบียนประกอบธุรกิจทวงถามหนี้</td>
+<td id='sv-3060_count' class='edit right'></td>
+<td id='sv-3060_per' class='edit center'>เดือน</td>
+<td id='sv-3060_elec' class='edit center'></td>
+<td id='sv-3060_p66' class='edit center'></td>
+<td id='sv-3060_p67' class='edit center'></td>
+<td id='sv-3060_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3060</td>
+<td id='sv-3060_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-3059_name' class=''>การยื่นคำขอเปลี่ยนแปลงรายการจดทะเบียนการประกอบธุรกิจการทวงถามหนี้</td>
+<td id='sv-3059_count' class='edit right'></td>
+<td id='sv-3059_per' class='edit center'>เดือน</td>
+<td id='sv-3059_elec' class='edit center'></td>
+<td id='sv-3059_p66' class='edit center'></td>
+<td id='sv-3059_p67' class='edit center'></td>
+<td id='sv-3059_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3059</td>
+<td id='sv-3059_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-3045_name' class=''>ขอรับใบแทนกรณีใบอนุญาตเป็นพนักงานรักษาความปลอดภัยรับอนุญาตสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ</td>
+<td id='sv-3045_count' class='edit right'></td>
+<td id='sv-3045_per' class='edit center'>เดือน</td>
+<td id='sv-3045_elec' class='edit center'></td>
+<td id='sv-3045_p66' class='edit center'></td>
+<td id='sv-3045_p67' class='edit center'></td>
+<td id='sv-3045_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3045</td>
+<td id='sv-3045_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-3041_name' class=''>การขอรับใบแทนในกรณีที่ใบอนุญาตประกอบธุรกิจรักษาความปลอดภัยสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ</td>
+<td id='sv-3041_count' class='edit right'></td>
+<td id='sv-3041_per' class='edit center'>เดือน</td>
+<td id='sv-3041_elec' class='edit center'></td>
+<td id='sv-3041_p66' class='edit center'></td>
+<td id='sv-3041_p67' class='edit center'></td>
+<td id='sv-3041_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3041</td>
+<td id='sv-3041_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-3048_name' class=''>การขอรับการรับรองสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (นิติบุคคล)</td>
+<td id='sv-3048_count' class='edit right'></td>
+<td id='sv-3048_per' class='edit center'>เดือน</td>
+<td id='sv-3048_elec' class='edit center'></td>
+<td id='sv-3048_p66' class='edit center'></td>
+<td id='sv-3048_p67' class='edit center'></td>
+<td id='sv-3048_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3048</td>
+<td id='sv-3048_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-3057_name' class=''>การขอรับใบแทนหนังสือรับรองสถานฝึกอบรมกรณีที่หนังสือรับรองสถานฝึกอบรมสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ (ส่วนราชการ หน่วยงานของรัฐ หรือสถาบันการศึกษา)</td>
+<td id='sv-3057_count' class='edit right'></td>
+<td id='sv-3057_per' class='edit center'>เดือน</td>
+<td id='sv-3057_elec' class='edit center'></td>
+<td id='sv-3057_p66' class='edit center'></td>
+<td id='sv-3057_p67' class='edit center'></td>
+<td id='sv-3057_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3057</td>
+<td id='sv-3057_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-3052_name' class=''>การขอเปลี่ยนแปลงรายการสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (นิติบุคคล)</td>
+<td id='sv-3052_count' class='edit right'></td>
+<td id='sv-3052_per' class='edit center'>เดือน</td>
+<td id='sv-3052_elec' class='edit center'></td>
+<td id='sv-3052_p66' class='edit center'></td>
+<td id='sv-3052_p67' class='edit center'></td>
+<td id='sv-3052_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3052</td>
+<td id='sv-3052_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-3054_name' class=''>การขอรับใบแทนหนังสือรับรองสถานฝึกอบรมกรณีที่หนังสือรับรองสถานฝึกอบรมสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ (บุคคลธรรมดา)</td>
+<td id='sv-3054_count' class='edit right'></td>
+<td id='sv-3054_per' class='edit center'>เดือน</td>
+<td id='sv-3054_elec' class='edit center'></td>
+<td id='sv-3054_p66' class='edit center'></td>
+<td id='sv-3054_p67' class='edit center'></td>
+<td id='sv-3054_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3054</td>
+<td id='sv-3054_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-3046_name' class=''>การขอรับการรับรองสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (บุคคลธรรมดา)</td>
+<td id='sv-3046_count' class='edit right'></td>
+<td id='sv-3046_per' class='edit center'>เดือน</td>
+<td id='sv-3046_elec' class='edit center'></td>
+<td id='sv-3046_p66' class='edit center'></td>
+<td id='sv-3046_p67' class='edit center'></td>
+<td id='sv-3046_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3046</td>
+<td id='sv-3046_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-3050_name' class=''>การขอเปลี่ยนแปลงรายการสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (บุคคลธรรมดา)</td>
+<td id='sv-3050_count' class='edit right'></td>
+<td id='sv-3050_per' class='edit center'>เดือน</td>
+<td id='sv-3050_elec' class='edit center'></td>
+<td id='sv-3050_p66' class='edit center'></td>
+<td id='sv-3050_p67' class='edit center'></td>
+<td id='sv-3050_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3050</td>
+<td id='sv-3050_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-3051_name' class=''>การขอเปลี่ยนแปลงรายการสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (ห้างหุ้นส่วนสามัญ)</td>
+<td id='sv-3051_count' class='edit right'></td>
+<td id='sv-3051_per' class='edit center'>เดือน</td>
+<td id='sv-3051_elec' class='edit center'></td>
+<td id='sv-3051_p66' class='edit center'></td>
+<td id='sv-3051_p67' class='edit center'></td>
+<td id='sv-3051_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3051</td>
+<td id='sv-3051_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-3047_name' class=''>การขอรับการรับรองสถานฝึกอบรมหลักสูตรการรักษาความปลอดภัย (ห้างหุ้นส่วนสามัญ)</td>
+<td id='sv-3047_count' class='edit right'></td>
+<td id='sv-3047_per' class='edit center'>เดือน</td>
+<td id='sv-3047_elec' class='edit center'></td>
+<td id='sv-3047_p66' class='edit center'></td>
+<td id='sv-3047_p67' class='edit center'></td>
+<td id='sv-3047_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3047</td>
+<td id='sv-3047_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-3056_name' class=''>การขอรับใบแทนหนังสือรับรองสถานฝึกอบรมกรณีที่หนังสือรับรองสถานฝึกอบรมสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ (นิติบุคคล)</td>
+<td id='sv-3056_count' class='edit right'></td>
+<td id='sv-3056_per' class='edit center'>เดือน</td>
+<td id='sv-3056_elec' class='edit center'></td>
+<td id='sv-3056_p66' class='edit center'></td>
+<td id='sv-3056_p67' class='edit center'></td>
+<td id='sv-3056_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3056</td>
+<td id='sv-3056_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-3055_name' class=''>การขอรับใบแทนหนังสือรับรองสถานฝึกอบรมกรณีที่หนังสือรับรองสถานฝึกอบรมสูญหาย ถูกทำลาย หรือชำรุดในสาระสำคัญ (ห้างหุ้นส่วนสามัญ)</td>
+<td id='sv-3055_count' class='edit right'></td>
+<td id='sv-3055_per' class='edit center'>เดือน</td>
+<td id='sv-3055_elec' class='edit center'></td>
+<td id='sv-3055_p66' class='edit center'></td>
+<td id='sv-3055_p67' class='edit center'></td>
+<td id='sv-3055_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3055</td>
+<td id='sv-3055_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

@@ -1,0 +1,600 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-209';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ การประปานครหลวง </h2>
+<span id='orgid'>(or-209)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-2205_name' class=''>การต่อทะเบียนผู้รับจ้างงานก่อสร้าง</td>
+<td id='sv-2205_count' class='edit right'></td>
+<td id='sv-2205_per' class='edit center'>เดือน</td>
+<td id='sv-2205_elec' class='edit center'></td>
+<td id='sv-2205_p66' class='edit center'></td>
+<td id='sv-2205_p67' class='edit center'></td>
+<td id='sv-2205_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2205</td>
+<td id='sv-2205_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-2203_name' class=''>การจดทะเบียนผู้รับจ้างงานก่อสร้าง</td>
+<td id='sv-2203_count' class='edit right'></td>
+<td id='sv-2203_per' class='edit center'>เดือน</td>
+<td id='sv-2203_elec' class='edit center'></td>
+<td id='sv-2203_p66' class='edit center'></td>
+<td id='sv-2203_p67' class='edit center'></td>
+<td id='sv-2203_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>2203</td>
+<td id='sv-2203_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-2185_name' class=''>การทดสอบความเที่ยงตรงของมาตรวัดน้ำ</td>
+<td id='sv-2185_count' class='edit right'></td>
+<td id='sv-2185_per' class='edit center'>เดือน</td>
+<td id='sv-2185_elec' class='edit center'></td>
+<td id='sv-2185_p66' class='edit center'></td>
+<td id='sv-2185_p67' class='edit center'></td>
+<td id='sv-2185_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2185</td>
+<td id='sv-2185_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-2202_name' class=''>การขอเช่าที่ดินพร้อมอาคารหรือเช่าพื้นที่บางส่วนของอาคาร</td>
+<td id='sv-2202_count' class='edit right'></td>
+<td id='sv-2202_per' class='edit center'>เดือน</td>
+<td id='sv-2202_elec' class='edit center'></td>
+<td id='sv-2202_p66' class='edit center'></td>
+<td id='sv-2202_p67' class='edit center'></td>
+<td id='sv-2202_p68' class='edit center'></td>
+<td class='center high'>16</td>
+<td class='center'>2202</td>
+<td id='sv-2202_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-2220_name' class=''>การรับทดสอบคุณสมบัติองค์ประกอบทางเคมี</td>
+<td id='sv-2220_count' class='edit right'></td>
+<td id='sv-2220_per' class='edit center'>เดือน</td>
+<td id='sv-2220_elec' class='edit center'></td>
+<td id='sv-2220_p66' class='edit center'></td>
+<td id='sv-2220_p67' class='edit center'></td>
+<td id='sv-2220_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2220</td>
+<td id='sv-2220_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-2188_name' class=''>การขอถอนเงินประกันการใช้น้ำ</td>
+<td id='sv-2188_count' class='edit right'></td>
+<td id='sv-2188_per' class='edit center'>เดือน</td>
+<td id='sv-2188_elec' class='edit center'></td>
+<td id='sv-2188_p66' class='edit center'></td>
+<td id='sv-2188_p67' class='edit center'></td>
+<td id='sv-2188_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2188</td>
+<td id='sv-2188_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-2219_name' class=''>การรับทดสอบคุณสมบัติทางกลของโลหะ</td>
+<td id='sv-2219_count' class='edit right'></td>
+<td id='sv-2219_per' class='edit center'>เดือน</td>
+<td id='sv-2219_elec' class='edit center'></td>
+<td id='sv-2219_p66' class='edit center'></td>
+<td id='sv-2219_p67' class='edit center'></td>
+<td id='sv-2219_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2219</td>
+<td id='sv-2219_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-2215_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์มาตรวัดน้ำ (กรณีโรงงานใหม่)</td>
+<td id='sv-2215_count' class='edit right'></td>
+<td id='sv-2215_per' class='edit center'>เดือน</td>
+<td id='sv-2215_elec' class='edit center'></td>
+<td id='sv-2215_p66' class='edit center'></td>
+<td id='sv-2215_p67' class='edit center'></td>
+<td id='sv-2215_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2215</td>
+<td id='sv-2215_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-2218_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์มาตรวัดน้ำ (กรณี เพิ่มเติมผลิตภัณฑ์)</td>
+<td id='sv-2218_count' class='edit right'></td>
+<td id='sv-2218_per' class='edit center'>เดือน</td>
+<td id='sv-2218_elec' class='edit center'></td>
+<td id='sv-2218_p66' class='edit center'></td>
+<td id='sv-2218_p67' class='edit center'></td>
+<td id='sv-2218_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2218</td>
+<td id='sv-2218_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-2207_name' class=''>การขอเชื่อมทางโดยการก่อสร้างสะพานข้ามคลองประปากับที่ดินของ กปน.</td>
+<td id='sv-2207_count' class='edit right'></td>
+<td id='sv-2207_per' class='edit center'>เดือน</td>
+<td id='sv-2207_elec' class='edit center'></td>
+<td id='sv-2207_p66' class='edit center'></td>
+<td id='sv-2207_p67' class='edit center'></td>
+<td id='sv-2207_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>2207</td>
+<td id='sv-2207_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-2221_name' class=''>การขอเชื่อมทางกับที่ดินของ กปน. โดยไม่มีการก่อสร้างสะพาน (เป็นพื้นที่ดินติดต่อกัน)</td>
+<td id='sv-2221_count' class='edit right'></td>
+<td id='sv-2221_per' class='edit center'>เดือน</td>
+<td id='sv-2221_elec' class='edit center'></td>
+<td id='sv-2221_p66' class='edit center'></td>
+<td id='sv-2221_p67' class='edit center'></td>
+<td id='sv-2221_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2221</td>
+<td id='sv-2221_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-2217_name' class=''>การรับทดสอบคุณสมบัติทางกลของคอนกรีต</td>
+<td id='sv-2217_count' class='edit right'></td>
+<td id='sv-2217_per' class='edit center'>เดือน</td>
+<td id='sv-2217_elec' class='edit center'></td>
+<td id='sv-2217_p66' class='edit center'></td>
+<td id='sv-2217_p67' class='edit center'></td>
+<td id='sv-2217_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2217</td>
+<td id='sv-2217_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-2206_name' class=''>การขอเชื่อมทางโดยการก่อสร้างสะพานข้ามคลองทั่วไปกับที่ดินของ กปน.</td>
+<td id='sv-2206_count' class='edit right'></td>
+<td id='sv-2206_per' class='edit center'>เดือน</td>
+<td id='sv-2206_elec' class='edit center'></td>
+<td id='sv-2206_p66' class='edit center'></td>
+<td id='sv-2206_p67' class='edit center'></td>
+<td id='sv-2206_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2206</td>
+<td id='sv-2206_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-2208_name' class=''>การออกหนังสือรับรองระบบประปาเอกชน</td>
+<td id='sv-2208_count' class='edit right'></td>
+<td id='sv-2208_per' class='edit center'>เดือน</td>
+<td id='sv-2208_elec' class='edit center'></td>
+<td id='sv-2208_p66' class='edit center'></td>
+<td id='sv-2208_p67' class='edit center'></td>
+<td id='sv-2208_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2208</td>
+<td id='sv-2208_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-2184_name' class=''>การขอรับรองการให้บริการจ่ายน้ําประปาโครงการหมู่บ้านจัดสรร</td>
+<td id='sv-2184_count' class='edit right'></td>
+<td id='sv-2184_per' class='edit center'>เดือน</td>
+<td id='sv-2184_elec' class='edit center'></td>
+<td id='sv-2184_p66' class='edit center'></td>
+<td id='sv-2184_p67' class='edit center'></td>
+<td id='sv-2184_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2184</td>
+<td id='sv-2184_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-2194_name' class=''>การขออนุญาตย้ายแนวเส้นท่อประปา วงเงินค่าแรงจัดจ้างไม่เกิน 1,000,000 บาท</td>
+<td id='sv-2194_count' class='edit right'></td>
+<td id='sv-2194_per' class='edit center'>เดือน</td>
+<td id='sv-2194_elec' class='edit center'></td>
+<td id='sv-2194_p66' class='edit center'></td>
+<td id='sv-2194_p67' class='edit center'></td>
+<td id='sv-2194_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2194</td>
+<td id='sv-2194_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-2212_name' class=''>การรับทดสอบคุณสมบัติของกรวดและทรายกรองน้ำ</td>
+<td id='sv-2212_count' class='edit right'></td>
+<td id='sv-2212_per' class='edit center'>เดือน</td>
+<td id='sv-2212_elec' class='edit center'></td>
+<td id='sv-2212_p66' class='edit center'></td>
+<td id='sv-2212_p67' class='edit center'></td>
+<td id='sv-2212_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2212</td>
+<td id='sv-2212_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-2199_name' class=''>การขอย้าย-ยกมาตร (ตามความประสงค์ของผู้ใช้น้ำ) กรณีมาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง 1? นิ้ว - 8 นิ้ว</td>
+<td id='sv-2199_count' class='edit right'></td>
+<td id='sv-2199_per' class='edit center'>เดือน</td>
+<td id='sv-2199_elec' class='edit center'></td>
+<td id='sv-2199_p66' class='edit center'></td>
+<td id='sv-2199_p67' class='edit center'></td>
+<td id='sv-2199_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2199</td>
+<td id='sv-2199_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-2210_name' class=''>การแจ้งชำระค่าธรรมเนียมเพื่อออกหนังสือรับรองระบบประปาเอกชน</td>
+<td id='sv-2210_count' class='edit right'></td>
+<td id='sv-2210_per' class='edit center'>เดือน</td>
+<td id='sv-2210_elec' class='edit center'></td>
+<td id='sv-2210_p66' class='edit center'></td>
+<td id='sv-2210_p67' class='edit center'></td>
+<td id='sv-2210_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2210</td>
+<td id='sv-2210_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-2196_name' class=''>การขอย้าย-ยกมาตร (ตามความประสงค์ของผู้ใช้น้ำ) กรณีมาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง 1/2 นิ้ว - 1 นิ้ว</td>
+<td id='sv-2196_count' class='edit right'></td>
+<td id='sv-2196_per' class='edit center'>เดือน</td>
+<td id='sv-2196_elec' class='edit center'></td>
+<td id='sv-2196_p66' class='edit center'></td>
+<td id='sv-2196_p67' class='edit center'></td>
+<td id='sv-2196_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2196</td>
+<td id='sv-2196_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-2201_name' class=''>การขอเช่าที่ดินหรือเช่าที่ดินและปลูกสร้างสิ่งก่อสร้างบนที่ดินของการประปานครหลวง (กปน.)</td>
+<td id='sv-2201_count' class='edit right'></td>
+<td id='sv-2201_per' class='edit center'>เดือน</td>
+<td id='sv-2201_elec' class='edit center'></td>
+<td id='sv-2201_p66' class='edit center'></td>
+<td id='sv-2201_p67' class='edit center'></td>
+<td id='sv-2201_p68' class='edit center'></td>
+<td class='center high'>19</td>
+<td class='center'>2201</td>
+<td id='sv-2201_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-2204_name' class=''>การขอต่ออายุสัญญาเพื่อใช้ประโยชน์ในอสังหาริมทรัพย์ของการประปานครหลวง</td>
+<td id='sv-2204_count' class='edit right'></td>
+<td id='sv-2204_per' class='edit center'>เดือน</td>
+<td id='sv-2204_elec' class='edit center'></td>
+<td id='sv-2204_p66' class='edit center'></td>
+<td id='sv-2204_p67' class='edit center'></td>
+<td id='sv-2204_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>2204</td>
+<td id='sv-2204_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-2195_name' class=''>การขอฝากมาตรวัดน้ำ (กรณีระยะเวลาตั้งแต่ยื่นคำขอจนถึงถอดมาตร 3 วันทำการ)</td>
+<td id='sv-2195_count' class='edit right'></td>
+<td id='sv-2195_per' class='edit center'>เดือน</td>
+<td id='sv-2195_elec' class='edit center'></td>
+<td id='sv-2195_p66' class='edit center'></td>
+<td id='sv-2195_p67' class='edit center'></td>
+<td id='sv-2195_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2195</td>
+<td id='sv-2195_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-2200_name' class=''>การเปลี่ยนมาตรชำรุด/ไม่เดิน(กรณีมาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง 2 นิ้ว - 16 นิ้ว)</td>
+<td id='sv-2200_count' class='edit right'></td>
+<td id='sv-2200_per' class='edit center'>เดือน</td>
+<td id='sv-2200_elec' class='edit center'></td>
+<td id='sv-2200_p66' class='edit center'></td>
+<td id='sv-2200_p67' class='edit center'></td>
+<td id='sv-2200_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2200</td>
+<td id='sv-2200_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-2197_name' class=''>การบรรจบมาตรวัดน้ำสูญหาย</td>
+<td id='sv-2197_count' class='edit right'></td>
+<td id='sv-2197_per' class='edit center'>เดือน</td>
+<td id='sv-2197_elec' class='edit center'></td>
+<td id='sv-2197_p66' class='edit center'></td>
+<td id='sv-2197_p67' class='edit center'></td>
+<td id='sv-2197_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2197</td>
+<td id='sv-2197_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-2191_name' class=''>การขออนุญาตติดตั้งประปาใหม่รายเดี่ยว ไม่มีการวางท่อจ่ายน้ำ (มาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง ? นิ้ว – 1 นิ้ว)</td>
+<td id='sv-2191_count' class='edit right'></td>
+<td id='sv-2191_per' class='edit center'>เดือน</td>
+<td id='sv-2191_elec' class='edit center'></td>
+<td id='sv-2191_p66' class='edit center'></td>
+<td id='sv-2191_p67' class='edit center'></td>
+<td id='sv-2191_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2191</td>
+<td id='sv-2191_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-2193_name' class=''>การขออนุญาตติดตั้งประปาใหม่รายเดี่ยว ไม่มีการวางท่อจ่ายน้ำ (มาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง 1? นิ้ว – 8 นิ้ว)</td>
+<td id='sv-2193_count' class='edit right'></td>
+<td id='sv-2193_per' class='edit center'>เดือน</td>
+<td id='sv-2193_elec' class='edit center'></td>
+<td id='sv-2193_p66' class='edit center'></td>
+<td id='sv-2193_p67' class='edit center'></td>
+<td id='sv-2193_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2193</td>
+<td id='sv-2193_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-2192_name' class=''>การขออนุญาตติดตั้งประปาใหม่รายเดี่ยว ไม่มีการวางท่อจ่ายน้ำ (มาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง ? นิ้ว – 1 นิ้ว ในกรณีสามารถดำเนินการติดตั้งได้ภายใน 1 วันทำการ)</td>
+<td id='sv-2192_count' class='edit right'></td>
+<td id='sv-2192_per' class='edit center'>เดือน</td>
+<td id='sv-2192_elec' class='edit center'></td>
+<td id='sv-2192_p66' class='edit center'></td>
+<td id='sv-2192_p67' class='edit center'></td>
+<td id='sv-2192_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2192</td>
+<td id='sv-2192_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-2190_name' class=''>การขออนญุาตติดตั้งประปาใหม่ กรณีมีการวางท่อจ่ายน้ํา และงานที่เกี่ยวข้องวงเงินค่าแรงจัดจ้างไม่เกิน 2,000,000 บาท</td>
+<td id='sv-2190_count' class='edit right'></td>
+<td id='sv-2190_per' class='edit center'>เดือน</td>
+<td id='sv-2190_elec' class='edit center'></td>
+<td id='sv-2190_p66' class='edit center'></td>
+<td id='sv-2190_p67' class='edit center'></td>
+<td id='sv-2190_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2190</td>
+<td id='sv-2190_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-2198_name' class=''>การเปลี่ยนมาตรชำรุด/ไม่เดิน(กรณีมาตรวัดน้ำขนาดเส้นผ่านศูนย์กลาง 1/2 นิ้ว - 1? นิ้ว)</td>
+<td id='sv-2198_count' class='edit right'></td>
+<td id='sv-2198_per' class='edit center'>เดือน</td>
+<td id='sv-2198_elec' class='edit center'></td>
+<td id='sv-2198_p66' class='edit center'></td>
+<td id='sv-2198_p67' class='edit center'></td>
+<td id='sv-2198_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2198</td>
+<td id='sv-2198_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-2214_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์วัสดุพลาสติก (พีอี) วัสดุพลาสติก (พีบี) และวัสดุทองแดงเจือ (กรณีโรงงานใหม่)</td>
+<td id='sv-2214_count' class='edit right'></td>
+<td id='sv-2214_per' class='edit center'>เดือน</td>
+<td id='sv-2214_elec' class='edit center'></td>
+<td id='sv-2214_p66' class='edit center'></td>
+<td id='sv-2214_p67' class='edit center'></td>
+<td id='sv-2214_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2214</td>
+<td id='sv-2214_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-2216_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์วัสดุพลาสติก (พีอี) วัสดุพลาสติก (พีบี) และวัสดุทองแดงเจือ (กรณี เพิ่มเติมผลิตภัณฑ์)</td>
+<td id='sv-2216_count' class='edit right'></td>
+<td id='sv-2216_per' class='edit center'>เดือน</td>
+<td id='sv-2216_elec' class='edit center'></td>
+<td id='sv-2216_p66' class='edit center'></td>
+<td id='sv-2216_p67' class='edit center'></td>
+<td id='sv-2216_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2216</td>
+<td id='sv-2216_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-2187_name' class=''>การขออนญุาตติดตั้ง ประปาซ้ำ/บรรจบมาตรกรณีงดจ่ายน้ําเกินกว่า 180 วัน (มาตรวัดน้ําขนาดเส้นผ่านศูนย์กลาง 1?2นิ้ว– 1 นิ้วในกรณีสามารถดำเนินการติดตั้งได้ภายใน 1 วันทำการ)</td>
+<td id='sv-2187_count' class='edit right'></td>
+<td id='sv-2187_per' class='edit center'>เดือน</td>
+<td id='sv-2187_elec' class='edit center'></td>
+<td id='sv-2187_p66' class='edit center'></td>
+<td id='sv-2187_p67' class='edit center'></td>
+<td id='sv-2187_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2187</td>
+<td id='sv-2187_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-2213_name' class=''>การรับทดสอบคุณสมบัติความถ่วงจำเพาะและความทนอะซีโทนของท่อพีวีซี</td>
+<td id='sv-2213_count' class='edit right'></td>
+<td id='sv-2213_per' class='edit center'>เดือน</td>
+<td id='sv-2213_elec' class='edit center'></td>
+<td id='sv-2213_p66' class='edit center'></td>
+<td id='sv-2213_p67' class='edit center'></td>
+<td id='sv-2213_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2213</td>
+<td id='sv-2213_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-2209_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์วัสดุเหล็กหล่อ เหล็กหล่อเหนียว วัสดุเหล็กเหนียว วัสดุพลาสติก (พีวีซี) วัสดุซีเมนต์ใยหิน วัสดุยาง และน๊อต สกรู (กรณีโรงงานใหม่)</td>
+<td id='sv-2209_count' class='edit right'></td>
+<td id='sv-2209_per' class='edit center'>เดือน</td>
+<td id='sv-2209_elec' class='edit center'></td>
+<td id='sv-2209_p66' class='edit center'></td>
+<td id='sv-2209_p67' class='edit center'></td>
+<td id='sv-2209_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2209</td>
+<td id='sv-2209_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-2211_name' class=''>การออกหนังสือรับรองโรงงานและผลิตภัณฑ์วัสดุเหล็กหล่อ เหล็กหล่อเหนียว วัสดุเหล็กเหนียว วัสดุพลาสติก (พีวีซี) วัสดุซีเมนต์ใยหิน วัสดุยาง และน๊อต สกรู (กรณี เพิ่มเติมผลิตภัณฑ์)</td>
+<td id='sv-2211_count' class='edit right'></td>
+<td id='sv-2211_per' class='edit center'>เดือน</td>
+<td id='sv-2211_elec' class='edit center'></td>
+<td id='sv-2211_p66' class='edit center'></td>
+<td id='sv-2211_p67' class='edit center'></td>
+<td id='sv-2211_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2211</td>
+<td id='sv-2211_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-2186_name' class=''>การขออนญุาตติดตั้ง ประปาซ้ำ/บรรจบมาตรกรณีงดจ่ายน้ําเกินกว่า 180 วัน (มาตรวัดน้ําขนาดเส้นผ่านศูนย์กลาง 1?2นิ้ว– 1นิ้ว)</td>
+<td id='sv-2186_count' class='edit right'></td>
+<td id='sv-2186_per' class='edit center'>เดือน</td>
+<td id='sv-2186_elec' class='edit center'></td>
+<td id='sv-2186_p66' class='edit center'></td>
+<td id='sv-2186_p67' class='edit center'></td>
+<td id='sv-2186_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2186</td>
+<td id='sv-2186_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-2189_name' class=''>การขออนญุาตติดตั้งประปาใหม่ กรณีมีการวางท่อจ่ายน้ํา และงานที่เกี่ยวข้อง วงเงินค่าแรงจัดจ้างเกิน 2,000,000 บาท</td>
+<td id='sv-2189_count' class='edit right'></td>
+<td id='sv-2189_per' class='edit center'>เดือน</td>
+<td id='sv-2189_elec' class='edit center'></td>
+<td id='sv-2189_p66' class='edit center'></td>
+<td id='sv-2189_p67' class='edit center'></td>
+<td id='sv-2189_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2189</td>
+<td id='sv-2189_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

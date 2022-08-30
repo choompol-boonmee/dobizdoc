@@ -1,0 +1,85 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<H3>ขอแก้ไขข้อมูล</H3>
+<div>
+
+<form action='#' method='post' accept-charset='utf-8' enctype='multipart/form-data'>
+
+<div>
+<span>ชื่อผู้ขอแก้ไข</span>
+<span>
+<input type='text' id='name' name='name' placeholder='ชื่อ' required>
+</span>
+</div>
+
+<div>
+<span>สังกัดหน่วยงาน</span>
+<span>
+<input type='text' id='org' name='org' placeholder='ชื่อหน่วยงาน' required>
+</span>
+</div>
+
+<div>
+<span>อีเมล์ของผู้ขอแก้ไขข้อมูล</span>
+<span>
+<input type='email' id='email' name='email' placeholder='Email address' required>
+</span>
+</div>
+
+<div>
+<span>
+<fieldset>
+  <legend>ระยะเวลาขอแก้ไข</legend>
+  <label for="3H">
+    <input type="radio" id="time" name="time" value="3H" checked>
+    3 ชั่วโมง
+  </label>
+  <label for="1D">
+    <input type="radio" id="time" name="time" value="1D">
+    1 วัน
+  </label>
+  <label for="7D">
+    <input type="radio" id="time" name="time" value="7D">
+    7 วัน
+  </label>
+  <label for="1M">
+    <input type="radio" id="time" name="time" value="1M">
+    1 เดือน
+  </label>
+</fieldset>
+
+</span>
+</div>
+
+<div>
+<label for='orgedit'>ขอแก้ไขข้อมูลหน่วยงาน</label>
+<input type='text' id='orgedit' name='orgedit' value='___ORGID___' readonly></span>
+<input type='text' id='orgname' name='orgname' value='___ORGNAME___' readonly></span>
+</div>
+
+<div>
+<button type='submit'>ขอแก้ไขข้อมูล</button>
+</div>
+<div>
+หลังจากกดปุ่มขอแก้ไขข้อมูลแล้ว
+ระบบจะส่งลิงค์เข้าแก้ไขข้อมูล
+พร้อมสิทธิ์การแก้ไขข้อมูลตามระยะเวลาที่ขอ
+</div>
+
+</form>
+
+</div>
+
+<div>
+<a href='../orglist.html'>กลับสู่หน้าหลัก</a>
+</div>
+</body>
+</html>
+

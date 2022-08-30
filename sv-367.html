@@ -1,0 +1,876 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-367';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมโรงงานอุตสาหกรรม </h2>
+<span id='orgid'>(or-367)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-2899_name' class=''>การแจ้งหยุดดำเนินงานติดต่อกันเกินกว่าหนึ่งปี</td>
+<td id='sv-2899_count' class='edit right'></td>
+<td id='sv-2899_per' class='edit center'>เดือน</td>
+<td id='sv-2899_elec' class='edit center'></td>
+<td id='sv-2899_p66' class='edit center'></td>
+<td id='sv-2899_p67' class='edit center'></td>
+<td id='sv-2899_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2899</td>
+<td id='sv-2899_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-2900_name' class=''>การแจ้งเริ่มประกอบกิจการหลังหยุดดำเนินงานติดต่อกันเกินกว่าหนึ่งปี</td>
+<td id='sv-2900_count' class='edit right'></td>
+<td id='sv-2900_per' class='edit center'>เดือน</td>
+<td id='sv-2900_elec' class='edit center'></td>
+<td id='sv-2900_p66' class='edit center'></td>
+<td id='sv-2900_p67' class='edit center'></td>
+<td id='sv-2900_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2900</td>
+<td id='sv-2900_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-2946_name' class=''>การขอจดทะเบียนการเปลี่ยนแปลงในสาระสำคัญของเครื่องจักร</td>
+<td id='sv-2946_count' class='edit right'></td>
+<td id='sv-2946_per' class='edit center'>เดือน</td>
+<td id='sv-2946_elec' class='edit center'></td>
+<td id='sv-2946_p66' class='edit center'></td>
+<td id='sv-2946_p67' class='edit center'></td>
+<td id='sv-2946_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>2946</td>
+<td id='sv-2946_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-2925_name' class=''>การขึ้นทะเบียนวัตถุอันตราย และการต่ออายุ</td>
+<td id='sv-2925_count' class='edit right'></td>
+<td id='sv-2925_per' class='edit center'>เดือน</td>
+<td id='sv-2925_elec' class='edit center'></td>
+<td id='sv-2925_p66' class='edit center'></td>
+<td id='sv-2925_p67' class='edit center'></td>
+<td id='sv-2925_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2925</td>
+<td id='sv-2925_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-2928_name' class=''>การแจ้งมีบุคลากรเฉพาะสำหรับสถานประกอบการ ที่เข้าข่ายต้องมีบุคลากรเฉพาะ</td>
+<td id='sv-2928_count' class='edit right'></td>
+<td id='sv-2928_per' class='edit center'>เดือน</td>
+<td id='sv-2928_elec' class='edit center'></td>
+<td id='sv-2928_p66' class='edit center'></td>
+<td id='sv-2928_p67' class='edit center'></td>
+<td id='sv-2928_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>2928</td>
+<td id='sv-2928_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-2927_name' class=''>การแจ้งดำเนินการเกี่ยวกับวัตถุอันตรายชนิดที่ 2 และการต่ออายุ</td>
+<td id='sv-2927_count' class='edit right'></td>
+<td id='sv-2927_per' class='edit center'>เดือน</td>
+<td id='sv-2927_elec' class='edit center'></td>
+<td id='sv-2927_p66' class='edit center'></td>
+<td id='sv-2927_p67' class='edit center'></td>
+<td id='sv-2927_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2927</td>
+<td id='sv-2927_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-2923_name' class=''>การขออนุญาตผลิตวัตถุอันตราย และการต่ออายุ</td>
+<td id='sv-2923_count' class='edit right'></td>
+<td id='sv-2923_per' class='edit center'>เดือน</td>
+<td id='sv-2923_elec' class='edit center'></td>
+<td id='sv-2923_p66' class='edit center'></td>
+<td id='sv-2923_p67' class='edit center'></td>
+<td id='sv-2923_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2923</td>
+<td id='sv-2923_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-2905_name' class=''>การขออนุญาตเปิดประกอบกิจการหลังการปรับปรุงแก้ไขโรงงาน</td>
+<td id='sv-2905_count' class='edit right'></td>
+<td id='sv-2905_per' class='edit center'>เดือน</td>
+<td id='sv-2905_elec' class='edit center'></td>
+<td id='sv-2905_p66' class='edit center'></td>
+<td id='sv-2905_p67' class='edit center'></td>
+<td id='sv-2905_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2905</td>
+<td id='sv-2905_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-2922_name' class=''>การขออนุญาตนำเข้า/ ส่งออก วัตถุอันตรายชนิดที่ 3 และการต่ออายุ</td>
+<td id='sv-2922_count' class='edit right'></td>
+<td id='sv-2922_per' class='edit center'>เดือน</td>
+<td id='sv-2922_elec' class='edit center'></td>
+<td id='sv-2922_p66' class='edit center'></td>
+<td id='sv-2922_p67' class='edit center'></td>
+<td id='sv-2922_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2922</td>
+<td id='sv-2922_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-2938_name' class=''>การแจ้งและการรับแจ้งการมีบุคลากรด้านสิ่งแวดล้อมประจำโรงงาน</td>
+<td id='sv-2938_count' class='edit right'></td>
+<td id='sv-2938_per' class='edit center'>เดือน</td>
+<td id='sv-2938_elec' class='edit center'></td>
+<td id='sv-2938_p66' class='edit center'></td>
+<td id='sv-2938_p67' class='edit center'></td>
+<td id='sv-2938_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2938</td>
+<td id='sv-2938_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-2895_name' class=''>การแจ้งเปลี่ยนชื่อโรงงาน เลขที่ตั้งโรงงานหรือสำนักงาน หรือชื่อผู้รับใบอนุญาต</td>
+<td id='sv-2895_count' class='edit right'></td>
+<td id='sv-2895_per' class='edit center'>เดือน</td>
+<td id='sv-2895_elec' class='edit center'></td>
+<td id='sv-2895_p66' class='edit center'></td>
+<td id='sv-2895_p67' class='edit center'></td>
+<td id='sv-2895_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2895</td>
+<td id='sv-2895_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-2903_name' class=''>การแจ้งเริ่มประกอบกิจการโรงงานจำพวกที่ 3</td>
+<td id='sv-2903_count' class='edit right'></td>
+<td id='sv-2903_per' class='edit center'>เดือน</td>
+<td id='sv-2903_elec' class='edit center'></td>
+<td id='sv-2903_p66' class='edit center'></td>
+<td id='sv-2903_p67' class='edit center'></td>
+<td id='sv-2903_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2903</td>
+<td id='sv-2903_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-2943_name' class=''>การประเมินราคาเครื่องจักร</td>
+<td id='sv-2943_count' class='edit right'></td>
+<td id='sv-2943_per' class='edit center'>เดือน</td>
+<td id='sv-2943_elec' class='edit center'></td>
+<td id='sv-2943_p66' class='edit center'></td>
+<td id='sv-2943_p67' class='edit center'></td>
+<td id='sv-2943_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2943</td>
+<td id='sv-2943_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-2896_name' class=''>การขอยกเลิก หรือเปลี่ยนแปลงเงื่อนไขที่ต้องปฏิบัติในการประกอบกิจการโรงงาน</td>
+<td id='sv-2896_count' class='edit right'></td>
+<td id='sv-2896_per' class='edit center'>เดือน</td>
+<td id='sv-2896_elec' class='edit center'></td>
+<td id='sv-2896_p66' class='edit center'></td>
+<td id='sv-2896_p67' class='edit center'></td>
+<td id='sv-2896_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2896</td>
+<td id='sv-2896_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-2904_name' class=''>การแจ้งกรณีมีอุบัติเหตุในโรงงาน</td>
+<td id='sv-2904_count' class='edit right'></td>
+<td id='sv-2904_per' class='edit center'>เดือน</td>
+<td id='sv-2904_elec' class='edit center'></td>
+<td id='sv-2904_p66' class='edit center'></td>
+<td id='sv-2904_p67' class='edit center'></td>
+<td id='sv-2904_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2904</td>
+<td id='sv-2904_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-2942_name' class=''>การย้ายเครื่องจักรภายนอกบริเวณสถานที่ประกอบกิจการอุตสาหกรรม</td>
+<td id='sv-2942_count' class='edit right'></td>
+<td id='sv-2942_per' class='edit center'>เดือน</td>
+<td id='sv-2942_elec' class='edit center'></td>
+<td id='sv-2942_p66' class='edit center'></td>
+<td id='sv-2942_p67' class='edit center'></td>
+<td id='sv-2942_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>2942</td>
+<td id='sv-2942_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-2907_name' class=''>การแจ้งเลิกประกอบกิจการโรงงาน</td>
+<td id='sv-2907_count' class='edit right'></td>
+<td id='sv-2907_per' class='edit center'>เดือน</td>
+<td id='sv-2907_elec' class='edit center'></td>
+<td id='sv-2907_p66' class='edit center'></td>
+<td id='sv-2907_p67' class='edit center'></td>
+<td id='sv-2907_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2907</td>
+<td id='sv-2907_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-2920_name' class=''>การขออนุญาตนำเข้าวัตถุอันตราย (เครื่องใช้ไฟฟ้าและอุปกรณ์อิเล็กทรอนิกส์ที่ใช้แล้ว)</td>
+<td id='sv-2920_count' class='edit right'></td>
+<td id='sv-2920_per' class='edit center'>เดือน</td>
+<td id='sv-2920_elec' class='edit center'></td>
+<td id='sv-2920_p66' class='edit center'></td>
+<td id='sv-2920_p67' class='edit center'></td>
+<td id='sv-2920_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>2920</td>
+<td id='sv-2920_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-2953_name' class=''>การจดทะเบียนยกเลิกการจดทะเบียนกรรมสิทธิ์เครื่องจักร</td>
+<td id='sv-2953_count' class='edit right'></td>
+<td id='sv-2953_per' class='edit center'>เดือน</td>
+<td id='sv-2953_elec' class='edit center'></td>
+<td id='sv-2953_p66' class='edit center'></td>
+<td id='sv-2953_p67' class='edit center'></td>
+<td id='sv-2953_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2953</td>
+<td id='sv-2953_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-2949_name' class=''>การขอแผ่นป้ายทะเบียนเครื่องจักร</td>
+<td id='sv-2949_count' class='edit right'></td>
+<td id='sv-2949_per' class='edit center'>เดือน</td>
+<td id='sv-2949_elec' class='edit center'></td>
+<td id='sv-2949_p66' class='edit center'></td>
+<td id='sv-2949_p67' class='edit center'></td>
+<td id='sv-2949_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2949</td>
+<td id='sv-2949_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-2947_name' class=''>การจดทะเบียนเปลี่ยนแปลงสาระสำคัญในหนังสือสำคัญแสดงการจดทะเบียนเครื่องจักร</td>
+<td id='sv-2947_count' class='edit right'></td>
+<td id='sv-2947_per' class='edit center'>เดือน</td>
+<td id='sv-2947_elec' class='edit center'></td>
+<td id='sv-2947_p66' class='edit center'></td>
+<td id='sv-2947_p67' class='edit center'></td>
+<td id='sv-2947_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2947</td>
+<td id='sv-2947_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-2917_name' class=''>การขึ้นทะเบียนวัตถุอันตราย (ของเสียเคมีวัตถุ)</td>
+<td id='sv-2917_count' class='edit right'></td>
+<td id='sv-2917_per' class='edit center'>เดือน</td>
+<td id='sv-2917_elec' class='edit center'></td>
+<td id='sv-2917_p66' class='edit center'></td>
+<td id='sv-2917_p67' class='edit center'></td>
+<td id='sv-2917_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2917</td>
+<td id='sv-2917_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-2919_name' class=''>การขออนุญาตส่งออกวัตถุอันตราย (ของเสียเคมีวัตถุ)</td>
+<td id='sv-2919_count' class='edit right'></td>
+<td id='sv-2919_per' class='edit center'>เดือน</td>
+<td id='sv-2919_elec' class='edit center'></td>
+<td id='sv-2919_p66' class='edit center'></td>
+<td id='sv-2919_p67' class='edit center'></td>
+<td id='sv-2919_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2919</td>
+<td id='sv-2919_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-2918_name' class=''>การขออนุญาตนำเข้าวัตถุอันตราย (ของเสียเคมีวัตถุ)</td>
+<td id='sv-2918_count' class='edit right'></td>
+<td id='sv-2918_per' class='edit center'>เดือน</td>
+<td id='sv-2918_elec' class='edit center'></td>
+<td id='sv-2918_p66' class='edit center'></td>
+<td id='sv-2918_p67' class='edit center'></td>
+<td id='sv-2918_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2918</td>
+<td id='sv-2918_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-2934_name' class=''>การขอความเห็นชอบให้เป็นหน่วยตรวจสอบภาชนะบรรจุก๊าซ</td>
+<td id='sv-2934_count' class='edit right'></td>
+<td id='sv-2934_per' class='edit center'>เดือน</td>
+<td id='sv-2934_elec' class='edit center'></td>
+<td id='sv-2934_p66' class='edit center'></td>
+<td id='sv-2934_p67' class='edit center'></td>
+<td id='sv-2934_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2934</td>
+<td id='sv-2934_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-2915_name' class=''>การขออนุญาตมีไว้ในครอบครองซึ่งวัตถุอันตรายเพื่อขาย</td>
+<td id='sv-2915_count' class='edit right'></td>
+<td id='sv-2915_per' class='edit center'>เดือน</td>
+<td id='sv-2915_elec' class='edit center'></td>
+<td id='sv-2915_p66' class='edit center'></td>
+<td id='sv-2915_p67' class='edit center'></td>
+<td id='sv-2915_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2915</td>
+<td id='sv-2915_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-2906_name' class=''>การโอนใบอนุญาตประกอบกิจการโรงงาน</td>
+<td id='sv-2906_count' class='edit right'></td>
+<td id='sv-2906_per' class='edit center'>เดือน</td>
+<td id='sv-2906_elec' class='edit center'></td>
+<td id='sv-2906_p66' class='edit center'></td>
+<td id='sv-2906_p67' class='edit center'></td>
+<td id='sv-2906_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2906</td>
+<td id='sv-2906_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-2902_name' class=''>การแจ้งทดลองเดินเครื่องจักร ก่อนการเริ่มประกอบกิจการโรงงาน</td>
+<td id='sv-2902_count' class='edit right'></td>
+<td id='sv-2902_per' class='edit center'>เดือน</td>
+<td id='sv-2902_elec' class='edit center'></td>
+<td id='sv-2902_p66' class='edit center'></td>
+<td id='sv-2902_p67' class='edit center'></td>
+<td id='sv-2902_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2902</td>
+<td id='sv-2902_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-2944_name' class=''>การจดทะเบียนโอนกรรมสิทธิ์เครื่องจักร</td>
+<td id='sv-2944_count' class='edit right'></td>
+<td id='sv-2944_per' class='edit center'>เดือน</td>
+<td id='sv-2944_elec' class='edit center'></td>
+<td id='sv-2944_p66' class='edit center'></td>
+<td id='sv-2944_p67' class='edit center'></td>
+<td id='sv-2944_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2944</td>
+<td id='sv-2944_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-2924_name' class=''>การขออนุญาตมีไว้ในครอบครองซึ่งวัตถุอันตรายชนิดที่ 3 และการต่ออายุ</td>
+<td id='sv-2924_count' class='edit right'></td>
+<td id='sv-2924_per' class='edit center'>เดือน</td>
+<td id='sv-2924_elec' class='edit center'></td>
+<td id='sv-2924_p66' class='edit center'></td>
+<td id='sv-2924_p67' class='edit center'></td>
+<td id='sv-2924_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2924</td>
+<td id='sv-2924_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-2914_name' class=''>การขออนุญาตมีไว้ในครอบครองซึ่งวัตถุอันตรายเพื่อเก็บรักษา</td>
+<td id='sv-2914_count' class='edit right'></td>
+<td id='sv-2914_per' class='edit center'>เดือน</td>
+<td id='sv-2914_elec' class='edit center'></td>
+<td id='sv-2914_p66' class='edit center'></td>
+<td id='sv-2914_p67' class='edit center'></td>
+<td id='sv-2914_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2914</td>
+<td id='sv-2914_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-2941_name' class=''>การขอรับใบแทนหนังสือสำคัญแสดงการจดทะเบียนเครื่องจักร</td>
+<td id='sv-2941_count' class='edit right'></td>
+<td id='sv-2941_per' class='edit center'>เดือน</td>
+<td id='sv-2941_elec' class='edit center'></td>
+<td id='sv-2941_p66' class='edit center'></td>
+<td id='sv-2941_p67' class='edit center'></td>
+<td id='sv-2941_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>2941</td>
+<td id='sv-2941_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-2901_name' class=''>การขอย้ายเครื่องจักรบางส่วนที่ติดตั้งในโรงงานไปยังสถานที่อื่นเพื่อประกอบกิจการโรงงานเป็นการชั่วคราว</td>
+<td id='sv-2901_count' class='edit right'></td>
+<td id='sv-2901_per' class='edit center'>เดือน</td>
+<td id='sv-2901_elec' class='edit center'></td>
+<td id='sv-2901_p66' class='edit center'></td>
+<td id='sv-2901_p67' class='edit center'></td>
+<td id='sv-2901_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2901</td>
+<td id='sv-2901_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-2940_name' class=''>การขึ้นทะเบียน/ต่ออายุทะเบียน คนงานควบคุมก๊าซ คนงานส่งก๊าซ หรือคนงานบรรจุก๊าซประจำโรงงาน</td>
+<td id='sv-2940_count' class='edit right'></td>
+<td id='sv-2940_per' class='edit center'>เดือน</td>
+<td id='sv-2940_elec' class='edit center'></td>
+<td id='sv-2940_p66' class='edit center'></td>
+<td id='sv-2940_p67' class='edit center'></td>
+<td id='sv-2940_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2940</td>
+<td id='sv-2940_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-2894_name' class=''>การขอใบอนุญาตประกอบกิจการโรงงานจำพวกที่ 3 ตามมาตรา 12</td>
+<td id='sv-2894_count' class='edit right'></td>
+<td id='sv-2894_per' class='edit center'>เดือน</td>
+<td id='sv-2894_elec' class='edit center'></td>
+<td id='sv-2894_p66' class='edit center'></td>
+<td id='sv-2894_p67' class='edit center'></td>
+<td id='sv-2894_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2894</td>
+<td id='sv-2894_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-2898_name' class=''>การออกใบแทนใบอนุญาตประกอบกิจการโรงงานกรณีใบอนุญาตสูญหายหรือถูกทำลาย</td>
+<td id='sv-2898_count' class='edit right'></td>
+<td id='sv-2898_per' class='edit center'>เดือน</td>
+<td id='sv-2898_elec' class='edit center'></td>
+<td id='sv-2898_p66' class='edit center'></td>
+<td id='sv-2898_p67' class='edit center'></td>
+<td id='sv-2898_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2898</td>
+<td id='sv-2898_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-2930_name' class=''>การขึ้นทะเบียนแท็งก์ยึดติดถาวรกับตัวรถ</td>
+<td id='sv-2930_count' class='edit right'></td>
+<td id='sv-2930_per' class='edit center'>เดือน</td>
+<td id='sv-2930_elec' class='edit center'></td>
+<td id='sv-2930_p66' class='edit center'></td>
+<td id='sv-2930_p67' class='edit center'></td>
+<td id='sv-2930_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2930</td>
+<td id='sv-2930_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-2897_name' class=''>การขอยกเลิก เปลี่ยนหรือเปลี่ยนแปลง เครื่องจักรที่ใช้ในการผลิต แต่ไม่ถึงขั้นขยายโรงงานหรือการเพิ่มเนื้อที่อาคารโรงงานหรือการก่อสร้างอาคารโรงงานเพิ่มขึ้น</td>
+<td id='sv-2897_count' class='edit right'></td>
+<td id='sv-2897_per' class='edit center'>เดือน</td>
+<td id='sv-2897_elec' class='edit center'></td>
+<td id='sv-2897_p66' class='edit center'></td>
+<td id='sv-2897_p67' class='edit center'></td>
+<td id='sv-2897_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>2897</td>
+<td id='sv-2897_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-2954_name' class=''>การขอใบอนุญาตขยายโรงงานจำพวกที่ 3 ตามมาตรา 18</td>
+<td id='sv-2954_count' class='edit right'></td>
+<td id='sv-2954_per' class='edit center'>เดือน</td>
+<td id='sv-2954_elec' class='edit center'></td>
+<td id='sv-2954_p66' class='edit center'></td>
+<td id='sv-2954_p67' class='edit center'></td>
+<td id='sv-2954_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2954</td>
+<td id='sv-2954_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-2929_name' class=''>การจดทะเบียนบุคลากรเฉพาะรับผิดชอบความปลอดภัย การเก็บรักษาวัตถุอันตรายที่กรมโรงงานอุตสาหกรรมรับผิดชอบ</td>
+<td id='sv-2929_count' class='edit right'></td>
+<td id='sv-2929_per' class='edit center'>เดือน</td>
+<td id='sv-2929_elec' class='edit center'></td>
+<td id='sv-2929_p66' class='edit center'></td>
+<td id='sv-2929_p67' class='edit center'></td>
+<td id='sv-2929_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2929</td>
+<td id='sv-2929_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-2935_name' class=''>การขึ้นทะเบียน การต่ออายุ การเปลี่ยนแปลงบุคลากร และชนิดสารมลพิษวิเคราะห์ของห้องปฏิบัติการวิเคราะห์เอกชน</td>
+<td id='sv-2935_count' class='edit right'></td>
+<td id='sv-2935_per' class='edit center'>เดือน</td>
+<td id='sv-2935_elec' class='edit center'></td>
+<td id='sv-2935_p66' class='edit center'></td>
+<td id='sv-2935_p67' class='edit center'></td>
+<td id='sv-2935_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2935</td>
+<td id='sv-2935_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-2916_name' class=''>การขออนุญาตมีไว้ในครอบครองซึ่งวัตถุอันตรายเพื่อการขนส่ง</td>
+<td id='sv-2916_count' class='edit right'></td>
+<td id='sv-2916_per' class='edit center'>เดือน</td>
+<td id='sv-2916_elec' class='edit center'></td>
+<td id='sv-2916_p66' class='edit center'></td>
+<td id='sv-2916_p67' class='edit center'></td>
+<td id='sv-2916_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2916</td>
+<td id='sv-2916_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-2926_name' class=''>การแจ้งข้อเท็จจริงการนำเข้า – ส่งออกวัตถุอันตราย ตามแบบ วอ./อก. 6 (การแจ้งข้อเท็จจริง)</td>
+<td id='sv-2926_count' class='edit right'></td>
+<td id='sv-2926_per' class='edit center'>เดือน</td>
+<td id='sv-2926_elec' class='edit center'></td>
+<td id='sv-2926_p66' class='edit center'></td>
+<td id='sv-2926_p67' class='edit center'></td>
+<td id='sv-2926_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2926</td>
+<td id='sv-2926_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-2945_name' class=''>การจดทะเบียนกรรมสิทธิ์เครื่องจักร</td>
+<td id='sv-2945_count' class='edit right'></td>
+<td id='sv-2945_per' class='edit center'>เดือน</td>
+<td id='sv-2945_elec' class='edit center'></td>
+<td id='sv-2945_p66' class='edit center'></td>
+<td id='sv-2945_p67' class='edit center'></td>
+<td id='sv-2945_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>2945</td>
+<td id='sv-2945_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-2939_name' class=''>การขึ้นทะเบียน/ต่ออายุทะเบียนเป็นผู้ดำเนินการจัดฝึกอบรม หลักสูตรคนงานควบคุม ส่ง และบรรจุก๊าซประจำโรงงาน</td>
+<td id='sv-2939_count' class='edit right'></td>
+<td id='sv-2939_per' class='edit center'>เดือน</td>
+<td id='sv-2939_elec' class='edit center'></td>
+<td id='sv-2939_p66' class='edit center'></td>
+<td id='sv-2939_p67' class='edit center'></td>
+<td id='sv-2939_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2939</td>
+<td id='sv-2939_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-2910_name' class=''>การให้ความเห็นชอบในการตรวจสอบภายในหม้อน้ำทุกระยะเวลาเกินกว่า 1 ปี แต่ไม่เกิน 5 ปี ต่อการตรวจสอบหนึ่งครั้ง</td>
+<td id='sv-2910_count' class='edit right'></td>
+<td id='sv-2910_per' class='edit center'>เดือน</td>
+<td id='sv-2910_elec' class='edit center'></td>
+<td id='sv-2910_p66' class='edit center'></td>
+<td id='sv-2910_p67' class='edit center'></td>
+<td id='sv-2910_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2910</td>
+<td id='sv-2910_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-2913_name' class=''>หนังสือขอความเห็นชอบการจัดการสิ่งปฏิกูลหรือวัสดุที่ไม่ใช้แล้วภายในบริเวณโรงงาน</td>
+<td id='sv-2913_count' class='edit right'></td>
+<td id='sv-2913_per' class='edit center'>เดือน</td>
+<td id='sv-2913_elec' class='edit center'></td>
+<td id='sv-2913_p66' class='edit center'></td>
+<td id='sv-2913_p67' class='edit center'></td>
+<td id='sv-2913_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2913</td>
+<td id='sv-2913_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-2921_name' class=''>การแจ้งข้อเท็จจริงการนำเข้า - ส่งออกวัตถุอันตราย ตามแบบ วอ./อก.6 (ของเสียเคมีวัตถุ และเครื่องใช้ไฟฟ้าและอุปกรณ์อิเล็กทรอนิกส์ที่ใช้แล้ว)</td>
+<td id='sv-2921_count' class='edit right'></td>
+<td id='sv-2921_per' class='edit center'>เดือน</td>
+<td id='sv-2921_elec' class='edit center'></td>
+<td id='sv-2921_p66' class='edit center'></td>
+<td id='sv-2921_p67' class='edit center'></td>
+<td id='sv-2921_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2921</td>
+<td id='sv-2921_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-2952_name' class=''>การจดทะเบียนโอนสิทธิรับจำนองเครื่องจักร</td>
+<td id='sv-2952_count' class='edit right'></td>
+<td id='sv-2952_per' class='edit center'>เดือน</td>
+<td id='sv-2952_elec' class='edit center'></td>
+<td id='sv-2952_p66' class='edit center'></td>
+<td id='sv-2952_p67' class='edit center'></td>
+<td id='sv-2952_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2952</td>
+<td id='sv-2952_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-2950_name' class=''>การไถ่ถอนจำนองหรือขายฝากเครื่องจักร</td>
+<td id='sv-2950_count' class='edit right'></td>
+<td id='sv-2950_per' class='edit center'>เดือน</td>
+<td id='sv-2950_elec' class='edit center'></td>
+<td id='sv-2950_p66' class='edit center'></td>
+<td id='sv-2950_p67' class='edit center'></td>
+<td id='sv-2950_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2950</td>
+<td id='sv-2950_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-2948_name' class=''>การขอแบ่งแยกรายการเครื่องจักรซึ่งได้จดทะเบียนกรรมสิทธิ์ไว้แล้ว</td>
+<td id='sv-2948_count' class='edit right'></td>
+<td id='sv-2948_per' class='edit center'>เดือน</td>
+<td id='sv-2948_elec' class='edit center'></td>
+<td id='sv-2948_p66' class='edit center'></td>
+<td id='sv-2948_p67' class='edit center'></td>
+<td id='sv-2948_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2948</td>
+<td id='sv-2948_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-2937_name' class=''>การขึ้นทะเบียนและต่ออายุผู้ควบคุมระบบบำบัดมลพิษน้ำ หรือผู้ควบคุมระบบบำบัดมลพิษอากาศ หรือผู้ควบคุมระบบการจัดการมลพิษกากอุตสาหกรรม (บุคคล)</td>
+<td id='sv-2937_count' class='edit right'></td>
+<td id='sv-2937_per' class='edit center'>เดือน</td>
+<td id='sv-2937_elec' class='edit center'></td>
+<td id='sv-2937_p66' class='edit center'></td>
+<td id='sv-2937_p67' class='edit center'></td>
+<td id='sv-2937_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2937</td>
+<td id='sv-2937_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>53</td>
+<td id='sv-2936_name' class=''>การขึ้นทะเบียนและต่ออายุผู้ควบคุมระบบบำบัดมลพิษน้ำ หรือผู้ควบคุมระบบบำบัดมลพิษอากาศ หรือผู้ควบคุมระบบการจัดการมลพิษกากอุตสาหกรรม (บริษัทที่ปรึกษา)</td>
+<td id='sv-2936_count' class='edit right'></td>
+<td id='sv-2936_per' class='edit center'>เดือน</td>
+<td id='sv-2936_elec' class='edit center'></td>
+<td id='sv-2936_p66' class='edit center'></td>
+<td id='sv-2936_p67' class='edit center'></td>
+<td id='sv-2936_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2936</td>
+<td id='sv-2936_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>54</td>
+<td id='sv-2933_name' class=''>การขึ้นทะเบียน/ต่ออายุทะเบียนเป็นหน่วยงานจัดฝึกอบรมผู้ควบคุมประจำหม้อน้ำหรือหม้อต้มที่ใช้ของเหลวเป็นสื่อนำความร้อน</td>
+<td id='sv-2933_count' class='edit right'></td>
+<td id='sv-2933_per' class='edit center'>เดือน</td>
+<td id='sv-2933_elec' class='edit center'></td>
+<td id='sv-2933_p66' class='edit center'></td>
+<td id='sv-2933_p67' class='edit center'></td>
+<td id='sv-2933_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2933</td>
+<td id='sv-2933_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>55</td>
+<td id='sv-2912_name' class=''>การขออนุญาตนำสิ่งปฏิกูลหรือวัสดุที่ไม่ใช้แล้วออกนอกบริเวณโรงงาน (สก.2)</td>
+<td id='sv-2912_count' class='edit right'></td>
+<td id='sv-2912_per' class='edit center'>เดือน</td>
+<td id='sv-2912_elec' class='edit center'></td>
+<td id='sv-2912_p66' class='edit center'></td>
+<td id='sv-2912_p67' class='edit center'></td>
+<td id='sv-2912_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2912</td>
+<td id='sv-2912_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>56</td>
+<td id='sv-2951_name' class=''>การจดทะเบียนจำนองหรือขายฝากเครื่องจักร</td>
+<td id='sv-2951_count' class='edit right'></td>
+<td id='sv-2951_per' class='edit center'>เดือน</td>
+<td id='sv-2951_elec' class='edit center'></td>
+<td id='sv-2951_p66' class='edit center'></td>
+<td id='sv-2951_p67' class='edit center'></td>
+<td id='sv-2951_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2951</td>
+<td id='sv-2951_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>57</td>
+<td id='sv-2911_name' class=''>การขอขยายระยะเวลาในการกักเก็บสิ่งปฏิกูลหรือวัสดุที่ไม่ใช้แล้วในบริเวณโรงงาน (สก.1)</td>
+<td id='sv-2911_count' class='edit right'></td>
+<td id='sv-2911_per' class='edit center'>เดือน</td>
+<td id='sv-2911_elec' class='edit center'></td>
+<td id='sv-2911_p66' class='edit center'></td>
+<td id='sv-2911_p67' class='edit center'></td>
+<td id='sv-2911_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2911</td>
+<td id='sv-2911_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>58</td>
+<td id='sv-2908_name' class=''>การขึ้นทะเบียน/ต่ออายุทะเบียนผู้ควบคุมประจำหม้อน้ำหรือหม้อต้มที่ใช้ของเหลวเป็นสื่อนำความร้อน</td>
+<td id='sv-2908_count' class='edit right'></td>
+<td id='sv-2908_per' class='edit center'>เดือน</td>
+<td id='sv-2908_elec' class='edit center'></td>
+<td id='sv-2908_p66' class='edit center'></td>
+<td id='sv-2908_p67' class='edit center'></td>
+<td id='sv-2908_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2908</td>
+<td id='sv-2908_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>59</td>
+<td id='sv-2931_name' class=''>การนำเข้าหรือส่งออกสารกาเฟอีน (Caffeine)</td>
+<td id='sv-2931_count' class='edit right'></td>
+<td id='sv-2931_per' class='edit center'>เดือน</td>
+<td id='sv-2931_elec' class='edit center'></td>
+<td id='sv-2931_p66' class='edit center'></td>
+<td id='sv-2931_p67' class='edit center'></td>
+<td id='sv-2931_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2931</td>
+<td id='sv-2931_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>60</td>
+<td id='sv-2909_name' class=''>การขึ้นทะเบียนเป็นหน่วยรับรองวิศวกรรมด้านหม้อน้ำ หรือหม้อต้มที่ใช้ของเหลวเป็นสื่อนำความร้อน</td>
+<td id='sv-2909_count' class='edit right'></td>
+<td id='sv-2909_per' class='edit center'>เดือน</td>
+<td id='sv-2909_elec' class='edit center'></td>
+<td id='sv-2909_p66' class='edit center'></td>
+<td id='sv-2909_p67' class='edit center'></td>
+<td id='sv-2909_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>2909</td>
+<td id='sv-2909_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>61</td>
+<td id='sv-2932_name' class=''>การให้ความเห็นชอบนําคลอโรฟอร์ม (CHLOROFORM) เข้ามาในราชอาณาจักร</td>
+<td id='sv-2932_count' class='edit right'></td>
+<td id='sv-2932_per' class='edit center'>เดือน</td>
+<td id='sv-2932_elec' class='edit center'></td>
+<td id='sv-2932_p66' class='edit center'></td>
+<td id='sv-2932_p67' class='edit center'></td>
+<td id='sv-2932_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2932</td>
+<td id='sv-2932_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

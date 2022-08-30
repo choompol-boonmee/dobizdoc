@@ -1,0 +1,540 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-13';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมธนารักษ์ </h2>
+<span id='orgid'>(or-13)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-14_name' class=''>การให้บริการข้อมูลราคาประเมิน</td>
+<td id='sv-14_count' class='edit right'></td>
+<td id='sv-14_per' class='edit center'>เดือน</td>
+<td id='sv-14_elec' class='edit center'></td>
+<td id='sv-14_p66' class='edit center'></td>
+<td id='sv-14_p67' class='edit center'></td>
+<td id='sv-14_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>14</td>
+<td id='sv-14_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-29_name' class=''>การขอแก้ไขชื่อ-ชื่อสกุลในเอกสารการเช่า</td>
+<td id='sv-29_count' class='edit right'></td>
+<td id='sv-29_per' class='edit center'>เดือน</td>
+<td id='sv-29_elec' class='edit center'></td>
+<td id='sv-29_p66' class='edit center'></td>
+<td id='sv-29_p67' class='edit center'></td>
+<td id='sv-29_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>29</td>
+<td id='sv-29_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-13_name' class=''>การขอบันทึกภาพทรัพย์สินหรือการจัดแสดงภายในพิพิธภัณฑ์</td>
+<td id='sv-13_count' class='edit right'></td>
+<td id='sv-13_per' class='edit center'>เดือน</td>
+<td id='sv-13_elec' class='edit center'></td>
+<td id='sv-13_p66' class='edit center'></td>
+<td id='sv-13_p67' class='edit center'></td>
+<td id='sv-13_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>13</td>
+<td id='sv-13_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-31_name' class=''>การออกหนังสือรับรองเกี่ยวกับที่ราชพัสดุ</td>
+<td id='sv-31_count' class='edit right'></td>
+<td id='sv-31_per' class='edit center'>เดือน</td>
+<td id='sv-31_elec' class='edit center'></td>
+<td id='sv-31_p66' class='edit center'></td>
+<td id='sv-31_p67' class='edit center'></td>
+<td id='sv-31_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>31</td>
+<td id='sv-31_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-27_name' class=''>การต่ออายุสัญญาเช่าที่ราชพัสดุ</td>
+<td id='sv-27_count' class='edit right'></td>
+<td id='sv-27_per' class='edit center'>เดือน</td>
+<td id='sv-27_elec' class='edit center'></td>
+<td id='sv-27_p66' class='edit center'></td>
+<td id='sv-27_p67' class='edit center'></td>
+<td id='sv-27_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>27</td>
+<td id='sv-27_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-16_name' class=''>การขอต่ออายุสัญญาเช่าอาคารราชพัสดุ</td>
+<td id='sv-16_count' class='edit right'></td>
+<td id='sv-16_per' class='edit center'>เดือน</td>
+<td id='sv-16_elec' class='edit center'></td>
+<td id='sv-16_p66' class='edit center'></td>
+<td id='sv-16_p67' class='edit center'></td>
+<td id='sv-16_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>16</td>
+<td id='sv-16_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-20_name' class=''>การขอโอนสิทธิการเช่าอาคารราชพัสดุ</td>
+<td id='sv-20_count' class='edit right'></td>
+<td id='sv-20_per' class='edit center'>เดือน</td>
+<td id='sv-20_elec' class='edit center'></td>
+<td id='sv-20_p66' class='edit center'></td>
+<td id='sv-20_p67' class='edit center'></td>
+<td id='sv-20_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>20</td>
+<td id='sv-20_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-10_name' class=''>การขอเช่าที่ดินราชพัสดุเพื่ออยู่อาศัย</td>
+<td id='sv-10_count' class='edit right'></td>
+<td id='sv-10_per' class='edit center'>เดือน</td>
+<td id='sv-10_elec' class='edit center'></td>
+<td id='sv-10_p66' class='edit center'></td>
+<td id='sv-10_p67' class='edit center'></td>
+<td id='sv-10_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>10</td>
+<td id='sv-10_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-18_name' class=''>การขอโอนสิทธิการเช่าที่ดินราชพัสดุ</td>
+<td id='sv-18_count' class='edit right'></td>
+<td id='sv-18_per' class='edit center'>เดือน</td>
+<td id='sv-18_elec' class='edit center'></td>
+<td id='sv-18_p66' class='edit center'></td>
+<td id='sv-18_p67' class='edit center'></td>
+<td id='sv-18_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>18</td>
+<td id='sv-18_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-19_name' class=''>การขออนุญาตปลูกสร้างบ้านพักอาศัยบนที่ดินราชพัสดุ</td>
+<td id='sv-19_count' class='edit right'></td>
+<td id='sv-19_per' class='edit center'>เดือน</td>
+<td id='sv-19_elec' class='edit center'></td>
+<td id='sv-19_p66' class='edit center'></td>
+<td id='sv-19_p67' class='edit center'></td>
+<td id='sv-19_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>19</td>
+<td id='sv-19_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-8_name' class=''>การขอเช่าที่ดินราชพัสดุเพื่อประกอบการเกษตร</td>
+<td id='sv-8_count' class='edit right'></td>
+<td id='sv-8_per' class='edit center'>เดือน</td>
+<td id='sv-8_elec' class='edit center'></td>
+<td id='sv-8_p66' class='edit center'></td>
+<td id='sv-8_p67' class='edit center'></td>
+<td id='sv-8_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>8</td>
+<td id='sv-8_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-22_name' class=''>ผู้เช่าขอติดตั้งป้ายโฆษณาในที่ราชพัสดุ</td>
+<td id='sv-22_count' class='edit right'></td>
+<td id='sv-22_per' class='edit center'>เดือน</td>
+<td id='sv-22_elec' class='edit center'></td>
+<td id='sv-22_p66' class='edit center'></td>
+<td id='sv-22_p67' class='edit center'></td>
+<td id='sv-22_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>22</td>
+<td id='sv-22_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-15_name' class=''>การยื่นแบบขออนุญาตปรับปรุง ซ่อมแซม หรือต่อเติมอาคารราชพัสดุ</td>
+<td id='sv-15_count' class='edit right'></td>
+<td id='sv-15_per' class='edit center'>เดือน</td>
+<td id='sv-15_elec' class='edit center'></td>
+<td id='sv-15_p66' class='edit center'></td>
+<td id='sv-15_p67' class='edit center'></td>
+<td id='sv-15_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>15</td>
+<td id='sv-15_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-12_name' class=''>การขยายระยะเวลาการก่อสร้างอาคารยกกรรมสิทธิ์ให้กระทรวงคลัง</td>
+<td id='sv-12_count' class='edit right'></td>
+<td id='sv-12_per' class='edit center'>เดือน</td>
+<td id='sv-12_elec' class='edit center'></td>
+<td id='sv-12_p66' class='edit center'></td>
+<td id='sv-12_p67' class='edit center'></td>
+<td id='sv-12_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>12</td>
+<td id='sv-12_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-37_name' class=''>การขอเช่าอาคารราชพัสดุแทนผู้เช่าเดิมที่ถึงแก่กรรม</td>
+<td id='sv-37_count' class='edit right'></td>
+<td id='sv-37_per' class='edit center'>เดือน</td>
+<td id='sv-37_elec' class='edit center'></td>
+<td id='sv-37_p66' class='edit center'></td>
+<td id='sv-37_p67' class='edit center'></td>
+<td id='sv-37_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>37</td>
+<td id='sv-37_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-26_name' class=''>การขอเปลี่ยนแปลงวัตถุประสงค์การเช่าที่ดินราชพัสดุ กรณีที่ต้องรับฟังความคิดเห็นตามระเบียบกระทรวงการคลังฯ</td>
+<td id='sv-26_count' class='edit right'></td>
+<td id='sv-26_per' class='edit center'>เดือน</td>
+<td id='sv-26_elec' class='edit center'></td>
+<td id='sv-26_p66' class='edit center'></td>
+<td id='sv-26_p67' class='edit center'></td>
+<td id='sv-26_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>26</td>
+<td id='sv-26_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-33_name' class=''>การขอเช่าที่ดินราชพัสดุแทนผู้เช่าเดิมที่ถึงแก่กรรม</td>
+<td id='sv-33_count' class='edit right'></td>
+<td id='sv-33_per' class='edit center'>เดือน</td>
+<td id='sv-33_elec' class='edit center'></td>
+<td id='sv-33_p66' class='edit center'></td>
+<td id='sv-33_p67' class='edit center'></td>
+<td id='sv-33_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>33</td>
+<td id='sv-33_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-28_name' class=''>การก่อสร้างสะพาน ทางเชื่อม วางท่อระบายน้ำ ทำทางเข้า-ออก ผ่านที่ราชพัสดุ</td>
+<td id='sv-28_count' class='edit right'></td>
+<td id='sv-28_per' class='edit center'>เดือน</td>
+<td id='sv-28_elec' class='edit center'></td>
+<td id='sv-28_p66' class='edit center'></td>
+<td id='sv-28_p67' class='edit center'></td>
+<td id='sv-28_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>28</td>
+<td id='sv-28_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-39_name' class=''>การอนุญาตให้นำสิทธิการเช่าที่ดินราชพัสดุไปผูกพันเงินกู้</td>
+<td id='sv-39_count' class='edit right'></td>
+<td id='sv-39_per' class='edit center'>เดือน</td>
+<td id='sv-39_elec' class='edit center'></td>
+<td id='sv-39_p66' class='edit center'></td>
+<td id='sv-39_p67' class='edit center'></td>
+<td id='sv-39_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>39</td>
+<td id='sv-39_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-23_name' class=''>การขอโอนสิทธิการก่อสร้างอาคารยกกรรมสิทธิ์ให้กระทรวงการคลัง</td>
+<td id='sv-23_count' class='edit right'></td>
+<td id='sv-23_per' class='edit center'>เดือน</td>
+<td id='sv-23_elec' class='edit center'></td>
+<td id='sv-23_p66' class='edit center'></td>
+<td id='sv-23_p67' class='edit center'></td>
+<td id='sv-23_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>23</td>
+<td id='sv-23_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-24_name' class=''>การรังวัดสอบเขตเช่าเพื่ออยู่อาศัย</td>
+<td id='sv-24_count' class='edit right'></td>
+<td id='sv-24_per' class='edit center'>เดือน</td>
+<td id='sv-24_elec' class='edit center'></td>
+<td id='sv-24_p66' class='edit center'></td>
+<td id='sv-24_p67' class='edit center'></td>
+<td id='sv-24_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>24</td>
+<td id='sv-24_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-35_name' class=''>การขอนำสิทธิการก่อสร้างอาคารยกกรรมสิทธิ์ให้กระทรวงการคลัง ไปผูกพันเงินกู้</td>
+<td id='sv-35_count' class='edit right'></td>
+<td id='sv-35_per' class='edit center'>เดือน</td>
+<td id='sv-35_elec' class='edit center'></td>
+<td id='sv-35_p66' class='edit center'></td>
+<td id='sv-35_p67' class='edit center'></td>
+<td id='sv-35_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>35</td>
+<td id='sv-35_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-30_name' class=''>การรังวัดสอบเขตเช่าเพื่อประกอบการเกษตร</td>
+<td id='sv-30_count' class='edit right'></td>
+<td id='sv-30_per' class='edit center'>เดือน</td>
+<td id='sv-30_elec' class='edit center'></td>
+<td id='sv-30_p66' class='edit center'></td>
+<td id='sv-30_p67' class='edit center'></td>
+<td id='sv-30_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>30</td>
+<td id='sv-30_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-21_name' class=''>การขอเปลี่ยนแปลงวัตถุประสงค์การเช่าที่ดินราชพัสดุ กรณีไม่ต้องรับฟังความคิดเห็นตามระเบียบกระทรวงการคลังฯ (จากเพื่ออยู่อาศัย เป็นเพื่อประกอบการเกษตร หรือจากเพื่อประกอบการเกษตรเป็นเพื่ออยู่อาศัย)</td>
+<td id='sv-21_count' class='edit right'></td>
+<td id='sv-21_per' class='edit center'>เดือน</td>
+<td id='sv-21_elec' class='edit center'></td>
+<td id='sv-21_p66' class='edit center'></td>
+<td id='sv-21_p67' class='edit center'></td>
+<td id='sv-21_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>21</td>
+<td id='sv-21_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-32_name' class=''>การอนุญาตให้นำสิทธิการเช่าอาคารราชพัสดุเพื่อนำไปผูกพันเงินกู้</td>
+<td id='sv-32_count' class='edit right'></td>
+<td id='sv-32_per' class='edit center'>เดือน</td>
+<td id='sv-32_elec' class='edit center'></td>
+<td id='sv-32_p66' class='edit center'></td>
+<td id='sv-32_p67' class='edit center'></td>
+<td id='sv-32_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>32</td>
+<td id='sv-32_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-40_name' class=''>การขอรับสิทธิการก่อสร้างอาคารยกกรรมสิทธิ์ให้กระทรวงการคลังแทนผู้ได้รับสิทธิก่อสร้างอาคารฯ ที่ถึงแก่กรรม</td>
+<td id='sv-40_count' class='edit right'></td>
+<td id='sv-40_per' class='edit center'>เดือน</td>
+<td id='sv-40_elec' class='edit center'></td>
+<td id='sv-40_p66' class='edit center'></td>
+<td id='sv-40_p67' class='edit center'></td>
+<td id='sv-40_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>40</td>
+<td id='sv-40_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-17_name' class=''>การขอเช่าที่ดินราชพัสดุเพื่อประโยชน์อย่างอื่น (กรณียกเว้นการประมูลและมีอัตราค่าเช่าคงที่แล้ว)</td>
+<td id='sv-17_count' class='edit right'></td>
+<td id='sv-17_per' class='edit center'>เดือน</td>
+<td id='sv-17_elec' class='edit center'></td>
+<td id='sv-17_p66' class='edit center'></td>
+<td id='sv-17_p67' class='edit center'></td>
+<td id='sv-17_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>17</td>
+<td id='sv-17_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-34_name' class=''>การขอเปลี่ยนแปลงสภาพพื้นที่หรือขุดคู คลอง บ่อ สระ หรือแหล่งขังน้ำใดๆ หรือตัดฟันต้นไม้ยืนต้นในที่ดินที่เช่า</td>
+<td id='sv-34_count' class='edit right'></td>
+<td id='sv-34_per' class='edit center'>เดือน</td>
+<td id='sv-34_elec' class='edit center'></td>
+<td id='sv-34_p66' class='edit center'></td>
+<td id='sv-34_p67' class='edit center'></td>
+<td id='sv-34_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>34</td>
+<td id='sv-34_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-38_name' class=''>ขอหนังสือรับรองนำสิทธิการเช่าที่ดินราชพัสดุเพื่อนำไปผูกพันเงินกู้ หมวด 3 การขอดำเนินการตามเงื่อนไขสัญญาเช่า</td>
+<td id='sv-38_count' class='edit right'></td>
+<td id='sv-38_per' class='edit center'>เดือน</td>
+<td id='sv-38_elec' class='edit center'></td>
+<td id='sv-38_p66' class='edit center'></td>
+<td id='sv-38_p67' class='edit center'></td>
+<td id='sv-38_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>38</td>
+<td id='sv-38_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-36_name' class=''>การขอแก้ไขแบบแปลนการก่อสร้างอาคารยกกรรมสิทธิ์ให้กระทรวงคลัง</td>
+<td id='sv-36_count' class='edit right'></td>
+<td id='sv-36_per' class='edit center'>เดือน</td>
+<td id='sv-36_elec' class='edit center'></td>
+<td id='sv-36_p66' class='edit center'></td>
+<td id='sv-36_p67' class='edit center'></td>
+<td id='sv-36_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>36</td>
+<td id='sv-36_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-9_name' class=''>งานรับจ้างจัดทำเครื่องราชอิสริยาภรณ์ เครื่องหมายตอบแทน เหรียญที่ระลึก และของสั่งจ้างอื่นๆ</td>
+<td id='sv-9_count' class='edit right'></td>
+<td id='sv-9_per' class='edit center'>เดือน</td>
+<td id='sv-9_elec' class='edit center'></td>
+<td id='sv-9_p66' class='edit center'></td>
+<td id='sv-9_p67' class='edit center'></td>
+<td id='sv-9_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>9</td>
+<td id='sv-9_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-11_name' class=''>การขอนำอาคารราชพัสดุไปเช่าช่วงหรือจัดหาประโยชน์</td>
+<td id='sv-11_count' class='edit right'></td>
+<td id='sv-11_per' class='edit center'>เดือน</td>
+<td id='sv-11_elec' class='edit center'></td>
+<td id='sv-11_p66' class='edit center'></td>
+<td id='sv-11_p67' class='edit center'></td>
+<td id='sv-11_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>11</td>
+<td id='sv-11_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-25_name' class=''>การขอนำที่ดินราชพัสดุไปจัดให้เช่าช่วงหรือการจัดหาประโยชน์</td>
+<td id='sv-25_count' class='edit right'></td>
+<td id='sv-25_per' class='edit center'>เดือน</td>
+<td id='sv-25_elec' class='edit center'></td>
+<td id='sv-25_p66' class='edit center'></td>
+<td id='sv-25_p67' class='edit center'></td>
+<td id='sv-25_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>25</td>
+<td id='sv-25_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

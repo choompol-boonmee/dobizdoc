@@ -1,0 +1,828 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-164';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมป่าไม้ </h2>
+<span id='orgid'>(or-164)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-1173_name' class=''>การยกเลิกตราแสดงการเป็นเจ้าของไม้</td>
+<td id='sv-1173_count' class='edit right'></td>
+<td id='sv-1173_per' class='edit center'>เดือน</td>
+<td id='sv-1173_elec' class='edit center'></td>
+<td id='sv-1173_p66' class='edit center'></td>
+<td id='sv-1173_p67' class='edit center'></td>
+<td id='sv-1173_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1173</td>
+<td id='sv-1173_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-1172_name' class=''>การขึ้นทะเบียนตราแสดงการเป็นเจ้าของไม้</td>
+<td id='sv-1172_count' class='edit right'></td>
+<td id='sv-1172_per' class='edit center'>เดือน</td>
+<td id='sv-1172_elec' class='edit center'></td>
+<td id='sv-1172_p66' class='edit center'></td>
+<td id='sv-1172_p67' class='edit center'></td>
+<td id='sv-1172_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1172</td>
+<td id='sv-1172_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-1217_name' class=''>การออกหนังสือรับรองไม้ (กรณียื่นคำขอในเขตกรุงเทพมหานคร)</td>
+<td id='sv-1217_count' class='edit right'></td>
+<td id='sv-1217_per' class='edit center'>เดือน</td>
+<td id='sv-1217_elec' class='edit center'></td>
+<td id='sv-1217_p66' class='edit center'></td>
+<td id='sv-1217_p67' class='edit center'></td>
+<td id='sv-1217_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1217</td>
+<td id='sv-1217_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-1209_name' class=''>การออกหนังสือรับรองไม้ เพื่อการค้า หรือการส่งออกไปนอกราชอาณาจักร (กรณียื่นคำขอในเขตกรุงเทพมหานคร)</td>
+<td id='sv-1209_count' class='edit right'></td>
+<td id='sv-1209_per' class='edit center'>เดือน</td>
+<td id='sv-1209_elec' class='edit center'></td>
+<td id='sv-1209_p66' class='edit center'></td>
+<td id='sv-1209_p67' class='edit center'></td>
+<td id='sv-1209_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1209</td>
+<td id='sv-1209_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-1166_name' class=''>การขอต่ออายุใบอนุญาตอุตสาหกรรมไม้ ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1166_count' class='edit right'></td>
+<td id='sv-1166_per' class='edit center'>เดือน</td>
+<td id='sv-1166_elec' class='edit center'></td>
+<td id='sv-1166_p66' class='edit center'></td>
+<td id='sv-1166_p67' class='edit center'></td>
+<td id='sv-1166_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1166</td>
+<td id='sv-1166_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-1216_name' class=''>การออกหนังสือรับรองไม้ (กรณียื่นคำขอในส่วนภูมิภาค)</td>
+<td id='sv-1216_count' class='edit right'></td>
+<td id='sv-1216_per' class='edit center'>เดือน</td>
+<td id='sv-1216_elec' class='edit center'></td>
+<td id='sv-1216_p66' class='edit center'></td>
+<td id='sv-1216_p67' class='edit center'></td>
+<td id='sv-1216_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1216</td>
+<td id='sv-1216_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-1201_name' class=''>การนำไม้หรือของป่าเคลื่อนที่เข้าเขตด่านป่าไม้</td>
+<td id='sv-1201_count' class='edit right'></td>
+<td id='sv-1201_per' class='edit center'>เดือน</td>
+<td id='sv-1201_elec' class='edit center'></td>
+<td id='sv-1201_p66' class='edit center'></td>
+<td id='sv-1201_p67' class='edit center'></td>
+<td id='sv-1201_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1201</td>
+<td id='sv-1201_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-1163_name' class=''>การขึ้นทะเบียนที่ดินเป็นสวนป่า</td>
+<td id='sv-1163_count' class='edit right'></td>
+<td id='sv-1163_per' class='edit center'>เดือน</td>
+<td id='sv-1163_elec' class='edit center'></td>
+<td id='sv-1163_p66' class='edit center'></td>
+<td id='sv-1163_p67' class='edit center'></td>
+<td id='sv-1163_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>1163</td>
+<td id='sv-1163_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-1176_name' class=''>การรับลงทะเบียนหนังสือบัญชีแสดงรายการไม้ที่ได้มาจากการทำสวนป่า</td>
+<td id='sv-1176_count' class='edit right'></td>
+<td id='sv-1176_per' class='edit center'>เดือน</td>
+<td id='sv-1176_elec' class='edit center'></td>
+<td id='sv-1176_p66' class='edit center'></td>
+<td id='sv-1176_p67' class='edit center'></td>
+<td id='sv-1176_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1176</td>
+<td id='sv-1176_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-1204_name' class=''>การออกหนังสือรับรองไม้ เพื่อการค้า หรือการส่งออกไปนอกราชอาณาจักร (กรณียื่นคำขอในส่วนภูมิภาค)</td>
+<td id='sv-1204_count' class='edit right'></td>
+<td id='sv-1204_per' class='edit center'>เดือน</td>
+<td id='sv-1204_elec' class='edit center'></td>
+<td id='sv-1204_p66' class='edit center'></td>
+<td id='sv-1204_p67' class='edit center'></td>
+<td id='sv-1204_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1204</td>
+<td id='sv-1204_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-1192_name' class=''>การขอต่ออายุใบอนุญาตอุตสาหกรรมไม้ ในส่วนภูมิภาค</td>
+<td id='sv-1192_count' class='edit right'></td>
+<td id='sv-1192_per' class='edit center'>เดือน</td>
+<td id='sv-1192_elec' class='edit center'></td>
+<td id='sv-1192_p66' class='edit center'></td>
+<td id='sv-1192_p67' class='edit center'></td>
+<td id='sv-1192_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1192</td>
+<td id='sv-1192_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-1171_name' class=''>การโอนทะเบียนที่ดินเป็นสวนป่า</td>
+<td id='sv-1171_count' class='edit right'></td>
+<td id='sv-1171_per' class='edit center'>เดือน</td>
+<td id='sv-1171_elec' class='edit center'></td>
+<td id='sv-1171_p66' class='edit center'></td>
+<td id='sv-1171_p67' class='edit center'></td>
+<td id='sv-1171_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1171</td>
+<td id='sv-1171_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-1206_name' class=''>การเปลี่ยนแปลงชนิดของพันธุ์ไม้หรือจำนวนไม้ที่ทำการปลูกและบำรุงรักษาในที่ดินที่ขึ้นทะเบียนที่ดินเป็นสวนป่า</td>
+<td id='sv-1206_count' class='edit right'></td>
+<td id='sv-1206_per' class='edit center'>เดือน</td>
+<td id='sv-1206_elec' class='edit center'></td>
+<td id='sv-1206_p66' class='edit center'></td>
+<td id='sv-1206_p67' class='edit center'></td>
+<td id='sv-1206_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>1206</td>
+<td id='sv-1206_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-1205_name' class=''>การขออนุญาตใช้สถานที่เพื่อทำการแปรรูปไม้ที่ได้มาจากการทำสวนป่า</td>
+<td id='sv-1205_count' class='edit right'></td>
+<td id='sv-1205_per' class='edit center'>เดือน</td>
+<td id='sv-1205_elec' class='edit center'></td>
+<td id='sv-1205_p66' class='edit center'></td>
+<td id='sv-1205_p67' class='edit center'></td>
+<td id='sv-1205_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1205</td>
+<td id='sv-1205_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-1210_name' class=''>การออกหนังสือรับรองผลิตภัณฑ์ไม้ และถ่านไม้ เพื่อการค้า หรือการ ส่งออกไปนอกราชอาณาจักร (กรณียื่นคำขอในเขตกรุงเทพมหานคร)</td>
+<td id='sv-1210_count' class='edit right'></td>
+<td id='sv-1210_per' class='edit center'>เดือน</td>
+<td id='sv-1210_elec' class='edit center'></td>
+<td id='sv-1210_p66' class='edit center'></td>
+<td id='sv-1210_p67' class='edit center'></td>
+<td id='sv-1210_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1210</td>
+<td id='sv-1210_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-1215_name' class=''>การออกหนังสือรับรอง และบัญชีแสดงรายการกำกับของป่าจากสวนป่า</td>
+<td id='sv-1215_count' class='edit right'></td>
+<td id='sv-1215_per' class='edit center'>เดือน</td>
+<td id='sv-1215_elec' class='edit center'></td>
+<td id='sv-1215_p66' class='edit center'></td>
+<td id='sv-1215_p67' class='edit center'></td>
+<td id='sv-1215_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1215</td>
+<td id='sv-1215_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-1174_name' class=''>การรับแจ้งและการออกหนังสือรับรองการแจ้งตัดหรือโค่นไม้ที่ได้มาจากการทำสวนป่า</td>
+<td id='sv-1174_count' class='edit right'></td>
+<td id='sv-1174_per' class='edit center'>เดือน</td>
+<td id='sv-1174_elec' class='edit center'></td>
+<td id='sv-1174_p66' class='edit center'></td>
+<td id='sv-1174_p67' class='edit center'></td>
+<td id='sv-1174_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1174</td>
+<td id='sv-1174_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-1202_name' class=''>การขออนุญาตให้มีเลื่อยโซ่ยนต์</td>
+<td id='sv-1202_count' class='edit right'></td>
+<td id='sv-1202_per' class='edit center'>เดือน</td>
+<td id='sv-1202_elec' class='edit center'></td>
+<td id='sv-1202_p66' class='edit center'></td>
+<td id='sv-1202_p67' class='edit center'></td>
+<td id='sv-1202_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1202</td>
+<td id='sv-1202_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-1203_name' class=''>การขออนุญาตให้ผลิตเลื่อยโซ่ยนต์</td>
+<td id='sv-1203_count' class='edit right'></td>
+<td id='sv-1203_per' class='edit center'>เดือน</td>
+<td id='sv-1203_elec' class='edit center'></td>
+<td id='sv-1203_p66' class='edit center'></td>
+<td id='sv-1203_p67' class='edit center'></td>
+<td id='sv-1203_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1203</td>
+<td id='sv-1203_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-1193_name' class=''>การขออนุญาตให้นำเข้าเลื่อยโซ่ยนต์</td>
+<td id='sv-1193_count' class='edit right'></td>
+<td id='sv-1193_per' class='edit center'>เดือน</td>
+<td id='sv-1193_elec' class='edit center'></td>
+<td id='sv-1193_p66' class='edit center'></td>
+<td id='sv-1193_p67' class='edit center'></td>
+<td id='sv-1193_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1193</td>
+<td id='sv-1193_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-1218_name' class=''>การอนุญาตทำไม้หวงห้าม (กรณียื่นคำขอในเขตกรุงเทพมหานคร)</td>
+<td id='sv-1218_count' class='edit right'></td>
+<td id='sv-1218_per' class='edit center'>เดือน</td>
+<td id='sv-1218_elec' class='edit center'></td>
+<td id='sv-1218_p66' class='edit center'></td>
+<td id='sv-1218_p67' class='edit center'></td>
+<td id='sv-1218_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1218</td>
+<td id='sv-1218_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-1181_name' class=''>การอนุญาตให้เข้าไปศึกษาหรือวิจัยทางวิชาการภายในเขตป่าสงวนแห่งชาติ (มาตรา 17)</td>
+<td id='sv-1181_count' class='edit right'></td>
+<td id='sv-1181_per' class='edit center'>เดือน</td>
+<td id='sv-1181_elec' class='edit center'></td>
+<td id='sv-1181_p66' class='edit center'></td>
+<td id='sv-1181_p67' class='edit center'></td>
+<td id='sv-1181_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1181</td>
+<td id='sv-1181_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-1196_name' class=''>การขออนุญาตเปลี่ยนแปลงพื้นที่ให้มีหรือใช้เลื่อยโซ่ยนต์ให้แตกต่างไปจากที่ระบุไว้ในใบอนุญาต</td>
+<td id='sv-1196_count' class='edit right'></td>
+<td id='sv-1196_per' class='edit center'>เดือน</td>
+<td id='sv-1196_elec' class='edit center'></td>
+<td id='sv-1196_p66' class='edit center'></td>
+<td id='sv-1196_p67' class='edit center'></td>
+<td id='sv-1196_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1196</td>
+<td id='sv-1196_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-1170_name' class=''>การขออนุญาตปรับปรุงเครื่องจักร การเพิ่ม ลด เปลี่ยนแปลงวัตถุประสงค์ การเพิ่ม ลด เปลี่ยนแปลงการใช้วัตถุดิบ การย้ายสถานที่ตั้งโรงงานแปรรูปไม้โดยใช้เครื่องจักร ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1170_count' class='edit right'></td>
+<td id='sv-1170_per' class='edit center'>เดือน</td>
+<td id='sv-1170_elec' class='edit center'></td>
+<td id='sv-1170_p66' class='edit center'></td>
+<td id='sv-1170_p67' class='edit center'></td>
+<td id='sv-1170_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1170</td>
+<td id='sv-1170_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-1208_name' class=''>การออกหนังสือรับรองผลิตภัณฑ์ไม้ และถ่านไม้ เพื่อการค้า หรือการ ส่งออกไปนอกราชอาณาจักร (กรณียื่นคำขอในส่วนภูมิภาค)</td>
+<td id='sv-1208_count' class='edit right'></td>
+<td id='sv-1208_per' class='edit center'>เดือน</td>
+<td id='sv-1208_elec' class='edit center'></td>
+<td id='sv-1208_p66' class='edit center'></td>
+<td id='sv-1208_p67' class='edit center'></td>
+<td id='sv-1208_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1208</td>
+<td id='sv-1208_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-1199_name' class=''>การขออนุญาตนำเลื่อยโซ่ยนต์ออกใช้นอกพื้นที่ที่ได้รับอนุญาตเป็นการชั่วคราว</td>
+<td id='sv-1199_count' class='edit right'></td>
+<td id='sv-1199_per' class='edit center'>เดือน</td>
+<td id='sv-1199_elec' class='edit center'></td>
+<td id='sv-1199_p66' class='edit center'></td>
+<td id='sv-1199_p67' class='edit center'></td>
+<td id='sv-1199_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1199</td>
+<td id='sv-1199_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-1175_name' class=''>การออกใบแทนหนังสือรับรองตาม พ.ร.บ.สวนป่า พ.ศ. 2535 และที่แก้ไขเพิ่มเติม</td>
+<td id='sv-1175_count' class='edit right'></td>
+<td id='sv-1175_per' class='edit center'>เดือน</td>
+<td id='sv-1175_elec' class='edit center'></td>
+<td id='sv-1175_p66' class='edit center'></td>
+<td id='sv-1175_p67' class='edit center'></td>
+<td id='sv-1175_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1175</td>
+<td id='sv-1175_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-1185_name' class=''>การขออนุญาตปรับปรุงเครื่องจักร การเพิ่ม ลด เปลี่ยนแปลงวัตถุประสงค์ การเพิ่ม ลด เปลี่ยนแปลงการใช้วัตถุดิบ การย้ายสถานที่ตั้งโรงงานแปรรูปไม้โดยใช้เครื่องจักร ในส่วนภูมิภาค</td>
+<td id='sv-1185_count' class='edit right'></td>
+<td id='sv-1185_per' class='edit center'>เดือน</td>
+<td id='sv-1185_elec' class='edit center'></td>
+<td id='sv-1185_p66' class='edit center'></td>
+<td id='sv-1185_p67' class='edit center'></td>
+<td id='sv-1185_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1185</td>
+<td id='sv-1185_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-1212_name' class=''>การขออนุญาตทำไม้ที่มิใช่ไม้หวงห้ามภายในเขตป่าสงวนแห่งชาติ</td>
+<td id='sv-1212_count' class='edit right'></td>
+<td id='sv-1212_per' class='edit center'>เดือน</td>
+<td id='sv-1212_elec' class='edit center'></td>
+<td id='sv-1212_p66' class='edit center'></td>
+<td id='sv-1212_p67' class='edit center'></td>
+<td id='sv-1212_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1212</td>
+<td id='sv-1212_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-1182_name' class=''>การขออนุญาตใช้ประโยชน์เกี่ยวกับเรื่องการเข้าไป การผ่าน หรือการใช้ทาง และการนํา หรือปล่อยสัตว์เลี้ยงเข้าไปภายในเขตป่าสงวนแห่งชาติ (ตามมาตรา 18)</td>
+<td id='sv-1182_count' class='edit right'></td>
+<td id='sv-1182_per' class='edit center'>เดือน</td>
+<td id='sv-1182_elec' class='edit center'></td>
+<td id='sv-1182_p66' class='edit center'></td>
+<td id='sv-1182_p67' class='edit center'></td>
+<td id='sv-1182_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1182</td>
+<td id='sv-1182_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-1180_name' class=''>การอนุญาตให้เข้าทำประโยชน์หรืออยู่อาศัย เพื่อวัตถุประสงค์ต่างๆ ภายในเขตป่าสงวนแห่งชาติ (ตามมาตรา 16)</td>
+<td id='sv-1180_count' class='edit right'></td>
+<td id='sv-1180_per' class='edit center'>เดือน</td>
+<td id='sv-1180_elec' class='edit center'></td>
+<td id='sv-1180_p66' class='edit center'></td>
+<td id='sv-1180_p67' class='edit center'></td>
+<td id='sv-1180_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1180</td>
+<td id='sv-1180_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-1197_name' class=''>การขออนุญาตซ่อมแซมเลื่อยโซ่ยนต์เป็นธุรกิจเพื่อสินจ้าง</td>
+<td id='sv-1197_count' class='edit right'></td>
+<td id='sv-1197_per' class='edit center'>เดือน</td>
+<td id='sv-1197_elec' class='edit center'></td>
+<td id='sv-1197_p66' class='edit center'></td>
+<td id='sv-1197_p67' class='edit center'></td>
+<td id='sv-1197_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1197</td>
+<td id='sv-1197_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-1168_name' class=''>การขออนุญาตทำการแปรรูปไม้ตั้งแต่พระอาทิตย์ตกถึงพระอาทิตย์ขึ้น ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1168_count' class='edit right'></td>
+<td id='sv-1168_per' class='edit center'>เดือน</td>
+<td id='sv-1168_elec' class='edit center'></td>
+<td id='sv-1168_p66' class='edit center'></td>
+<td id='sv-1168_p67' class='edit center'></td>
+<td id='sv-1168_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1168</td>
+<td id='sv-1168_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-1214_name' class=''>การอนุญาตเก็บหาของป่าหวงห้าม</td>
+<td id='sv-1214_count' class='edit right'></td>
+<td id='sv-1214_per' class='edit center'>เดือน</td>
+<td id='sv-1214_elec' class='edit center'></td>
+<td id='sv-1214_p66' class='edit center'></td>
+<td id='sv-1214_p67' class='edit center'></td>
+<td id='sv-1214_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1214</td>
+<td id='sv-1214_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-1177_name' class=''>การขอรับโอน การแก้ไขอาณาเขตและสาระสำคัญในการอนุญาตด้านอุตสาหกรรมไม้ ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1177_count' class='edit right'></td>
+<td id='sv-1177_per' class='edit center'>เดือน</td>
+<td id='sv-1177_elec' class='edit center'></td>
+<td id='sv-1177_p66' class='edit center'></td>
+<td id='sv-1177_p67' class='edit center'></td>
+<td id='sv-1177_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1177</td>
+<td id='sv-1177_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-1191_name' class=''>การขอรับโอน การแก้ไขอาณาเขตและสาระสำคัญในการอนุญาตด้านอุตสาหกรรมไม้ ในส่วนภูมิภาค</td>
+<td id='sv-1191_count' class='edit right'></td>
+<td id='sv-1191_per' class='edit center'>เดือน</td>
+<td id='sv-1191_elec' class='edit center'></td>
+<td id='sv-1191_p66' class='edit center'></td>
+<td id='sv-1191_p67' class='edit center'></td>
+<td id='sv-1191_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1191</td>
+<td id='sv-1191_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-1213_name' class=''>การอนุญาตทำไม้หวงห้าม (กรณียื่นคำขอในส่วนภูมิภาค)</td>
+<td id='sv-1213_count' class='edit right'></td>
+<td id='sv-1213_per' class='edit center'>เดือน</td>
+<td id='sv-1213_elec' class='edit center'></td>
+<td id='sv-1213_p66' class='edit center'></td>
+<td id='sv-1213_p67' class='edit center'></td>
+<td id='sv-1213_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1213</td>
+<td id='sv-1213_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-1195_name' class=''>การขออนุญาตเปลี่ยนแปลงเลื่อยโซ่ยนต์ให้มีกำลังเครื่องจักรกลเพิ่มขึ้นจากที่ระบุไว้ในใบอนุญาต</td>
+<td id='sv-1195_count' class='edit right'></td>
+<td id='sv-1195_per' class='edit center'>เดือน</td>
+<td id='sv-1195_elec' class='edit center'></td>
+<td id='sv-1195_p66' class='edit center'></td>
+<td id='sv-1195_p67' class='edit center'></td>
+<td id='sv-1195_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1195</td>
+<td id='sv-1195_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-1211_name' class=''>การขออนุญาตเก็บหาของป่าที่มิใช่ของป่าหวงห้ามภายในเขตป่าสงวนแห่งชาติ</td>
+<td id='sv-1211_count' class='edit right'></td>
+<td id='sv-1211_per' class='edit center'>เดือน</td>
+<td id='sv-1211_elec' class='edit center'></td>
+<td id='sv-1211_p66' class='edit center'></td>
+<td id='sv-1211_p67' class='edit center'></td>
+<td id='sv-1211_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1211</td>
+<td id='sv-1211_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-1184_name' class=''>การขออนุญาตทำการแปรรูปไม้ตั้งแต่พระอาทิตย์ตกถึงพระอาทิตย์ขึ้น ในส่วนภูมิภาค</td>
+<td id='sv-1184_count' class='edit right'></td>
+<td id='sv-1184_per' class='edit center'>เดือน</td>
+<td id='sv-1184_elec' class='edit center'></td>
+<td id='sv-1184_p66' class='edit center'></td>
+<td id='sv-1184_p67' class='edit center'></td>
+<td id='sv-1184_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1184</td>
+<td id='sv-1184_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-1188_name' class=''>การขออนุญาตค้าหรือมีไว้ครอบครองซึ่งของป่าหวงห้าม</td>
+<td id='sv-1188_count' class='edit right'></td>
+<td id='sv-1188_per' class='edit center'>เดือน</td>
+<td id='sv-1188_elec' class='edit center'></td>
+<td id='sv-1188_p66' class='edit center'></td>
+<td id='sv-1188_p67' class='edit center'></td>
+<td id='sv-1188_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1188</td>
+<td id='sv-1188_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-1178_name' class=''>การขออนุญาตเข้าทำประโยชน์ในเขตป่า ตามมาตรา 4 (1) แห่งพระราชบัญญัติป่าไม้ พุทธศักราช 2484 เพื่อวัตถุประสงค์ต่างๆ (ในเขตกรุงเทพมหานคร)</td>
+<td id='sv-1178_count' class='edit right'></td>
+<td id='sv-1178_per' class='edit center'>เดือน</td>
+<td id='sv-1178_elec' class='edit center'></td>
+<td id='sv-1178_p66' class='edit center'></td>
+<td id='sv-1178_p67' class='edit center'></td>
+<td id='sv-1178_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1178</td>
+<td id='sv-1178_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-1179_name' class=''>การขออนุญาตเข้าทำประโยชน์ในเขตป่า ตามมาตรา 4 (1) แห่งพระราชบัญญัติป่าไม้ พุทธศักราช 2484 เพื่อวัตถุประสงค์ต่างๆ (ส่วนภูมิภาค)</td>
+<td id='sv-1179_count' class='edit right'></td>
+<td id='sv-1179_per' class='edit center'>เดือน</td>
+<td id='sv-1179_elec' class='edit center'></td>
+<td id='sv-1179_p66' class='edit center'></td>
+<td id='sv-1179_p67' class='edit center'></td>
+<td id='sv-1179_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1179</td>
+<td id='sv-1179_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-1183_name' class=''>การอนุญาตให้ทำการปลูกสร้างสวนป่าหรือปลูกไม้ยืนต้นภายในเขตป่าสงวนแห่งชาติ (ตามมาตรา 20)</td>
+<td id='sv-1183_count' class='edit right'></td>
+<td id='sv-1183_per' class='edit center'>เดือน</td>
+<td id='sv-1183_elec' class='edit center'></td>
+<td id='sv-1183_p66' class='edit center'></td>
+<td id='sv-1183_p67' class='edit center'></td>
+<td id='sv-1183_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1183</td>
+<td id='sv-1183_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-1200_name' class=''>การออกใบอนุญาตให้นำไม้หวงห้ามฯ ที่เคยอยู่ในสภาพเป็นสิ่งปลูกสร้างหรือเครื่องใช้ เคลื่อนย้ายออกนอกเขตจังหวัด (กรณียังไม่ได้ทำการรื้อถอน)</td>
+<td id='sv-1200_count' class='edit right'></td>
+<td id='sv-1200_per' class='edit center'>เดือน</td>
+<td id='sv-1200_elec' class='edit center'></td>
+<td id='sv-1200_p66' class='edit center'></td>
+<td id='sv-1200_p67' class='edit center'></td>
+<td id='sv-1200_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1200</td>
+<td id='sv-1200_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-1187_name' class=''>การออกใบอนุญาตให้นำไม้หวงห้ามฯ ที่เคยอยู่ในสภาพเป็นสิ่งปลูกสร้างหรือเครื่องใช้ เคลื่อนย้ายออกนอกเขตจังหวัด ในเขตกรุงเทพมหานคร (กรณีทำการรื้อถอนแล้ว)</td>
+<td id='sv-1187_count' class='edit right'></td>
+<td id='sv-1187_per' class='edit center'>เดือน</td>
+<td id='sv-1187_elec' class='edit center'></td>
+<td id='sv-1187_p66' class='edit center'></td>
+<td id='sv-1187_p67' class='edit center'></td>
+<td id='sv-1187_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1187</td>
+<td id='sv-1187_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-1198_name' class=''>การออกใบอนุญาตให้นำไม้หวงห้ามฯ ที่เคยอยู่ในสภาพเป็นสิ่งปลูกสร้างหรือเครื่องใช้ เคลื่อนย้ายออกนอกเขตจังหวัด ในเขตกรุงเทพมหานคร (กรณียังไม่ได้ทำการรื้อถอน)</td>
+<td id='sv-1198_count' class='edit right'></td>
+<td id='sv-1198_per' class='edit center'>เดือน</td>
+<td id='sv-1198_elec' class='edit center'></td>
+<td id='sv-1198_p66' class='edit center'></td>
+<td id='sv-1198_p67' class='edit center'></td>
+<td id='sv-1198_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1198</td>
+<td id='sv-1198_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-1186_name' class=''>การออกใบเบิกทางนำไม้หรือของป่าเคลื่อนที่</td>
+<td id='sv-1186_count' class='edit right'></td>
+<td id='sv-1186_per' class='edit center'>เดือน</td>
+<td id='sv-1186_elec' class='edit center'></td>
+<td id='sv-1186_p66' class='edit center'></td>
+<td id='sv-1186_p67' class='edit center'></td>
+<td id='sv-1186_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1186</td>
+<td id='sv-1186_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-1207_name' class=''>การออกใบอนุญาตให้นำไม้หวงห้ามฯ ที่เคยอยู่ในสภาพเป็นสิ่งปลูกสร้างหรือเครื่องใช้ เคลื่อนย้ายออกนอกเขตจังหวัด (กรณีทำการรื้อถอนแล้ว)</td>
+<td id='sv-1207_count' class='edit right'></td>
+<td id='sv-1207_per' class='edit center'>เดือน</td>
+<td id='sv-1207_elec' class='edit center'></td>
+<td id='sv-1207_p66' class='edit center'></td>
+<td id='sv-1207_p67' class='edit center'></td>
+<td id='sv-1207_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1207</td>
+<td id='sv-1207_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-1169_name' class=''>การขออนุญาตประทับตราประจำต่อหนังสือกำกับไม้แปรรูป หนังสือกำกับไม้ยางพาราแปรรูป และหนังสือกำกับสิ่งประดิษฐ์ เครื่องใช้ หรือสิ่งอื่นใดบรรดาที่ทำด้วยไม้หวงห้าม ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1169_count' class='edit right'></td>
+<td id='sv-1169_per' class='edit center'>เดือน</td>
+<td id='sv-1169_elec' class='edit center'></td>
+<td id='sv-1169_p66' class='edit center'></td>
+<td id='sv-1169_p67' class='edit center'></td>
+<td id='sv-1169_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1169</td>
+<td id='sv-1169_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-1194_name' class=''>การขออนุญาตประทับตราประจำต่อหนังสือกำกับไม้แปรรูป หนังสือกำกับไม้ยางพาราแปรรูป และหนังสือกำกับสิ่งประดิษฐ์ เครื่องใช้ หรือสิ่งอื่นใดบรรดาที่ทำด้วยไม้หวงห้าม ในส่วนภูมิภาค</td>
+<td id='sv-1194_count' class='edit right'></td>
+<td id='sv-1194_per' class='edit center'>เดือน</td>
+<td id='sv-1194_elec' class='edit center'></td>
+<td id='sv-1194_p66' class='edit center'></td>
+<td id='sv-1194_p67' class='edit center'></td>
+<td id='sv-1194_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1194</td>
+<td id='sv-1194_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-1165_name' class=''>การขออนุญาตค้าหรือมีไว้ในครอบครองเพื่อการค้า ซึ่งสิ่งประดิษฐ์ เครื่องใช้ หรือสิ่งอื่นใดบรรดาที่ทำด้วยไม้หวงห้าม ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1165_count' class='edit right'></td>
+<td id='sv-1165_per' class='edit center'>เดือน</td>
+<td id='sv-1165_elec' class='edit center'></td>
+<td id='sv-1165_p66' class='edit center'></td>
+<td id='sv-1165_p67' class='edit center'></td>
+<td id='sv-1165_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1165</td>
+<td id='sv-1165_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>53</td>
+<td id='sv-1190_name' class=''>การขออนุญาตค้าหรือมีไว้ในครอบครองเพื่อการค้า ซึ่งสิ่งประดิษฐ์ เครื่องใช้ หรือสิ่งอื่นใดบรรดาที่ทำด้วยไม้หวงห้าม ในส่วนภูมิภาค</td>
+<td id='sv-1190_count' class='edit right'></td>
+<td id='sv-1190_per' class='edit center'>เดือน</td>
+<td id='sv-1190_elec' class='edit center'></td>
+<td id='sv-1190_p66' class='edit center'></td>
+<td id='sv-1190_p67' class='edit center'></td>
+<td id='sv-1190_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1190</td>
+<td id='sv-1190_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>54</td>
+<td id='sv-1167_name' class=''>การขออนุญาตตั้งโรงงานแปรรูปไม้โดยใช้เครื่องจักรเพื่อประดิษฐกรรม ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1167_count' class='edit right'></td>
+<td id='sv-1167_per' class='edit center'>เดือน</td>
+<td id='sv-1167_elec' class='edit center'></td>
+<td id='sv-1167_p66' class='edit center'></td>
+<td id='sv-1167_p67' class='edit center'></td>
+<td id='sv-1167_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1167</td>
+<td id='sv-1167_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>55</td>
+<td id='sv-1164_name' class=''>การขออนุญาตตั้งโรงงานแปรรูปไม้โดยใช้เครื่องจักรเพื่อประดิษฐกรรม ในส่วนภูมิภาค</td>
+<td id='sv-1164_count' class='edit right'></td>
+<td id='sv-1164_per' class='edit center'>เดือน</td>
+<td id='sv-1164_elec' class='edit center'></td>
+<td id='sv-1164_p66' class='edit center'></td>
+<td id='sv-1164_p67' class='edit center'></td>
+<td id='sv-1164_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1164</td>
+<td id='sv-1164_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>56</td>
+<td id='sv-1162_name' class=''>การขอตั้งโรงค้าไม้แปรรูป โรงงานแปรรูปไม้โดยใช้แรงคน (โรงเลื่อยมือ) โรงงานแปรรูปไม้โดยใช้แรงคนเพื่อประดิษฐกรรม การขอทำการแปรรูปไม้เพื่อการค้า การขอทำการแปรรูปไม้มิใช่เพื่อการค้าและการขอมีไม้แปรรูปไว้ในครอบครอง ในเขตกรุงเทพมหานคร</td>
+<td id='sv-1162_count' class='edit right'></td>
+<td id='sv-1162_per' class='edit center'>เดือน</td>
+<td id='sv-1162_elec' class='edit center'></td>
+<td id='sv-1162_p66' class='edit center'></td>
+<td id='sv-1162_p67' class='edit center'></td>
+<td id='sv-1162_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1162</td>
+<td id='sv-1162_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>57</td>
+<td id='sv-1189_name' class=''>การขอตั้งโรงค้าไม้แปรรูป โรงงานแปรรูปไม้โดยใช้แรงคน (โรงเลื่อยมือ) โรงงานแปรรูปไม้โดยใช้แรงคนเพื่อประดิษฐกรรม การขอทำการแปรรูปไม้เพื่อการค้า การขอทำการแปรรูปไม้มิใช่เพื่อการค้าและการขอมีไม้แปรรูปไว้ในครอบครอง ในส่วนภูมิภาค</td>
+<td id='sv-1189_count' class='edit right'></td>
+<td id='sv-1189_per' class='edit center'>เดือน</td>
+<td id='sv-1189_elec' class='edit center'></td>
+<td id='sv-1189_p66' class='edit center'></td>
+<td id='sv-1189_p67' class='edit center'></td>
+<td id='sv-1189_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1189</td>
+<td id='sv-1189_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+
