@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220830112251494  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#192> ;
+vp:orgName  'กรมพัฒนาธุรกิจการค้า' ;
+vp:editor   'นายชุมพล บุญมี' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'drnum@tueng.org' ;
+vp:time     '3H' ;
+vp:start     '20220830112251494' ;
+vp:end     '20220830142251494' ;
+vp:link		'https://dga.tueng.org/acc/20220830112251494/sv-192.html' .
+

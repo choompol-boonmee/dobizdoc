@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220830132015792  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'tawa khampachua' ;
+vp:editorOrg   'kmutnb' ;
+vp:email    'tawa.k@fte.kmutnb.ac.th' ;
+vp:time     '3H' ;
+vp:start     '20220830132015792' ;
+vp:end     '20220830162015792' ;
+vp:link		'https://dga.tueng.org/acc/20220830132015792/sv-127.html' .
+

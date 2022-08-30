@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220830074005684  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#576> ;
+vp:orgName  'สำนักงานคณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ' ;
+vp:editor   'เทวา คำปาเชื้อ' ;
+vp:editorOrg   'มจพ.' ;
+vp:email    'tawa.k@fte.kmutnb.ac.th' ;
+vp:time     '1M' ;
+vp:start     '20220830074005684' ;
+vp:end     '20220930074005684' ;
+vp:link		'https://dga.tueng.org/acc/20220830074005684/sv-576.html' .
+

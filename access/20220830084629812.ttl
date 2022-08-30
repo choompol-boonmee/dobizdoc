@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220830084629812  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#233> ;
+vp:orgName  'กรมสวัสดิการและคุ้มครองแรงงาน' ;
+vp:editor   'ชุติกาญจน์ กีรติเพียรเลิศ' ;
+vp:editorOrg   'ฟิกท์' ;
+vp:email    'c.keeratipianlerd@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220830084629812' ;
+vp:end     '20220830114629812' ;
+vp:link		'https://dga.tueng.org/acc/20220830084629812/sv-233.html' .
+
