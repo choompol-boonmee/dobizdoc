@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220830143013039  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#207> ;
+vp:orgName  'กรมส่งเสริมการปกครองท้องถิ่น' ;
+vp:editor   'สุกรัณย์ ระงับพาล' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'sukarun3@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220830143013039' ;
+vp:end     '20220830173013039' ;
+vp:link		'https://dga.tueng.org/acc/20220830143013039/sv-207.html' .
+
