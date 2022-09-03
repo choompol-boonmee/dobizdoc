@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220901045629657  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#367> ;
+vp:orgName  'กรมโรงงานอุตสาหกรรม' ;
+vp:editor   'นายชุมพล บุญมี' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'drnum@tueng.org' ;
+vp:time     '3H' ;
+vp:start     '20220901045629657' ;
+vp:end     '20220901075629657' ;
+vp:link		'https://dga.tueng.org/acc/20220901045629657/sv-367.html' .
+

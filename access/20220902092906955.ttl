@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902092906955  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#565> ;
+vp:orgName  'สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์' ;
+vp:editor   'วารี' ;
+vp:editorOrg   'สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์' ;
+vp:email    'waree.th@tfac.or.th' ;
+vp:time     '1M' ;
+vp:start     '20220902092906955' ;
+vp:end     '20221002092906955' ;
+vp:link		'https://dga.tueng.org/acc/20220902092906955/sv-565.html' .
+

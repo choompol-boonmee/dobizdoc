@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902060342409  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#164> ;
+vp:orgName  'กรมป่าไม้' ;
+vp:editor   'สิตานันธ์ จันทร์สมบูรณ์' ;
+vp:editorOrg   'กรมป่าไม้' ;
+vp:email    'change.psdg@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220902060342409' ;
+vp:end     '20221002060342409' ;
+vp:link		'https://dga.tueng.org/acc/20220902060342409/sv-164.html' .
+

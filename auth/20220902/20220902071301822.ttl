@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902071301822  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#16> ;
+vp:orgName  'กรมสรรพสามิต' ;
+vp:editor   'ทวีศักดิ์ ไชยวังราช' ;
+vp:editorOrg   'กรมสรรพสามิต' ;
+vp:email    'thaweesak@excise.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220902071301822' ;
+vp:end     '20220902101301822' ;
+vp:link		'https://dga.tueng.org/acc/20220902071301822/sv-16.html' .
+

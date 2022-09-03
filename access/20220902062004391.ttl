@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902062004391  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#100> ;
+vp:orgName  'กรมชลประทาน' ;
+vp:editor   'นางสาวไพรัตน์  ตรีศูนย์' ;
+vp:editorOrg   'กรมชลประทาน เงินทุนหมุนเวียนเพื่อการชลประทาน' ;
+vp:email    'rfi.rid@hotmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220902062004391' ;
+vp:end     '20220909062004391' ;
+vp:link		'https://dga.tueng.org/acc/20220902062004391/sv-100.html' .
+

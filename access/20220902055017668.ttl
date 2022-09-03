@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055017668  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#106> ;
+vp:orgName  'กรมวิชาการเกษตร' ;
+vp:editor   'วรลักษณ์ ถนอมศักดิ์' ;
+vp:editorOrg   'กรมวิชาการเกษตร' ;
+vp:email    'woralack.kpr@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220902055017668' ;
+vp:end     '20221002055017668' ;
+vp:link		'https://dga.tueng.org/acc/20220902055017668/sv-106.html' .
+

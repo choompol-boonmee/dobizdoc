@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902093615807  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#565> ;
+vp:orgName  'สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์' ;
+vp:editor   'นางสาวสกุลรัตน์ เกษมณี' ;
+vp:editorOrg   'สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์' ;
+vp:email    'sakulrat.li@tfac.or.th' ;
+vp:time     '3H' ;
+vp:start     '20220902093615807' ;
+vp:end     '20220902123615807' ;
+vp:link		'https://dga.tueng.org/acc/20220902093615807/sv-565.html' .
+

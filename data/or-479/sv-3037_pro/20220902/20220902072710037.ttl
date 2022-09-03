@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220902072710037  a  vp:Data ;
+vp:token   <ac:20220902055430175> ;
+vp:email   'div5.guard.mpb@royalthaipolice.go.th' ;
+vp:service   'sv-3037_pro' ;
+vp:value  '3' .
+

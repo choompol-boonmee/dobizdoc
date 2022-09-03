@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055835278  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#367> ;
+vp:orgName  'กรมโรงงานอุตสาหกรรม' ;
+vp:editor   'ภัทรภรณ์ เผ่าเมือง' ;
+vp:editorOrg   'กรมโรงงานอุตสาหกรรม' ;
+vp:email    'pattaraporn.p@diw.mail.go.th' ;
+vp:time     '1M' ;
+vp:start     '20220902055835278' ;
+vp:end     '20221002055835278' ;
+vp:link		'https://dga.tueng.org/acc/20220902055835278/sv-367.html' .
+

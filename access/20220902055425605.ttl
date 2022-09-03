@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055425605  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#102> ;
+vp:orgName  'กรมประมง' ;
+vp:editor   'น.ส.จิราภา ทัพพหรม' ;
+vp:editorOrg   'กองบริหารจัดการทรัพยากรและกำหนดมาตรการ กรมประมง' ;
+vp:email    'jirapa.tupprom@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220902055425605' ;
+vp:end     '20220902085425605' ;
+vp:link		'https://dga.tueng.org/acc/20220902055425605/sv-102.html' .
+

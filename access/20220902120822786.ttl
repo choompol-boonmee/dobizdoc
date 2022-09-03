@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902120822786  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#100> ;
+vp:orgName  'กรมชลประทาน' ;
+vp:editor   'วนิดา ปลงใจ' ;
+vp:editorOrg   'กลุ่มพัฒนาระบบบริหาร กรมชลประทาน' ;
+vp:email    'psdd2018@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220902120822786' ;
+vp:end     '20221002120822786' ;
+vp:link		'https://dga.tueng.org/acc/20220902120822786/sv-100.html' .
+

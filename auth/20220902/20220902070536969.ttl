@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902070536969  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#576> ;
+vp:orgName  'สำนักงานคณะกรรมการกิจการกระจายเสียง กิจการโทรทัศน์ และกิจการโทรคมนาคมแห่งชาติ' ;
+vp:editor   'เปรมณัฎฐ์ ณัฐศรีวัฒน' ;
+vp:editorOrg   'สำนักงาน กสทช. ' ;
+vp:email    'premmanat.n@nbtc.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220902070536969' ;
+vp:end     '20220909070536969' ;
+vp:link		'https://dga.tueng.org/acc/20220902070536969/sv-576.html' .
+

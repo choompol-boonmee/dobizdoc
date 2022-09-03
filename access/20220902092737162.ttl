@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902092737162  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#191> ;
+vp:orgName  'กรมทรัพย์สินทางปัญญา' ;
+vp:editor   'นางสาวน้ำทิพย์ จันทราช' ;
+vp:editorOrg   'กรมทรัพย์สินทางปัญญา' ;
+vp:email    'namthip.c@ipthailand.go.th' ;
+vp:time     '1M' ;
+vp:start     '20220902092737162' ;
+vp:end     '20221002092737162' ;
+vp:link		'https://dga.tueng.org/acc/20220902092737162/sv-191.html' .
+

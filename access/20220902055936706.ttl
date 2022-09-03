@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055936706  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#202> ;
+vp:orgName  'กรมการปกครอง' ;
+vp:editor   'นางสาวศศิธร สุวรรณพงศ์' ;
+vp:editorOrg   'ส่วนประสานราชการ กรมการปกครอง' ;
+vp:email    's.suwannaprong@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220902055936706' ;
+vp:end     '20221002055936706' ;
+vp:link		'https://dga.tueng.org/acc/20220902055936706/sv-202.html' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055339052  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#103> ;
+vp:orgName  'กรมปศุสัตว์' ;
+vp:editor   'เบญจวรรณ นาคนาโส' ;
+vp:editorOrg   'กรมปศุสัตว์' ;
+vp:email    'manage@dld.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220902055339052' ;
+vp:end     '20220902085339052' ;
+vp:link		'https://dga.tueng.org/acc/20220902055339052/sv-103.html' .
+

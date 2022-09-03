@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220831192623306  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'นายชุมพล บุญมี' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'drnum@tueng.org' ;
+vp:time     '3H' ;
+vp:start     '20220831192623306' ;
+vp:end     '20220831222623306' ;
+vp:link		'https://dga.tueng.org/acc/20220831192623306/sv-204.html' .
+

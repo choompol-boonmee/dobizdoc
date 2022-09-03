@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220902055430175  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#479> ;
+vp:orgName  'กองบัญชาการตำรวจนครบาล' ;
+vp:editor   'พ.ต.ต.หญิงอุมาพร พันธุ์ศิริ' ;
+vp:editorOrg   'กองบัญชาการตำรวจนครบาล' ;
+vp:email    'div5.guard.mpb@royalthaipolice.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220902055430175' ;
+vp:end     '20220909055430175' ;
+vp:link		'https://dga.tueng.org/acc/20220902055430175/sv-479.html' .
+
