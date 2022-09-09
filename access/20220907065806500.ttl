@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220907065806500  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#100> ;
+vp:orgName  'กรมชลประทาน' ;
+vp:editor   'เศรษฐา เครือสุคนธ์' ;
+vp:editorOrg   'กรมชลประทาน' ;
+vp:email    'settha2507@yahoo.co.th' ;
+vp:time     '1D' ;
+vp:start     '20220907065806500' ;
+vp:end     '20220908065806500' ;
+vp:link		'https://dga.tueng.org/acc/20220907065806500/sv-100.html' .
+

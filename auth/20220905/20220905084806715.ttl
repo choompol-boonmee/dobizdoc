@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220905084806715  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#166> ;
+vp:orgName  'กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช' ;
+vp:editor   'นางสาวเกษรา วงษ์เจริญ' ;
+vp:editorOrg   'กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช' ;
+vp:email    'npm_dnp@hotmail.co.th' ;
+vp:time     '1D' ;
+vp:start     '20220905084806715' ;
+vp:end     '20220906084806715' ;
+vp:link		'https://dga.tueng.org/acc/20220905084806715/sv-166.html' .
+

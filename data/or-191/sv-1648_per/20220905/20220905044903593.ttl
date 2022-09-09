@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220905044903593  a  vp:Data ;
+vp:token   <ac:20220902092737162> ;
+vp:email   'namthip.c@ipthailand.go.th' ;
+vp:service   'sv-1648_per' ;
+vp:value  'ปี' .
+

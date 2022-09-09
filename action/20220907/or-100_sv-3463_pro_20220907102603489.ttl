@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220907102603489  a  vp:Data ;
+vp:token   <ac:20220907091103579> ;
+vp:email   'iaub.imd@gmail.com' ;
+vp:service   'sv-3463_pro' ;
+vp:value  '2' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220908135624792  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#233> ;
+vp:orgName  'กรมสวัสดิการและคุ้มครองแรงงาน' ;
+vp:editor   'วิษารักษ์ ผลภาษี' ;
+vp:editorOrg   'กรมสวัสดิการและคุ้มครองแรงงาน' ;
+vp:email    'asdg@labour.mail.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220908135624792' ;
+vp:end     '20220915135624792' ;
+vp:link		'https://dga.tueng.org/acc/20220908135624792/sv-233.html' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220907091103579  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#100> ;
+vp:orgName  'กรมชลประทาน' ;
+vp:editor   'นางสาวกัลยา  วันเพ็ญ' ;
+vp:editorOrg   'ฝ่ายการใช้พื้นที่ด้านชลประทาน ส่วนปรับปรุงบำรุงรักษา สำนักบริหารจัดการน้ำและอุทกวิทยา' ;
+vp:email    'iaub.imd@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220907091103579' ;
+vp:end     '20220914091103579' ;
+vp:link		'https://dga.tueng.org/acc/20220907091103579/sv-100.html' .
+

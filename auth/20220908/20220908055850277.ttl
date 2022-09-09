@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220908055850277  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#106> ;
+vp:orgName  'กรมวิชาการเกษตร' ;
+vp:editor   'ทัศนีย์ ศรีโสภา' ;
+vp:editorOrg   'กลุ่มควบคุมพันธุ์พืช สำนักควบคุมพืชและวัสดุการเกษตร' ;
+vp:email    'maamsri@hotmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220908055850277' ;
+vp:end     '20220908085850277' ;
+vp:link		'https://dga.tueng.org/acc/20220908055850277/sv-106.html' .
+
