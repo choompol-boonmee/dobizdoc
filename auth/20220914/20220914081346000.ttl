@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914081346000  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#102> ;
+vp:orgName  'กรมประมง' ;
+vp:editor   'ธัญดา สอนศิลป์' ;
+vp:editorOrg   'กรมประมง' ;
+vp:email    'adgfish@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220914081346000' ;
+vp:end     '20221014081346000' ;
+vp:link		'https://dga.tueng.org/acc/20220914081346000/sv-102.html' .
+

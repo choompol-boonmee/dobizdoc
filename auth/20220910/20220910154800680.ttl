@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220910154800680  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#16> ;
+vp:orgName  'กรมสรรพสามิต' ;
+vp:editor   'นายชุมพล บุญมี' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'drnum@tueng.org' ;
+vp:time     '3H' ;
+vp:start     '20220910154800680' ;
+vp:end     '20220910184800680' ;
+vp:link		'https://dga.tueng.org/acc/20220910154800680/sv-16.html' .
+

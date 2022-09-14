@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914080746624  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#102> ;
+vp:orgName  'กรมประมง' ;
+vp:editor   'เศรษฐ์ ไกรทัศน์' ;
+vp:editorOrg   'กลุ่มควบคุมการนำเข้าส่งออกสัตว์น้ำ กองตรวจสอบเรือประมง สินค้าสัตว์น้ำ และปัจจัยการผลิต' ;
+vp:email    'snleviathan@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220914080746624' ;
+vp:end     '20220914110746624' ;
+vp:link		'https://dga.tueng.org/acc/20220914080746624/sv-102.html' .
+

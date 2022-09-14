@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912094937070  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#533> ;
+vp:orgName  'สำนักงานคณะกรรมการส่งเสริมการลงทุน' ;
+vp:editor   'สุริสา ศรีวิทยา' ;
+vp:editorOrg   'สำนักงานคณะกรรมการส่งเสริมการลงทุน' ;
+vp:email    'surisa@boi.go.th' ;
+vp:time     '1M' ;
+vp:start     '20220912094937070' ;
+vp:end     '20221012094937070' ;
+vp:link		'https://dga.tueng.org/acc/20220912094937070/sv-533.html' .
+

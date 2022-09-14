@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914084459148  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#88> ;
+vp:orgName  'สำนักงานการวิจัยแห่งชาติ' ;
+vp:editor   'นางสาวจุฑาดล บุรณเวช' ;
+vp:editorOrg   'สำนักงานการวิจัยแห่งชาติ' ;
+vp:email    'juthadol.p@nrct.go.th' ;
+vp:time     '1D' ;
+vp:start     '20220914084459148' ;
+vp:end     '20220915084459148' ;
+vp:link		'https://dga.tueng.org/acc/20220914084459148/sv-88.html' .
+

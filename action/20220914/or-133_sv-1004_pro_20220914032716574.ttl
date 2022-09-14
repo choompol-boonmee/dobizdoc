@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220914032716574  a  vp:Data ;
+vp:token   <ac:20220914031952077> ;
+vp:email   'rawisara.k@mrta.co.th' ;
+vp:service   'sv-1004_pro' ;
+vp:value  '1' .
+

@@ -1,0 +1,576 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-565';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ สภาวิชาชีพบัญชี ในพระบรมราชูปถัมภ์ </h2>
+<span id='orgid'>(or-565)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-3146_name' class=''>การต่ออายุสมาชิกภาพ</td>
+<td id='sv-3146_count' class='edit right'></td>
+<td id='sv-3146_per' class='edit center'>เดือน</td>
+<td id='sv-3146_elec' class='edit center'></td>
+<td id='sv-3146_p66' class='edit center'></td>
+<td id='sv-3146_p67' class='edit center'></td>
+<td id='sv-3146_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3146</td>
+<td id='sv-3146_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-3164_name' class=''>การลาออกจากสมาชิก</td>
+<td id='sv-3164_count' class='edit right'></td>
+<td id='sv-3164_per' class='edit center'>เดือน</td>
+<td id='sv-3164_elec' class='edit center'></td>
+<td id='sv-3164_p66' class='edit center'></td>
+<td id='sv-3164_p67' class='edit center'></td>
+<td id='sv-3164_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3164</td>
+<td id='sv-3164_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-3172_name' class=''>การขอหนังสือรับรองของสมาชิก</td>
+<td id='sv-3172_count' class='edit right'></td>
+<td id='sv-3172_per' class='edit center'>เดือน</td>
+<td id='sv-3172_elec' class='edit center'></td>
+<td id='sv-3172_p66' class='edit center'></td>
+<td id='sv-3172_p67' class='edit center'></td>
+<td id='sv-3172_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>3172</td>
+<td id='sv-3172_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-3169_name' class=''>การขอหนังสือรับรองผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3169_count' class='edit right'></td>
+<td id='sv-3169_per' class='edit center'>เดือน</td>
+<td id='sv-3169_elec' class='edit center'></td>
+<td id='sv-3169_p66' class='edit center'></td>
+<td id='sv-3169_p67' class='edit center'></td>
+<td id='sv-3169_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3169</td>
+<td id='sv-3169_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-3148_name' class=''>การยืนยันรายชื่อของผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3148_count' class='edit right'></td>
+<td id='sv-3148_per' class='edit center'>เดือน</td>
+<td id='sv-3148_elec' class='edit center'></td>
+<td id='sv-3148_p66' class='edit center'></td>
+<td id='sv-3148_p67' class='edit center'></td>
+<td id='sv-3148_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3148</td>
+<td id='sv-3148_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-3147_name' class=''>การแจ้งรายชื่อของผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3147_count' class='edit right'></td>
+<td id='sv-3147_per' class='edit center'>เดือน</td>
+<td id='sv-3147_elec' class='edit center'></td>
+<td id='sv-3147_p66' class='edit center'></td>
+<td id='sv-3147_p67' class='edit center'></td>
+<td id='sv-3147_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3147</td>
+<td id='sv-3147_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-3154_name' class=''>สมัครสอบผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3154_count' class='edit right'></td>
+<td id='sv-3154_per' class='edit center'>เดือน</td>
+<td id='sv-3154_elec' class='edit center'></td>
+<td id='sv-3154_p66' class='edit center'></td>
+<td id='sv-3154_p67' class='edit center'></td>
+<td id='sv-3154_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3154</td>
+<td id='sv-3154_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-3163_name' class=''>การลาออกจากผู้ขอขึ้นทะเบียนเป็นผู้ทำบัญชี</td>
+<td id='sv-3163_count' class='edit right'></td>
+<td id='sv-3163_per' class='edit center'>เดือน</td>
+<td id='sv-3163_elec' class='edit center'></td>
+<td id='sv-3163_p66' class='edit center'></td>
+<td id='sv-3163_p67' class='edit center'></td>
+<td id='sv-3163_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3163</td>
+<td id='sv-3163_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-3150_name' class=''>การต่ออายุใบอนุญาตเป็นผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3150_count' class='edit right'></td>
+<td id='sv-3150_per' class='edit center'>เดือน</td>
+<td id='sv-3150_elec' class='edit center'></td>
+<td id='sv-3150_p66' class='edit center'></td>
+<td id='sv-3150_p67' class='edit center'></td>
+<td id='sv-3150_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3150</td>
+<td id='sv-3150_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-3178_name' class=''>การแจ้งรายละเอียดเกี่ยวกับหลักประกันความรับผิดต่อบุคคลที่สาม</td>
+<td id='sv-3178_count' class='edit right'></td>
+<td id='sv-3178_per' class='edit center'>เดือน</td>
+<td id='sv-3178_elec' class='edit center'></td>
+<td id='sv-3178_p66' class='edit center'></td>
+<td id='sv-3178_p67' class='edit center'></td>
+<td id='sv-3178_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3178</td>
+<td id='sv-3178_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-3152_name' class=''>การยื่นคําขอสมัครเป็นสมาชิกสามัญ</td>
+<td id='sv-3152_count' class='edit right'></td>
+<td id='sv-3152_per' class='edit center'>เดือน</td>
+<td id='sv-3152_elec' class='edit center'></td>
+<td id='sv-3152_p66' class='edit center'></td>
+<td id='sv-3152_p67' class='edit center'></td>
+<td id='sv-3152_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3152</td>
+<td id='sv-3152_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-3151_name' class=''>การยื่นคําขอรับใบอนุญาตเป็นผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3151_count' class='edit right'></td>
+<td id='sv-3151_per' class='edit center'>เดือน</td>
+<td id='sv-3151_elec' class='edit center'></td>
+<td id='sv-3151_p66' class='edit center'></td>
+<td id='sv-3151_p67' class='edit center'></td>
+<td id='sv-3151_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3151</td>
+<td id='sv-3151_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-3171_name' class=''>การขอหนังสือรับรองของผู้ขอขึ้นทะเบียนเป็นผู้ทำบัญชี</td>
+<td id='sv-3171_count' class='edit right'></td>
+<td id='sv-3171_per' class='edit center'>เดือน</td>
+<td id='sv-3171_elec' class='edit center'></td>
+<td id='sv-3171_p66' class='edit center'></td>
+<td id='sv-3171_p67' class='edit center'></td>
+<td id='sv-3171_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>3171</td>
+<td id='sv-3171_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-3173_name' class=''>การขอคืนใบอนุญาตเป็นผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3173_count' class='edit right'></td>
+<td id='sv-3173_per' class='edit center'>เดือน</td>
+<td id='sv-3173_elec' class='edit center'></td>
+<td id='sv-3173_p66' class='edit center'></td>
+<td id='sv-3173_p67' class='edit center'></td>
+<td id='sv-3173_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3173</td>
+<td id='sv-3173_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-3179_name' class=''>การสมัครอบรมสัมมนา</td>
+<td id='sv-3179_count' class='edit right'></td>
+<td id='sv-3179_per' class='edit center'>เดือน</td>
+<td id='sv-3179_elec' class='edit center'></td>
+<td id='sv-3179_p66' class='edit center'></td>
+<td id='sv-3179_p67' class='edit center'></td>
+<td id='sv-3179_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3179</td>
+<td id='sv-3179_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-3177_name' class=''>การแจ้งจำนวนชั่วโมงการฝึกหัดงาน</td>
+<td id='sv-3177_count' class='edit right'></td>
+<td id='sv-3177_per' class='edit center'>เดือน</td>
+<td id='sv-3177_elec' class='edit center'></td>
+<td id='sv-3177_p66' class='edit center'></td>
+<td id='sv-3177_p67' class='edit center'></td>
+<td id='sv-3177_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3177</td>
+<td id='sv-3177_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-3175_name' class=''>การขอให้พักใช้ใบอนุญาตของผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3175_count' class='edit right'></td>
+<td id='sv-3175_per' class='edit center'>เดือน</td>
+<td id='sv-3175_elec' class='edit center'></td>
+<td id='sv-3175_p66' class='edit center'></td>
+<td id='sv-3175_p67' class='edit center'></td>
+<td id='sv-3175_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3175</td>
+<td id='sv-3175_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-3153_name' class=''>การยื่นคําขอสมัครเป็นสมาชิกสมทบ</td>
+<td id='sv-3153_count' class='edit right'></td>
+<td id='sv-3153_per' class='edit center'>เดือน</td>
+<td id='sv-3153_elec' class='edit center'></td>
+<td id='sv-3153_p66' class='edit center'></td>
+<td id='sv-3153_p67' class='edit center'></td>
+<td id='sv-3153_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3153</td>
+<td id='sv-3153_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-3174_name' class=''>การขอใบแทนใบอนุญาตการเป็นผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3174_count' class='edit right'></td>
+<td id='sv-3174_per' class='edit center'>เดือน</td>
+<td id='sv-3174_elec' class='edit center'></td>
+<td id='sv-3174_p66' class='edit center'></td>
+<td id='sv-3174_p67' class='edit center'></td>
+<td id='sv-3174_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3174</td>
+<td id='sv-3174_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-3157_name' class=''>การยื่นคำขอสมัครเป็นสมาชิกวิสามัญ</td>
+<td id='sv-3157_count' class='edit right'></td>
+<td id='sv-3157_per' class='edit center'>เดือน</td>
+<td id='sv-3157_elec' class='edit center'></td>
+<td id='sv-3157_p66' class='edit center'></td>
+<td id='sv-3157_p67' class='edit center'></td>
+<td id='sv-3157_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3157</td>
+<td id='sv-3157_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-3162_name' class=''>การยื่นคำขอขึ้นทะเบียนเป็นผู้ทำบัญชี ระดับต่ำกว่าปริญญาตรี</td>
+<td id='sv-3162_count' class='edit right'></td>
+<td id='sv-3162_per' class='edit center'>เดือน</td>
+<td id='sv-3162_elec' class='edit center'></td>
+<td id='sv-3162_p66' class='edit center'></td>
+<td id='sv-3162_p67' class='edit center'></td>
+<td id='sv-3162_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3162</td>
+<td id='sv-3162_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-3161_name' class=''>การยื่นคำขอขึ้นทะเบียนเป็นผู้ทำบัญชี ระดับปริญญาตรี</td>
+<td id='sv-3161_count' class='edit right'></td>
+<td id='sv-3161_per' class='edit center'>เดือน</td>
+<td id='sv-3161_elec' class='edit center'></td>
+<td id='sv-3161_p66' class='edit center'></td>
+<td id='sv-3161_p67' class='edit center'></td>
+<td id='sv-3161_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3161</td>
+<td id='sv-3161_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-3166_name' class=''>การขอผ่อนผันการขยายระยะเวลาการชำระค่าบำรุงสมาชิก</td>
+<td id='sv-3166_count' class='edit right'></td>
+<td id='sv-3166_per' class='edit center'>เดือน</td>
+<td id='sv-3166_elec' class='edit center'></td>
+<td id='sv-3166_p66' class='edit center'></td>
+<td id='sv-3166_p67' class='edit center'></td>
+<td id='sv-3166_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3166</td>
+<td id='sv-3166_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-3170_name' class=''>การขอหนังสือรับรองนิติบุคคลตามมาตรา 11</td>
+<td id='sv-3170_count' class='edit right'></td>
+<td id='sv-3170_per' class='edit center'>เดือน</td>
+<td id='sv-3170_elec' class='edit center'></td>
+<td id='sv-3170_p66' class='edit center'></td>
+<td id='sv-3170_p67' class='edit center'></td>
+<td id='sv-3170_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>3170</td>
+<td id='sv-3170_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-3155_name' class=''>การรับรองปริญญาทางการบัญชีของสถาบันการศึกษาต่าง ๆ</td>
+<td id='sv-3155_count' class='edit right'></td>
+<td id='sv-3155_per' class='edit center'>เดือน</td>
+<td id='sv-3155_elec' class='edit center'></td>
+<td id='sv-3155_p66' class='edit center'></td>
+<td id='sv-3155_p67' class='edit center'></td>
+<td id='sv-3155_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3155</td>
+<td id='sv-3155_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-3159_name' class=''>การรับแจ้งชั่วโมงการพัฒนาความรู้ต่อเนื่องทางวิชาชีพของผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3159_count' class='edit right'></td>
+<td id='sv-3159_per' class='edit center'>เดือน</td>
+<td id='sv-3159_elec' class='edit center'></td>
+<td id='sv-3159_p66' class='edit center'></td>
+<td id='sv-3159_p67' class='edit center'></td>
+<td id='sv-3159_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3159</td>
+<td id='sv-3159_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-3158_name' class=''>การต่ออายุนิติบุคคลตามมาตรา 11</td>
+<td id='sv-3158_count' class='edit right'></td>
+<td id='sv-3158_per' class='edit center'>เดือน</td>
+<td id='sv-3158_elec' class='edit center'></td>
+<td id='sv-3158_p66' class='edit center'></td>
+<td id='sv-3158_p67' class='edit center'></td>
+<td id='sv-3158_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3158</td>
+<td id='sv-3158_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-3144_name' class=''>การให้ความเห็นชอบเป็นผู้จัดการอบรมหรือประชุมสัมมนา</td>
+<td id='sv-3144_count' class='edit right'></td>
+<td id='sv-3144_per' class='edit center'>เดือน</td>
+<td id='sv-3144_elec' class='edit center'></td>
+<td id='sv-3144_p66' class='edit center'></td>
+<td id='sv-3144_p67' class='edit center'></td>
+<td id='sv-3144_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3144</td>
+<td id='sv-3144_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-3149_name' class=''>การจดทะเบียนนิติบุคคลตามมาตรา 11</td>
+<td id='sv-3149_count' class='edit right'></td>
+<td id='sv-3149_per' class='edit center'>เดือน</td>
+<td id='sv-3149_elec' class='edit center'></td>
+<td id='sv-3149_p66' class='edit center'></td>
+<td id='sv-3149_p67' class='edit center'></td>
+<td id='sv-3149_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3149</td>
+<td id='sv-3149_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-3160_name' class=''>การต่ออายุผู้ขอขึ้นทะเบียนเป็นผู้ทำบัญชี</td>
+<td id='sv-3160_count' class='edit right'></td>
+<td id='sv-3160_per' class='edit center'>เดือน</td>
+<td id='sv-3160_elec' class='edit center'></td>
+<td id='sv-3160_p66' class='edit center'></td>
+<td id='sv-3160_p67' class='edit center'></td>
+<td id='sv-3160_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>3160</td>
+<td id='sv-3160_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-3145_name' class=''>การให้ความเห็นชอบหลักสูตรและวิทยากร</td>
+<td id='sv-3145_count' class='edit right'></td>
+<td id='sv-3145_per' class='edit center'>เดือน</td>
+<td id='sv-3145_elec' class='edit center'></td>
+<td id='sv-3145_p66' class='edit center'></td>
+<td id='sv-3145_p67' class='edit center'></td>
+<td id='sv-3145_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3145</td>
+<td id='sv-3145_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-3156_name' class=''>การขอดูผลการทดสอบ CPA</td>
+<td id='sv-3156_count' class='edit right'></td>
+<td id='sv-3156_per' class='edit center'>เดือน</td>
+<td id='sv-3156_elec' class='edit center'></td>
+<td id='sv-3156_p66' class='edit center'></td>
+<td id='sv-3156_p67' class='edit center'></td>
+<td id='sv-3156_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3156</td>
+<td id='sv-3156_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-3168_name' class=''>การขอผ่อนผันการขยายระยะเวลาการชำระค่าธรรมเนียมผู้ขอขึ้นทะเบียนเป็นผู้ทำบัญชี</td>
+<td id='sv-3168_count' class='edit right'></td>
+<td id='sv-3168_per' class='edit center'>เดือน</td>
+<td id='sv-3168_elec' class='edit center'></td>
+<td id='sv-3168_p66' class='edit center'></td>
+<td id='sv-3168_p67' class='edit center'></td>
+<td id='sv-3168_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3168</td>
+<td id='sv-3168_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-3176_name' class=''>การขึ้นทะเบียนฝึกหัดงานของผู้ขอรับใบอนุญาตเป็นผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3176_count' class='edit right'></td>
+<td id='sv-3176_per' class='edit center'>เดือน</td>
+<td id='sv-3176_elec' class='edit center'></td>
+<td id='sv-3176_p66' class='edit center'></td>
+<td id='sv-3176_p67' class='edit center'></td>
+<td id='sv-3176_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>3176</td>
+<td id='sv-3176_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-3165_name' class=''>การขอผ่อนผันการขยายระยะเวลาการยื่นชั่วโมงการพัฒนาความรู้ต่อเนื่องของผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3165_count' class='edit right'></td>
+<td id='sv-3165_per' class='edit center'>เดือน</td>
+<td id='sv-3165_elec' class='edit center'></td>
+<td id='sv-3165_p66' class='edit center'></td>
+<td id='sv-3165_p67' class='edit center'></td>
+<td id='sv-3165_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3165</td>
+<td id='sv-3165_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-3167_name' class=''>การขอผ่อนผันการขยายระยะเวลาการชำระค่าธรรมเนียมผู้สอบบัญชีรับอนุญาต</td>
+<td id='sv-3167_count' class='edit right'></td>
+<td id='sv-3167_per' class='edit center'>เดือน</td>
+<td id='sv-3167_elec' class='edit center'></td>
+<td id='sv-3167_p66' class='edit center'></td>
+<td id='sv-3167_p67' class='edit center'></td>
+<td id='sv-3167_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3167</td>
+<td id='sv-3167_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

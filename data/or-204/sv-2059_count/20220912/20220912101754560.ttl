@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220912101754560  a  vp:Data ;
+vp:token   <ac:20220912095026770> ;
+vp:email   'onausa.o@gmail.com' ;
+vp:service   'sv-2059_count' ;
+vp:value  '1' .
+

@@ -1,0 +1,768 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-102';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมประมง </h2>
+<span id='orgid'>(or-102)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-371_name' class=''>การประกาศรับรองให้ออกหนังสือกำกับการจำหน่ายสัตว์น้ำ(สำหรับผู้ขอประเภทบุคคล)</td>
+<td id='sv-371_count' class='edit right'></td>
+<td id='sv-371_per' class='edit center'>เดือน</td>
+<td id='sv-371_elec' class='edit center'></td>
+<td id='sv-371_p66' class='edit center'></td>
+<td id='sv-371_p67' class='edit center'></td>
+<td id='sv-371_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>371</td>
+<td id='sv-371_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-376_name' class=''>การออกหนังสือรับรองสุขภาพสัตว์น้ำเพื่อการส่งออก</td>
+<td id='sv-376_count' class='edit right'></td>
+<td id='sv-376_per' class='edit center'>เดือน</td>
+<td id='sv-376_elec' class='edit center'></td>
+<td id='sv-376_p66' class='edit center'></td>
+<td id='sv-376_p67' class='edit center'></td>
+<td id='sv-376_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>376</td>
+<td id='sv-376_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-373_name' class=''>การออกใบอนุญาตนำเข้าอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-373_count' class='edit right'></td>
+<td id='sv-373_per' class='edit center'>เดือน</td>
+<td id='sv-373_elec' class='edit center'></td>
+<td id='sv-373_p66' class='edit center'></td>
+<td id='sv-373_p67' class='edit center'></td>
+<td id='sv-373_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>373</td>
+<td id='sv-373_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-375_name' class=''>การต่ออายุใบอนุญาตนำเข้าอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-375_count' class='edit right'></td>
+<td id='sv-375_per' class='edit center'>เดือน</td>
+<td id='sv-375_elec' class='edit center'></td>
+<td id='sv-375_p66' class='edit center'></td>
+<td id='sv-375_p67' class='edit center'></td>
+<td id='sv-375_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>375</td>
+<td id='sv-375_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-368_name' class=''>การประกาศรับรองให้ออกหนังสือกำกับการจำหน่ายลูกพันธุ์สัตว์น้ำ(สำหรับผู้ขอประเภทบุคคล)</td>
+<td id='sv-368_count' class='edit right'></td>
+<td id='sv-368_per' class='edit center'>เดือน</td>
+<td id='sv-368_elec' class='edit center'></td>
+<td id='sv-368_p66' class='edit center'></td>
+<td id='sv-368_p67' class='edit center'></td>
+<td id='sv-368_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>368</td>
+<td id='sv-368_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-365_name' class=''>การขึ้นทะเบียนและต่ออายุทะเบียนสถานประกอบการรวบรวมสัตว์น้ำเพื่อการส่งออก (สอ.4)</td>
+<td id='sv-365_count' class='edit right'></td>
+<td id='sv-365_per' class='edit center'>เดือน</td>
+<td id='sv-365_elec' class='edit center'></td>
+<td id='sv-365_p66' class='edit center'></td>
+<td id='sv-365_p67' class='edit center'></td>
+<td id='sv-365_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>365</td>
+<td id='sv-365_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-351_name' class=''>การแจ้งเข้า-ออกของเรือประมง</td>
+<td id='sv-351_count' class='edit right'></td>
+<td id='sv-351_per' class='edit center'>เดือน</td>
+<td id='sv-351_elec' class='edit center'></td>
+<td id='sv-351_p66' class='edit center'></td>
+<td id='sv-351_p67' class='edit center'></td>
+<td id='sv-351_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>351</td>
+<td id='sv-351_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-3452_name' class=''>การออกหนังสือคนประจำเรือสำหรับแรงงานต่างด้าว</td>
+<td id='sv-3452_count' class='edit right'></td>
+<td id='sv-3452_per' class='edit center'>เดือน</td>
+<td id='sv-3452_elec' class='edit center'></td>
+<td id='sv-3452_p66' class='edit center'></td>
+<td id='sv-3452_p67' class='edit center'></td>
+<td id='sv-3452_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3452</td>
+<td id='sv-3452_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-384_name' class=''>การออกใบอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (สป. 21)</td>
+<td id='sv-384_count' class='edit right'></td>
+<td id='sv-384_per' class='edit center'>เดือน</td>
+<td id='sv-384_elec' class='edit center'></td>
+<td id='sv-384_p66' class='edit center'></td>
+<td id='sv-384_p67' class='edit center'></td>
+<td id='sv-384_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>384</td>
+<td id='sv-384_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-366_name' class=''>การขอหนังสือรับรองเป็นผู้มีสิทธิออกหนังสือกำกับการจำหน่ายสัตว์น้ำสวยงามเพื่อการส่งออก</td>
+<td id='sv-366_count' class='edit right'></td>
+<td id='sv-366_per' class='edit center'>เดือน</td>
+<td id='sv-366_elec' class='edit center'></td>
+<td id='sv-366_p66' class='edit center'></td>
+<td id='sv-366_p67' class='edit center'></td>
+<td id='sv-366_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>366</td>
+<td id='sv-366_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-339_name' class=''>การออกใบสำคัญการขึ้นทะเบียนอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-339_count' class='edit right'></td>
+<td id='sv-339_per' class='edit center'>เดือน</td>
+<td id='sv-339_elec' class='edit center'></td>
+<td id='sv-339_p66' class='edit center'></td>
+<td id='sv-339_p67' class='edit center'></td>
+<td id='sv-339_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>339</td>
+<td id='sv-339_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-369_name' class=''>การประกาศรับรองให้ออกหนังสือกำกับการจำหน่ายสัตว์น้ำ(สำหรับผู้ขอประเภทกลุ่มองค์กรเอกชน)</td>
+<td id='sv-369_count' class='edit right'></td>
+<td id='sv-369_per' class='edit center'>เดือน</td>
+<td id='sv-369_elec' class='edit center'></td>
+<td id='sv-369_p66' class='edit center'></td>
+<td id='sv-369_p67' class='edit center'></td>
+<td id='sv-369_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>369</td>
+<td id='sv-369_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-346_name' class=''>การออกใบอนุญาตผลิตอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-346_count' class='edit right'></td>
+<td id='sv-346_per' class='edit center'>เดือน</td>
+<td id='sv-346_elec' class='edit center'></td>
+<td id='sv-346_p66' class='edit center'></td>
+<td id='sv-346_p67' class='edit center'></td>
+<td id='sv-346_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>346</td>
+<td id='sv-346_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-349_name' class=''>การแก้ไขรายการขึ้นทะเบียนอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-349_count' class='edit right'></td>
+<td id='sv-349_per' class='edit center'>เดือน</td>
+<td id='sv-349_elec' class='edit center'></td>
+<td id='sv-349_p66' class='edit center'></td>
+<td id='sv-349_p67' class='edit center'></td>
+<td id='sv-349_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>349</td>
+<td id='sv-349_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-358_name' class=''>การต่ออายุใบอนุญาตผลิตอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-358_count' class='edit right'></td>
+<td id='sv-358_per' class='edit center'>เดือน</td>
+<td id='sv-358_elec' class='edit center'></td>
+<td id='sv-358_p66' class='edit center'></td>
+<td id='sv-358_p67' class='edit center'></td>
+<td id='sv-358_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>358</td>
+<td id='sv-358_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-378_name' class=''>การต่ออายุใบอนุญาตขายอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-378_count' class='edit right'></td>
+<td id='sv-378_per' class='edit center'>เดือน</td>
+<td id='sv-378_elec' class='edit center'></td>
+<td id='sv-378_p66' class='edit center'></td>
+<td id='sv-378_p67' class='edit center'></td>
+<td id='sv-378_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>378</td>
+<td id='sv-378_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-377_name' class=''>การออกใบอนุญาตขายอาหารสัตว์ควบคุมเฉพาะ (อาหารสัตว์น้ำ)</td>
+<td id='sv-377_count' class='edit right'></td>
+<td id='sv-377_per' class='edit center'>เดือน</td>
+<td id='sv-377_elec' class='edit center'></td>
+<td id='sv-377_p66' class='edit center'></td>
+<td id='sv-377_p67' class='edit center'></td>
+<td id='sv-377_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>377</td>
+<td id='sv-377_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-341_name' class=''>การออกหนังสือแจ้งการนำเข้าซึ่งอาหารสัตว์เข้ามาในราชอาณาจักร (นส.4) (อาหารสัตว์น้ำ)</td>
+<td id='sv-341_count' class='edit right'></td>
+<td id='sv-341_per' class='edit center'>เดือน</td>
+<td id='sv-341_elec' class='edit center'></td>
+<td id='sv-341_p66' class='edit center'></td>
+<td id='sv-341_p67' class='edit center'></td>
+<td id='sv-341_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>341</td>
+<td id='sv-341_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-364_name' class=''>การขึ้นทะเบียนและต่ออายุทะเบียนสถานประกอบการเพาะเลี้ยงสัตว์น้ำเพื่อการส่งออก (สอ.3)</td>
+<td id='sv-364_count' class='edit right'></td>
+<td id='sv-364_per' class='edit center'>เดือน</td>
+<td id='sv-364_elec' class='edit center'></td>
+<td id='sv-364_p66' class='edit center'></td>
+<td id='sv-364_p67' class='edit center'></td>
+<td id='sv-364_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>364</td>
+<td id='sv-364_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-348_name' class=''>การอนุญาตนำเข้าวัตถุอันตรายทางการประมง</td>
+<td id='sv-348_count' class='edit right'></td>
+<td id='sv-348_per' class='edit center'>เดือน</td>
+<td id='sv-348_elec' class='edit center'></td>
+<td id='sv-348_p66' class='edit center'></td>
+<td id='sv-348_p67' class='edit center'></td>
+<td id='sv-348_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>348</td>
+<td id='sv-348_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-347_name' class=''>การอนุญาตผลิตวัตถุอันตรายทางการประมง</td>
+<td id='sv-347_count' class='edit right'></td>
+<td id='sv-347_per' class='edit center'>เดือน</td>
+<td id='sv-347_elec' class='edit center'></td>
+<td id='sv-347_p66' class='edit center'></td>
+<td id='sv-347_p67' class='edit center'></td>
+<td id='sv-347_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>347</td>
+<td id='sv-347_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-370_name' class=''>การออกใบรับรองซากเพื่อการส่งออก</td>
+<td id='sv-370_count' class='edit right'></td>
+<td id='sv-370_per' class='edit center'>เดือน</td>
+<td id='sv-370_elec' class='edit center'></td>
+<td id='sv-370_p66' class='edit center'></td>
+<td id='sv-370_p67' class='edit center'></td>
+<td id='sv-370_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>370</td>
+<td id='sv-370_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-359_name' class=''>การขึ้นทะเบียนวัตถุอันตรายทางการประมง</td>
+<td id='sv-359_count' class='edit right'></td>
+<td id='sv-359_per' class='edit center'>เดือน</td>
+<td id='sv-359_elec' class='edit center'></td>
+<td id='sv-359_p66' class='edit center'></td>
+<td id='sv-359_p67' class='edit center'></td>
+<td id='sv-359_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>359</td>
+<td id='sv-359_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-355_name' class=''>การอนุญาตส่งออกวัตถุอันตรายทางการประมง</td>
+<td id='sv-355_count' class='edit right'></td>
+<td id='sv-355_per' class='edit center'>เดือน</td>
+<td id='sv-355_elec' class='edit center'></td>
+<td id='sv-355_p66' class='edit center'></td>
+<td id='sv-355_p67' class='edit center'></td>
+<td id='sv-355_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>355</td>
+<td id='sv-355_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-387_name' class=''>การออกใบอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (สป.11)</td>
+<td id='sv-387_count' class='edit right'></td>
+<td id='sv-387_per' class='edit center'>เดือน</td>
+<td id='sv-387_elec' class='edit center'></td>
+<td id='sv-387_p66' class='edit center'></td>
+<td id='sv-387_p67' class='edit center'></td>
+<td id='sv-387_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>387</td>
+<td id='sv-387_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-385_name' class=''>การออกใบอนุญาตให้ทำการเพาะพันธุ์สัตว์ป่าคุ้มครองที่เป็นสัตว์น้ำ (สป.9)</td>
+<td id='sv-385_count' class='edit right'></td>
+<td id='sv-385_per' class='edit center'>เดือน</td>
+<td id='sv-385_elec' class='edit center'></td>
+<td id='sv-385_p66' class='edit center'></td>
+<td id='sv-385_p67' class='edit center'></td>
+<td id='sv-385_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>385</td>
+<td id='sv-385_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-362_name' class=''>การขึ้นทะเบียนที่พักซากสัตว์น้ำ</td>
+<td id='sv-362_count' class='edit right'></td>
+<td id='sv-362_per' class='edit center'>เดือน</td>
+<td id='sv-362_elec' class='edit center'></td>
+<td id='sv-362_p66' class='edit center'></td>
+<td id='sv-362_p67' class='edit center'></td>
+<td id='sv-362_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>362</td>
+<td id='sv-362_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-357_name' class=''>การออกใบอนุญาตให้ผู้ประกอบกิจการแพปลา</td>
+<td id='sv-357_count' class='edit right'></td>
+<td id='sv-357_per' class='edit center'>เดือน</td>
+<td id='sv-357_elec' class='edit center'></td>
+<td id='sv-357_p66' class='edit center'></td>
+<td id='sv-357_p67' class='edit center'></td>
+<td id='sv-357_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>357</td>
+<td id='sv-357_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-367_name' class=''>การประกาศรับรองให้ออกหนังสือกำกับการจำหน่ายลูกพันธุ์สัตว์น้ำ(สำหรับผู้ขอประเภทกลุ่มองค์กรเอกชน)</td>
+<td id='sv-367_count' class='edit right'></td>
+<td id='sv-367_per' class='edit center'>เดือน</td>
+<td id='sv-367_elec' class='edit center'></td>
+<td id='sv-367_p66' class='edit center'></td>
+<td id='sv-367_p67' class='edit center'></td>
+<td id='sv-367_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>367</td>
+<td id='sv-367_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-379_name' class=''>การออกหนังสือรับรองให้ส่งออกปลาทะเลมีชีวิตสวยงามเพื่อการศึกษาวิจัย (ปท. 2)</td>
+<td id='sv-379_count' class='edit right'></td>
+<td id='sv-379_per' class='edit center'>เดือน</td>
+<td id='sv-379_elec' class='edit center'></td>
+<td id='sv-379_p66' class='edit center'></td>
+<td id='sv-379_p67' class='edit center'></td>
+<td id='sv-379_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>379</td>
+<td id='sv-379_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-338_name' class=''>การขึ้นทะเบียนผู้ประกอบการด้านการประมง (ทบ.2)</td>
+<td id='sv-338_count' class='edit right'></td>
+<td id='sv-338_per' class='edit center'>เดือน</td>
+<td id='sv-338_elec' class='edit center'></td>
+<td id='sv-338_p66' class='edit center'></td>
+<td id='sv-338_p67' class='edit center'></td>
+<td id='sv-338_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>338</td>
+<td id='sv-338_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-340_name' class=''>การขึ้นทะเบียนฟาร์มเพาะเลี้ยงกุ้งทะเลเพื่อการนำเข้ามาเพาะพันธุ์</td>
+<td id='sv-340_count' class='edit right'></td>
+<td id='sv-340_per' class='edit center'>เดือน</td>
+<td id='sv-340_elec' class='edit center'></td>
+<td id='sv-340_p66' class='edit center'></td>
+<td id='sv-340_p67' class='edit center'></td>
+<td id='sv-340_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>340</td>
+<td id='sv-340_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-361_name' class=''>การขึ้นทะเบียนสถานกักกันสัตว์น้ำ</td>
+<td id='sv-361_count' class='edit right'></td>
+<td id='sv-361_per' class='edit center'>เดือน</td>
+<td id='sv-361_elec' class='edit center'></td>
+<td id='sv-361_p66' class='edit center'></td>
+<td id='sv-361_p67' class='edit center'></td>
+<td id='sv-361_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>361</td>
+<td id='sv-361_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-343_name' class=''>การต่ออายุทะเบียนผู้ประกอบการด้านการประมง (ทบ.2)</td>
+<td id='sv-343_count' class='edit right'></td>
+<td id='sv-343_per' class='edit center'>เดือน</td>
+<td id='sv-343_elec' class='edit center'></td>
+<td id='sv-343_p66' class='edit center'></td>
+<td id='sv-343_p67' class='edit center'></td>
+<td id='sv-343_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>343</td>
+<td id='sv-343_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-380_name' class=''>การออกหนังสือรับรองให้ส่งออกปลาทะเลมีชีวิตสวยงามที่ได้จากการเพาะเลี้ยง (ปท. 2)</td>
+<td id='sv-380_count' class='edit right'></td>
+<td id='sv-380_per' class='edit center'>เดือน</td>
+<td id='sv-380_elec' class='edit center'></td>
+<td id='sv-380_p66' class='edit center'></td>
+<td id='sv-380_p67' class='edit center'></td>
+<td id='sv-380_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>380</td>
+<td id='sv-380_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-354_name' class=''>การขึ้นทะเบียนเกษตรกรผู้เพาะเลี้ยงสัตว์น้ำ (ทบ.1)</td>
+<td id='sv-354_count' class='edit right'></td>
+<td id='sv-354_per' class='edit center'>เดือน</td>
+<td id='sv-354_elec' class='edit center'></td>
+<td id='sv-354_p66' class='edit center'></td>
+<td id='sv-354_p67' class='edit center'></td>
+<td id='sv-354_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>354</td>
+<td id='sv-354_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-382_name' class=''>การออกใบอนุญาตให้ครอบครองสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (สป. 15)</td>
+<td id='sv-382_count' class='edit right'></td>
+<td id='sv-382_per' class='edit center'>เดือน</td>
+<td id='sv-382_elec' class='edit center'></td>
+<td id='sv-382_p66' class='edit center'></td>
+<td id='sv-382_p67' class='edit center'></td>
+<td id='sv-382_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>382</td>
+<td id='sv-382_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-363_name' class=''>การต่ออายุทะเบียนเกษตรกรผู้เพาะเลี้ยงสัตว์น้ำ (ทบ.1)</td>
+<td id='sv-363_count' class='edit right'></td>
+<td id='sv-363_per' class='edit center'>เดือน</td>
+<td id='sv-363_elec' class='edit center'></td>
+<td id='sv-363_p66' class='edit center'></td>
+<td id='sv-363_p67' class='edit center'></td>
+<td id='sv-363_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>363</td>
+<td id='sv-363_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-342_name' class=''>การออกใบแจ้งข้อเท็จจริงเกี่ยวกับวัตถุอันตรายทางการประมง</td>
+<td id='sv-342_count' class='edit right'></td>
+<td id='sv-342_per' class='edit center'>เดือน</td>
+<td id='sv-342_elec' class='edit center'></td>
+<td id='sv-342_p66' class='edit center'></td>
+<td id='sv-342_p67' class='edit center'></td>
+<td id='sv-342_p68' class='edit center'></td>
+<td class='center '>3</td>
+<td class='center'>342</td>
+<td id='sv-342_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-345_name' class=''>การอนุญาตครอบครองวัตถุอันตรายทางการประมง</td>
+<td id='sv-345_count' class='edit right'></td>
+<td id='sv-345_per' class='edit center'>เดือน</td>
+<td id='sv-345_elec' class='edit center'></td>
+<td id='sv-345_p66' class='edit center'></td>
+<td id='sv-345_p67' class='edit center'></td>
+<td id='sv-345_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>345</td>
+<td id='sv-345_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-372_name' class=''>การต่ออายุใบรับรองระบบ GMP/HACCP สำหรับโรงงานอาหารสัตว์น้ำ</td>
+<td id='sv-372_count' class='edit right'></td>
+<td id='sv-372_per' class='edit center'>เดือน</td>
+<td id='sv-372_elec' class='edit center'></td>
+<td id='sv-372_p66' class='edit center'></td>
+<td id='sv-372_p67' class='edit center'></td>
+<td id='sv-372_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>372</td>
+<td id='sv-372_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-353_name' class=''>การออกหนังสือรับรองให้ส่งหอยและเปลือกหอยออกไปนอกราชอาณาจักร</td>
+<td id='sv-353_count' class='edit right'></td>
+<td id='sv-353_per' class='edit center'>เดือน</td>
+<td id='sv-353_elec' class='edit center'></td>
+<td id='sv-353_p66' class='edit center'></td>
+<td id='sv-353_p67' class='edit center'></td>
+<td id='sv-353_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>353</td>
+<td id='sv-353_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-360_name' class=''>การลงทะเบียนเข้าใช้งานระบบ Fisheries Single Window</td>
+<td id='sv-360_count' class='edit right'></td>
+<td id='sv-360_per' class='edit center'>เดือน</td>
+<td id='sv-360_elec' class='edit center'></td>
+<td id='sv-360_p66' class='edit center'></td>
+<td id='sv-360_p67' class='edit center'></td>
+<td id='sv-360_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>360</td>
+<td id='sv-360_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-352_name' class=''>การออกใบอนุญาตให้นำเข้าส่งออกหรือให้นำผ่านตามมาตรา 23 หรือมาตรา 24 แห่งพระราชบัญญัติสงวนและคุ้มครองสัตว์ป่าพ.ศ. 2562 (สป. 5) (Fisheries Single Window)</td>
+<td id='sv-352_count' class='edit right'></td>
+<td id='sv-352_per' class='edit center'>เดือน</td>
+<td id='sv-352_elec' class='edit center'></td>
+<td id='sv-352_p66' class='edit center'></td>
+<td id='sv-352_p67' class='edit center'></td>
+<td id='sv-352_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>352</td>
+<td id='sv-352_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-381_name' class=''>การออกใบอนุญาตให้นำเข้าส่งออกหรือให้นำผ่านตามมาตรา 23 หรือมาตรา 24 แห่งพระราชบัญญัติสงวนและคุ้มครองสัตว์ป่าพ.ศ. 2562 (สป. 5)</td>
+<td id='sv-381_count' class='edit right'></td>
+<td id='sv-381_per' class='edit center'>เดือน</td>
+<td id='sv-381_elec' class='edit center'></td>
+<td id='sv-381_p66' class='edit center'></td>
+<td id='sv-381_p67' class='edit center'></td>
+<td id='sv-381_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>381</td>
+<td id='sv-381_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-344_name' class=''>การออกใบรับรองระบบ GMP/HACCP สำหรับโรงงานอาหารสัตว์น้ำ (ประเมินรายใหม่)</td>
+<td id='sv-344_count' class='edit right'></td>
+<td id='sv-344_per' class='edit center'>เดือน</td>
+<td id='sv-344_elec' class='edit center'></td>
+<td id='sv-344_p66' class='edit center'></td>
+<td id='sv-344_p67' class='edit center'></td>
+<td id='sv-344_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>344</td>
+<td id='sv-344_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-383_name' class=''>การออกใบอนุญาตให้นำเข้าส่งออกหรือให้นำผ่านซึ่งสัตว์ป่าชนิดพันธุ์ (Species) อื่นที่มิใช่สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองและมิใช่สัตว์ป่าตามบัญชีท้ายอนุสัญญา CITES (สป. 6)</td>
+<td id='sv-383_count' class='edit right'></td>
+<td id='sv-383_per' class='edit center'>เดือน</td>
+<td id='sv-383_elec' class='edit center'></td>
+<td id='sv-383_p66' class='edit center'></td>
+<td id='sv-383_p67' class='edit center'></td>
+<td id='sv-383_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>383</td>
+<td id='sv-383_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-386_name' class=''>การออกใบอนุญาตให้นำเข้าส่งออกหรือให้นำผ่านซึ่งสัตว์ป่าชนิดพันธุ์ (Species) อื่นที่มิใช่สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองและมิใช่สัตว์ป่าตามบัญชีท้ายอนุสัญญา CITES (สป. 6) (Fisheries Single Window)</td>
+<td id='sv-386_count' class='edit right'></td>
+<td id='sv-386_per' class='edit center'>เดือน</td>
+<td id='sv-386_elec' class='edit center'></td>
+<td id='sv-386_p66' class='edit center'></td>
+<td id='sv-386_p67' class='edit center'></td>
+<td id='sv-386_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>386</td>
+<td id='sv-386_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-374_name' class=''>การออกหนังสือรับรองให้ส่งออกปลาทะเลมีชีวิตสวยงามที่ได้จากการนำเข้า (ปท .2)</td>
+<td id='sv-374_count' class='edit right'></td>
+<td id='sv-374_per' class='edit center'>เดือน</td>
+<td id='sv-374_elec' class='edit center'></td>
+<td id='sv-374_p66' class='edit center'></td>
+<td id='sv-374_p67' class='edit center'></td>
+<td id='sv-374_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>374</td>
+<td id='sv-374_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-350_name' class=''>การออกหนังสือรับรองการขายในประเทศ (อาหารสัตว์น้ำ) (Certificate of free sale)</td>
+<td id='sv-350_count' class='edit right'></td>
+<td id='sv-350_per' class='edit center'>เดือน</td>
+<td id='sv-350_elec' class='edit center'></td>
+<td id='sv-350_p66' class='edit center'></td>
+<td id='sv-350_p67' class='edit center'></td>
+<td id='sv-350_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>350</td>
+<td id='sv-350_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-356_name' class=''>การออกใบอนุญาตให้กระทำการเป็นผู้ขายทอดตลาดสินค้าสัตว์น้ำที่สะพานปลา</td>
+<td id='sv-356_count' class='edit right'></td>
+<td id='sv-356_per' class='edit center'>เดือน</td>
+<td id='sv-356_elec' class='edit center'></td>
+<td id='sv-356_p66' class='edit center'></td>
+<td id='sv-356_p67' class='edit center'></td>
+<td id='sv-356_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>356</td>
+<td id='sv-356_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-388_name' class=''>การออกใบรับรองการแปรรูปสัตว์น้ำ (Annex IV)</td>
+<td id='sv-388_count' class='edit right'></td>
+<td id='sv-388_per' class='edit center'>เดือน</td>
+<td id='sv-388_elec' class='edit center'></td>
+<td id='sv-388_p66' class='edit center'></td>
+<td id='sv-388_p67' class='edit center'></td>
+<td id='sv-388_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>388</td>
+<td id='sv-388_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

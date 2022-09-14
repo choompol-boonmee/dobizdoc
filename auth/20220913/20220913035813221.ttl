@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913035813221  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#133> ;
+vp:orgName  'การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย' ;
+vp:editor   'ชัยธวัช ลีมะสวัสดิ์' ;
+vp:editorOrg   'แผนกวิศวกรรมโครงสร้างสถานีและทางวิ่ง' ;
+vp:email    'chaithawat.l@mrta.co.th' ;
+vp:time     '3H' ;
+vp:start     '20220913035813221' ;
+vp:end     '20220913065813221' ;
+vp:link		'https://dga.tueng.org/acc/20220913035813221/sv-133.html' .
+

@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220914112637726  a  vp:Data ;
+vp:token   <ac:20220914111702016> ;
+vp:email   'nattapat_suk@finearts.go.th' ;
+vp:service   'sv-2464_count' ;
+vp:value  '1' .
+

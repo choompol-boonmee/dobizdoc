@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912045823726  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'อัญชิสา สีดำ' ;
+vp:editorOrg   'สำนักงานคณะกรรมการช่างรังวัดเอกชน กรมที่ดิน' ;
+vp:email    'anchisaseedum@hotmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220912045823726' ;
+vp:end     '20220919045823726' ;
+vp:link		'https://dga.tueng.org/acc/20220912045823726/sv-204.html' .
+

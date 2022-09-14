@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913094639123  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#133> ;
+vp:orgName  'การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย' ;
+vp:editor   'รอฤทธิ์ นุชนารถ' ;
+vp:editorOrg   'การรถไฟฟ้าขนส่งมวลชนแห่งประเทศไทย' ;
+vp:email    'rorit.n@mrta.co.th' ;
+vp:time     '1D' ;
+vp:start     '20220913094639123' ;
+vp:end     '20220914094639123' ;
+vp:link		'https://dga.tueng.org/acc/20220913094639123/sv-133.html' .
+

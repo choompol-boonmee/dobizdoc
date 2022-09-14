@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220909102816557  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'นางสาวอุมาพร ปานกลาง' ;
+vp:editorOrg   'กรมเจ้าท่า' ;
+vp:email    'srirachalimit@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220909102816557' ;
+vp:end     '20221009102816557' ;
+vp:link		'https://dga.tueng.org/acc/20220909102816557/sv-127.html' .
+

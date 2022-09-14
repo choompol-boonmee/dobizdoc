@@ -1,0 +1,852 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-166';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช </h2>
+<span id='orgid'>(or-166)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-1276_name' class=''>การจองที่พักและบริการ โดยโทรศัพท์ติดต่อเจ้าหน้าที่สำรองให้</td>
+<td id='sv-1276_count' class='edit right'></td>
+<td id='sv-1276_per' class='edit center'>เดือน</td>
+<td id='sv-1276_elec' class='edit center'></td>
+<td id='sv-1276_p66' class='edit center'></td>
+<td id='sv-1276_p67' class='edit center'></td>
+<td id='sv-1276_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1276</td>
+<td id='sv-1276_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-1272_name' class=''>การขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการบริการนำเที่ยวแก่นักท่องเที่ยวในอุทยานแห่งชาติ)</td>
+<td id='sv-1272_count' class='edit right'></td>
+<td id='sv-1272_per' class='edit center'>เดือน</td>
+<td id='sv-1272_elec' class='edit center'></td>
+<td id='sv-1272_p66' class='edit center'></td>
+<td id='sv-1272_p67' class='edit center'></td>
+<td id='sv-1272_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1272</td>
+<td id='sv-1272_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-1277_name' class=''>การจองที่พักและบริการ โดยผู้รับบริการจองด้วยตนเอง</td>
+<td id='sv-1277_count' class='edit right'></td>
+<td id='sv-1277_per' class='edit center'>เดือน</td>
+<td id='sv-1277_elec' class='edit center'></td>
+<td id='sv-1277_p66' class='edit center'></td>
+<td id='sv-1277_p67' class='edit center'></td>
+<td id='sv-1277_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1277</td>
+<td id='sv-1277_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-1232_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอต่ออายุใบอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1232_count' class='edit right'></td>
+<td id='sv-1232_per' class='edit center'>เดือน</td>
+<td id='sv-1232_elec' class='edit center'></td>
+<td id='sv-1232_p66' class='edit center'></td>
+<td id='sv-1232_p67' class='edit center'></td>
+<td id='sv-1232_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1232</td>
+<td id='sv-1232_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-1231_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอรับใบอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1231_count' class='edit right'></td>
+<td id='sv-1231_per' class='edit center'>เดือน</td>
+<td id='sv-1231_elec' class='edit center'></td>
+<td id='sv-1231_p66' class='edit center'></td>
+<td id='sv-1231_p67' class='edit center'></td>
+<td id='sv-1231_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1231</td>
+<td id='sv-1231_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-1266_name' class=''>การขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการประเภทการจำหน่ายอาหาร เครื่องดื่ม ของที่ระลึก ที่มีความจำเป็นเร่งด่วนชั่วคราวที่ไม่มีสิ่งก่อสร้าง ไม่เกิน 15 วัน)</td>
+<td id='sv-1266_count' class='edit right'></td>
+<td id='sv-1266_per' class='edit center'>เดือน</td>
+<td id='sv-1266_elec' class='edit center'></td>
+<td id='sv-1266_p66' class='edit center'></td>
+<td id='sv-1266_p67' class='edit center'></td>
+<td id='sv-1266_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>1266</td>
+<td id='sv-1266_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-1222_name' class=''>กระบวนงานจองที่พักและบริการ โดยจอง ณ เคาน์เตอร์บริการ</td>
+<td id='sv-1222_count' class='edit right'></td>
+<td id='sv-1222_per' class='edit center'>เดือน</td>
+<td id='sv-1222_elec' class='edit center'></td>
+<td id='sv-1222_p66' class='edit center'></td>
+<td id='sv-1222_p67' class='edit center'></td>
+<td id='sv-1222_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1222</td>
+<td id='sv-1222_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-1234_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอรับใบแทนใบอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1234_count' class='edit right'></td>
+<td id='sv-1234_per' class='edit center'>เดือน</td>
+<td id='sv-1234_elec' class='edit center'></td>
+<td id='sv-1234_p66' class='edit center'></td>
+<td id='sv-1234_p67' class='edit center'></td>
+<td id='sv-1234_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1234</td>
+<td id='sv-1234_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-1247_name' class=''>การอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (การขอต่ออายุใบอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1247_count' class='edit right'></td>
+<td id='sv-1247_per' class='edit center'>เดือน</td>
+<td id='sv-1247_elec' class='edit center'></td>
+<td id='sv-1247_p66' class='edit center'></td>
+<td id='sv-1247_p67' class='edit center'></td>
+<td id='sv-1247_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1247</td>
+<td id='sv-1247_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-1250_name' class=''>การอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (การขอรับใบอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1250_count' class='edit right'></td>
+<td id='sv-1250_per' class='edit center'>เดือน</td>
+<td id='sv-1250_elec' class='edit center'></td>
+<td id='sv-1250_p66' class='edit center'></td>
+<td id='sv-1250_p67' class='edit center'></td>
+<td id='sv-1250_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1250</td>
+<td id='sv-1250_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-1228_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอโอนและรับโอนใบอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1228_count' class='edit right'></td>
+<td id='sv-1228_per' class='edit center'>เดือน</td>
+<td id='sv-1228_elec' class='edit center'></td>
+<td id='sv-1228_p66' class='edit center'></td>
+<td id='sv-1228_p67' class='edit center'></td>
+<td id='sv-1228_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1228</td>
+<td id='sv-1228_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-1248_name' class=''>การอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (การขอใบแทนใบอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1248_count' class='edit right'></td>
+<td id='sv-1248_per' class='edit center'>เดือน</td>
+<td id='sv-1248_elec' class='edit center'></td>
+<td id='sv-1248_p66' class='edit center'></td>
+<td id='sv-1248_p67' class='edit center'></td>
+<td id='sv-1248_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1248</td>
+<td id='sv-1248_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-1278_name' class=''>การขออนุญาตเข้าไปในเขตรักษาพันธุ์สัตว์ป่าหรือเขตห้ามล่าสัตว์ป่า</td>
+<td id='sv-1278_count' class='edit right'></td>
+<td id='sv-1278_per' class='edit center'>เดือน</td>
+<td id='sv-1278_elec' class='edit center'></td>
+<td id='sv-1278_p66' class='edit center'></td>
+<td id='sv-1278_p67' class='edit center'></td>
+<td id='sv-1278_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1278</td>
+<td id='sv-1278_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-1253_name' class=''>การอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (การขอรับใบอนุญาตให้นำสัตว์ป่าคุ้มครองเคลื่อนที่เพื่อการค้า)</td>
+<td id='sv-1253_count' class='edit right'></td>
+<td id='sv-1253_per' class='edit center'>เดือน</td>
+<td id='sv-1253_elec' class='edit center'></td>
+<td id='sv-1253_p66' class='edit center'></td>
+<td id='sv-1253_p67' class='edit center'></td>
+<td id='sv-1253_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1253</td>
+<td id='sv-1253_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-1252_name' class=''>การอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์ (การขอรับโอนใบอนุญาตให้ค้าสัตว์ป่าคุ้มครองที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1252_count' class='edit right'></td>
+<td id='sv-1252_per' class='edit center'>เดือน</td>
+<td id='sv-1252_elec' class='edit center'></td>
+<td id='sv-1252_p66' class='edit center'></td>
+<td id='sv-1252_p67' class='edit center'></td>
+<td id='sv-1252_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1252</td>
+<td id='sv-1252_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-1251_name' class=''>การอนุญาตให้เพาะพันธุ์สัตว์ป่าคุ้มครอง (การขอรับใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครอง)</td>
+<td id='sv-1251_count' class='edit right'></td>
+<td id='sv-1251_per' class='edit center'>เดือน</td>
+<td id='sv-1251_elec' class='edit center'></td>
+<td id='sv-1251_p66' class='edit center'></td>
+<td id='sv-1251_p67' class='edit center'></td>
+<td id='sv-1251_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1251</td>
+<td id='sv-1251_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-1274_name' class=''>การขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการประเภทจำหน่ายอาหารเครื่องดื่มของที่ระลึกที่ยังไม่เคยมีการอนุญาตและเป็นกรณีที่ใช่สิ่งก่อสร้างที่กรมอุทยานแห่งชาติสัตว์ป่าและพันธุ์พืชเป็นผู้ก่อสร้างหรือใช้สิ่งก่อสร้าง/อาคารเดิมที่มีอยู่แล้วดำเนินกิจการ)</td>
+<td id='sv-1274_count' class='edit right'></td>
+<td id='sv-1274_per' class='edit center'>เดือน</td>
+<td id='sv-1274_elec' class='edit center'></td>
+<td id='sv-1274_p66' class='edit center'></td>
+<td id='sv-1274_p67' class='edit center'></td>
+<td id='sv-1274_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>1274</td>
+<td id='sv-1274_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-1237_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งสัตว์ป่าคุ้มครองที่ได้จากการเพาะพันธุ์ตามมาตรา 18 (1) แห่ง พ.ร.บ. สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2535)</td>
+<td id='sv-1237_count' class='edit right'></td>
+<td id='sv-1237_per' class='edit center'>เดือน</td>
+<td id='sv-1237_elec' class='edit center'></td>
+<td id='sv-1237_p66' class='edit center'></td>
+<td id='sv-1237_p67' class='edit center'></td>
+<td id='sv-1237_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1237</td>
+<td id='sv-1237_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-1239_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าคุ้มครองที่ได้จากการเพาะพันธุ์ตามมาตรา 18 (1) แห่ง พ.ร.บ. สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2535)</td>
+<td id='sv-1239_count' class='edit right'></td>
+<td id='sv-1239_per' class='edit center'>เดือน</td>
+<td id='sv-1239_elec' class='edit center'></td>
+<td id='sv-1239_p66' class='edit center'></td>
+<td id='sv-1239_p67' class='edit center'></td>
+<td id='sv-1239_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1239</td>
+<td id='sv-1239_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-1242_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าในบัญชีแนบท้ายหมายเลข 1 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1242_count' class='edit right'></td>
+<td id='sv-1242_per' class='edit center'>เดือน</td>
+<td id='sv-1242_elec' class='edit center'></td>
+<td id='sv-1242_p66' class='edit center'></td>
+<td id='sv-1242_p67' class='edit center'></td>
+<td id='sv-1242_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1242</td>
+<td id='sv-1242_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-1244_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งสัตว์ป่าในบัญชีแนบท้ายหมายเลข 2 และบัญชีแนบท้ายหมายเลข 3 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1244_count' class='edit right'></td>
+<td id='sv-1244_per' class='edit center'>เดือน</td>
+<td id='sv-1244_elec' class='edit center'></td>
+<td id='sv-1244_p66' class='edit center'></td>
+<td id='sv-1244_p67' class='edit center'></td>
+<td id='sv-1244_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1244</td>
+<td id='sv-1244_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-1256_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าในบัญชีแนบท้ายหมายเลข 2 และบัญชีแนบท้ายหมายเลข 3 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1256_count' class='edit right'></td>
+<td id='sv-1256_per' class='edit center'>เดือน</td>
+<td id='sv-1256_elec' class='edit center'></td>
+<td id='sv-1256_p66' class='edit center'></td>
+<td id='sv-1256_p67' class='edit center'></td>
+<td id='sv-1256_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1256</td>
+<td id='sv-1256_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-1258_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้ส่งออกซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าชนิดที่รัฐมนตรีประกาศกำหนดกลุ่มที่ 2)</td>
+<td id='sv-1258_count' class='edit right'></td>
+<td id='sv-1258_per' class='edit center'>เดือน</td>
+<td id='sv-1258_elec' class='edit center'></td>
+<td id='sv-1258_p66' class='edit center'></td>
+<td id='sv-1258_p67' class='edit center'></td>
+<td id='sv-1258_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1258</td>
+<td id='sv-1258_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-1225_name' class=''>การอนุญาตให้เพาะพันธุ์สัตว์ป่าคุ้มครอง (การต่ออายุใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครอง)</td>
+<td id='sv-1225_count' class='edit right'></td>
+<td id='sv-1225_per' class='edit center'>เดือน</td>
+<td id='sv-1225_elec' class='edit center'></td>
+<td id='sv-1225_p66' class='edit center'></td>
+<td id='sv-1225_p67' class='edit center'></td>
+<td id='sv-1225_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1225</td>
+<td id='sv-1225_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-1221_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งสัตว์ป่าคุ้มครองที่ได้จากการเพาะพันธุ์ตามมาตรา 18 (1) แห่ง พ.ร.บ. สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2535)</td>
+<td id='sv-1221_count' class='edit right'></td>
+<td id='sv-1221_per' class='edit center'>เดือน</td>
+<td id='sv-1221_elec' class='edit center'></td>
+<td id='sv-1221_p66' class='edit center'></td>
+<td id='sv-1221_p67' class='edit center'></td>
+<td id='sv-1221_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1221</td>
+<td id='sv-1221_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-1238_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าคุ้มครองที่ได้จากการเพาะพันธุ์ตามมาตรา 18 (1) แห่ง พ.ร.บ. สงวนและคุ้มครองสัตว์ป่า พ.ศ. 2535)</td>
+<td id='sv-1238_count' class='edit right'></td>
+<td id='sv-1238_per' class='edit center'>เดือน</td>
+<td id='sv-1238_elec' class='edit center'></td>
+<td id='sv-1238_p66' class='edit center'></td>
+<td id='sv-1238_p67' class='edit center'></td>
+<td id='sv-1238_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1238</td>
+<td id='sv-1238_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-1241_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าในบัญชีแนบท้ายหมายเลข 1 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1241_count' class='edit right'></td>
+<td id='sv-1241_per' class='edit center'>เดือน</td>
+<td id='sv-1241_elec' class='edit center'></td>
+<td id='sv-1241_p66' class='edit center'></td>
+<td id='sv-1241_p67' class='edit center'></td>
+<td id='sv-1241_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1241</td>
+<td id='sv-1241_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-1243_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งสัตว์ป่าในบัญชีแนบท้ายหมายเลข 2 และบัญชีแนบท้ายหมายเลข 3 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1243_count' class='edit right'></td>
+<td id='sv-1243_per' class='edit center'>เดือน</td>
+<td id='sv-1243_elec' class='edit center'></td>
+<td id='sv-1243_p66' class='edit center'></td>
+<td id='sv-1243_p67' class='edit center'></td>
+<td id='sv-1243_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1243</td>
+<td id='sv-1243_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-1245_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำผ่านซึ่งสัตว์ป่าในบัญชีแนบท้ายหมายเลข 2 และบัญชีแนบท้ายหมายเลข 3 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1245_count' class='edit right'></td>
+<td id='sv-1245_per' class='edit center'>เดือน</td>
+<td id='sv-1245_elec' class='edit center'></td>
+<td id='sv-1245_p66' class='edit center'></td>
+<td id='sv-1245_p67' class='edit center'></td>
+<td id='sv-1245_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1245</td>
+<td id='sv-1245_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-1255_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าในบัญชีแนบท้ายหมายเลข 2 และบัญชีแนบท้ายหมายเลข 3 ของอนุสัญญาฯ (CITES))</td>
+<td id='sv-1255_count' class='edit right'></td>
+<td id='sv-1255_per' class='edit center'>เดือน</td>
+<td id='sv-1255_elec' class='edit center'></td>
+<td id='sv-1255_p66' class='edit center'></td>
+<td id='sv-1255_p67' class='edit center'></td>
+<td id='sv-1255_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1255</td>
+<td id='sv-1255_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-1257_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขออนุญาตให้นำเข้าซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าชนิดที่รัฐมนตรีประกาศกำหนดกลุ่มที่ 2)</td>
+<td id='sv-1257_count' class='edit right'></td>
+<td id='sv-1257_per' class='edit center'>เดือน</td>
+<td id='sv-1257_elec' class='edit center'></td>
+<td id='sv-1257_p66' class='edit center'></td>
+<td id='sv-1257_p67' class='edit center'></td>
+<td id='sv-1257_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1257</td>
+<td id='sv-1257_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-1269_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ต่างประเทศในอุทยานแห่งชาติ กรณีที่มีช่วงระยะเวลาการถ่ายทำต่อเนื่องหลายวัน เช่น ภาพยนตร์ ละคร ที่มีการนำสัตว์เข้าไปประกอบการถ่ายทำ</td>
+<td id='sv-1269_count' class='edit right'></td>
+<td id='sv-1269_per' class='edit center'>เดือน</td>
+<td id='sv-1269_elec' class='edit center'></td>
+<td id='sv-1269_p66' class='edit center'></td>
+<td id='sv-1269_p67' class='edit center'></td>
+<td id='sv-1269_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1269</td>
+<td id='sv-1269_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-1268_name' class=''>การขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการประเภทจำหน่ายอาหารเครื่องดื่มของที่ระลึกกรณีที่เคยมีการอนุญาตและใบอนุญาตเดิมสิ้นอายุ)</td>
+<td id='sv-1268_count' class='edit right'></td>
+<td id='sv-1268_per' class='edit center'>เดือน</td>
+<td id='sv-1268_elec' class='edit center'></td>
+<td id='sv-1268_p66' class='edit center'></td>
+<td id='sv-1268_p67' class='edit center'></td>
+<td id='sv-1268_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1268</td>
+<td id='sv-1268_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-1265_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ต่างประเทศในอุทยานแห่งชาติ กรณีที่มีช่วงระยะเวลาการถ่ายทำต่อเนื่องหลายวัน เช่น ภาพยนตร์ ละคร )</td>
+<td id='sv-1265_count' class='edit right'></td>
+<td id='sv-1265_per' class='edit center'>เดือน</td>
+<td id='sv-1265_elec' class='edit center'></td>
+<td id='sv-1265_p66' class='edit center'></td>
+<td id='sv-1265_p67' class='edit center'></td>
+<td id='sv-1265_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1265</td>
+<td id='sv-1265_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-1249_name' class=''>การอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์ (กรณีการขอต่ออายุใบอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1249_count' class='edit right'></td>
+<td id='sv-1249_per' class='edit center'>เดือน</td>
+<td id='sv-1249_elec' class='edit center'></td>
+<td id='sv-1249_p66' class='edit center'></td>
+<td id='sv-1249_p67' class='edit center'></td>
+<td id='sv-1249_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>1249</td>
+<td id='sv-1249_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-1224_name' class=''>การอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์ (กรณีการขอรับใบอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1224_count' class='edit right'></td>
+<td id='sv-1224_per' class='edit center'>เดือน</td>
+<td id='sv-1224_elec' class='edit center'></td>
+<td id='sv-1224_p66' class='edit center'></td>
+<td id='sv-1224_p67' class='edit center'></td>
+<td id='sv-1224_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1224</td>
+<td id='sv-1224_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-1273_name' class=''>กระบวนงานการขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการประเภทจำหน่ายอาหารเครื่องดืมของที่ระลึกกรณีรายใหม่ทดแทนรายเดิม)</td>
+<td id='sv-1273_count' class='edit right'></td>
+<td id='sv-1273_per' class='edit center'>เดือน</td>
+<td id='sv-1273_elec' class='edit center'></td>
+<td id='sv-1273_p66' class='edit center'></td>
+<td id='sv-1273_p67' class='edit center'></td>
+<td id='sv-1273_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1273</td>
+<td id='sv-1273_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-1227_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ ( การขอต่ออายุใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองเพื่อกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1227_count' class='edit right'></td>
+<td id='sv-1227_per' class='edit center'>เดือน</td>
+<td id='sv-1227_elec' class='edit center'></td>
+<td id='sv-1227_p66' class='edit center'></td>
+<td id='sv-1227_p67' class='edit center'></td>
+<td id='sv-1227_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>1227</td>
+<td id='sv-1227_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-1236_name' class=''>การอนุญาตให้เพาะพันธุ์สัตว์ป่าคุ้มครอง (การขอใบแทนใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครอง)</td>
+<td id='sv-1236_count' class='edit right'></td>
+<td id='sv-1236_per' class='edit center'>เดือน</td>
+<td id='sv-1236_elec' class='edit center'></td>
+<td id='sv-1236_p66' class='edit center'></td>
+<td id='sv-1236_p67' class='edit center'></td>
+<td id='sv-1236_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1236</td>
+<td id='sv-1236_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-1254_name' class=''>การอนุญาตให้เพาะพันธุ์สัตว์ป่าคุ้มครอง (การขอรับโอนใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครอง)</td>
+<td id='sv-1254_count' class='edit right'></td>
+<td id='sv-1254_per' class='edit center'>เดือน</td>
+<td id='sv-1254_elec' class='edit center'></td>
+<td id='sv-1254_p66' class='edit center'></td>
+<td id='sv-1254_p67' class='edit center'></td>
+<td id='sv-1254_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1254</td>
+<td id='sv-1254_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-1246_name' class=''>การอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์ (กรณีการขอใบแทนใบอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1246_count' class='edit right'></td>
+<td id='sv-1246_per' class='edit center'>เดือน</td>
+<td id='sv-1246_elec' class='edit center'></td>
+<td id='sv-1246_p66' class='edit center'></td>
+<td id='sv-1246_p67' class='edit center'></td>
+<td id='sv-1246_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1246</td>
+<td id='sv-1246_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-1223_name' class=''>กระบวนงานจองที่พักและบริการ โดยแจ้ง/ยื่นคำร้องเป็นลายลักษณ์อักษร</td>
+<td id='sv-1223_count' class='edit right'></td>
+<td id='sv-1223_per' class='edit center'>เดือน</td>
+<td id='sv-1223_elec' class='edit center'></td>
+<td id='sv-1223_p66' class='edit center'></td>
+<td id='sv-1223_p67' class='edit center'></td>
+<td id='sv-1223_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1223</td>
+<td id='sv-1223_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-1261_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขอใบแทนใบอนุญาตหรือใบรับรองให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า)</td>
+<td id='sv-1261_count' class='edit right'></td>
+<td id='sv-1261_per' class='edit center'>เดือน</td>
+<td id='sv-1261_elec' class='edit center'></td>
+<td id='sv-1261_p66' class='edit center'></td>
+<td id='sv-1261_p67' class='edit center'></td>
+<td id='sv-1261_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1261</td>
+<td id='sv-1261_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-1229_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ ( การขอรับใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองเพื่อกิจการสวนสัตว์สาธารณะ)</td>
+<td id='sv-1229_count' class='edit right'></td>
+<td id='sv-1229_per' class='edit center'>เดือน</td>
+<td id='sv-1229_elec' class='edit center'></td>
+<td id='sv-1229_p66' class='edit center'></td>
+<td id='sv-1229_p67' class='edit center'></td>
+<td id='sv-1229_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1229</td>
+<td id='sv-1229_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-1220_name' class=''>กระบวนการอนุญาตให้เข้าไปถ่ายทำภาพยนตร์ในเขตรักษาพันธุ์สัตว์ป่าหรือเขตห้ามล่าสัตว์ป่า</td>
+<td id='sv-1220_count' class='edit right'></td>
+<td id='sv-1220_per' class='edit center'>เดือน</td>
+<td id='sv-1220_elec' class='edit center'></td>
+<td id='sv-1220_p66' class='edit center'></td>
+<td id='sv-1220_p67' class='edit center'></td>
+<td id='sv-1220_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1220</td>
+<td id='sv-1220_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-1235_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ ( การขอรับโอนใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองเพื่อกิจการสวนสัตว์สาธารณะ )</td>
+<td id='sv-1235_count' class='edit right'></td>
+<td id='sv-1235_per' class='edit center'>เดือน</td>
+<td id='sv-1235_elec' class='edit center'></td>
+<td id='sv-1235_p66' class='edit center'></td>
+<td id='sv-1235_p67' class='edit center'></td>
+<td id='sv-1235_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1235</td>
+<td id='sv-1235_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-1260_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขอใบรับรองการส่งออกซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าที่ไม่ใช่สัตว์ป่าสงวน ไม่ใช่สัตว์ป่าคุ้มครอง ไม่ใช่สัตว์ป่าชนิดที่รัฐมนตรีประกาศกำหนด และไม่ใช่สัตว์ป่าตามบัญชีอนุสัญญาฯ (CITES))</td>
+<td id='sv-1260_count' class='edit right'></td>
+<td id='sv-1260_per' class='edit center'>เดือน</td>
+<td id='sv-1260_elec' class='edit center'></td>
+<td id='sv-1260_p66' class='edit center'></td>
+<td id='sv-1260_p67' class='edit center'></td>
+<td id='sv-1260_p68' class='edit center'></td>
+<td class='center '>3</td>
+<td class='center'>1260</td>
+<td id='sv-1260_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-1240_name' class=''>การอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์ (กรณีการขอรับโอนใบอนุญาตให้มีไว้ในครอบครองซึ่งสัตว์ป่าที่ได้มาจากการเพาะพันธุ์)</td>
+<td id='sv-1240_count' class='edit right'></td>
+<td id='sv-1240_per' class='edit center'>เดือน</td>
+<td id='sv-1240_elec' class='edit center'></td>
+<td id='sv-1240_p66' class='edit center'></td>
+<td id='sv-1240_p67' class='edit center'></td>
+<td id='sv-1240_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1240</td>
+<td id='sv-1240_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-1262_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ไทยในอุทยานแห่งชาติ กรณียื่นขออนุญาตที่ส่วนกลาง (สำนักอุทยานแห่งชาติ กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช))</td>
+<td id='sv-1262_count' class='edit right'></td>
+<td id='sv-1262_per' class='edit center'>เดือน</td>
+<td id='sv-1262_elec' class='edit center'></td>
+<td id='sv-1262_p66' class='edit center'></td>
+<td id='sv-1262_p67' class='edit center'></td>
+<td id='sv-1262_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1262</td>
+<td id='sv-1262_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-1263_name' class=''>กระบวนงานการขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ไทยในอุทยานแห่งชาติ กรณียื่นขออนุญาตที่ส่วนกลาง (สำนักอุทยานแห่งชาติ กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช)) และมีการนำสัตว์เข้าไปประกอบการถ่ายทำภาพยนตร์</td>
+<td id='sv-1263_count' class='edit right'></td>
+<td id='sv-1263_per' class='edit center'>เดือน</td>
+<td id='sv-1263_elec' class='edit center'></td>
+<td id='sv-1263_p66' class='edit center'></td>
+<td id='sv-1263_p67' class='edit center'></td>
+<td id='sv-1263_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1263</td>
+<td id='sv-1263_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-1264_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ไทยในอุทยานแห่งชาติ กรณียื่นขออนุญาตที่สำนักบริหารพื้นที่อนุรักษ์ที่1-16(เฉพาะภาพยนตร์ไทย ที่ไม่มีการนำสัตว์เข้าไปประกอบการถ่ายทำ และไม่มีการสร้างฉากหรืออุปกรณ์เข้าไปประกอบการถ่ายทำ))</td>
+<td id='sv-1264_count' class='edit right'></td>
+<td id='sv-1264_per' class='edit center'>เดือน</td>
+<td id='sv-1264_elec' class='edit center'></td>
+<td id='sv-1264_p66' class='edit center'></td>
+<td id='sv-1264_p67' class='edit center'></td>
+<td id='sv-1264_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1264</td>
+<td id='sv-1264_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-1267_name' class=''>การขออนุญาตเข้าไปดำเนินกิจการท่องเที่ยวและพักอาศัยในอุทยานแห่งชาติ(การขออนุญาตดำเนินกิจการบริการนำเที่ยวแก่นักท่องเที่ยวประเภทรับจ้างหาบสัมภาระ(ลูกหาบ))</td>
+<td id='sv-1267_count' class='edit right'></td>
+<td id='sv-1267_per' class='edit center'>เดือน</td>
+<td id='sv-1267_elec' class='edit center'></td>
+<td id='sv-1267_p66' class='edit center'></td>
+<td id='sv-1267_p67' class='edit center'></td>
+<td id='sv-1267_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1267</td>
+<td id='sv-1267_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>53</td>
+<td id='sv-1233_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอใบแทนใบอนุญาตให้เพาะพันธุ์สัตว์ป่าสงวนหรือสัตว์ป่าคุ้มครองเพื่อกิจการสวนสัตว์สาธารณ)</td>
+<td id='sv-1233_count' class='edit right'></td>
+<td id='sv-1233_per' class='edit center'>เดือน</td>
+<td id='sv-1233_elec' class='edit center'></td>
+<td id='sv-1233_p66' class='edit center'></td>
+<td id='sv-1233_p67' class='edit center'></td>
+<td id='sv-1233_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1233</td>
+<td id='sv-1233_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>54</td>
+<td id='sv-1230_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การโอนสัตว์ป่าสงวน สัตว์ป่าคุ้มครอง หรือซากของสัตว์ป่าดังกล่าวระหว่างสวนสัตว์สาธารณะ)</td>
+<td id='sv-1230_count' class='edit right'></td>
+<td id='sv-1230_per' class='edit center'>เดือน</td>
+<td id='sv-1230_elec' class='edit center'></td>
+<td id='sv-1230_p66' class='edit center'></td>
+<td id='sv-1230_p67' class='edit center'></td>
+<td id='sv-1230_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1230</td>
+<td id='sv-1230_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>55</td>
+<td id='sv-1270_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ต่างประเทศในอุทยานแห่งชาติ กรณีที่มีช่วงระยะเวลาการถ่ายทำสั้น เช่น สารคดี โฆษณา ภาพนิ่ง มิวสิควิดีโอ วีดิทัศน์ ที่มีการนำสัตว์เข้าไปประกอบการถ่ายทำ</td>
+<td id='sv-1270_count' class='edit right'></td>
+<td id='sv-1270_per' class='edit center'>เดือน</td>
+<td id='sv-1270_elec' class='edit center'></td>
+<td id='sv-1270_p66' class='edit center'></td>
+<td id='sv-1270_p67' class='edit center'></td>
+<td id='sv-1270_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1270</td>
+<td id='sv-1270_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>56</td>
+<td id='sv-1271_name' class=''>การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ในอุทยานแห่งชาติ(การขออนุญาตเข้าไปถ่ายทำภาพยนตร์ต่างประเทศในอุทยานแห่งชาติ กรณีที่มีช่วงระยะเวลาการถ่ายทำสั้น เช่น สารคดี โฆษณา ภาพนิ่ง มิวสิควิดีโอ วีดิทัศน์)</td>
+<td id='sv-1271_count' class='edit right'></td>
+<td id='sv-1271_per' class='edit center'>เดือน</td>
+<td id='sv-1271_elec' class='edit center'></td>
+<td id='sv-1271_p66' class='edit center'></td>
+<td id='sv-1271_p67' class='edit center'></td>
+<td id='sv-1271_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1271</td>
+<td id='sv-1271_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>57</td>
+<td id='sv-1259_name' class=''>การขออนุญาตให้นำเข้า ส่งออก หรือนำผ่านซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่า (การขอใบรับรองการนำเข้าซึ่งสัตว์ป่า ซากของสัตว์ป่า หรือผลิตภัณฑ์ที่ทำจากซากของสัตว์ป่าที่ไม่ใช่สัตว์ป่าสงวน ไม่ใช่สัตว์ป่าคุ้มครอง ไม่ใช่สัตว์ป่าชนิดที่รัฐมนตรีประกาศกำหนด และไม่ใช่สัตว์ป่าตามบัญชีอนุสัญญาฯ (CITES))</td>
+<td id='sv-1259_count' class='edit right'></td>
+<td id='sv-1259_per' class='edit center'>เดือน</td>
+<td id='sv-1259_elec' class='edit center'></td>
+<td id='sv-1259_p66' class='edit center'></td>
+<td id='sv-1259_p67' class='edit center'></td>
+<td id='sv-1259_p68' class='edit center'></td>
+<td class='center '>3</td>
+<td class='center'>1259</td>
+<td id='sv-1259_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>58</td>
+<td id='sv-1275_name' class=''>กระบวนงานการขออนุญาตให้ผู้ได้รับอนุญาตเก็บรังนกอีแอ่นเข้าไปในอุทยานแห่งชาติ</td>
+<td id='sv-1275_count' class='edit right'></td>
+<td id='sv-1275_per' class='edit center'>เดือน</td>
+<td id='sv-1275_elec' class='edit center'></td>
+<td id='sv-1275_p66' class='edit center'></td>
+<td id='sv-1275_p67' class='edit center'></td>
+<td id='sv-1275_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1275</td>
+<td id='sv-1275_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>59</td>
+<td id='sv-1226_name' class=''>การอนุญาตให้จัดตั้งและดำเนินกิจการสวนสัตว์สาธารณะ (การขอแก้ไขเปลี่ยนแปลงแบบแปลนแผนผังของสถานที่อยู่ของสัตว์ป่าหรือบริเวณที่ตั้งของสวนสัตว์สาธารณะ)</td>
+<td id='sv-1226_count' class='edit right'></td>
+<td id='sv-1226_per' class='edit center'>เดือน</td>
+<td id='sv-1226_elec' class='edit center'></td>
+<td id='sv-1226_p66' class='edit center'></td>
+<td id='sv-1226_p67' class='edit center'></td>
+<td id='sv-1226_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>1226</td>
+<td id='sv-1226_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

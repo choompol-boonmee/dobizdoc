@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912110015887  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#105> ;
+vp:orgName  'กรมพัฒนาที่ดิน' ;
+vp:editor   'ดวงดอม กำเนิดทรัพย์' ;
+vp:editorOrg   'กรมพัฒนาที่ดิน' ;
+vp:email    'duangdorm@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220912110015887' ;
+vp:end     '20220919110015887' ;
+vp:link		'https://dga.tueng.org/acc/20220912110015887/sv-105.html' .
+

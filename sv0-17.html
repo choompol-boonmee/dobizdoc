@@ -1,0 +1,324 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-17';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมสรรพากร </h2>
+<span id='orgid'>(or-17)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-185_name' class=''>การขอเพิ่มสถานประกอบการขายสินค้าให้นักท่องเที่ยว</td>
+<td id='sv-185_count' class='edit right'></td>
+<td id='sv-185_per' class='edit center'>เดือน</td>
+<td id='sv-185_elec' class='edit center'></td>
+<td id='sv-185_p66' class='edit center'></td>
+<td id='sv-185_p67' class='edit center'></td>
+<td id='sv-185_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>185</td>
+<td id='sv-185_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-190_name' class=''>การดำเนินการเกี่ยวกับการเป็นศูนย์กลางธุรกิจระหว่างประเทศ</td>
+<td id='sv-190_count' class='edit right'></td>
+<td id='sv-190_per' class='edit center'>เดือน</td>
+<td id='sv-190_elec' class='edit center'></td>
+<td id='sv-190_p66' class='edit center'></td>
+<td id='sv-190_p67' class='edit center'></td>
+<td id='sv-190_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>190</td>
+<td id='sv-190_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-176_name' class=''>การขออนุญาตเป็นสำนักงานบัญชีตัวแทน</td>
+<td id='sv-176_count' class='edit right'></td>
+<td id='sv-176_per' class='edit center'>เดือน</td>
+<td id='sv-176_elec' class='edit center'></td>
+<td id='sv-176_p66' class='edit center'></td>
+<td id='sv-176_p67' class='edit center'></td>
+<td id='sv-176_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>176</td>
+<td id='sv-176_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-177_name' class=''>การจดทะเบียนภาษีมูลค่าเพิ่ม กรณีผู้ประกอบการมีสถานประกอบการตั้งอยู่ในเขตกรุงเทพมหานคร</td>
+<td id='sv-177_count' class='edit right'></td>
+<td id='sv-177_per' class='edit center'>เดือน</td>
+<td id='sv-177_elec' class='edit center'></td>
+<td id='sv-177_p66' class='edit center'></td>
+<td id='sv-177_p67' class='edit center'></td>
+<td id='sv-177_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>177</td>
+<td id='sv-177_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-182_name' class=''>การขออนุมัติเป็นผู้ประกอบการขายสินค้าให้นักท่องเที่ยว</td>
+<td id='sv-182_count' class='edit right'></td>
+<td id='sv-182_per' class='edit center'>เดือน</td>
+<td id='sv-182_elec' class='edit center'></td>
+<td id='sv-182_p66' class='edit center'></td>
+<td id='sv-182_p67' class='edit center'></td>
+<td id='sv-182_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>182</td>
+<td id='sv-182_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-181_name' class=''>การจดทะเบียนภาษีธุรกิจเฉพาะ กรณีผู้ประกอบกิจการมีสถานประกอบการตั้งอยู่ในเขตกรุงเทพมหานคร</td>
+<td id='sv-181_count' class='edit right'></td>
+<td id='sv-181_per' class='edit center'>เดือน</td>
+<td id='sv-181_elec' class='edit center'></td>
+<td id='sv-181_p66' class='edit center'></td>
+<td id='sv-181_p67' class='edit center'></td>
+<td id='sv-181_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>181</td>
+<td id='sv-181_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-179_name' class=''>การจดทะเบียนภาษีมูลค่าเพิ่ม กรณีผู้ประกอบการมีสถานประกอบการตั้งอยู่นอกเขตกรุงเทพมหานคร</td>
+<td id='sv-179_count' class='edit right'></td>
+<td id='sv-179_per' class='edit center'>เดือน</td>
+<td id='sv-179_elec' class='edit center'></td>
+<td id='sv-179_p66' class='edit center'></td>
+<td id='sv-179_p67' class='edit center'></td>
+<td id='sv-179_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>179</td>
+<td id='sv-179_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-186_name' class=''>การขึ้นทะเบียนเป็นผู้สอบบัญชีภาษีอากรและการออกใบอนุญาต</td>
+<td id='sv-186_count' class='edit right'></td>
+<td id='sv-186_per' class='edit center'>เดือน</td>
+<td id='sv-186_elec' class='edit center'></td>
+<td id='sv-186_p66' class='edit center'></td>
+<td id='sv-186_p67' class='edit center'></td>
+<td id='sv-186_p68' class='edit center'></td>
+<td class='center high'>19</td>
+<td class='center'>186</td>
+<td id='sv-186_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-187_name' class=''>การยื่นแบบคำขอต่ออายุใบอนุญาตเป็นผู้สอบบัญชีภาษีอากร</td>
+<td id='sv-187_count' class='edit right'></td>
+<td id='sv-187_per' class='edit center'>เดือน</td>
+<td id='sv-187_elec' class='edit center'></td>
+<td id='sv-187_p66' class='edit center'></td>
+<td id='sv-187_p67' class='edit center'></td>
+<td id='sv-187_p68' class='edit center'></td>
+<td class='center high'>17</td>
+<td class='center'>187</td>
+<td id='sv-187_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-183_name' class=''>การจดทะเบียนภาษีธุรกิจเฉพาะ กรณีผู้ประกอบกิจการมีสถานประกอบการตั้งอยู่นอกเขตกรุงเทพมหานคร</td>
+<td id='sv-183_count' class='edit right'></td>
+<td id='sv-183_per' class='edit center'>เดือน</td>
+<td id='sv-183_elec' class='edit center'></td>
+<td id='sv-183_p66' class='edit center'></td>
+<td id='sv-183_p67' class='edit center'></td>
+<td id='sv-183_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>183</td>
+<td id='sv-183_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-189_name' class=''>การขอรับใบผ่านภาษีอากรของคนต่างด้าว</td>
+<td id='sv-189_count' class='edit right'></td>
+<td id='sv-189_per' class='edit center'>เดือน</td>
+<td id='sv-189_elec' class='edit center'></td>
+<td id='sv-189_p66' class='edit center'></td>
+<td id='sv-189_p67' class='edit center'></td>
+<td id='sv-189_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>189</td>
+<td id='sv-189_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-180_name' class=''>การจดทะเบียนภาษีมูลค่าเพิ่ม กรณีผู้ประกอบการยื่นคำขอจดทะเบียนภาษีมูลค่าเพิ่มบนเว็บไซต์กรมสรรพากร</td>
+<td id='sv-180_count' class='edit right'></td>
+<td id='sv-180_per' class='edit center'>เดือน</td>
+<td id='sv-180_elec' class='edit center'></td>
+<td id='sv-180_p66' class='edit center'></td>
+<td id='sv-180_p67' class='edit center'></td>
+<td id='sv-180_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>180</td>
+<td id='sv-180_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-188_name' class=''>การจัดทำหนังสือรับรองการหักภาษี ณ ที่จ่าย ต่างไปจากแบบแนบท้ายประกาศอธิบดีกรมสรรพากร เกี่ยวกับภาษีเงินได้ (ฉบับที่ 62) เรื่อง กำหนดแบบหนังสือรับรองการหักภาษี ณ ที่จ่าย ลงวันที่ 15 มีนาคม พ.ศ.2539</td>
+<td id='sv-188_count' class='edit right'></td>
+<td id='sv-188_per' class='edit center'>เดือน</td>
+<td id='sv-188_elec' class='edit center'></td>
+<td id='sv-188_p66' class='edit center'></td>
+<td id='sv-188_p67' class='edit center'></td>
+<td id='sv-188_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>188</td>
+<td id='sv-188_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-178_name' class=''>การขอเป็นองค์กรวิชาชีพบัญชีที่ได้รับความเห็นชอบจากอธิบดีกรมสรรพากรในการจัดอบรมด้านกฎหมายภาษีอากรให้กับผู้สอบบัญชีภาษีอากร</td>
+<td id='sv-178_count' class='edit right'></td>
+<td id='sv-178_per' class='edit center'>เดือน</td>
+<td id='sv-178_elec' class='edit center'></td>
+<td id='sv-178_p66' class='edit center'></td>
+<td id='sv-178_p67' class='edit center'></td>
+<td id='sv-178_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>178</td>
+<td id='sv-178_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-184_name' class=''>การจดทะเบียนภาษีธุรกิจเฉพาะ กรณีผู้ประกอบกิจการยื่นคำขอจดทะเบียนภาษีธุรกิจเฉพาะบนเว็บไซต์กรมสรรพากร(์N)</td>
+<td id='sv-184_count' class='edit right'></td>
+<td id='sv-184_per' class='edit center'>เดือน</td>
+<td id='sv-184_elec' class='edit center'></td>
+<td id='sv-184_p66' class='edit center'></td>
+<td id='sv-184_p67' class='edit center'></td>
+<td id='sv-184_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>184</td>
+<td id='sv-184_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

@@ -1,0 +1,336 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-211';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ การไฟฟ้านครหลวง </h2>
+<span id='orgid'>(or-211)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-2248_name' class=''>การขอใช้ไฟฟ้าสำหรับอาคารชุด หรืออาคารอื่นที่มีลักษณะคล้ายคลึงกัน</td>
+<td id='sv-2248_count' class='edit right'></td>
+<td id='sv-2248_per' class='edit center'>เดือน</td>
+<td id='sv-2248_elec' class='edit center'></td>
+<td id='sv-2248_p66' class='edit center'></td>
+<td id='sv-2248_p67' class='edit center'></td>
+<td id='sv-2248_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>2248</td>
+<td id='sv-2248_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-2243_name' class=''>การขอคืนเงินค่าบริการ</td>
+<td id='sv-2243_count' class='edit right'></td>
+<td id='sv-2243_per' class='edit center'>เดือน</td>
+<td id='sv-2243_elec' class='edit center'></td>
+<td id='sv-2243_p66' class='edit center'></td>
+<td id='sv-2243_p67' class='edit center'></td>
+<td id='sv-2243_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2243</td>
+<td id='sv-2243_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-2240_name' class=''>การขอย้ายเสา สาย และอุปกรณ์</td>
+<td id='sv-2240_count' class='edit right'></td>
+<td id='sv-2240_per' class='edit center'>เดือน</td>
+<td id='sv-2240_elec' class='edit center'></td>
+<td id='sv-2240_p66' class='edit center'></td>
+<td id='sv-2240_p67' class='edit center'></td>
+<td id='sv-2240_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2240</td>
+<td id='sv-2240_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-2250_name' class=''>การขอใช้ไฟถนนจำนวนดวงโคม ไม่เกิน 50 ดวง</td>
+<td id='sv-2250_count' class='edit right'></td>
+<td id='sv-2250_per' class='edit center'>เดือน</td>
+<td id='sv-2250_elec' class='edit center'></td>
+<td id='sv-2250_p66' class='edit center'></td>
+<td id='sv-2250_p67' class='edit center'></td>
+<td id='sv-2250_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2250</td>
+<td id='sv-2250_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-2246_name' class=''>งดใช้ไฟฟ้าเป็นการชั่วคราว กรณีมีผู้อื่นอยู่อาศัยและผู้อยู่อาศัยมาวางหลักประกัน</td>
+<td id='sv-2246_count' class='edit right'></td>
+<td id='sv-2246_per' class='edit center'>เดือน</td>
+<td id='sv-2246_elec' class='edit center'></td>
+<td id='sv-2246_p66' class='edit center'></td>
+<td id='sv-2246_p67' class='edit center'></td>
+<td id='sv-2246_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2246</td>
+<td id='sv-2246_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-2249_name' class=''>งดใช้ไฟฟ้าเป็นการชั่วคราว กรณีมีผู้อื่นอยู่อาศัย แต่ผู้อยู่อาศัยไม่ยอมมาวางหลักประกัน</td>
+<td id='sv-2249_count' class='edit right'></td>
+<td id='sv-2249_per' class='edit center'>เดือน</td>
+<td id='sv-2249_elec' class='edit center'></td>
+<td id='sv-2249_p66' class='edit center'></td>
+<td id='sv-2249_p67' class='edit center'></td>
+<td id='sv-2249_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2249</td>
+<td id='sv-2249_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-2237_name' class=''>การคืนหลักประกันการใช้ไฟฟ้าประเภทเงินสดและหนังสือสัญญาค้ำประกันของสถาบันการเงิน</td>
+<td id='sv-2237_count' class='edit right'></td>
+<td id='sv-2237_per' class='edit center'>เดือน</td>
+<td id='sv-2237_elec' class='edit center'></td>
+<td id='sv-2237_p66' class='edit center'></td>
+<td id='sv-2237_p67' class='edit center'></td>
+<td id='sv-2237_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2237</td>
+<td id='sv-2237_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-2244_name' class=''>งดใช้ไฟฟ้าเป็นการชั่วคราว กรณีบ้านรื้อ/ไม่มีผู้อยู่อาศัย/ผู้อยู่อาศัยยินยอมให้ถอดเครื่องวัดฯ</td>
+<td id='sv-2244_count' class='edit right'></td>
+<td id='sv-2244_per' class='edit center'>เดือน</td>
+<td id='sv-2244_elec' class='edit center'></td>
+<td id='sv-2244_p66' class='edit center'></td>
+<td id='sv-2244_p67' class='edit center'></td>
+<td id='sv-2244_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2244</td>
+<td id='sv-2244_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-2251_name' class=''>การขอใช้ไฟฟ้าขนาดตั้งแต่ 300 เควีเอ ถึง 2,000 เควีเอ ในระบบสายป้อน 12 เควี และขนาดตั้งแต่ 300 เควีเอ ถึง 4,000 เควีเอ ในระบบสายป้อน 24 เควี ในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ</td>
+<td id='sv-2251_count' class='edit right'></td>
+<td id='sv-2251_per' class='edit center'>เดือน</td>
+<td id='sv-2251_elec' class='edit center'></td>
+<td id='sv-2251_p66' class='edit center'></td>
+<td id='sv-2251_p67' class='edit center'></td>
+<td id='sv-2251_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2251</td>
+<td id='sv-2251_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-2238_name' class=''>การโอนเปลี่ยนชื่อพันธบัตรและการโอนกรรมสิทธิ์คืนเจ้าของพันธบัตร</td>
+<td id='sv-2238_count' class='edit right'></td>
+<td id='sv-2238_per' class='edit center'>เดือน</td>
+<td id='sv-2238_elec' class='edit center'></td>
+<td id='sv-2238_p66' class='edit center'></td>
+<td id='sv-2238_p67' class='edit center'></td>
+<td id='sv-2238_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2238</td>
+<td id='sv-2238_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-2239_name' class=''>การขอปักเสาพาดสายไฟฟ้าในที่ดินจัดสรรจำนวนไม่เกิน 100 แปลง</td>
+<td id='sv-2239_count' class='edit right'></td>
+<td id='sv-2239_per' class='edit center'>เดือน</td>
+<td id='sv-2239_elec' class='edit center'></td>
+<td id='sv-2239_p66' class='edit center'></td>
+<td id='sv-2239_p67' class='edit center'></td>
+<td id='sv-2239_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2239</td>
+<td id='sv-2239_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-2252_name' class=''>การขอใช้ไฟฟ้าขนาดเกิน 2,000 เควีเอ ถึง 5,000 เควีเอ ในระบบสายป้อน 12 เควี และขนาดเกิน 4,000 เควีเอ ถึง 8,000 เควีเอ ในระบบสายป้อน 24 เควี ในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ</td>
+<td id='sv-2252_count' class='edit right'></td>
+<td id='sv-2252_per' class='edit center'>เดือน</td>
+<td id='sv-2252_elec' class='edit center'></td>
+<td id='sv-2252_p66' class='edit center'></td>
+<td id='sv-2252_p67' class='edit center'></td>
+<td id='sv-2252_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>2252</td>
+<td id='sv-2252_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-2241_name' class=''>การขอใช้ไฟฟ้าเครื่องวัดหน่วยไฟฟ้าแรงต่ำในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ ขนาดไม่เกิน 15(45) แอมแปร์ 1 เฟส 2 สาย และ 3 เฟส 4 สาย ที่ไม่มีการดำเนินงานสายนอก</td>
+<td id='sv-2241_count' class='edit right'></td>
+<td id='sv-2241_per' class='edit center'>เดือน</td>
+<td id='sv-2241_elec' class='edit center'></td>
+<td id='sv-2241_p66' class='edit center'></td>
+<td id='sv-2241_p67' class='edit center'></td>
+<td id='sv-2241_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2241</td>
+<td id='sv-2241_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-2245_name' class=''>การขอใช้ไฟฟ้าเครื่องวัดหน่วยไฟฟ้าแรงต่ำในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ ขนาดไม่เกิน 200 แอมแปร์ 1 เฟส 2 สาย และ 3 เฟส 4 สาย ที่มีการดำเนินงานสายนอก</td>
+<td id='sv-2245_count' class='edit right'></td>
+<td id='sv-2245_per' class='edit center'>เดือน</td>
+<td id='sv-2245_elec' class='edit center'></td>
+<td id='sv-2245_p66' class='edit center'></td>
+<td id='sv-2245_p67' class='edit center'></td>
+<td id='sv-2245_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2245</td>
+<td id='sv-2245_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-2242_name' class=''>การขอใช้ไฟฟ้าเครื่องวัดหน่วยไฟฟ้าแรงต่ำในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ ขนาดตั้งแต่ 30(100) แอมแปร์ ถึง 400 แอมแปร์ ทั้ง 1 เฟส 2 สาย และ 3 เฟส 4 สาย ที่ไม่มีการดำเนินงานสายนอก</td>
+<td id='sv-2242_count' class='edit right'></td>
+<td id='sv-2242_per' class='edit center'>เดือน</td>
+<td id='sv-2242_elec' class='edit center'></td>
+<td id='sv-2242_p66' class='edit center'></td>
+<td id='sv-2242_p67' class='edit center'></td>
+<td id='sv-2242_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2242</td>
+<td id='sv-2242_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-2247_name' class=''>การขอใช้ไฟฟ้าเครื่องวัดหน่วยไฟฟ้าแรงต่ำในพื้นที่การจ่ายไฟฟ้าแรงดันกลางด้วยระบบสายอากาศ ขนาด 400 แอมแปร์ 3 เฟส 4 สาย ที่มีการดำเนินงานสายนอก</td>
+<td id='sv-2247_count' class='edit right'></td>
+<td id='sv-2247_per' class='edit center'>เดือน</td>
+<td id='sv-2247_elec' class='edit center'></td>
+<td id='sv-2247_p66' class='edit center'></td>
+<td id='sv-2247_p67' class='edit center'></td>
+<td id='sv-2247_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>2247</td>
+<td id='sv-2247_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

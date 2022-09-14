@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913084057097  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'นายณรงค์ฤทธิ์ พ่วงทองเหลือง' ;
+vp:editorOrg   'สำนักมาตรฐานทะเบียนเรือ กรมเจ้าท่า' ;
+vp:email    'nook789_987@hotmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220913084057097' ;
+vp:end     '20220913114057097' ;
+vp:link		'https://dga.tueng.org/acc/20220913084057097/sv-127.html' .
+

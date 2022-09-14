@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914104612004  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#113> ;
+vp:orgName  'สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม' ;
+vp:editor   'ณลักขณา โลหะวิจารณ์' ;
+vp:editorOrg   'สำนักงานการปฏิรูปที่ดินเพื่อเกษตรกรรม' ;
+vp:email    'nalakkhana.l@alro.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220914104612004' ;
+vp:end     '20220914134612004' ;
+vp:link		'https://dga.tueng.org/acc/20220914104612004/sv-113.html' .
+

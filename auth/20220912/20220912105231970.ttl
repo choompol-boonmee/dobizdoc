@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912105231970  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#16> ;
+vp:orgName  'กรมสรรพสามิต' ;
+vp:editor   'อัชฌาพร' ;
+vp:editorOrg   'ศูนย์เทคโนโลยีสารสนเทศ' ;
+vp:email    'atchaporn.sarawan@gmail.com' ;
+vp:time     '1D' ;
+vp:start     '20220912105231970' ;
+vp:end     '20220913105231970' ;
+vp:link		'https://dga.tueng.org/acc/20220912105231970/sv-16.html' .
+

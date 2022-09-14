@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913051015746  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#594> ;
+vp:orgName  'สถาบันอนุญาโตตุลาการ' ;
+vp:editor   'นางสาวพิไลพร พวงสมบัติ' ;
+vp:editorOrg   'กรมการค้าต่างประเทศ' ;
+vp:email    'pilaipornp@moc.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220913051015746' ;
+vp:end     '20220920051015746' ;
+vp:link		'https://dga.tueng.org/acc/20220913051015746/sv-594.html' .
+

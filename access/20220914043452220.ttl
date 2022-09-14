@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914043452220  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'นายไพฑูรย์  รอดประชา' ;
+vp:editorOrg   'กลุ่มกำกับกิจการขนส่งต่อเนื่องหลายรูปแบบ กองกำกับการพาณิชยนาวี กรมเจ้าท่า' ;
+vp:email    'paitoon.r@md.go.th' ;
+vp:time     '1D' ;
+vp:start     '20220914043452220' ;
+vp:end     '20220915043452220' ;
+vp:link		'https://dga.tueng.org/acc/20220914043452220/sv-127.html' .
+

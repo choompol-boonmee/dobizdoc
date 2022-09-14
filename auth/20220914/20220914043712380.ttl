@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914043712380  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#13> ;
+vp:orgName  'กรมธนารักษ์' ;
+vp:editor   'วริษฐา ดินอุดม' ;
+vp:editorOrg   'กรมธนารักษ์' ;
+vp:email    'warittha.jajah@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220914043712380' ;
+vp:end     '20220921043712380' ;
+vp:link		'https://dga.tueng.org/acc/20220914043712380/sv-13.html' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220909085428991  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#166> ;
+vp:orgName  'กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช' ;
+vp:editor   'ชฎาพร อนุศรี' ;
+vp:editorOrg   'ส่วนคุ้มครองสัตว์ป่า' ;
+vp:email    'wilelifeprotect@gmail.com' ;
+vp:time     '1D' ;
+vp:start     '20220909085428991' ;
+vp:end     '20220910085428991' ;
+vp:link		'https://dga.tueng.org/acc/20220909085428991/sv-166.html' .
+

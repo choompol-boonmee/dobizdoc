@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220912043749784  a  vp:Data ;
+vp:token   <ac:20220909102816557> ;
+vp:email   'srirachalimit@gmail.com' ;
+vp:service   'sv-798_per' ;
+vp:value  'เดือน' .
+

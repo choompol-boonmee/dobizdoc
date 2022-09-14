@@ -1,0 +1,492 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-239';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมศิลปากร </h2>
+<span id='orgid'>(or-239)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-2452_name' class=''>การพิจารณาซ่อมแซมเอกสารจดหมายเหตุ</td>
+<td id='sv-2452_count' class='edit right'></td>
+<td id='sv-2452_per' class='edit center'>เดือน</td>
+<td id='sv-2452_elec' class='edit center'></td>
+<td id='sv-2452_p66' class='edit center'></td>
+<td id='sv-2452_p67' class='edit center'></td>
+<td id='sv-2452_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2452</td>
+<td id='sv-2452_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-2462_name' class=''>การยกเลิกเป็นผู้พิมพ์ ผู้โฆษณา บรรณาธิการ หรือเจ้าของหนังสือพิมพ์</td>
+<td id='sv-2462_count' class='edit right'></td>
+<td id='sv-2462_per' class='edit center'>เดือน</td>
+<td id='sv-2462_elec' class='edit center'></td>
+<td id='sv-2462_p66' class='edit center'></td>
+<td id='sv-2462_p67' class='edit center'></td>
+<td id='sv-2462_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2462</td>
+<td id='sv-2462_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-2466_name' class=''>ขออนุญาตใช้สถานที่โรงละครแห่งชาติ</td>
+<td id='sv-2466_count' class='edit right'></td>
+<td id='sv-2466_per' class='edit center'>เดือน</td>
+<td id='sv-2466_elec' class='edit center'></td>
+<td id='sv-2466_p66' class='edit center'></td>
+<td id='sv-2466_p67' class='edit center'></td>
+<td id='sv-2466_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2466</td>
+<td id='sv-2466_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-2461_name' class=''>การเปลี่ยนแปลงรายการที่จดแจ้งการพิมพ์</td>
+<td id='sv-2461_count' class='edit right'></td>
+<td id='sv-2461_per' class='edit center'>เดือน</td>
+<td id='sv-2461_elec' class='edit center'></td>
+<td id='sv-2461_p66' class='edit center'></td>
+<td id='sv-2461_p67' class='edit center'></td>
+<td id='sv-2461_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2461</td>
+<td id='sv-2461_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-2465_name' class=''>การขออนุญาตจำลองพระพุทธรูปสำคัญ</td>
+<td id='sv-2465_count' class='edit right'></td>
+<td id='sv-2465_per' class='edit center'>เดือน</td>
+<td id='sv-2465_elec' class='edit center'></td>
+<td id='sv-2465_p66' class='edit center'></td>
+<td id='sv-2465_p67' class='edit center'></td>
+<td id='sv-2465_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2465</td>
+<td id='sv-2465_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-2468_name' class=''>การขออนุญาตจัดพิมพ์หนังสือที่เป็นลิขสิทธิ์ของกรมศิลปากร</td>
+<td id='sv-2468_count' class='edit right'></td>
+<td id='sv-2468_per' class='edit center'>เดือน</td>
+<td id='sv-2468_elec' class='edit center'></td>
+<td id='sv-2468_p66' class='edit center'></td>
+<td id='sv-2468_p67' class='edit center'></td>
+<td id='sv-2468_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2468</td>
+<td id='sv-2468_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-2464_name' class=''>การขออนุญาตก่อสร้างอนุสาวรีย์แห่งชาติ</td>
+<td id='sv-2464_count' class='edit right'></td>
+<td id='sv-2464_per' class='edit center'>เดือน</td>
+<td id='sv-2464_elec' class='edit center'></td>
+<td id='sv-2464_p66' class='edit center'></td>
+<td id='sv-2464_p67' class='edit center'></td>
+<td id='sv-2464_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>2464</td>
+<td id='sv-2464_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-2460_name' class=''>การจดแจ้งการพิมพ์หนังสือพิมพ์</td>
+<td id='sv-2460_count' class='edit right'></td>
+<td id='sv-2460_per' class='edit center'>เดือน</td>
+<td id='sv-2460_elec' class='edit center'></td>
+<td id='sv-2460_p66' class='edit center'></td>
+<td id='sv-2460_p67' class='edit center'></td>
+<td id='sv-2460_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2460</td>
+<td id='sv-2460_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-2448_name' class=''>การขอต่ออายุใบอนุญาตค้าโบราณวัตถุหรือศิลปวัตถุ</td>
+<td id='sv-2448_count' class='edit right'></td>
+<td id='sv-2448_per' class='edit center'>เดือน</td>
+<td id='sv-2448_elec' class='edit center'></td>
+<td id='sv-2448_p66' class='edit center'></td>
+<td id='sv-2448_p67' class='edit center'></td>
+<td id='sv-2448_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2448</td>
+<td id='sv-2448_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-2449_name' class=''>การขอรับใบอนุญาตค้าโบราณวัตถุหรือศิลปวัตถุ</td>
+<td id='sv-2449_count' class='edit right'></td>
+<td id='sv-2449_per' class='edit center'>เดือน</td>
+<td id='sv-2449_elec' class='edit center'></td>
+<td id='sv-2449_p66' class='edit center'></td>
+<td id='sv-2449_p67' class='edit center'></td>
+<td id='sv-2449_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2449</td>
+<td id='sv-2449_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-2456_name' class=''>การส่งหรือนำเอกสารจดหมายเหตุออกนอกราชอาณาจักร</td>
+<td id='sv-2456_count' class='edit right'></td>
+<td id='sv-2456_per' class='edit center'>เดือน</td>
+<td id='sv-2456_elec' class='edit center'></td>
+<td id='sv-2456_p66' class='edit center'></td>
+<td id='sv-2456_p67' class='edit center'></td>
+<td id='sv-2456_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2456</td>
+<td id='sv-2456_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-2444_name' class=''>การแจ้งโอนโบราณวัตถุหรือศิลปวัตถุที่ได้ขึ้นทะเบียนแล้ว</td>
+<td id='sv-2444_count' class='edit right'></td>
+<td id='sv-2444_per' class='edit center'>เดือน</td>
+<td id='sv-2444_elec' class='edit center'></td>
+<td id='sv-2444_p66' class='edit center'></td>
+<td id='sv-2444_p67' class='edit center'></td>
+<td id='sv-2444_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2444</td>
+<td id='sv-2444_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-2440_name' class=''>ขออนุญาตปลูกสร้างอาคารตามกฎหมายว่าด้วยการควบคุมการก่อสร้างอาคารภายในเขตของโบราณสถาน</td>
+<td id='sv-2440_count' class='edit right'></td>
+<td id='sv-2440_per' class='edit center'>เดือน</td>
+<td id='sv-2440_elec' class='edit center'></td>
+<td id='sv-2440_p66' class='edit center'></td>
+<td id='sv-2440_p67' class='edit center'></td>
+<td id='sv-2440_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>2440</td>
+<td id='sv-2440_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-2458_name' class=''>การขออนุญาตส่งหรือนำโบราณวัตถุ หรือศิลปวัตถุ หรือชิ้นส่วนของโบราณวัตถุ หรือชิ้นส่วนของศิลปวัตถุในความครอบครองของกรมศิลปากร ออกนอกราชอาณาจักรเพื่อการศึกษาวิเคราะห์ วิจัย ซ่อมแซม หรือประกอบ เป็นการชั่วคราว รวมทั้งการนำไปแปรสภาพหรือทำลายโดยกระบวนการวิเคราะห์ โดยไม่นำกลับเข้ามา</td>
+<td id='sv-2458_count' class='edit right'></td>
+<td id='sv-2458_per' class='edit center'>เดือน</td>
+<td id='sv-2458_elec' class='edit center'></td>
+<td id='sv-2458_p66' class='edit center'></td>
+<td id='sv-2458_p67' class='edit center'></td>
+<td id='sv-2458_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2458</td>
+<td id='sv-2458_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-2447_name' class=''>การแจ้งจัดแสดงโบราณวัตถุหรือศิลปวัตถุโดยเรียกเก็บค่าเข้าชมหรือค่าบริการอื่น</td>
+<td id='sv-2447_count' class='edit right'></td>
+<td id='sv-2447_per' class='edit center'>เดือน</td>
+<td id='sv-2447_elec' class='edit center'></td>
+<td id='sv-2447_p66' class='edit center'></td>
+<td id='sv-2447_p67' class='edit center'></td>
+<td id='sv-2447_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2447</td>
+<td id='sv-2447_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-2459_name' class=''>การขออนุญาตทำการซ่อมแซม แก้ไข หรือเปลี่ยนแปลงโบราณวัตถุหรือศิลปวัตถุที่ได้ขึ้นทะเบียนแล้ว</td>
+<td id='sv-2459_count' class='edit right'></td>
+<td id='sv-2459_per' class='edit center'>เดือน</td>
+<td id='sv-2459_elec' class='edit center'></td>
+<td id='sv-2459_p66' class='edit center'></td>
+<td id='sv-2459_p67' class='edit center'></td>
+<td id='sv-2459_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2459</td>
+<td id='sv-2459_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-2463_name' class=''>ขออนุญาตซ่อมแซม แก้ไข เปลียนแปลง รื้อถอน ต่อเติม ทำลาย เคลื่อนย้ายโบราณสถาน หรือส่วนต่าง ๆ ของโบราณสถาน หรือขุดค้นในเขตโบราณสถาน</td>
+<td id='sv-2463_count' class='edit right'></td>
+<td id='sv-2463_per' class='edit center'>เดือน</td>
+<td id='sv-2463_elec' class='edit center'></td>
+<td id='sv-2463_p66' class='edit center'></td>
+<td id='sv-2463_p67' class='edit center'></td>
+<td id='sv-2463_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2463</td>
+<td id='sv-2463_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-2442_name' class=''>แจ้งการเรียกเก็บค่าเข้าชมหรือค่าบริการโบราณสถานที่มีเจ้าของหรือ ผู้ครอบครองที่ชอบโดยกฎหมาย</td>
+<td id='sv-2442_count' class='edit right'></td>
+<td id='sv-2442_per' class='edit center'>เดือน</td>
+<td id='sv-2442_elec' class='edit center'></td>
+<td id='sv-2442_p66' class='edit center'></td>
+<td id='sv-2442_p67' class='edit center'></td>
+<td id='sv-2442_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2442</td>
+<td id='sv-2442_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-2451_name' class=''>การอนุญาตส่งหรือนำโบราณวัตถุหรือศิลปวัตถุออกนอกราชอาณาจักร</td>
+<td id='sv-2451_count' class='edit right'></td>
+<td id='sv-2451_per' class='edit center'>เดือน</td>
+<td id='sv-2451_elec' class='edit center'></td>
+<td id='sv-2451_p66' class='edit center'></td>
+<td id='sv-2451_p67' class='edit center'></td>
+<td id='sv-2451_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2451</td>
+<td id='sv-2451_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-2467_name' class=''>การอนุญาตเข้าไปดำเนินการตามภารกิจใดใดเพื่อหาผลประโยชน์ในบริเวณโบราณสถานที่ได้ขึ้นทะเบียนแล้วและมิใช่โบราณสถานที่มีเจ้าของหรือผู้ครอบครองโดยชอบด้วยกฎหมาย</td>
+<td id='sv-2467_count' class='edit right'></td>
+<td id='sv-2467_per' class='edit center'>เดือน</td>
+<td id='sv-2467_elec' class='edit center'></td>
+<td id='sv-2467_p66' class='edit center'></td>
+<td id='sv-2467_p67' class='edit center'></td>
+<td id='sv-2467_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2467</td>
+<td id='sv-2467_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-2446_name' class=''>การแจ้งการผลิต การค้า หรือมีไว้ในสถานการค้า ซึ่งสิ่งเทียมโบราณวัตถุหรือสิ่งเทียมศิลปวัตถุที่ควบคุมการทำเทียม</td>
+<td id='sv-2446_count' class='edit right'></td>
+<td id='sv-2446_per' class='edit center'>เดือน</td>
+<td id='sv-2446_elec' class='edit center'></td>
+<td id='sv-2446_p66' class='edit center'></td>
+<td id='sv-2446_p67' class='edit center'></td>
+<td id='sv-2446_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2446</td>
+<td id='sv-2446_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-2445_name' class=''>การแจ้งการชำรุด หักพัง เสียหาย สูญหาย หรือย้ายสถานที่เก็บโบราณวัตถุหรือศิลปวัตถุที่ได้ขึ้นทะเบียนแล้ว</td>
+<td id='sv-2445_count' class='edit right'></td>
+<td id='sv-2445_per' class='edit center'>เดือน</td>
+<td id='sv-2445_elec' class='edit center'></td>
+<td id='sv-2445_p66' class='edit center'></td>
+<td id='sv-2445_p67' class='edit center'></td>
+<td id='sv-2445_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2445</td>
+<td id='sv-2445_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-2455_name' class=''>การผลิตหรือทำซ้ำจดหมายเหตุในเชิงพาณิชย์</td>
+<td id='sv-2455_count' class='edit right'></td>
+<td id='sv-2455_per' class='edit center'>เดือน</td>
+<td id='sv-2455_elec' class='edit center'></td>
+<td id='sv-2455_p66' class='edit center'></td>
+<td id='sv-2455_p67' class='edit center'></td>
+<td id='sv-2455_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2455</td>
+<td id='sv-2455_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-2453_name' class=''>การขออนุญาตส่งหรือนำโบราณวัตถุหรือศิลปวัตถุออกนอกราชอาณาจักร เป็นการชั่วคราว</td>
+<td id='sv-2453_count' class='edit right'></td>
+<td id='sv-2453_per' class='edit center'>เดือน</td>
+<td id='sv-2453_elec' class='edit center'></td>
+<td id='sv-2453_p66' class='edit center'></td>
+<td id='sv-2453_p67' class='edit center'></td>
+<td id='sv-2453_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2453</td>
+<td id='sv-2453_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-2450_name' class=''>การขออนุญาตเก็บรักษาโบราณวัตถุหรือศิลปวัตถุซึ่งเป็นทรัพย์สินของแผ่นดินและอยู่ในความดูแลรักษาของกรมศิลปากร</td>
+<td id='sv-2450_count' class='edit right'></td>
+<td id='sv-2450_per' class='edit center'>เดือน</td>
+<td id='sv-2450_elec' class='edit center'></td>
+<td id='sv-2450_p66' class='edit center'></td>
+<td id='sv-2450_p67' class='edit center'></td>
+<td id='sv-2450_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2450</td>
+<td id='sv-2450_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-2457_name' class=''>การขอทำสำเนาเอกสารจดหมายเหตุในหอจดหมายเหตุแห่งชาติ</td>
+<td id='sv-2457_count' class='edit right'></td>
+<td id='sv-2457_per' class='edit center'>เดือน</td>
+<td id='sv-2457_elec' class='edit center'></td>
+<td id='sv-2457_p66' class='edit center'></td>
+<td id='sv-2457_p67' class='edit center'></td>
+<td id='sv-2457_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2457</td>
+<td id='sv-2457_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-2454_name' class=''>การขออนุญาตนำเอกสารจดหมายเหตุในหอจดหมายเหตุแห่งชาติออกไปจัดแสดงนอกสถานที่เป็นการชั่วคราว</td>
+<td id='sv-2454_count' class='edit right'></td>
+<td id='sv-2454_per' class='edit center'>เดือน</td>
+<td id='sv-2454_elec' class='edit center'></td>
+<td id='sv-2454_p66' class='edit center'></td>
+<td id='sv-2454_p67' class='edit center'></td>
+<td id='sv-2454_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>2454</td>
+<td id='sv-2454_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-2443_name' class=''>การแจ้งการได้รับกรรมสิทธิ์โบราณวัตถุหรือศิลปวัตถุที่ได้ขึ้นทะเบียนแล้ว โดยทางมรดกหรือโดยพินัยกรรม</td>
+<td id='sv-2443_count' class='edit right'></td>
+<td id='sv-2443_per' class='edit center'>เดือน</td>
+<td id='sv-2443_elec' class='edit center'></td>
+<td id='sv-2443_p66' class='edit center'></td>
+<td id='sv-2443_p67' class='edit center'></td>
+<td id='sv-2443_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>2443</td>
+<td id='sv-2443_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-2441_name' class=''>การแจ้งโอนและการแจ้งการได้รับกรรมสิทธิ์โดยทางมรดกหรือโดยพินัยกรรมของโบราณสถานที่ขึ้นทะเบียนแล้ว</td>
+<td id='sv-2441_count' class='edit right'></td>
+<td id='sv-2441_per' class='edit center'>เดือน</td>
+<td id='sv-2441_elec' class='edit center'></td>
+<td id='sv-2441_p66' class='edit center'></td>
+<td id='sv-2441_p67' class='edit center'></td>
+<td id='sv-2441_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>2441</td>
+<td id='sv-2441_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

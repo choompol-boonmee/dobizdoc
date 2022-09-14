@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914091806434  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'นางสาวอรอุษา อาสนะ' ;
+vp:editorOrg   'กรมที่ดิน สำนักส่งเสริมธุรกิจอสังหาริมทรัพย์' ;
+vp:email    'onausa.o@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220914091806434' ;
+vp:end     '20220921091806434' ;
+vp:link		'https://dga.tueng.org/acc/20220914091806434/sv-204.html' .
+

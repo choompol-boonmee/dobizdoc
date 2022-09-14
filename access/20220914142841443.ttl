@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914142841443  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#211> ;
+vp:orgName  'การไฟฟ้านครหลวง' ;
+vp:editor   'รุจิราวัทน์ ธนาวริทธิ์ธร' ;
+vp:editorOrg   'การไฟฟ้านครหลวง' ;
+vp:email    'Rujirawat.th@mea.or.th' ;
+vp:time     '7D' ;
+vp:start     '20220914142841443' ;
+vp:end     '20220921142841443' ;
+vp:link		'https://dga.tueng.org/acc/20220914142841443/sv-211.html' .
+

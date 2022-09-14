@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220914101723132  a  vp:Data ;
+vp:token   <ac:20220914092847087> ;
+vp:email   'thutchakorn_k@dede.go.th' ;
+vp:service   'sv-1543_elec' ;
+vp:value  'ํ' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914051625150  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#178> ;
+vp:orgName  'กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน' ;
+vp:editor   'ธัญรัตน์ ล้อศิริรัตน์' ;
+vp:editorOrg   'กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน' ;
+vp:email    'thanyarat_l@dede.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220914051625150' ;
+vp:end     '20220914081625150' ;
+vp:link		'https://dga.tueng.org/acc/20220914051625150/sv-178.html' .
+

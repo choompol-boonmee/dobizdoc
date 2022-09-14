@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220910153434639  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'นายชุมพล บุญมี' ;
+vp:editorOrg   'ม.ธรรมศาสตร์' ;
+vp:email    'drnum@tueng.org' ;
+vp:time     '3H' ;
+vp:start     '20220910153434639' ;
+vp:end     '20220910183434639' ;
+vp:link		'https://dga.tueng.org/acc/20220910153434639/sv-127.html' .
+

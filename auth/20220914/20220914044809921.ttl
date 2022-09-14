@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914044809921  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#161> ;
+vp:orgName  'กรมทรัพยากรธรณี' ;
+vp:editor   'นพคุณ ศรีพลัง' ;
+vp:editorOrg   'กรมทรัพยากรธรณี' ;
+vp:email    'noppakun@dmr.mail.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220914044809921' ;
+vp:end     '20220921044809921' ;
+vp:link		'https://dga.tueng.org/acc/20220914044809921/sv-161.html' .
+

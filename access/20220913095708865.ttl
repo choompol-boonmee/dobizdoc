@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913095708865  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#240> ;
+vp:orgName  'กรมส่งเสริมวัฒนธรรม' ;
+vp:editor   'อติวิชญ์ มากบัว' ;
+vp:editorOrg   'กรมส่งเสริมวัฒนธรรม' ;
+vp:email    'ativich@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220913095708865' ;
+vp:end     '20220913125708865' ;
+vp:link		'https://dga.tueng.org/acc/20220913095708865/sv-240.html' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913052526140  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#187> ;
+vp:orgName  'กรมการค้าต่างประเทศ' ;
+vp:editor   'นางสาวพิไลพร พวงสมบัติ' ;
+vp:editorOrg   'กรมการค้าต่างประเทศ' ;
+vp:email    'pilaipornp@moc.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220913052526140' ;
+vp:end     '20220920052526140' ;
+vp:link		'https://dga.tueng.org/acc/20220913052526140/sv-187.html' .
+

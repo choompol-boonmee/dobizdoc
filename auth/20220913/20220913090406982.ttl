@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913090406982  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#596> ;
+vp:orgName  'บริษัท ข้อมูลเครดิตแห่งชาติ จำกัด (เครดิตบูโร)' ;
+vp:editor   '' ;
+vp:editorOrg   '' ;
+vp:email    'TAWA.K@FTE.KMUTNB.AC.TH' ;
+vp:time     '3H' ;
+vp:start     '20220913090406982' ;
+vp:end     '20220913120406982' ;
+vp:link		'https://dga.tueng.org/acc/20220913090406982/sv-596.html' .
+

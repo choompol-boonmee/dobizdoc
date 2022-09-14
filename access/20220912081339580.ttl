@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912081339580  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#595> ;
+vp:orgName  'สำนักงานคณะกรรมการคุ้มครองผู้บริโภค' ;
+vp:editor   'นายธนาชัย สาธิตวสุธา' ;
+vp:editorOrg   'กองคุ้มครองผู้บริโภคด้านธุรกิจขายตรงและตลาดแบบตรง' ;
+vp:email    'lekapril@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220912081339580' ;
+vp:end     '20220912111339580' ;
+vp:link		'https://dga.tueng.org/acc/20220912081339580/sv-595.html' .
+

@@ -1,0 +1,648 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-583';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ สำนักงานพระพุทธศาสนาแห่งชาติ </h2>
+<span id='orgid'>(or-583)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-3407_name' class=''>การรวมวัด</td>
+<td id='sv-3407_count' class='edit right'></td>
+<td id='sv-3407_per' class='edit center'>เดือน</td>
+<td id='sv-3407_elec' class='edit center'></td>
+<td id='sv-3407_p66' class='edit center'></td>
+<td id='sv-3407_p67' class='edit center'></td>
+<td id='sv-3407_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3407</td>
+<td id='sv-3407_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-3412_name' class=''>การขอเปลี่ยนแปลงชื่อวัด</td>
+<td id='sv-3412_count' class='edit right'></td>
+<td id='sv-3412_per' class='edit center'>เดือน</td>
+<td id='sv-3412_elec' class='edit center'></td>
+<td id='sv-3412_p66' class='edit center'></td>
+<td id='sv-3412_p67' class='edit center'></td>
+<td id='sv-3412_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3412</td>
+<td id='sv-3412_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-3406_name' class=''>การขออนุญาตตั้งวัด</td>
+<td id='sv-3406_count' class='edit right'></td>
+<td id='sv-3406_per' class='edit center'>เดือน</td>
+<td id='sv-3406_elec' class='edit center'></td>
+<td id='sv-3406_p66' class='edit center'></td>
+<td id='sv-3406_p67' class='edit center'></td>
+<td id='sv-3406_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3406</td>
+<td id='sv-3406_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-3416_name' class=''>การคัดสำเนาหนังสือ และประกาศต่างๆ</td>
+<td id='sv-3416_count' class='edit right'></td>
+<td id='sv-3416_per' class='edit center'>เดือน</td>
+<td id='sv-3416_elec' class='edit center'></td>
+<td id='sv-3416_p66' class='edit center'></td>
+<td id='sv-3416_p67' class='edit center'></td>
+<td id='sv-3416_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3416</td>
+<td id='sv-3416_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-3405_name' class=''>การขออนุญาตสร้างวัด (ในกรุงเทพมหานคร)</td>
+<td id='sv-3405_count' class='edit right'></td>
+<td id='sv-3405_per' class='edit center'>เดือน</td>
+<td id='sv-3405_elec' class='edit center'></td>
+<td id='sv-3405_p66' class='edit center'></td>
+<td id='sv-3405_p67' class='edit center'></td>
+<td id='sv-3405_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3405</td>
+<td id='sv-3405_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-3408_name' class=''>การย้ายวัด</td>
+<td id='sv-3408_count' class='edit right'></td>
+<td id='sv-3408_per' class='edit center'>เดือน</td>
+<td id='sv-3408_elec' class='edit center'></td>
+<td id='sv-3408_p66' class='edit center'></td>
+<td id='sv-3408_p67' class='edit center'></td>
+<td id='sv-3408_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3408</td>
+<td id='sv-3408_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-3415_name' class=''>การรับรองสภาพวัดในกรุงเทพมหานคร</td>
+<td id='sv-3415_count' class='edit right'></td>
+<td id='sv-3415_per' class='edit center'>เดือน</td>
+<td id='sv-3415_elec' class='edit center'></td>
+<td id='sv-3415_p66' class='edit center'></td>
+<td id='sv-3415_p67' class='edit center'></td>
+<td id='sv-3415_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3415</td>
+<td id='sv-3415_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-3417_name' class=''>การกันเขตจัดประโยชน์ในที่ดินที่ตั้งวัด</td>
+<td id='sv-3417_count' class='edit right'></td>
+<td id='sv-3417_per' class='edit center'>เดือน</td>
+<td id='sv-3417_elec' class='edit center'></td>
+<td id='sv-3417_p66' class='edit center'></td>
+<td id='sv-3417_p67' class='edit center'></td>
+<td id='sv-3417_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3417</td>
+<td id='sv-3417_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-3397_name' class=''>การขอรับการตรวจลงตราหนังสือเดินทาง</td>
+<td id='sv-3397_count' class='edit right'></td>
+<td id='sv-3397_per' class='edit center'>เดือน</td>
+<td id='sv-3397_elec' class='edit center'></td>
+<td id='sv-3397_p66' class='edit center'></td>
+<td id='sv-3397_p67' class='edit center'></td>
+<td id='sv-3397_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3397</td>
+<td id='sv-3397_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-3393_name' class=''>การเบิกเงินผลประโยชน์วัด</td>
+<td id='sv-3393_count' class='edit right'></td>
+<td id='sv-3393_per' class='edit center'>เดือน</td>
+<td id='sv-3393_elec' class='edit center'></td>
+<td id='sv-3393_p66' class='edit center'></td>
+<td id='sv-3393_p67' class='edit center'></td>
+<td id='sv-3393_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3393</td>
+<td id='sv-3393_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-3413_name' class=''>การขึ้นทะเบียนวัดเก่าตกสำรวจ</td>
+<td id='sv-3413_count' class='edit right'></td>
+<td id='sv-3413_per' class='edit center'>เดือน</td>
+<td id='sv-3413_elec' class='edit center'></td>
+<td id='sv-3413_p66' class='edit center'></td>
+<td id='sv-3413_p67' class='edit center'></td>
+<td id='sv-3413_p68' class='edit center'></td>
+<td class='center '>3</td>
+<td class='center'>3413</td>
+<td id='sv-3413_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-3409_name' class=''>การยุบเลิกวัด</td>
+<td id='sv-3409_count' class='edit right'></td>
+<td id='sv-3409_per' class='edit center'>เดือน</td>
+<td id='sv-3409_elec' class='edit center'></td>
+<td id='sv-3409_p66' class='edit center'></td>
+<td id='sv-3409_p67' class='edit center'></td>
+<td id='sv-3409_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3409</td>
+<td id='sv-3409_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-3401_name' class=''>การขอใช้อาคารสถานที่ (สำนักงานพุทธมณฑล)</td>
+<td id='sv-3401_count' class='edit right'></td>
+<td id='sv-3401_per' class='edit center'>เดือน</td>
+<td id='sv-3401_elec' class='edit center'></td>
+<td id='sv-3401_p66' class='edit center'></td>
+<td id='sv-3401_p67' class='edit center'></td>
+<td id='sv-3401_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>3401</td>
+<td id='sv-3401_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-3433_name' class=''>การเก็บรักษาโฉนดที่ดินในกรุงเทพมหานคร</td>
+<td id='sv-3433_count' class='edit right'></td>
+<td id='sv-3433_per' class='edit center'>เดือน</td>
+<td id='sv-3433_elec' class='edit center'></td>
+<td id='sv-3433_p66' class='edit center'></td>
+<td id='sv-3433_p67' class='edit center'></td>
+<td id='sv-3433_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3433</td>
+<td id='sv-3433_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-3422_name' class=''>การขอเช่าที่ดินและอาคารรายใหม่ของศาสนสมบัติวัด (ศบว.)</td>
+<td id='sv-3422_count' class='edit right'></td>
+<td id='sv-3422_per' class='edit center'>เดือน</td>
+<td id='sv-3422_elec' class='edit center'></td>
+<td id='sv-3422_p66' class='edit center'></td>
+<td id='sv-3422_p67' class='edit center'></td>
+<td id='sv-3422_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>3422</td>
+<td id='sv-3422_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-3395_name' class=''>การยืม คัด ถ่าย เอกสารสิทธิ์ที่ดินวัด</td>
+<td id='sv-3395_count' class='edit right'></td>
+<td id='sv-3395_per' class='edit center'>เดือน</td>
+<td id='sv-3395_elec' class='edit center'></td>
+<td id='sv-3395_p66' class='edit center'></td>
+<td id='sv-3395_p67' class='edit center'></td>
+<td id='sv-3395_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>3395</td>
+<td id='sv-3395_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-3420_name' class=''>การขอเช่าที่ดินและอาคารรายใหม่ของศาสนสมบัติกลาง (ศบก.)</td>
+<td id='sv-3420_count' class='edit right'></td>
+<td id='sv-3420_per' class='edit center'>เดือน</td>
+<td id='sv-3420_elec' class='edit center'></td>
+<td id='sv-3420_p66' class='edit center'></td>
+<td id='sv-3420_p67' class='edit center'></td>
+<td id='sv-3420_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3420</td>
+<td id='sv-3420_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-3398_name' class=''>การขอเปลี่ยนประเภทการตรวจลงตราหนังสือเดินทาง</td>
+<td id='sv-3398_count' class='edit right'></td>
+<td id='sv-3398_per' class='edit center'>เดือน</td>
+<td id='sv-3398_elec' class='edit center'></td>
+<td id='sv-3398_p66' class='edit center'></td>
+<td id='sv-3398_p67' class='edit center'></td>
+<td id='sv-3398_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3398</td>
+<td id='sv-3398_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-3404_name' class=''>การขอแปลประกาศนียบัตรเป็นภาษาอังกฤษ</td>
+<td id='sv-3404_count' class='edit right'></td>
+<td id='sv-3404_per' class='edit center'>เดือน</td>
+<td id='sv-3404_elec' class='edit center'></td>
+<td id='sv-3404_p66' class='edit center'></td>
+<td id='sv-3404_p67' class='edit center'></td>
+<td id='sv-3404_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3404</td>
+<td id='sv-3404_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-3429_name' class=''>การขอต่อสัญญาเช่าที่ดินและอาคารศาสนสมบัติวัด (ศบว.) สัญญานานปี</td>
+<td id='sv-3429_count' class='edit right'></td>
+<td id='sv-3429_per' class='edit center'>เดือน</td>
+<td id='sv-3429_elec' class='edit center'></td>
+<td id='sv-3429_p66' class='edit center'></td>
+<td id='sv-3429_p67' class='edit center'></td>
+<td id='sv-3429_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>3429</td>
+<td id='sv-3429_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-3430_name' class=''>การขอต่อสัญญาเช่าที่ดินและอาคารศาสนสมบัติกลาง (ศบก.) สัญญานานปี</td>
+<td id='sv-3430_count' class='edit right'></td>
+<td id='sv-3430_per' class='edit center'>เดือน</td>
+<td id='sv-3430_elec' class='edit center'></td>
+<td id='sv-3430_p66' class='edit center'></td>
+<td id='sv-3430_p67' class='edit center'></td>
+<td id='sv-3430_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>3430</td>
+<td id='sv-3430_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-3428_name' class=''>การขอรับเช่าสืบแทนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติกลาง (ศบก.) สัญญารายปี/ราย 3 ปี</td>
+<td id='sv-3428_count' class='edit right'></td>
+<td id='sv-3428_per' class='edit center'>เดือน</td>
+<td id='sv-3428_elec' class='edit center'></td>
+<td id='sv-3428_p66' class='edit center'></td>
+<td id='sv-3428_p67' class='edit center'></td>
+<td id='sv-3428_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3428</td>
+<td id='sv-3428_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-3426_name' class=''>การขอรับเช่าสืบแทนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติวัด (ศบว.) สัญญารายปี/ราย 3 ปี</td>
+<td id='sv-3426_count' class='edit right'></td>
+<td id='sv-3426_per' class='edit center'>เดือน</td>
+<td id='sv-3426_elec' class='edit center'></td>
+<td id='sv-3426_p66' class='edit center'></td>
+<td id='sv-3426_p67' class='edit center'></td>
+<td id='sv-3426_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3426</td>
+<td id='sv-3426_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-3431_name' class=''>การต่อสัญญาเช่าที่ดินและอาคารศาสนสมบัติวัด (ศบว.) สัญญารายปี/ราย 3 ปี</td>
+<td id='sv-3431_count' class='edit right'></td>
+<td id='sv-3431_per' class='edit center'>เดือน</td>
+<td id='sv-3431_elec' class='edit center'></td>
+<td id='sv-3431_p66' class='edit center'></td>
+<td id='sv-3431_p67' class='edit center'></td>
+<td id='sv-3431_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3431</td>
+<td id='sv-3431_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-3425_name' class=''>การขอรับเช่าสืบแทนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติวัด (ศบว.) สัญญานานปี</td>
+<td id='sv-3425_count' class='edit right'></td>
+<td id='sv-3425_per' class='edit center'>เดือน</td>
+<td id='sv-3425_elec' class='edit center'></td>
+<td id='sv-3425_p66' class='edit center'></td>
+<td id='sv-3425_p67' class='edit center'></td>
+<td id='sv-3425_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>3425</td>
+<td id='sv-3425_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-3424_name' class=''>การขอรับเช่าสืบแทนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติกลาง (ศบก.) สัญญานานปี</td>
+<td id='sv-3424_count' class='edit right'></td>
+<td id='sv-3424_per' class='edit center'>เดือน</td>
+<td id='sv-3424_elec' class='edit center'></td>
+<td id='sv-3424_p66' class='edit center'></td>
+<td id='sv-3424_p67' class='edit center'></td>
+<td id='sv-3424_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>3424</td>
+<td id='sv-3424_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-3419_name' class=''>การต่อสัญญาเช่าที่ดินและอาคารของศาสนสมบัติกลาง (ศบก.) สัญญารายปี/ 3 ปี</td>
+<td id='sv-3419_count' class='edit right'></td>
+<td id='sv-3419_per' class='edit center'>เดือน</td>
+<td id='sv-3419_elec' class='edit center'></td>
+<td id='sv-3419_p66' class='edit center'></td>
+<td id='sv-3419_p67' class='edit center'></td>
+<td id='sv-3419_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>3419</td>
+<td id='sv-3419_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-3410_name' class=''>การขอรับพระราชทานวิสุงคามสีมา</td>
+<td id='sv-3410_count' class='edit right'></td>
+<td id='sv-3410_per' class='edit center'>เดือน</td>
+<td id='sv-3410_elec' class='edit center'></td>
+<td id='sv-3410_p66' class='edit center'></td>
+<td id='sv-3410_p67' class='edit center'></td>
+<td id='sv-3410_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3410</td>
+<td id='sv-3410_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-3432_name' class=''>การขอโอนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติวัด (ศบว.) สัญญารายปี/ 3 ปี</td>
+<td id='sv-3432_count' class='edit right'></td>
+<td id='sv-3432_per' class='edit center'>เดือน</td>
+<td id='sv-3432_elec' class='edit center'></td>
+<td id='sv-3432_p66' class='edit center'></td>
+<td id='sv-3432_p67' class='edit center'></td>
+<td id='sv-3432_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3432</td>
+<td id='sv-3432_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-3427_name' class=''>การขอโอนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติวัด (ศบว.) สัญญานานปี</td>
+<td id='sv-3427_count' class='edit right'></td>
+<td id='sv-3427_per' class='edit center'>เดือน</td>
+<td id='sv-3427_elec' class='edit center'></td>
+<td id='sv-3427_p66' class='edit center'></td>
+<td id='sv-3427_p67' class='edit center'></td>
+<td id='sv-3427_p68' class='edit center'></td>
+<td class='center high'>16</td>
+<td class='center'>3427</td>
+<td id='sv-3427_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-3421_name' class=''>การขอนำสิทธิการเช่าที่ดินและอาคารไปทำสัญญาผูกพันการกู้ยืมเงินกับธนาคารของศาสนสมบัติวัด (ศบก.)/(นานปี)</td>
+<td id='sv-3421_count' class='edit right'></td>
+<td id='sv-3421_per' class='edit center'>เดือน</td>
+<td id='sv-3421_elec' class='edit center'></td>
+<td id='sv-3421_p66' class='edit center'></td>
+<td id='sv-3421_p67' class='edit center'></td>
+<td id='sv-3421_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>3421</td>
+<td id='sv-3421_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-3400_name' class=''>การขอมติมหาเถรสมาคม เพื่อให้ความเห็นชอบในการจัดตั้งโรงเรียนการกุศลของวัดในพระพุทธศาสนา</td>
+<td id='sv-3400_count' class='edit right'></td>
+<td id='sv-3400_per' class='edit center'>เดือน</td>
+<td id='sv-3400_elec' class='edit center'></td>
+<td id='sv-3400_p66' class='edit center'></td>
+<td id='sv-3400_p67' class='edit center'></td>
+<td id='sv-3400_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3400</td>
+<td id='sv-3400_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-3411_name' class=''>การยกวัดร้างขึ้นเป็นวัดมีพระภิกษุอยู่จำพรรษา</td>
+<td id='sv-3411_count' class='edit right'></td>
+<td id='sv-3411_per' class='edit center'>เดือน</td>
+<td id='sv-3411_elec' class='edit center'></td>
+<td id='sv-3411_p66' class='edit center'></td>
+<td id='sv-3411_p67' class='edit center'></td>
+<td id='sv-3411_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3411</td>
+<td id='sv-3411_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-3418_name' class=''>การขอโอนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติกลาง (ศบก.) สัญญารายปี/ 3 ปี</td>
+<td id='sv-3418_count' class='edit right'></td>
+<td id='sv-3418_per' class='edit center'>เดือน</td>
+<td id='sv-3418_elec' class='edit center'></td>
+<td id='sv-3418_p66' class='edit center'></td>
+<td id='sv-3418_p67' class='edit center'></td>
+<td id='sv-3418_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>3418</td>
+<td id='sv-3418_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-3423_name' class=''>การขอโอนสิทธิการเช่าที่ดินและอาคารของศาสนสมบัติกลาง (ศบก.) สัญญานานปี</td>
+<td id='sv-3423_count' class='edit right'></td>
+<td id='sv-3423_per' class='edit center'>เดือน</td>
+<td id='sv-3423_elec' class='edit center'></td>
+<td id='sv-3423_p66' class='edit center'></td>
+<td id='sv-3423_p67' class='edit center'></td>
+<td id='sv-3423_p68' class='edit center'></td>
+<td class='center high'>16</td>
+<td class='center'>3423</td>
+<td id='sv-3423_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-3396_name' class=''>การขอใช้อาคารสถานที่ (สถาบันพระสังฆาธิการ)</td>
+<td id='sv-3396_count' class='edit right'></td>
+<td id='sv-3396_per' class='edit center'>เดือน</td>
+<td id='sv-3396_elec' class='edit center'></td>
+<td id='sv-3396_p66' class='edit center'></td>
+<td id='sv-3396_p67' class='edit center'></td>
+<td id='sv-3396_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>3396</td>
+<td id='sv-3396_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-3402_name' class=''>การขออนุญาตจัดตั้งโรงเรียนพระปริยัติธรรม แผนกสามัญศึกษา</td>
+<td id='sv-3402_count' class='edit right'></td>
+<td id='sv-3402_per' class='edit center'>เดือน</td>
+<td id='sv-3402_elec' class='edit center'></td>
+<td id='sv-3402_p66' class='edit center'></td>
+<td id='sv-3402_p67' class='edit center'></td>
+<td id='sv-3402_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3402</td>
+<td id='sv-3402_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-3399_name' class=''>การขอหนังสือรับรองการขออนุญาตพำนักอยู่ในราชอาณาจักรเป็นการชั่วคราว (การต่ออายุวีซ่า)</td>
+<td id='sv-3399_count' class='edit right'></td>
+<td id='sv-3399_per' class='edit center'>เดือน</td>
+<td id='sv-3399_elec' class='edit center'></td>
+<td id='sv-3399_p66' class='edit center'></td>
+<td id='sv-3399_p67' class='edit center'></td>
+<td id='sv-3399_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3399</td>
+<td id='sv-3399_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-3414_name' class=''>การยกวัดราษฎร์ขึ้นเป็นพระอารามหลวง</td>
+<td id='sv-3414_count' class='edit right'></td>
+<td id='sv-3414_per' class='edit center'>เดือน</td>
+<td id='sv-3414_elec' class='edit center'></td>
+<td id='sv-3414_p66' class='edit center'></td>
+<td id='sv-3414_p67' class='edit center'></td>
+<td id='sv-3414_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3414</td>
+<td id='sv-3414_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-3403_name' class=''>การขอใบรับรองประกาศนียบัตร กรณีสูญหาย/ชำรุด</td>
+<td id='sv-3403_count' class='edit right'></td>
+<td id='sv-3403_per' class='edit center'>เดือน</td>
+<td id='sv-3403_elec' class='edit center'></td>
+<td id='sv-3403_p66' class='edit center'></td>
+<td id='sv-3403_p67' class='edit center'></td>
+<td id='sv-3403_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3403</td>
+<td id='sv-3403_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-3394_name' class=''>การขอหนังสือนำวีซ่าของพระภิกษุ/สามเณรไทย</td>
+<td id='sv-3394_count' class='edit right'></td>
+<td id='sv-3394_per' class='edit center'>เดือน</td>
+<td id='sv-3394_elec' class='edit center'></td>
+<td id='sv-3394_p66' class='edit center'></td>
+<td id='sv-3394_p67' class='edit center'></td>
+<td id='sv-3394_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3394</td>
+<td id='sv-3394_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-3392_name' class=''>การขอรับนิตยภัต</td>
+<td id='sv-3392_count' class='edit right'></td>
+<td id='sv-3392_per' class='edit center'>เดือน</td>
+<td id='sv-3392_elec' class='edit center'></td>
+<td id='sv-3392_p66' class='edit center'></td>
+<td id='sv-3392_p67' class='edit center'></td>
+<td id='sv-3392_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3392</td>
+<td id='sv-3392_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

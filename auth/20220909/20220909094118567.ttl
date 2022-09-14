@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220909094118567  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#92> ;
+vp:orgName  'สำนักงานปรมาณูเพื่อสันติ' ;
+vp:editor   'เอกลักษณ์ ไชยวัฒน์' ;
+vp:editorOrg   'สำนักงานปรมาณูเพื่อสันติ' ;
+vp:email    'akkaluk.c@oap.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220909094118567' ;
+vp:end     '20220916094118567' ;
+vp:link		'https://dga.tueng.org/acc/20220909094118567/sv-92.html' .
+

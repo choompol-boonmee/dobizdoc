@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913053251513  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#192> ;
+vp:orgName  'กรมพัฒนาธุรกิจการค้า' ;
+vp:editor   'นันทวัน  เครือฟัก' ;
+vp:editorOrg   'กรมพัฒนาธุรกิจการค้า' ;
+vp:email    'Publicdevelop@dbd.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220913053251513' ;
+vp:end     '20220913083251513' ;
+vp:link		'https://dga.tueng.org/acc/20220913053251513/sv-192.html' .
+

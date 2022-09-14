@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913094938930  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#240> ;
+vp:orgName  'กรมส่งเสริมวัฒนธรรม' ;
+vp:editor   'นายพิเศษ วัฒนกุลวิวัฒน์' ;
+vp:editorOrg   'กรมส่งเสริมวัฒนธรรม' ;
+vp:email    'opdc.dcp@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220913094938930' ;
+vp:end     '20221013094938930' ;
+vp:link		'https://dga.tueng.org/acc/20220913094938930/sv-240.html' .
+

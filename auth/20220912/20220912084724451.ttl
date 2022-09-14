@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912084724451  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'ชุวีตา อัศวรัตน์' ;
+vp:editorOrg   'สำนักมาตรฐานการทะเบียนที่ดิน' ;
+vp:email    'chuweeta@hotmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220912084724451' ;
+vp:end     '20221012084724451' ;
+vp:link		'https://dga.tueng.org/acc/20220912084724451/sv-204.html' .
+

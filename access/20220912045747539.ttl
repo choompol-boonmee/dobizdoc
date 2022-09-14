@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220912045747539  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#209> ;
+vp:orgName  'การประปานครหลวง' ;
+vp:editor   'ภคิน ทรัพย์พึ่ง' ;
+vp:editorOrg   'กองประสานงานธุรกิจ ฝ่ายสนับสนุนงานบริการ การประปานครหลวง' ;
+vp:email    'pakin.s@mwa.co.th' ;
+vp:time     '1D' ;
+vp:start     '20220912045747539' ;
+vp:end     '20220913045747539' ;
+vp:link		'https://dga.tueng.org/acc/20220912045747539/sv-209.html' .
+

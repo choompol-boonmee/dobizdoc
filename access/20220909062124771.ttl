@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220909062124771  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#206> ;
+vp:orgName  'กรมโยธาธิการและผังเมือง' ;
+vp:editor   'สิรวิชญ์ นาคสังข์' ;
+vp:editorOrg   'กรมโยธาธิการและผังเมือง ' ;
+vp:email    'naksung@hotmail.com' ;
+vp:time     '1D' ;
+vp:start     '20220909062124771' ;
+vp:end     '20220910062124771' ;
+vp:link		'https://dga.tueng.org/acc/20220909062124771/sv-206.html' .
+

@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220914132238740  a  vp:Data ;
+vp:token   <ac:20220914131919808> ;
+vp:email   'ponpen.k@md.go.th' ;
+vp:service   'sv-810_count' ;
+vp:value  '6973' .
+

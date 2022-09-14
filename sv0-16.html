@@ -1,0 +1,924 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-16';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมสรรพสามิต </h2>
+<span id='orgid'>(or-16)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-175_name' class=''>การขออนุญาตขายไพ่ (สำหรับรายใหม่)</td>
+<td id='sv-175_count' class='edit right'></td>
+<td id='sv-175_per' class='edit center'>เดือน</td>
+<td id='sv-175_elec' class='edit center'></td>
+<td id='sv-175_p66' class='edit center'></td>
+<td id='sv-175_p67' class='edit center'></td>
+<td id='sv-175_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>175</td>
+<td id='sv-175_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-165_name' class=''>การขอใช้เครื่องบันทึกการเก็บเงิน ออกหลักฐานการรับเงิน</td>
+<td id='sv-165_count' class='edit right'></td>
+<td id='sv-165_per' class='edit center'>เดือน</td>
+<td id='sv-165_elec' class='edit center'></td>
+<td id='sv-165_p66' class='edit center'></td>
+<td id='sv-165_p67' class='edit center'></td>
+<td id='sv-165_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>165</td>
+<td id='sv-165_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-130_name' class=''>การขออนุญาต การขอใบแทนใบอนุญาต และการขอเลิก สถานแสดงรถยนต์เพื่อขาย</td>
+<td id='sv-130_count' class='edit right'></td>
+<td id='sv-130_per' class='edit center'>เดือน</td>
+<td id='sv-130_elec' class='edit center'></td>
+<td id='sv-130_p66' class='edit center'></td>
+<td id='sv-130_p67' class='edit center'></td>
+<td id='sv-130_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>130</td>
+<td id='sv-130_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-145_name' class=''>การขออนุญาตซื้อใบยาแห้ง</td>
+<td id='sv-145_count' class='edit right'></td>
+<td id='sv-145_per' class='edit center'>เดือน</td>
+<td id='sv-145_elec' class='edit center'></td>
+<td id='sv-145_p66' class='edit center'></td>
+<td id='sv-145_p67' class='edit center'></td>
+<td id='sv-145_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>145</td>
+<td id='sv-145_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-158_name' class=''>การขออนุญาตขายสุรา (สำหรับรายใหม่)</td>
+<td id='sv-158_count' class='edit right'></td>
+<td id='sv-158_per' class='edit center'>เดือน</td>
+<td id='sv-158_elec' class='edit center'></td>
+<td id='sv-158_p66' class='edit center'></td>
+<td id='sv-158_p67' class='edit center'></td>
+<td id='sv-158_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>158</td>
+<td id='sv-158_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-164_name' class=''>การขออนุมัติสถานที่เก็บสินค้า</td>
+<td id='sv-164_count' class='edit right'></td>
+<td id='sv-164_per' class='edit center'>เดือน</td>
+<td id='sv-164_elec' class='edit center'></td>
+<td id='sv-164_p66' class='edit center'></td>
+<td id='sv-164_p67' class='edit center'></td>
+<td id='sv-164_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>164</td>
+<td id='sv-164_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-125_name' class=''>การขอย้าย/เลิก/โอน กิจการ</td>
+<td id='sv-125_count' class='edit right'></td>
+<td id='sv-125_per' class='edit center'>เดือน</td>
+<td id='sv-125_elec' class='edit center'></td>
+<td id='sv-125_p66' class='edit center'></td>
+<td id='sv-125_p67' class='edit center'></td>
+<td id='sv-125_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>125</td>
+<td id='sv-125_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-138_name' class=''>การขออนุญาตเปลี่ยนแปลงประเภทใบอนุญาตนำเข้าสุรา</td>
+<td id='sv-138_count' class='edit right'></td>
+<td id='sv-138_per' class='edit center'>เดือน</td>
+<td id='sv-138_elec' class='edit center'></td>
+<td id='sv-138_p66' class='edit center'></td>
+<td id='sv-138_p67' class='edit center'></td>
+<td id='sv-138_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>138</td>
+<td id='sv-138_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-136_name' class=''>การขออนุญาตนำเครื่องหมายแสดงการเสียภาษีจดทะเบียน เข้ามาในราชอาณาจักร</td>
+<td id='sv-136_count' class='edit right'></td>
+<td id='sv-136_per' class='edit center'>เดือน</td>
+<td id='sv-136_elec' class='edit center'></td>
+<td id='sv-136_p66' class='edit center'></td>
+<td id='sv-136_p67' class='edit center'></td>
+<td id='sv-136_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>136</td>
+<td id='sv-136_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-140_name' class=''>การขอเสียภาษีในอัตราศูนย์สำหรับน้ำมันดีเซลที่นำไปจำหน่าย ในเขตต่อเนื่องของราชอาณาจักร</td>
+<td id='sv-140_count' class='edit right'></td>
+<td id='sv-140_per' class='edit center'>เดือน</td>
+<td id='sv-140_elec' class='edit center'></td>
+<td id='sv-140_p66' class='edit center'></td>
+<td id='sv-140_p67' class='edit center'></td>
+<td id='sv-140_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>140</td>
+<td id='sv-140_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-167_name' class=''>การขอเลิกใช้เครื่องหมายแสดงการเสียภาษีจดทะเบียน</td>
+<td id='sv-167_count' class='edit right'></td>
+<td id='sv-167_per' class='edit center'>เดือน</td>
+<td id='sv-167_elec' class='edit center'></td>
+<td id='sv-167_p66' class='edit center'></td>
+<td id='sv-167_p67' class='edit center'></td>
+<td id='sv-167_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>167</td>
+<td id='sv-167_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-151_name' class=''>การขอซื้อและขอขนเครื่องหมายแสดงการเสียภาษีจดทะเบียน</td>
+<td id='sv-151_count' class='edit right'></td>
+<td id='sv-151_per' class='edit center'>เดือน</td>
+<td id='sv-151_elec' class='edit center'></td>
+<td id='sv-151_p66' class='edit center'></td>
+<td id='sv-151_p67' class='edit center'></td>
+<td id='sv-151_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>151</td>
+<td id='sv-151_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-172_name' class=''>การแก้ไขเปลี่ยนแปลงโรงงานผลิตเครื่องหมายแสดงการเสียภาษีจดทะเบียน</td>
+<td id='sv-172_count' class='edit right'></td>
+<td id='sv-172_per' class='edit center'>เดือน</td>
+<td id='sv-172_elec' class='edit center'></td>
+<td id='sv-172_p66' class='edit center'></td>
+<td id='sv-172_p67' class='edit center'></td>
+<td id='sv-172_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>172</td>
+<td id='sv-172_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-114_name' class=''>การขอต่ออายุใบอนุญาตผลิตเครื่องหมายแสดงการเสียภาษีจดทะเบียน</td>
+<td id='sv-114_count' class='edit right'></td>
+<td id='sv-114_per' class='edit center'>เดือน</td>
+<td id='sv-114_elec' class='edit center'></td>
+<td id='sv-114_p66' class='edit center'></td>
+<td id='sv-114_p67' class='edit center'></td>
+<td id='sv-114_p68' class='edit center'></td>
+<td class='center high'>17</td>
+<td class='center'>114</td>
+<td id='sv-114_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-171_name' class=''>การขออนุญาตผลิตเครื่องหมายแสดงการเสียภาษีจดทะเบียน</td>
+<td id='sv-171_count' class='edit right'></td>
+<td id='sv-171_per' class='edit center'>เดือน</td>
+<td id='sv-171_elec' class='edit center'></td>
+<td id='sv-171_p66' class='edit center'></td>
+<td id='sv-171_p67' class='edit center'></td>
+<td id='sv-171_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>171</td>
+<td id='sv-171_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-170_name' class=''>การขอจดทะเบียนเครื่องหมายแสดงการเสียภาษี</td>
+<td id='sv-170_count' class='edit right'></td>
+<td id='sv-170_per' class='edit center'>เดือน</td>
+<td id='sv-170_elec' class='edit center'></td>
+<td id='sv-170_p66' class='edit center'></td>
+<td id='sv-170_p67' class='edit center'></td>
+<td id='sv-170_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>170</td>
+<td id='sv-170_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-135_name' class=''>การขอยกเว้นภาษีสำหรับสินค้าที่นำไปใช้เป็นวัตถุดิบ หรือส่วนประกอบในการผลิตสินค้า</td>
+<td id='sv-135_count' class='edit right'></td>
+<td id='sv-135_per' class='edit center'>เดือน</td>
+<td id='sv-135_elec' class='edit center'></td>
+<td id='sv-135_p66' class='edit center'></td>
+<td id='sv-135_p67' class='edit center'></td>
+<td id='sv-135_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>135</td>
+<td id='sv-135_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-162_name' class=''>การขออนุญาตขายยาสูบ (สำหรับรายใหม่)</td>
+<td id='sv-162_count' class='edit right'></td>
+<td id='sv-162_per' class='edit center'>เดือน</td>
+<td id='sv-162_elec' class='edit center'></td>
+<td id='sv-162_p66' class='edit center'></td>
+<td id='sv-162_p67' class='edit center'></td>
+<td id='sv-162_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>162</td>
+<td id='sv-162_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-157_name' class=''>การขออนุญาตทำบัญชีประจำวัน บัญชีรับจ่ายสินค้า และงบเดือน โดยใช้วิธีการอื่นใด และการอนุญาตให้ยื่นทางสื่ออิเล็กทรอนิกส์</td>
+<td id='sv-157_count' class='edit right'></td>
+<td id='sv-157_per' class='edit center'>เดือน</td>
+<td id='sv-157_elec' class='edit center'></td>
+<td id='sv-157_p66' class='edit center'></td>
+<td id='sv-157_p67' class='edit center'></td>
+<td id='sv-157_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>157</td>
+<td id='sv-157_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-173_name' class=''>การขอเสียภาษีในอัตราศูนย์สำหรับน้ำมันและผลิตภัณฑ์น้ำมันที่นำไปใช้เป็นวัตถุดิบหรือส่วนประกอบในการผลิตในโรงอุตสาหกรรมน้ำมันและผลิตภัณฑ์น้ำมัน</td>
+<td id='sv-173_count' class='edit right'></td>
+<td id='sv-173_per' class='edit center'>เดือน</td>
+<td id='sv-173_elec' class='edit center'></td>
+<td id='sv-173_p66' class='edit center'></td>
+<td id='sv-173_p67' class='edit center'></td>
+<td id='sv-173_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>173</td>
+<td id='sv-173_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-111_name' class=''>การขออนุญาตผลิตสุราชุมชน</td>
+<td id='sv-111_count' class='edit right'></td>
+<td id='sv-111_per' class='edit center'>เดือน</td>
+<td id='sv-111_elec' class='edit center'></td>
+<td id='sv-111_p66' class='edit center'></td>
+<td id='sv-111_p67' class='edit center'></td>
+<td id='sv-111_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>111</td>
+<td id='sv-111_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-127_name' class=''>การขออนุญาตนำสุราเข้ามาในราชอาณาจักร</td>
+<td id='sv-127_count' class='edit right'></td>
+<td id='sv-127_per' class='edit center'>เดือน</td>
+<td id='sv-127_elec' class='edit center'></td>
+<td id='sv-127_p66' class='edit center'></td>
+<td id='sv-127_p67' class='edit center'></td>
+<td id='sv-127_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>127</td>
+<td id='sv-127_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-169_name' class=''>การขออนุญาตนำใบยา ยาอัด เข้ามาในราชอาณาจักร หรือการขออนุญาตส่งใบยา ยาอัด ออกไปนอกราชอาณาจักร</td>
+<td id='sv-169_count' class='edit right'></td>
+<td id='sv-169_per' class='edit center'>เดือน</td>
+<td id='sv-169_elec' class='edit center'></td>
+<td id='sv-169_p66' class='edit center'></td>
+<td id='sv-169_p67' class='edit center'></td>
+<td id='sv-169_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>169</td>
+<td id='sv-169_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-128_name' class=''>การส่งตัวอย่างสุราเพื่อตรวจวิเคราะห์คุณภาพ</td>
+<td id='sv-128_count' class='edit right'></td>
+<td id='sv-128_per' class='edit center'>เดือน</td>
+<td id='sv-128_elec' class='edit center'></td>
+<td id='sv-128_p66' class='edit center'></td>
+<td id='sv-128_p67' class='edit center'></td>
+<td id='sv-128_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>128</td>
+<td id='sv-128_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-121_name' class=''>การขอรับเครื่องหมายแสดงการเสียภาษีของทางราชการสำหรับไพ่</td>
+<td id='sv-121_count' class='edit right'></td>
+<td id='sv-121_per' class='edit center'>เดือน</td>
+<td id='sv-121_elec' class='edit center'></td>
+<td id='sv-121_p66' class='edit center'></td>
+<td id='sv-121_p67' class='edit center'></td>
+<td id='sv-121_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>121</td>
+<td id='sv-121_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-120_name' class=''>การขอคืนภาษี สําหรับสินค้าที่พิสูจน์ได้ว่าเสียหายหรือเสื่อมคุณภาพจนใช้การไม่ได้</td>
+<td id='sv-120_count' class='edit right'></td>
+<td id='sv-120_per' class='edit center'>เดือน</td>
+<td id='sv-120_elec' class='edit center'></td>
+<td id='sv-120_p66' class='edit center'></td>
+<td id='sv-120_p67' class='edit center'></td>
+<td id='sv-120_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>120</td>
+<td id='sv-120_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-174_name' class=''>การขอเสียภาษีอัตราศูนย์สำหรับรถยนต์นั่งหรือรถยนต์โดยสารที่มีที่นั่ง ไม่เกิน 10 คนที่ใช้เป็นรถพยาบาล</td>
+<td id='sv-174_count' class='edit right'></td>
+<td id='sv-174_per' class='edit center'>เดือน</td>
+<td id='sv-174_elec' class='edit center'></td>
+<td id='sv-174_p66' class='edit center'></td>
+<td id='sv-174_p67' class='edit center'></td>
+<td id='sv-174_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>174</td>
+<td id='sv-174_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-134_name' class=''>การขออนุญาตทำการเพาะปลูกต้นยาสูบ</td>
+<td id='sv-134_count' class='edit right'></td>
+<td id='sv-134_per' class='edit center'>เดือน</td>
+<td id='sv-134_elec' class='edit center'></td>
+<td id='sv-134_p66' class='edit center'></td>
+<td id='sv-134_p67' class='edit center'></td>
+<td id='sv-134_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>134</td>
+<td id='sv-134_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-132_name' class=''>การขออนุมัติเป็นผู้วิจัย พัฒนา หรือทดสอบสมรรถนะ รถยนต์หรือรถจักรยานยนต์ต้นแบบ</td>
+<td id='sv-132_count' class='edit right'></td>
+<td id='sv-132_per' class='edit center'>เดือน</td>
+<td id='sv-132_elec' class='edit center'></td>
+<td id='sv-132_p66' class='edit center'></td>
+<td id='sv-132_p67' class='edit center'></td>
+<td id='sv-132_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>132</td>
+<td id='sv-132_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-154_name' class=''>การขออนุญาตผลิตสุราทุกชนิด (ยกเว้นสุราแช่ชุมชนและสุรากลั่นชุมชน)</td>
+<td id='sv-154_count' class='edit right'></td>
+<td id='sv-154_per' class='edit center'>เดือน</td>
+<td id='sv-154_elec' class='edit center'></td>
+<td id='sv-154_p66' class='edit center'></td>
+<td id='sv-154_p67' class='edit center'></td>
+<td id='sv-154_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>154</td>
+<td id='sv-154_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-163_name' class=''>การขออนุญาตนำยาสูบเข้ามาในราชอาณาจักร หรือ การขออนุญาตส่งยาสูบออกไปนอกราชอาณาจักร</td>
+<td id='sv-163_count' class='edit right'></td>
+<td id='sv-163_per' class='edit center'>เดือน</td>
+<td id='sv-163_elec' class='edit center'></td>
+<td id='sv-163_p66' class='edit center'></td>
+<td id='sv-163_p67' class='edit center'></td>
+<td id='sv-163_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>163</td>
+<td id='sv-163_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-115_name' class=''>การจดทะเบียน การเปลี่ยนแปลงข้อมูลที่จดทะเบียนแล้ว และการขอรับใบแทนใบทะเบียนสรรพสามิต</td>
+<td id='sv-115_count' class='edit right'></td>
+<td id='sv-115_per' class='edit center'>เดือน</td>
+<td id='sv-115_elec' class='edit center'></td>
+<td id='sv-115_p66' class='edit center'></td>
+<td id='sv-115_p67' class='edit center'></td>
+<td id='sv-115_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>115</td>
+<td id='sv-115_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-142_name' class=''>การขออนุมัติลดหย่อนภาษีสรรพสามิต</td>
+<td id='sv-142_count' class='edit right'></td>
+<td id='sv-142_per' class='edit center'>เดือน</td>
+<td id='sv-142_elec' class='edit center'></td>
+<td id='sv-142_p66' class='edit center'></td>
+<td id='sv-142_p67' class='edit center'></td>
+<td id='sv-142_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>142</td>
+<td id='sv-142_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-124_name' class=''>การขออนุญาตเป็นตัวแทนจำหน่ายน้ำมันหล่อลื่นหรือผู้ใช้น้ำมันหล่อลื่น ซึ่งได้รับสิทธิเสียภาษีในอัตราศูนย์ที่นำไปใช้เป็นวัตถุดิบในการผลิตสิ่งของอื่น</td>
+<td id='sv-124_count' class='edit right'></td>
+<td id='sv-124_per' class='edit center'>เดือน</td>
+<td id='sv-124_elec' class='edit center'></td>
+<td id='sv-124_p66' class='edit center'></td>
+<td id='sv-124_p67' class='edit center'></td>
+<td id='sv-124_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>124</td>
+<td id='sv-124_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-148_name' class=''>การขออนุญาตผลิตยาสูบ (ยกเว้นบุหรี่ซิกาแรต)</td>
+<td id='sv-148_count' class='edit right'></td>
+<td id='sv-148_per' class='edit center'>เดือน</td>
+<td id='sv-148_elec' class='edit center'></td>
+<td id='sv-148_p66' class='edit center'></td>
+<td id='sv-148_p67' class='edit center'></td>
+<td id='sv-148_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>148</td>
+<td id='sv-148_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-166_name' class=''>การขอลงทะเบียนเป็นผู้ใช้แบตเตอรี่ที่เสียภาษีอัตราศูนย์สำหรับแบตเตอรี่ที่ใช้เป็นวัตถุดิบหรือส่วนประกอบในการผลิตสิ่งของอื่นเพื่อการส่งออกนอกราชอาณาจักร</td>
+<td id='sv-166_count' class='edit right'></td>
+<td id='sv-166_per' class='edit center'>เดือน</td>
+<td id='sv-166_elec' class='edit center'></td>
+<td id='sv-166_p66' class='edit center'></td>
+<td id='sv-166_p67' class='edit center'></td>
+<td id='sv-166_p68' class='edit center'></td>
+<td class='center high'>14</td>
+<td class='center'>166</td>
+<td id='sv-166_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-155_name' class=''>การขอทำลายรถยนต์หรือรถจักรยานยนต์ต้นแบบ ที่ใช้ในการวิจัย พัฒนา หรือทดสอบสมรรถนะ</td>
+<td id='sv-155_count' class='edit right'></td>
+<td id='sv-155_per' class='edit center'>เดือน</td>
+<td id='sv-155_elec' class='edit center'></td>
+<td id='sv-155_p66' class='edit center'></td>
+<td id='sv-155_p67' class='edit center'></td>
+<td id='sv-155_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>155</td>
+<td id='sv-155_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-146_name' class=''>การขอเสียภาษีอัตราศูนย์สำหรับรถยนต์หรือรถจักรยานยนต์ต้นแบบ ที่นำไปวิจัย พัฒนา หรือทดสอบสมรรถนะ</td>
+<td id='sv-146_count' class='edit right'></td>
+<td id='sv-146_per' class='edit center'>เดือน</td>
+<td id='sv-146_elec' class='edit center'></td>
+<td id='sv-146_p66' class='edit center'></td>
+<td id='sv-146_p67' class='edit center'></td>
+<td id='sv-146_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>146</td>
+<td id='sv-146_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>39</td>
+<td id='sv-113_name' class=''>การยกเว้นหรือคืนภาษีสำหรับสินค้าที่ส่งออกไปนอกราชอาณาจักรหรือนำเข้าไปในเขตปลอดอากร</td>
+<td id='sv-113_count' class='edit right'></td>
+<td id='sv-113_per' class='edit center'>เดือน</td>
+<td id='sv-113_elec' class='edit center'></td>
+<td id='sv-113_p66' class='edit center'></td>
+<td id='sv-113_p67' class='edit center'></td>
+<td id='sv-113_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>113</td>
+<td id='sv-113_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>40</td>
+<td id='sv-168_name' class=''>การขอเสียภาษีในอัตราศูนย์สำหรับน้ำมันเชื้อเพลิงเครื่องบินไอพ่นที่นำไปใช้เป็นเชื้อเพลิงสำหรับอากาศยานไปต่างประเทศ</td>
+<td id='sv-168_count' class='edit right'></td>
+<td id='sv-168_per' class='edit center'>เดือน</td>
+<td id='sv-168_elec' class='edit center'></td>
+<td id='sv-168_p66' class='edit center'></td>
+<td id='sv-168_p67' class='edit center'></td>
+<td id='sv-168_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>168</td>
+<td id='sv-168_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>41</td>
+<td id='sv-141_name' class=''>การยกเว้นหรือคืนภาษีสำหรับสินค้าบริจาค ตามมาตรา 107 (1) และ (2)</td>
+<td id='sv-141_count' class='edit right'></td>
+<td id='sv-141_per' class='edit center'>เดือน</td>
+<td id='sv-141_elec' class='edit center'></td>
+<td id='sv-141_p66' class='edit center'></td>
+<td id='sv-141_p67' class='edit center'></td>
+<td id='sv-141_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>141</td>
+<td id='sv-141_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>42</td>
+<td id='sv-150_name' class=''>การยกเว้นหรือคืนภาษีสำหรับสินค้าที่จำหน่ายให้แก่ผู้ได้รับเอกสิทธิ์ ตามมาตรา 107 (3)</td>
+<td id='sv-150_count' class='edit right'></td>
+<td id='sv-150_per' class='edit center'>เดือน</td>
+<td id='sv-150_elec' class='edit center'></td>
+<td id='sv-150_p66' class='edit center'></td>
+<td id='sv-150_p67' class='edit center'></td>
+<td id='sv-150_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>150</td>
+<td id='sv-150_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>43</td>
+<td id='sv-117_name' class=''>การขอเสียภาษีในอัตราศูนย์สำหรับสินค้าน้ำมันหล่อลื่นและน้ำมันที่คล้ายกันของผู้ประกอบอุตสาหกรรมหรือผู้นำเข้าเพื่อนำไปใช้เป็นวัตถุดิบในการผลิตสิ่งของอื่น</td>
+<td id='sv-117_count' class='edit right'></td>
+<td id='sv-117_per' class='edit center'>เดือน</td>
+<td id='sv-117_elec' class='edit center'></td>
+<td id='sv-117_p66' class='edit center'></td>
+<td id='sv-117_p67' class='edit center'></td>
+<td id='sv-117_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>117</td>
+<td id='sv-117_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>44</td>
+<td id='sv-156_name' class=''>การยกเว้นภาษีสำหรับสุรากลั่นชนิดเอทานอลที่นำไปใช้เป็นวัตถุดิบหรือส่วนประกอบในการผลิตน้ำมันเชื้อเพลิงเพื่อใช้เป็นเชื้อเพลิง</td>
+<td id='sv-156_count' class='edit right'></td>
+<td id='sv-156_per' class='edit center'>เดือน</td>
+<td id='sv-156_elec' class='edit center'></td>
+<td id='sv-156_p66' class='edit center'></td>
+<td id='sv-156_p67' class='edit center'></td>
+<td id='sv-156_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>156</td>
+<td id='sv-156_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>45</td>
+<td id='sv-159_name' class=''>การเสียภาษีในอัตราศูนย์สำหรับแบตเตอรี่ที่ใช้เป็นวัตถุดิบหรือส่วนประกอบในการผลิตสิ่งของอื่นเพื่อส่งออกนอกราชอาณาจักร</td>
+<td id='sv-159_count' class='edit right'></td>
+<td id='sv-159_per' class='edit center'>เดือน</td>
+<td id='sv-159_elec' class='edit center'></td>
+<td id='sv-159_p66' class='edit center'></td>
+<td id='sv-159_p67' class='edit center'></td>
+<td id='sv-159_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>159</td>
+<td id='sv-159_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>46</td>
+<td id='sv-119_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับเครื่องดื่ม</td>
+<td id='sv-119_count' class='edit right'></td>
+<td id='sv-119_per' class='edit center'>เดือน</td>
+<td id='sv-119_elec' class='edit center'></td>
+<td id='sv-119_p66' class='edit center'></td>
+<td id='sv-119_p67' class='edit center'></td>
+<td id='sv-119_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>119</td>
+<td id='sv-119_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>47</td>
+<td id='sv-152_name' class=''>การขออนุญาตรับแสตมป์สรรพสามิตไปปิดที่โรงงานผลิตสุราในต่างประเทศ</td>
+<td id='sv-152_count' class='edit right'></td>
+<td id='sv-152_per' class='edit center'>เดือน</td>
+<td id='sv-152_elec' class='edit center'></td>
+<td id='sv-152_p66' class='edit center'></td>
+<td id='sv-152_p67' class='edit center'></td>
+<td id='sv-152_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>152</td>
+<td id='sv-152_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>48</td>
+<td id='sv-126_name' class=''>การยกเว้นภาษีสำหรับสินค้าที่นำไปเก็บไว้ ณ สถานที่เก็บสินค้า เพื่อรอการส่งออกไปนอกราชอาณาจักร หรือนำเข้าไปในเขตปลอดอากร ตามมาตรา 103 และการยกเว้นภาษีน้ำมันและผลิตภัณฑ์น้ำมันที่นำไปเก็บไว้ ณ สถานที่เก็บสินค้าเพื่อรอนำไปใช้เติมเรือไปต่างประเทศ ตามมาตรา 107 (4)</td>
+<td id='sv-126_count' class='edit right'></td>
+<td id='sv-126_per' class='edit center'>เดือน</td>
+<td id='sv-126_elec' class='edit center'></td>
+<td id='sv-126_p66' class='edit center'></td>
+<td id='sv-126_p67' class='edit center'></td>
+<td id='sv-126_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>126</td>
+<td id='sv-126_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>49</td>
+<td id='sv-153_name' class=''>การขอชำระภาษีสรรพสามิตกรณีดัดแปลงรถยนต์</td>
+<td id='sv-153_count' class='edit right'></td>
+<td id='sv-153_per' class='edit center'>เดือน</td>
+<td id='sv-153_elec' class='edit center'></td>
+<td id='sv-153_p66' class='edit center'></td>
+<td id='sv-153_p67' class='edit center'></td>
+<td id='sv-153_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>153</td>
+<td id='sv-153_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>50</td>
+<td id='sv-131_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับสินค้าสุราที่นำเข้ามาในราชอาณาจักรเพื่อขาย</td>
+<td id='sv-131_count' class='edit right'></td>
+<td id='sv-131_per' class='edit center'>เดือน</td>
+<td id='sv-131_elec' class='edit center'></td>
+<td id='sv-131_p66' class='edit center'></td>
+<td id='sv-131_p67' class='edit center'></td>
+<td id='sv-131_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>131</td>
+<td id='sv-131_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>51</td>
+<td id='sv-143_name' class=''>การขอใบอนุญาตตั้ง ขอรับใบแทนใบอนุญาต ขอโอน และขอเลิกกิจการ คลังสินค้าทัณฑ์บน</td>
+<td id='sv-143_count' class='edit right'></td>
+<td id='sv-143_per' class='edit center'>เดือน</td>
+<td id='sv-143_elec' class='edit center'></td>
+<td id='sv-143_p66' class='edit center'></td>
+<td id='sv-143_p67' class='edit center'></td>
+<td id='sv-143_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>143</td>
+<td id='sv-143_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>52</td>
+<td id='sv-112_name' class=''>การขออนุญาตขายสุรา ยาสูบ และไพ่ ต่อเนื่อง</td>
+<td id='sv-112_count' class='edit right'></td>
+<td id='sv-112_per' class='edit center'>เดือน</td>
+<td id='sv-112_elec' class='edit center'></td>
+<td id='sv-112_p66' class='edit center'></td>
+<td id='sv-112_p67' class='edit center'></td>
+<td id='sv-112_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>112</td>
+<td id='sv-112_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>53</td>
+<td id='sv-147_name' class=''>การขอใช้ฉลากปิดภาชนะบรรจุสุราที่จะนำเข้ามาในราชอาณาจักร</td>
+<td id='sv-147_count' class='edit right'></td>
+<td id='sv-147_per' class='edit center'>เดือน</td>
+<td id='sv-147_elec' class='edit center'></td>
+<td id='sv-147_p66' class='edit center'></td>
+<td id='sv-147_p67' class='edit center'></td>
+<td id='sv-147_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>147</td>
+<td id='sv-147_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>54</td>
+<td id='sv-118_name' class=''>การยกเว้นหรือคืนภาษีสำหรับน้ำมันและผลิตภัณฑ์น้ำมันที่เติมในอากาศยานหรือ เรือที่มีขนาดเกินกว่าห้าร้อยตันกรอสส์ ตามมาตรา 107 (4)</td>
+<td id='sv-118_count' class='edit right'></td>
+<td id='sv-118_per' class='edit center'>เดือน</td>
+<td id='sv-118_elec' class='edit center'></td>
+<td id='sv-118_p66' class='edit center'></td>
+<td id='sv-118_p67' class='edit center'></td>
+<td id='sv-118_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>118</td>
+<td id='sv-118_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>55</td>
+<td id='sv-149_name' class=''>การขออนุญาตเป็นตัวแทนในการซื้อสารละลายประเภทไฮโดรคาร์บอนเพื่อจำหน่ายหรือผู้ใช้สารละลายประเภทไฮโดรคาร์บอนซึ่งเสียภาษีอัตราศูนย์ ที่นำไปใช้ในอุตสาหกรรมต่าง ๆ</td>
+<td id='sv-149_count' class='edit right'></td>
+<td id='sv-149_per' class='edit center'>เดือน</td>
+<td id='sv-149_elec' class='edit center'></td>
+<td id='sv-149_p66' class='edit center'></td>
+<td id='sv-149_p67' class='edit center'></td>
+<td id='sv-149_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>149</td>
+<td id='sv-149_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>56</td>
+<td id='sv-137_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับยาสูบที่ผลิตในราชอาณาจักร</td>
+<td id='sv-137_count' class='edit right'></td>
+<td id='sv-137_per' class='edit center'>เดือน</td>
+<td id='sv-137_elec' class='edit center'></td>
+<td id='sv-137_p66' class='edit center'></td>
+<td id='sv-137_p67' class='edit center'></td>
+<td id='sv-137_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>137</td>
+<td id='sv-137_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>57</td>
+<td id='sv-144_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับยาสูบที่นำเข้ามาในราชอาณาจักร</td>
+<td id='sv-144_count' class='edit right'></td>
+<td id='sv-144_per' class='edit center'>เดือน</td>
+<td id='sv-144_elec' class='edit center'></td>
+<td id='sv-144_p66' class='edit center'></td>
+<td id='sv-144_p67' class='edit center'></td>
+<td id='sv-144_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>144</td>
+<td id='sv-144_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>58</td>
+<td id='sv-122_name' class=''>การขอนำรถยนต์ออกจากโรงอุตสาหกรรม หรือคลังสินค้าทัณฑ์บน เพื่อทดสอบประสิทธิภาพในระหว่างขั้นตอนการผลิต</td>
+<td id='sv-122_count' class='edit right'></td>
+<td id='sv-122_per' class='edit center'>เดือน</td>
+<td id='sv-122_elec' class='edit center'></td>
+<td id='sv-122_p66' class='edit center'></td>
+<td id='sv-122_p67' class='edit center'></td>
+<td id='sv-122_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>122</td>
+<td id='sv-122_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>59</td>
+<td id='sv-123_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับสุราที่ผลิตในราชอาณาจักร (สุราแช่ชุมชน และสุรากลั่นชุมชน)</td>
+<td id='sv-123_count' class='edit right'></td>
+<td id='sv-123_per' class='edit center'>เดือน</td>
+<td id='sv-123_elec' class='edit center'></td>
+<td id='sv-123_p66' class='edit center'></td>
+<td id='sv-123_p67' class='edit center'></td>
+<td id='sv-123_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>123</td>
+<td id='sv-123_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>60</td>
+<td id='sv-160_name' class=''>การขอชำระภาษีภายในวันที่สิบห้าของเดือนถัดจากเดือนที่นำสินค้า ออกจากโรงอุตสาหกรรมหรือคลังสินค้าทัณฑ์บนโดยมีหลักประกัน</td>
+<td id='sv-160_count' class='edit right'></td>
+<td id='sv-160_per' class='edit center'>เดือน</td>
+<td id='sv-160_elec' class='edit center'></td>
+<td id='sv-160_p66' class='edit center'></td>
+<td id='sv-160_p67' class='edit center'></td>
+<td id='sv-160_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>160</td>
+<td id='sv-160_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>61</td>
+<td id='sv-139_name' class=''>การขอเสียภาษีในอัตราศูนย์สำหรับผู้ประกอบอุตสาหกรรมหรือผู้นำเข้าสารละลายประเภทไฮโดรคาร์บอน เพื่อนำไปใช้ในอุตสาหกรรมต่าง ๆ</td>
+<td id='sv-139_count' class='edit right'></td>
+<td id='sv-139_per' class='edit center'>เดือน</td>
+<td id='sv-139_elec' class='edit center'></td>
+<td id='sv-139_p66' class='edit center'></td>
+<td id='sv-139_p67' class='edit center'></td>
+<td id='sv-139_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>139</td>
+<td id='sv-139_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>62</td>
+<td id='sv-129_name' class=''>การขอรับแสตมป์สรรพสามิตสำหรับสุราที่ผลิตในราชอาณาจักรอื่น (นอกจากสุราแช่ชุมชน และสุรากลั่นชุมชน)</td>
+<td id='sv-129_count' class='edit right'></td>
+<td id='sv-129_per' class='edit center'>เดือน</td>
+<td id='sv-129_elec' class='edit center'></td>
+<td id='sv-129_p66' class='edit center'></td>
+<td id='sv-129_p67' class='edit center'></td>
+<td id='sv-129_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>129</td>
+<td id='sv-129_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>63</td>
+<td id='sv-161_name' class=''>การขออนุญาตรับแสตมป์สรรพสามิตไปปิดที่โรงงานผู้ผลิตยาสูบในต่างประเทศ</td>
+<td id='sv-161_count' class='edit right'></td>
+<td id='sv-161_per' class='edit center'>เดือน</td>
+<td id='sv-161_elec' class='edit center'></td>
+<td id='sv-161_p66' class='edit center'></td>
+<td id='sv-161_p67' class='edit center'></td>
+<td id='sv-161_p68' class='edit center'></td>
+<td class='center '>6</td>
+<td class='center'>161</td>
+<td id='sv-161_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>64</td>
+<td id='sv-116_name' class=''>การขออนุญาตนำสินค้าออก หรือกลับคืน โรงอุตสาหกรรม คลังสินค้าทัณฑ์บน หรือสถานที่อื่น (มาตรา 26 (1) (2) มาตรา 50 วรรคสอง (1) และมาตรา 103 วรรคสอง)</td>
+<td id='sv-116_count' class='edit right'></td>
+<td id='sv-116_per' class='edit center'>เดือน</td>
+<td id='sv-116_elec' class='edit center'></td>
+<td id='sv-116_p66' class='edit center'></td>
+<td id='sv-116_p67' class='edit center'></td>
+<td id='sv-116_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>116</td>
+<td id='sv-116_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>65</td>
+<td id='sv-133_name' class=''>การขออนุญาตนำแสตมป์สรรพสามิตไปปิดภาชนะบรรจุเครื่องดื่มนอกราชอาณาจักรหรือในเขตปลอดอากรที่นำเข้ามาในราชอาณาจักร</td>
+<td id='sv-133_count' class='edit right'></td>
+<td id='sv-133_per' class='edit center'>เดือน</td>
+<td id='sv-133_elec' class='edit center'></td>
+<td id='sv-133_p66' class='edit center'></td>
+<td id='sv-133_p67' class='edit center'></td>
+<td id='sv-133_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>133</td>
+<td id='sv-133_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

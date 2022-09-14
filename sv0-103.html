@@ -1,0 +1,588 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-103';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมปศุสัตว์ </h2>
+<span id='orgid'>(or-103)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-408_name' class=''>การขอใบแจ้งการดำเนินการเกี่ยวกับวัตถุอันตรายชนิดที่ 2</td>
+<td id='sv-408_count' class='edit right'></td>
+<td id='sv-408_per' class='edit center'>เดือน</td>
+<td id='sv-408_elec' class='edit center'></td>
+<td id='sv-408_p66' class='edit center'></td>
+<td id='sv-408_p67' class='edit center'></td>
+<td id='sv-408_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>408</td>
+<td id='sv-408_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-422_name' class=''>การแจ้งการฆ่าสัตว์ในโรงฆ่าสัตว์เพื่อการส่งออก</td>
+<td id='sv-422_count' class='edit right'></td>
+<td id='sv-422_per' class='edit center'>เดือน</td>
+<td id='sv-422_elec' class='edit center'></td>
+<td id='sv-422_p66' class='edit center'></td>
+<td id='sv-422_p67' class='edit center'></td>
+<td id='sv-422_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>422</td>
+<td id='sv-422_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-425_name' class=''>การขอใบอนุญาตประกอบกิจการฆ่าสัตว์ ระยะที่ 2</td>
+<td id='sv-425_count' class='edit right'></td>
+<td id='sv-425_per' class='edit center'>เดือน</td>
+<td id='sv-425_elec' class='edit center'></td>
+<td id='sv-425_p66' class='edit center'></td>
+<td id='sv-425_p67' class='edit center'></td>
+<td id='sv-425_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>425</td>
+<td id='sv-425_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-405_name' class=''>การขอใบอนุญาตนำเข้าอาหารสัตว์ควบคุมเฉพาะ</td>
+<td id='sv-405_count' class='edit right'></td>
+<td id='sv-405_per' class='edit center'>เดือน</td>
+<td id='sv-405_elec' class='edit center'></td>
+<td id='sv-405_p66' class='edit center'></td>
+<td id='sv-405_p67' class='edit center'></td>
+<td id='sv-405_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>405</td>
+<td id='sv-405_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-403_name' class=''>การขอใบสำคัญการขึ้นทะเบียนอาหารสัตว์ควบคุมเฉพาะ</td>
+<td id='sv-403_count' class='edit right'></td>
+<td id='sv-403_per' class='edit center'>เดือน</td>
+<td id='sv-403_elec' class='edit center'></td>
+<td id='sv-403_p66' class='edit center'></td>
+<td id='sv-403_p67' class='edit center'></td>
+<td id='sv-403_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>403</td>
+<td id='sv-403_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-391_name' class=''>การขอใบอนุญาตให้ตั้งสถานพยาบาลสัตว์</td>
+<td id='sv-391_count' class='edit right'></td>
+<td id='sv-391_per' class='edit center'>เดือน</td>
+<td id='sv-391_elec' class='edit center'></td>
+<td id='sv-391_p66' class='edit center'></td>
+<td id='sv-391_p67' class='edit center'></td>
+<td id='sv-391_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>391</td>
+<td id='sv-391_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-404_name' class=''>การขอใบอนุญาตขายอาหารสัตว์ควบคุมเฉพาะ</td>
+<td id='sv-404_count' class='edit right'></td>
+<td id='sv-404_per' class='edit center'>เดือน</td>
+<td id='sv-404_elec' class='edit center'></td>
+<td id='sv-404_p66' class='edit center'></td>
+<td id='sv-404_p67' class='edit center'></td>
+<td id='sv-404_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>404</td>
+<td id='sv-404_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-406_name' class=''>การขอใบอนุญาตผลิตอาหารสัตว์ควบคุมเฉพาะ</td>
+<td id='sv-406_count' class='edit right'></td>
+<td id='sv-406_per' class='edit center'>เดือน</td>
+<td id='sv-406_elec' class='edit center'></td>
+<td id='sv-406_p66' class='edit center'></td>
+<td id='sv-406_p67' class='edit center'></td>
+<td id='sv-406_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>406</td>
+<td id='sv-406_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-402_name' class=''>การขอแก้ไขรายการขึ้นทะเบียนอาหารสัตว์ควบคุมเฉพาะ</td>
+<td id='sv-402_count' class='edit right'></td>
+<td id='sv-402_per' class='edit center'>เดือน</td>
+<td id='sv-402_elec' class='edit center'></td>
+<td id='sv-402_p66' class='edit center'></td>
+<td id='sv-402_p67' class='edit center'></td>
+<td id='sv-402_p68' class='edit center'></td>
+<td class='center high'>9</td>
+<td class='center'>402</td>
+<td id='sv-402_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-389_name' class=''>การขอต่ออายุใบอนุญาตให้ตั้งและดำเนินการสถานพยาบาลสัตว์</td>
+<td id='sv-389_count' class='edit right'></td>
+<td id='sv-389_per' class='edit center'>เดือน</td>
+<td id='sv-389_elec' class='edit center'></td>
+<td id='sv-389_p66' class='edit center'></td>
+<td id='sv-389_p67' class='edit center'></td>
+<td id='sv-389_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>389</td>
+<td id='sv-389_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-392_name' class=''>การขอยกเลิกกิจการสถานพยาบาลสัตว์</td>
+<td id='sv-392_count' class='edit right'></td>
+<td id='sv-392_per' class='edit center'>เดือน</td>
+<td id='sv-392_elec' class='edit center'></td>
+<td id='sv-392_p66' class='edit center'></td>
+<td id='sv-392_p67' class='edit center'></td>
+<td id='sv-392_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>392</td>
+<td id='sv-392_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-399_name' class=''>การขอหนังสือแจ้งการนำเข้าซึ่งอาหารสัตว์เข้ามาในราชอาณาจักร (น.ส.4)</td>
+<td id='sv-399_count' class='edit right'></td>
+<td id='sv-399_per' class='edit center'>เดือน</td>
+<td id='sv-399_elec' class='edit center'></td>
+<td id='sv-399_p66' class='edit center'></td>
+<td id='sv-399_p67' class='edit center'></td>
+<td id='sv-399_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>399</td>
+<td id='sv-399_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-423_name' class=''>การรับรองให้จำหน่ายเนื้อสัตว์ที่โรงฆ่าสัตว์เพื่อการส่งออก</td>
+<td id='sv-423_count' class='edit right'></td>
+<td id='sv-423_per' class='edit center'>เดือน</td>
+<td id='sv-423_elec' class='edit center'></td>
+<td id='sv-423_p66' class='edit center'></td>
+<td id='sv-423_p67' class='edit center'></td>
+<td id='sv-423_p68' class='edit center'></td>
+<td class='center '>5</td>
+<td class='center'>423</td>
+<td id='sv-423_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-390_name' class=''>การขอใบอนุญาตให้ดำเนินการสถานพยาบาลสัตว์</td>
+<td id='sv-390_count' class='edit right'></td>
+<td id='sv-390_per' class='edit center'>เดือน</td>
+<td id='sv-390_elec' class='edit center'></td>
+<td id='sv-390_p66' class='edit center'></td>
+<td id='sv-390_p67' class='edit center'></td>
+<td id='sv-390_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>390</td>
+<td id='sv-390_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-424_name' class=''>การขอใบอนุญาตประกอบกิจการฆ่าสัตว์ ระยะที่ 1</td>
+<td id='sv-424_count' class='edit right'></td>
+<td id='sv-424_per' class='edit center'>เดือน</td>
+<td id='sv-424_elec' class='edit center'></td>
+<td id='sv-424_p66' class='edit center'></td>
+<td id='sv-424_p67' class='edit center'></td>
+<td id='sv-424_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>424</td>
+<td id='sv-424_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-393_name' class=''>การขอหนังสือรับรองการขึ้นทะเบียนสถานสงเคราะห์สัตว์</td>
+<td id='sv-393_count' class='edit right'></td>
+<td id='sv-393_per' class='edit center'>เดือน</td>
+<td id='sv-393_elec' class='edit center'></td>
+<td id='sv-393_p66' class='edit center'></td>
+<td id='sv-393_p67' class='edit center'></td>
+<td id='sv-393_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>393</td>
+<td id='sv-393_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-409_name' class=''>การขอใบรับแจ้งข้อเท็จจริงเกี่ยวกับวัตถุอันตรายชนิดที่ 1</td>
+<td id='sv-409_count' class='edit right'></td>
+<td id='sv-409_per' class='edit center'>เดือน</td>
+<td id='sv-409_elec' class='edit center'></td>
+<td id='sv-409_p66' class='edit center'></td>
+<td id='sv-409_p67' class='edit center'></td>
+<td id='sv-409_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>409</td>
+<td id='sv-409_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-395_name' class=''>การขอหนังสืออนุมัติแผนงานการจัดตั้งสถานพยาบาลสัตว์</td>
+<td id='sv-395_count' class='edit right'></td>
+<td id='sv-395_per' class='edit center'>เดือน</td>
+<td id='sv-395_elec' class='edit center'></td>
+<td id='sv-395_p66' class='edit center'></td>
+<td id='sv-395_p67' class='edit center'></td>
+<td id='sv-395_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>395</td>
+<td id='sv-395_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-410_name' class=''>การขอใบสำคัญการขึ้นทะเบียนวัตถุอันตรายด้านการปศุสัตว์</td>
+<td id='sv-410_count' class='edit right'></td>
+<td id='sv-410_per' class='edit center'>เดือน</td>
+<td id='sv-410_elec' class='edit center'></td>
+<td id='sv-410_p66' class='edit center'></td>
+<td id='sv-410_p67' class='edit center'></td>
+<td id='sv-410_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>410</td>
+<td id='sv-410_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-417_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์เข้าในราชอาณาจักร (ร.7) ระยะที่ 2 การออกใบอนุญาต</td>
+<td id='sv-417_count' class='edit right'></td>
+<td id='sv-417_per' class='edit center'>เดือน</td>
+<td id='sv-417_elec' class='edit center'></td>
+<td id='sv-417_p66' class='edit center'></td>
+<td id='sv-417_p67' class='edit center'></td>
+<td id='sv-417_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>417</td>
+<td id='sv-417_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-419_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์ผ่านราชอาณาจักร (ร.8) ระยะที่ 2 การออกใบอนุญาต</td>
+<td id='sv-419_count' class='edit right'></td>
+<td id='sv-419_per' class='edit center'>เดือน</td>
+<td id='sv-419_elec' class='edit center'></td>
+<td id='sv-419_p66' class='edit center'></td>
+<td id='sv-419_p67' class='edit center'></td>
+<td id='sv-419_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>419</td>
+<td id='sv-419_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-396_name' class=''>การขอใบอนุญาตนำหรือเคลื่อนย้ายสัตว์หรือซากสัตว์ภายในราชอาณาจักร (ร.3 /ร.4 /ร.5)</td>
+<td id='sv-396_count' class='edit right'></td>
+<td id='sv-396_per' class='edit center'>เดือน</td>
+<td id='sv-396_elec' class='edit center'></td>
+<td id='sv-396_p66' class='edit center'></td>
+<td id='sv-396_p67' class='edit center'></td>
+<td id='sv-396_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>396</td>
+<td id='sv-396_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-407_name' class=''>การขอแก้ไขเปลี่ยนแปลงรายการขึ้นทะเบียนวัตถุอันตรายด้านการปศุสัตว์</td>
+<td id='sv-407_count' class='edit right'></td>
+<td id='sv-407_per' class='edit center'>เดือน</td>
+<td id='sv-407_elec' class='edit center'></td>
+<td id='sv-407_p66' class='edit center'></td>
+<td id='sv-407_p67' class='edit center'></td>
+<td id='sv-407_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>407</td>
+<td id='sv-407_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-421_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์ออกนอกราชอาณาจักร (ร.9) ระยะที่ 2 การออกใบอนุญาต</td>
+<td id='sv-421_count' class='edit right'></td>
+<td id='sv-421_per' class='edit center'>เดือน</td>
+<td id='sv-421_elec' class='edit center'></td>
+<td id='sv-421_p66' class='edit center'></td>
+<td id='sv-421_p67' class='edit center'></td>
+<td id='sv-421_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>421</td>
+<td id='sv-421_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-416_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์เข้าในราชอาณาจักร (ร.7) ระยะที่ 1 : ขั้นตอนออกใบแจ้งอนุญาตนำสัตว์หรือซากสัตว์เข้าในราชอาณาจักร</td>
+<td id='sv-416_count' class='edit right'></td>
+<td id='sv-416_per' class='edit center'>เดือน</td>
+<td id='sv-416_elec' class='edit center'></td>
+<td id='sv-416_p66' class='edit center'></td>
+<td id='sv-416_p67' class='edit center'></td>
+<td id='sv-416_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>416</td>
+<td id='sv-416_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-418_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์ผ่านราชอาณาจักร (ร.8) ระยะที่ 1 : ขั้นตอนออกใบแจ้งอนุญาตนำสัตว์หรือซากสัตว์ผ่านราชอาณาจักร</td>
+<td id='sv-418_count' class='edit right'></td>
+<td id='sv-418_per' class='edit center'>เดือน</td>
+<td id='sv-418_elec' class='edit center'></td>
+<td id='sv-418_p66' class='edit center'></td>
+<td id='sv-418_p67' class='edit center'></td>
+<td id='sv-418_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>418</td>
+<td id='sv-418_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-394_name' class=''>การขอหนังสือรับรองการขึ้นทะเบียนองค์กรจัดสวัสดิภาพสัตว์</td>
+<td id='sv-394_count' class='edit right'></td>
+<td id='sv-394_per' class='edit center'>เดือน</td>
+<td id='sv-394_elec' class='edit center'></td>
+<td id='sv-394_p66' class='edit center'></td>
+<td id='sv-394_p67' class='edit center'></td>
+<td id='sv-394_p68' class='edit center'></td>
+<td class='center high'>13</td>
+<td class='center'>394</td>
+<td id='sv-394_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-411_name' class=''>การขอใบอนุญาตผลิต นำเข้า ส่งออก และครอบครอง วัตถุอันตรายด้านการปศุสัตว์</td>
+<td id='sv-411_count' class='edit right'></td>
+<td id='sv-411_per' class='edit center'>เดือน</td>
+<td id='sv-411_elec' class='edit center'></td>
+<td id='sv-411_p66' class='edit center'></td>
+<td id='sv-411_p67' class='edit center'></td>
+<td id='sv-411_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>411</td>
+<td id='sv-411_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-401_name' class=''>การขอหนังสือรับรองสุขภาพ (Certificate of Health) ของอาหารสัตว์</td>
+<td id='sv-401_count' class='edit right'></td>
+<td id='sv-401_per' class='edit center'>เดือน</td>
+<td id='sv-401_elec' class='edit center'></td>
+<td id='sv-401_p66' class='edit center'></td>
+<td id='sv-401_p67' class='edit center'></td>
+<td id='sv-401_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>401</td>
+<td id='sv-401_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-420_name' class=''>การขอใบอนุญาตนำสัตว์หรือซากสัตว์ออกนอกราชอาณาจักร (ร.9) ระยะที่ 1 : ขั้นตอนออกใบคำขออนุญาตนำสัตว์หรือซากสัตว์ออกนอกราชอาณาจักร</td>
+<td id='sv-420_count' class='edit right'></td>
+<td id='sv-420_per' class='edit center'>เดือน</td>
+<td id='sv-420_elec' class='edit center'></td>
+<td id='sv-420_p66' class='edit center'></td>
+<td id='sv-420_p67' class='edit center'></td>
+<td id='sv-420_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>420</td>
+<td id='sv-420_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-414_name' class=''>การขอใบรับรองระบบการจัดการด้านสุขลักษณะที่ดีในสถานประกอบการ (GMP) ของโรงงานผลิตอาหารสัตว์</td>
+<td id='sv-414_count' class='edit right'></td>
+<td id='sv-414_per' class='edit center'>เดือน</td>
+<td id='sv-414_elec' class='edit center'></td>
+<td id='sv-414_p66' class='edit center'></td>
+<td id='sv-414_p67' class='edit center'></td>
+<td id='sv-414_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>414</td>
+<td id='sv-414_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-413_name' class=''>การขอต่ออายุใบรับรองระบบการจัดการด้านสุขลักษณะที่ดีในสถานประกอบการ (GMP) ของโรงงานผลิตอาหารสัตว์</td>
+<td id='sv-413_count' class='edit right'></td>
+<td id='sv-413_per' class='edit center'>เดือน</td>
+<td id='sv-413_elec' class='edit center'></td>
+<td id='sv-413_p66' class='edit center'></td>
+<td id='sv-413_p67' class='edit center'></td>
+<td id='sv-413_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>413</td>
+<td id='sv-413_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-400_name' class=''>การขอหนังสือรับรองการขายภายในประเทศ (Certificate of free sale) สำหรับอาหารสัตว์</td>
+<td id='sv-400_count' class='edit right'></td>
+<td id='sv-400_per' class='edit center'>เดือน</td>
+<td id='sv-400_elec' class='edit center'></td>
+<td id='sv-400_p66' class='edit center'></td>
+<td id='sv-400_p67' class='edit center'></td>
+<td id='sv-400_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>400</td>
+<td id='sv-400_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-412_name' class=''>การขอต่ออายุใบรับรองระบบการจัดการด้านการวิเคราะห์อันตรายและจุดวิกฤตที่ต้องควบคุม (HACCP) ของโรงงานผลิตอาหารสัตว์</td>
+<td id='sv-412_count' class='edit right'></td>
+<td id='sv-412_per' class='edit center'>เดือน</td>
+<td id='sv-412_elec' class='edit center'></td>
+<td id='sv-412_p66' class='edit center'></td>
+<td id='sv-412_p67' class='edit center'></td>
+<td id='sv-412_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>412</td>
+<td id='sv-412_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-415_name' class=''>การขอใบรับรองระบบการจัดการด้านการวิเคราะห์อันตรายและจุดวิกฤตที่ต้องควบคุม (HACCP) ของโรงงานผลิตอาหารสัตว์</td>
+<td id='sv-415_count' class='edit right'></td>
+<td id='sv-415_per' class='edit center'>เดือน</td>
+<td id='sv-415_elec' class='edit center'></td>
+<td id='sv-415_p66' class='edit center'></td>
+<td id='sv-415_p67' class='edit center'></td>
+<td id='sv-415_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>415</td>
+<td id='sv-415_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-397_name' class=''>การขอหนังสือรับรอง Health Certificate สำหรับสัตว์มีชีวิตหรือซากสัตว์ที่ไม่ใช่เพื่อการบริโภค</td>
+<td id='sv-397_count' class='edit right'></td>
+<td id='sv-397_per' class='edit center'>เดือน</td>
+<td id='sv-397_elec' class='edit center'></td>
+<td id='sv-397_p66' class='edit center'></td>
+<td id='sv-397_p67' class='edit center'></td>
+<td id='sv-397_p68' class='edit center'></td>
+<td class='center high'>10</td>
+<td class='center'>397</td>
+<td id='sv-397_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-398_name' class=''>การขอใบอนุญาตให้ทำการค้าสัตว์ ซากสัตว์ น้ำเชื้อ หรือเอ็มบริโอ (ร.10/1 ร.10/2 ร.10/3)</td>
+<td id='sv-398_count' class='edit right'></td>
+<td id='sv-398_per' class='edit center'>เดือน</td>
+<td id='sv-398_elec' class='edit center'></td>
+<td id='sv-398_p66' class='edit center'></td>
+<td id='sv-398_p67' class='edit center'></td>
+<td id='sv-398_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>398</td>
+<td id='sv-398_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

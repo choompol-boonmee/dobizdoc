@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914092847087  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#178> ;
+vp:orgName  'กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน' ;
+vp:editor   'ทัชชกร ไกรพลธนเดช' ;
+vp:editorOrg   'กรมพัฒนาพลังงานทดแทนและอนุรักษ์พลังงาน' ;
+vp:email    'thutchakorn_k@dede.go.th' ;
+vp:time     '1D' ;
+vp:start     '20220914092847087' ;
+vp:end     '20220915092847087' ;
+vp:link		'https://dga.tueng.org/acc/20220914092847087/sv-178.html' .
+

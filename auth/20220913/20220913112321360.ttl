@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913112321360  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#166> ;
+vp:orgName  'กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช' ;
+vp:editor   'นางสาวอภิญญา เภาโพธิ์' ;
+vp:editorOrg   'สำนักอนุรักษ์สัตว์ป่า' ;
+vp:email    'permission1615@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220913112321360' ;
+vp:end     '20220920112321360' ;
+vp:link		'https://dga.tueng.org/acc/20220913112321360/sv-166.html' .
+

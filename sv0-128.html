@@ -1,0 +1,540 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-128';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมทางหลวง </h2>
+<span id='orgid'>(or-128)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-940_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานไฟฟ้าแสงสว่าง ชั้น 2</td>
+<td id='sv-940_count' class='edit right'></td>
+<td id='sv-940_per' class='edit center'>เดือน</td>
+<td id='sv-940_elec' class='edit center'></td>
+<td id='sv-940_p66' class='edit center'></td>
+<td id='sv-940_p67' class='edit center'></td>
+<td id='sv-940_p68' class='edit center'></td>
+<td class='center high'>16</td>
+<td class='center'>940</td>
+<td id='sv-940_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-939_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานไฟฟ้าแสงสว่าง ชั้น 1</td>
+<td id='sv-939_count' class='edit right'></td>
+<td id='sv-939_per' class='edit center'>เดือน</td>
+<td id='sv-939_elec' class='edit center'></td>
+<td id='sv-939_p66' class='edit center'></td>
+<td id='sv-939_p67' class='edit center'></td>
+<td id='sv-939_p68' class='edit center'></td>
+<td class='center high'>17</td>
+<td class='center'>939</td>
+<td id='sv-939_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-958_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบำรุงปกติ ประเภท ข. ชั้น 2</td>
+<td id='sv-958_count' class='edit right'></td>
+<td id='sv-958_per' class='edit center'>เดือน</td>
+<td id='sv-958_elec' class='edit center'></td>
+<td id='sv-958_p66' class='edit center'></td>
+<td id='sv-958_p67' class='edit center'></td>
+<td id='sv-958_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>958</td>
+<td id='sv-958_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-956_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบำรุงปกติ ประเภท ก. ชั้น 2</td>
+<td id='sv-956_count' class='edit right'></td>
+<td id='sv-956_per' class='edit center'>เดือน</td>
+<td id='sv-956_elec' class='edit center'></td>
+<td id='sv-956_p66' class='edit center'></td>
+<td id='sv-956_p67' class='edit center'></td>
+<td id='sv-956_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>956</td>
+<td id='sv-956_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-957_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบำรุงปกติ ประเภท ข. ชั้น 1</td>
+<td id='sv-957_count' class='edit right'></td>
+<td id='sv-957_per' class='edit center'>เดือน</td>
+<td id='sv-957_elec' class='edit center'></td>
+<td id='sv-957_p66' class='edit center'></td>
+<td id='sv-957_p67' class='edit center'></td>
+<td id='sv-957_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>957</td>
+<td id='sv-957_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-955_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบำรุงปกติ ประเภท ก. ชั้น 1</td>
+<td id='sv-955_count' class='edit right'></td>
+<td id='sv-955_per' class='edit center'>เดือน</td>
+<td id='sv-955_elec' class='edit center'></td>
+<td id='sv-955_p66' class='edit center'></td>
+<td id='sv-955_p67' class='edit center'></td>
+<td id='sv-955_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>955</td>
+<td id='sv-955_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-961_name' class=''>ทางเชื่อมทุกประเภทและทุกกรณี (มาตรา ๓๗)</td>
+<td id='sv-961_count' class='edit right'></td>
+<td id='sv-961_per' class='edit center'>เดือน</td>
+<td id='sv-961_elec' class='edit center'></td>
+<td id='sv-961_p66' class='edit center'></td>
+<td id='sv-961_p67' class='edit center'></td>
+<td id='sv-961_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>961</td>
+<td id='sv-961_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-949_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานราวกันอันตราย ชั้น 2</td>
+<td id='sv-949_count' class='edit right'></td>
+<td id='sv-949_per' class='edit center'>เดือน</td>
+<td id='sv-949_elec' class='edit center'></td>
+<td id='sv-949_p66' class='edit center'></td>
+<td id='sv-949_p67' class='edit center'></td>
+<td id='sv-949_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>949</td>
+<td id='sv-949_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-945_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานราวกันอันตราย ชั้น 1</td>
+<td id='sv-945_count' class='edit right'></td>
+<td id='sv-945_per' class='edit center'>เดือน</td>
+<td id='sv-945_elec' class='edit center'></td>
+<td id='sv-945_p66' class='edit center'></td>
+<td id='sv-945_p67' class='edit center'></td>
+<td id='sv-945_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>945</td>
+<td id='sv-945_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-938_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานป้ายจราจร</td>
+<td id='sv-938_count' class='edit right'></td>
+<td id='sv-938_per' class='edit center'>เดือน</td>
+<td id='sv-938_elec' class='edit center'></td>
+<td id='sv-938_p66' class='edit center'></td>
+<td id='sv-938_p67' class='edit center'></td>
+<td id='sv-938_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>938</td>
+<td id='sv-938_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-943_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานไฟสัญญาณจราจร</td>
+<td id='sv-943_count' class='edit right'></td>
+<td id='sv-943_per' class='edit center'>เดือน</td>
+<td id='sv-943_elec' class='edit center'></td>
+<td id='sv-943_p66' class='edit center'></td>
+<td id='sv-943_p67' class='edit center'></td>
+<td id='sv-943_p68' class='edit center'></td>
+<td class='center high'>12</td>
+<td class='center'>943</td>
+<td id='sv-943_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-963_name' class=''>ป้ายแนะนำบนทางหลวง (มาตรา ๔๗)</td>
+<td id='sv-963_count' class='edit right'></td>
+<td id='sv-963_per' class='edit center'>เดือน</td>
+<td id='sv-963_elec' class='edit center'></td>
+<td id='sv-963_p66' class='edit center'></td>
+<td id='sv-963_p67' class='edit center'></td>
+<td id='sv-963_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>963</td>
+<td id='sv-963_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-934_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานฉาบผิวทางแบบ Chip Seal</td>
+<td id='sv-934_count' class='edit right'></td>
+<td id='sv-934_per' class='edit center'>เดือน</td>
+<td id='sv-934_elec' class='edit center'></td>
+<td id='sv-934_p66' class='edit center'></td>
+<td id='sv-934_p67' class='edit center'></td>
+<td id='sv-934_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>934</td>
+<td id='sv-934_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-950_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานเสริมผิวทางแบบ Cold Mixed Asphalt</td>
+<td id='sv-950_count' class='edit right'></td>
+<td id='sv-950_per' class='edit center'>เดือน</td>
+<td id='sv-950_elec' class='edit center'></td>
+<td id='sv-950_p66' class='edit center'></td>
+<td id='sv-950_p67' class='edit center'></td>
+<td id='sv-950_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>950</td>
+<td id='sv-950_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-942_name' class=''>การขออนุญาตก่อสร้างทางเชื่อมทุกประเภท เพื่อเป็นทางเข้าออกทางหลวงที่อยู่ในหลักเกณฑ์ หรือรูปแบบที่เป็นมาตรฐานกรมทางหลวง (มาตรา 37)</td>
+<td id='sv-942_count' class='edit right'></td>
+<td id='sv-942_per' class='edit center'>เดือน</td>
+<td id='sv-942_elec' class='edit center'></td>
+<td id='sv-942_p66' class='edit center'></td>
+<td id='sv-942_p67' class='edit center'></td>
+<td id='sv-942_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>942</td>
+<td id='sv-942_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-951_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานเสริมผิวทางแบบ Hot Mixed Asphalt</td>
+<td id='sv-951_count' class='edit right'></td>
+<td id='sv-951_per' class='edit center'>เดือน</td>
+<td id='sv-951_elec' class='edit center'></td>
+<td id='sv-951_p66' class='edit center'></td>
+<td id='sv-951_p67' class='edit center'></td>
+<td id='sv-951_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>951</td>
+<td id='sv-951_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-952_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานก่อสร้างสะพานลอยคนเดินข้าม</td>
+<td id='sv-952_count' class='edit right'></td>
+<td id='sv-952_per' class='edit center'>เดือน</td>
+<td id='sv-952_elec' class='edit center'></td>
+<td id='sv-952_p66' class='edit center'></td>
+<td id='sv-952_p67' class='edit center'></td>
+<td id='sv-952_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>952</td>
+<td id='sv-952_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-932_name' class=''>การขออนุญาตให้ยานพาหนะเดินบนทางหลวงพิเศษ ทางหลวงแผ่นดิน และทางหลวงสัมปทาน</td>
+<td id='sv-932_count' class='edit right'></td>
+<td id='sv-932_per' class='edit center'>เดือน</td>
+<td id='sv-932_elec' class='edit center'></td>
+<td id='sv-932_p66' class='edit center'></td>
+<td id='sv-932_p67' class='edit center'></td>
+<td id='sv-932_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>932</td>
+<td id='sv-932_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-947_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานเครื่องหมายนำทาง</td>
+<td id='sv-947_count' class='edit right'></td>
+<td id='sv-947_per' class='edit center'>เดือน</td>
+<td id='sv-947_elec' class='edit center'></td>
+<td id='sv-947_p66' class='edit center'></td>
+<td id='sv-947_p67' class='edit center'></td>
+<td id='sv-947_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>947</td>
+<td id='sv-947_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-937_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบูรณะทางแบบ Pavement In-Place Recycling</td>
+<td id='sv-937_count' class='edit right'></td>
+<td id='sv-937_per' class='edit center'>เดือน</td>
+<td id='sv-937_elec' class='edit center'></td>
+<td id='sv-937_p66' class='edit center'></td>
+<td id='sv-937_p67' class='edit center'></td>
+<td id='sv-937_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>937</td>
+<td id='sv-937_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-960_name' class=''>เชื่อมต่อท่อระบายน้ำ เพื่อระบายน้ำทิ้งลงสู่ทางหลวง (มาตรา ๓๙/๑)</td>
+<td id='sv-960_count' class='edit right'></td>
+<td id='sv-960_per' class='edit center'>เดือน</td>
+<td id='sv-960_elec' class='edit center'></td>
+<td id='sv-960_p66' class='edit center'></td>
+<td id='sv-960_p67' class='edit center'></td>
+<td id='sv-960_p68' class='edit center'></td>
+<td class='center '>4</td>
+<td class='center'>960</td>
+<td id='sv-960_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-948_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานจัดทำเครื่องหมายจราจรฯ ด้วยวัสดุเทอร์โมพลาสติก (Thermoplastic)</td>
+<td id='sv-948_count' class='edit right'></td>
+<td id='sv-948_per' class='edit center'>เดือน</td>
+<td id='sv-948_elec' class='edit center'></td>
+<td id='sv-948_p66' class='edit center'></td>
+<td id='sv-948_p67' class='edit center'></td>
+<td id='sv-948_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>948</td>
+<td id='sv-948_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-964_name' class=''>สร้างหรือดัดแปลงต่อเติมอาคารต่างๆในที่ดินริมเขตทางหลวง เฉพาะทางหลวงบางสายตามที่ได้มี พ.ร.ฎ.ออกมากำหนดไว้ (มาตรา ๔๙)</td>
+<td id='sv-964_count' class='edit right'></td>
+<td id='sv-964_per' class='edit center'>เดือน</td>
+<td id='sv-964_elec' class='edit center'></td>
+<td id='sv-964_p66' class='edit center'></td>
+<td id='sv-964_p67' class='edit center'></td>
+<td id='sv-964_p68' class='edit center'></td>
+<td class='center high'>15</td>
+<td class='center'>964</td>
+<td id='sv-964_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-941_name' class=''>การขออนุญาตก่อสร้างทางเชื่อมกับทางหลวง เข้าสู่ที่ดินว่างเปล่า บ้านพักอาศัย อาคารพาณิชย์ สถานีบริการน้ำมัน สถานีบริการก๊าซ หรือสถานีบริการ เชื้อเพลิงอื่นใด ที่อยู่ในหลักเกณฑ์ หรือรูปแบบที่เป็นมาตรฐานของกรมทางหลวง (มาตรา 37)</td>
+<td id='sv-941_count' class='edit right'></td>
+<td id='sv-941_per' class='edit center'>เดือน</td>
+<td id='sv-941_elec' class='edit center'></td>
+<td id='sv-941_p66' class='edit center'></td>
+<td id='sv-941_p67' class='edit center'></td>
+<td id='sv-941_p68' class='edit center'></td>
+<td class='center high'>19</td>
+<td class='center'>941</td>
+<td id='sv-941_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-962_name' class=''>ปลูกสร้างอาคารหรือสิ่งอื่นใดในเขตทางหลวง (ยกเว้น งานทางเชื่อม ,เชื่อมท่อระบายน้ำทิ้ง และ งานระบบสาธารณูปโภค) (มาตรา ๔๗)</td>
+<td id='sv-962_count' class='edit right'></td>
+<td id='sv-962_per' class='edit center'>เดือน</td>
+<td id='sv-962_elec' class='edit center'></td>
+<td id='sv-962_p66' class='edit center'></td>
+<td id='sv-962_p67' class='edit center'></td>
+<td id='sv-962_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>962</td>
+<td id='sv-962_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-954_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานขุดขนวัสดุ หิน กรวด ทราย ลูกรัง และงานดิน ประเภทที่ 2</td>
+<td id='sv-954_count' class='edit right'></td>
+<td id='sv-954_per' class='edit center'>เดือน</td>
+<td id='sv-954_elec' class='edit center'></td>
+<td id='sv-954_p66' class='edit center'></td>
+<td id='sv-954_p67' class='edit center'></td>
+<td id='sv-954_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>954</td>
+<td id='sv-954_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-946_name' class=''>การขออนุญาตกระทำการใดๆ อันเป็นกิจการสาธารณูปโภค ในเขตทางหลวง (ผู้อำนวยการสำนักงานทางหลวงได้รับมอบหมายให้เป็นผู้พิจารณาอนุญาต) (มาตรา48 , 56 วรรคสอง)</td>
+<td id='sv-946_count' class='edit right'></td>
+<td id='sv-946_per' class='edit center'>เดือน</td>
+<td id='sv-946_elec' class='edit center'></td>
+<td id='sv-946_p66' class='edit center'></td>
+<td id='sv-946_p67' class='edit center'></td>
+<td id='sv-946_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>946</td>
+<td id='sv-946_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-953_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานขุดขนวัสดุ หิน กรวด ทราย ลูกรัง และงานดิน ประเภทที่ 1</td>
+<td id='sv-953_count' class='edit right'></td>
+<td id='sv-953_per' class='edit center'>เดือน</td>
+<td id='sv-953_elec' class='edit center'></td>
+<td id='sv-953_p66' class='edit center'></td>
+<td id='sv-953_p67' class='edit center'></td>
+<td id='sv-953_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>953</td>
+<td id='sv-953_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-959_name' class=''>กระทำการใดๆอันเป็นกิจการสาธารณูปโภคในเขตทางหลวง (มาตรา ๔๘ , ๕๖ วรรค ๒)</td>
+<td id='sv-959_count' class='edit right'></td>
+<td id='sv-959_per' class='edit center'>เดือน</td>
+<td id='sv-959_elec' class='edit center'></td>
+<td id='sv-959_p66' class='edit center'></td>
+<td id='sv-959_p67' class='edit center'></td>
+<td id='sv-959_p68' class='edit center'></td>
+<td class='center high'>8</td>
+<td class='center'>959</td>
+<td id='sv-959_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-944_name' class=''>การขออนุญาตปลูกสร้าง สถานีบริการประชาชน (ป้อมตำรวจ) ศาลาที่พักผู้โดยสาร สะพานลอยคนเดินข้าม (ผู้อำนวยการสำนักงานทางหลวงได้รับมอบหมายให้เป็นผู้พิจารณาอนุญาต) (มาตรา47)</td>
+<td id='sv-944_count' class='edit right'></td>
+<td id='sv-944_per' class='edit center'>เดือน</td>
+<td id='sv-944_elec' class='edit center'></td>
+<td id='sv-944_p66' class='edit center'></td>
+<td id='sv-944_p67' class='edit center'></td>
+<td id='sv-944_p68' class='edit center'></td>
+<td class='center '>7</td>
+<td class='center'>944</td>
+<td id='sv-944_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-933_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานจัดทำเครื่องหมายจราจรฯด้วยสีจราจร (Traffic Paint)</td>
+<td id='sv-933_count' class='edit right'></td>
+<td id='sv-933_per' class='edit center'>เดือน</td>
+<td id='sv-933_elec' class='edit center'></td>
+<td id='sv-933_p66' class='edit center'></td>
+<td id='sv-933_p67' class='edit center'></td>
+<td id='sv-933_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>933</td>
+<td id='sv-933_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-935_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานฉาบผิวทางแบบ Slurry Seal</td>
+<td id='sv-935_count' class='edit right'></td>
+<td id='sv-935_per' class='edit center'>เดือน</td>
+<td id='sv-935_elec' class='edit center'></td>
+<td id='sv-935_p66' class='edit center'></td>
+<td id='sv-935_p67' class='edit center'></td>
+<td id='sv-935_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>935</td>
+<td id='sv-935_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-936_name' class=''>การจดทะเบียนเป็นผู้รับเหมางานบำรุงทางแบบ Hot Mix In-Place Recycling</td>
+<td id='sv-936_count' class='edit right'></td>
+<td id='sv-936_per' class='edit center'>เดือน</td>
+<td id='sv-936_elec' class='edit center'></td>
+<td id='sv-936_p66' class='edit center'></td>
+<td id='sv-936_p67' class='edit center'></td>
+<td id='sv-936_p68' class='edit center'></td>
+<td class='center high'>11</td>
+<td class='center'>936</td>
+<td id='sv-936_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

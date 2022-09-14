@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220912085307514  a  vp:Data ;
+vp:token   <ac:20220912085111268> ;
+vp:email   'sayanmeemajam@gmail.com' ;
+vp:service   'sv-2080_p66' ;
+vp:value  '์ืN' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913080559069  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'นางสาวพลอย' ;
+vp:editorOrg   'ตันเพ็ญนภา' ;
+vp:email    'ploytpnp@gmail.com' ;
+vp:time     '1M' ;
+vp:start     '20220913080559069' ;
+vp:end     '20221013080559069' ;
+vp:link		'https://dga.tueng.org/acc/20220913080559069/sv-204.html' .
+

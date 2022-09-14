@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914042331120  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'กลุ่มกำกับกิจการพาณิชยนาวี กองกำกับการพาณิชยนาวี' ;
+vp:editorOrg   'กรมเจ้าท่า' ;
+vp:email    'tharikan.s@md.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220914042331120' ;
+vp:end     '20220914072331120' ;
+vp:link		'https://dga.tueng.org/acc/20220914042331120/sv-127.html' .
+

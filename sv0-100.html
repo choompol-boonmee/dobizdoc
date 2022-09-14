@@ -1,0 +1,600 @@
+
+<head>
+<title>โครงการจ้างที่ปรึกษาวิจัยแนวทางการพัฒนาระบบอำนวยความสะดวกในการประกอบธุรกิจแบบครบวงจร</title>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<link rel="stylesheet" href="style.css">
+<script>
+let orgid = 'or-100';
+</script>
+</head>
+<body>
+
+
+<h2>ใบอนุญาต/บริการของ กรมชลประทาน </h2>
+<span id='orgid'>(or-100)</span> <span id='reload' class=''>R</span>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+
+<table border='1'>
+
+<tr class='topbar'>
+<td rowspan=2>
+ลำดับ
+</td>
+<td class='center' rowspan=2>
+ชื่อใบอนุญาต/บริการ<br>
+
+<!-- span id='sv_name' class='btn'>ED</span>
+<span id='sv_name_all' class='btn'>✓</span>
+<dialog id="sv_name_dlg">
+<div>ชื่อใบอนุญาต</div>
+<input id="sv_name_val" ><br>
+<span id='sv_name_run' class='runbtn'>แก้ไข</span>
+<span id='sv_name_can' class='canbtn'>ยกเลิก</span>
+</dialog -->
+
+</td>
+
+<td class='center' colspan=2>ปริมาณ</td>
+
+<td class='center' rowspan=2>
+มี<br>ระบบ<br>
+<span id='sv_elec' class='btn'>ED</span>
+<span id='sv_elec_all' class='btn'>✓</span>
+<dialog id="sv_elec_dlg">
+<div>มีระบบหรือไม่</hdiv>
+<input id="sv_elec_val" > (Y:มี) <br>
+<span id='sv_elec_run' class='runbtn'>แก้ไข</span>
+<span id='sv_elec_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center' colspan=3>แผนพัฒนาระบบ</td>
+</td>
+
+<td class='center' rowspan=2>
+SCO
+</td>
+
+<td class='center' rowspan=2>
+URI<br>
+IRI
+</td>
+
+<td class='center' rowspan=2>
+PRO<br>
+MOT<br>
+<span id='sv_pro' class='btn'>ED</span>
+<span id='sv_pro_all' class='btn'>✓</span>
+<dialog id="sv_pro_dlg">
+<div>ระดับความสำคัญ เพื่อนำร่อง</hdiv>
+<input id="sv_pro_val" > (1-5: 5:มากที่สุด)<br>
+<span id='sv_pro_run' class='runbtn'>แก้ไข</span>
+<span id='sv_pro_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr class='topbar'>
+
+<td class='center'>ครั้ง<br>
+<span id='sv_count' class='btn'>ED</span>
+<span id='sv_count_all' class='btn'>✓</span>
+<dialog id="sv_count_dlg">
+<div>จำนวนครั้ง</hdiv>
+<input id="sv_count_val" ><br>
+<span id='sv_count_run' class='runbtn'>แก้ไข</span>
+<span id='sv_count_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>ต่อ<br>
+<span id='sv_per' class='btn'>ED</span>
+<span id='sv_per_all' class='btn'>✓</span>
+<dialog id="sv_per_dlg">
+<div>ต่อระยะเวลา</div>
+<input id="sv_per_val" > (ต่อเดือน,ต่อปี)<br>
+<span id='sv_per_run' class='runbtn'>แก้ไข</span>
+<span id='sv_per_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน66<br>
+<span id='sv_p66' class='btn'>ED</span>
+<span id='sv_p66_all' class='btn'>✓</span>
+<dialog id="sv_p66_dlg">
+<div>แผนปี2566</hdiv>
+<input id="sv_p66_val" > (Y:มีแผน)<br>
+<span id='sv_p66_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p66_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน67<br>
+<span id='sv_p67' class='btn'>ED</span>
+<span id='sv_p67_all' class='btn'>✓</span>
+<dialog id="sv_p67_dlg">
+<div>แผนปี2567</hdiv>
+<input id="sv_p67_val" > (Y:มีแผน)<br>
+<span id='sv_p67_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p67_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+<td class='center'>แผน68<br>
+<span id='sv_p68' class='btn'>ED</span>
+<span id='sv_p68_all' class='btn'>✓</span>
+<dialog id="sv_p68_dlg">
+<div>แผนปี2568</hdiv>
+<input id="sv_p68_val" > (Y:มีแผน)<br>
+<span id='sv_p68_run' class='runbtn'>แก้ไข</span>
+<span id='sv_p68_can' class='canbtn'>ยกเลิก</span>
+</dialog>
+</td>
+
+</tr>
+
+<tr><td class='center'>1</td>
+<td id='sv-3479_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อขุดลอก</td>
+<td id='sv-3479_count' class='edit right'></td>
+<td id='sv-3479_per' class='edit center'>เดือน</td>
+<td id='sv-3479_elec' class='edit center'></td>
+<td id='sv-3479_p66' class='edit center'></td>
+<td id='sv-3479_p67' class='edit center'></td>
+<td id='sv-3479_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3479</td>
+<td id='sv-3479_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>2</td>
+<td id='sv-3482_name' class=''>การขอใช้เครื่องสูบน้ำเคลื่อนที่เพื่อช่วยเหลือในการเพาะปลูกและการอื่น</td>
+<td id='sv-3482_count' class='edit right'></td>
+<td id='sv-3482_per' class='edit center'>เดือน</td>
+<td id='sv-3482_elec' class='edit center'></td>
+<td id='sv-3482_p66' class='edit center'></td>
+<td id='sv-3482_p67' class='edit center'></td>
+<td id='sv-3482_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3482</td>
+<td id='sv-3482_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>3</td>
+<td id='sv-3476_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างทางเชื่อม</td>
+<td id='sv-3476_count' class='edit right'></td>
+<td id='sv-3476_per' class='edit center'>เดือน</td>
+<td id='sv-3476_elec' class='edit center'></td>
+<td id='sv-3476_p66' class='edit center'></td>
+<td id='sv-3476_p67' class='edit center'></td>
+<td id='sv-3476_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3476</td>
+<td id='sv-3476_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>4</td>
+<td id='sv-3489_name' class=''>การขออนุญาตเปลี่ยนการใช้ที่ดินในเขตโครงการจัดรูปที่ดิน เพื่อประโยชน์อย่างอื่นซึ่งมิใช่เกษตรกรรม</td>
+<td id='sv-3489_count' class='edit right'></td>
+<td id='sv-3489_per' class='edit center'>เดือน</td>
+<td id='sv-3489_elec' class='edit center'></td>
+<td id='sv-3489_p66' class='edit center'></td>
+<td id='sv-3489_p67' class='edit center'></td>
+<td id='sv-3489_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3489</td>
+<td id='sv-3489_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>5</td>
+<td id='sv-3480_name' class=''>การขออนุญาตใช้น้ำจากทางน้ำชลประทานที่เรียกเก็บค่าชลประทาน</td>
+<td id='sv-3480_count' class='edit right'></td>
+<td id='sv-3480_per' class='edit center'>เดือน</td>
+<td id='sv-3480_elec' class='edit center'></td>
+<td id='sv-3480_p66' class='edit center'></td>
+<td id='sv-3480_p67' class='edit center'></td>
+<td id='sv-3480_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3480</td>
+<td id='sv-3480_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>6</td>
+<td id='sv-3488_name' class=''>การขออนุญาตโอนสิทธิในที่ดินที่ได้รับเอกสารสิทธิที่ดินในเขตโครงการจัดรูปที่ดิน</td>
+<td id='sv-3488_count' class='edit right'></td>
+<td id='sv-3488_per' class='edit center'>เดือน</td>
+<td id='sv-3488_elec' class='edit center'></td>
+<td id='sv-3488_p66' class='edit center'></td>
+<td id='sv-3488_p67' class='edit center'></td>
+<td id='sv-3488_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3488</td>
+<td id='sv-3488_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>7</td>
+<td id='sv-3463_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อฝังท่อก๊าซ และท่อน้ำมัน</td>
+<td id='sv-3463_count' class='edit right'></td>
+<td id='sv-3463_per' class='edit center'>เดือน</td>
+<td id='sv-3463_elec' class='edit center'></td>
+<td id='sv-3463_p66' class='edit center'></td>
+<td id='sv-3463_p67' class='edit center'></td>
+<td id='sv-3463_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3463</td>
+<td id='sv-3463_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>8</td>
+<td id='sv-3483_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อใช้ที่ดินบริเวณอ่างเก็บน้ำ และแหล่งน้ำต่าง ๆ ของกรมชลประทานเพื่อจัดเป็นสถานที่ท่องเที่ยว</td>
+<td id='sv-3483_count' class='edit right'></td>
+<td id='sv-3483_per' class='edit center'>เดือน</td>
+<td id='sv-3483_elec' class='edit center'></td>
+<td id='sv-3483_p66' class='edit center'></td>
+<td id='sv-3483_p67' class='edit center'></td>
+<td id='sv-3483_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3483</td>
+<td id='sv-3483_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>9</td>
+<td id='sv-3456_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างถนนและปรับปรุงถนนคันคลอง คันกั้นน้ำ และถนนชลประทาน</td>
+<td id='sv-3456_count' class='edit right'></td>
+<td id='sv-3456_per' class='edit center'>เดือน</td>
+<td id='sv-3456_elec' class='edit center'></td>
+<td id='sv-3456_p66' class='edit center'></td>
+<td id='sv-3456_p67' class='edit center'></td>
+<td id='sv-3456_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3456</td>
+<td id='sv-3456_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>10</td>
+<td id='sv-3460_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อวางท่อประปาในเขตชลประทาน</td>
+<td id='sv-3460_count' class='edit right'></td>
+<td id='sv-3460_per' class='edit center'>เดือน</td>
+<td id='sv-3460_elec' class='edit center'></td>
+<td id='sv-3460_p66' class='edit center'></td>
+<td id='sv-3460_p67' class='edit center'></td>
+<td id='sv-3460_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3460</td>
+<td id='sv-3460_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>11</td>
+<td id='sv-3455_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างสะพานข้ามทางน้ำชลประทาน</td>
+<td id='sv-3455_count' class='edit right'></td>
+<td id='sv-3455_per' class='edit center'>เดือน</td>
+<td id='sv-3455_elec' class='edit center'></td>
+<td id='sv-3455_p66' class='edit center'></td>
+<td id='sv-3455_p67' class='edit center'></td>
+<td id='sv-3455_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3455</td>
+<td id='sv-3455_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>12</td>
+<td id='sv-3468_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างสิ่งปลูกสร้างเป็นการชั่วคราวในเขตที่ดินกรมชลประทาน</td>
+<td id='sv-3468_count' class='edit right'></td>
+<td id='sv-3468_per' class='edit center'>เดือน</td>
+<td id='sv-3468_elec' class='edit center'></td>
+<td id='sv-3468_p66' class='edit center'></td>
+<td id='sv-3468_p67' class='edit center'></td>
+<td id='sv-3468_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3468</td>
+<td id='sv-3468_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>13</td>
+<td id='sv-3474_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อใช้น้ำชลประทานตั้งโรงสูบน้ำและวางท่อส่งน้ำ</td>
+<td id='sv-3474_count' class='edit right'></td>
+<td id='sv-3474_per' class='edit center'>เดือน</td>
+<td id='sv-3474_elec' class='edit center'></td>
+<td id='sv-3474_p66' class='edit center'></td>
+<td id='sv-3474_p67' class='edit center'></td>
+<td id='sv-3474_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3474</td>
+<td id='sv-3474_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>14</td>
+<td id='sv-3481_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างอาคารป้องกันตลิ่งทางน้ำชลประทาน</td>
+<td id='sv-3481_count' class='edit right'></td>
+<td id='sv-3481_per' class='edit center'>เดือน</td>
+<td id='sv-3481_elec' class='edit center'></td>
+<td id='sv-3481_p66' class='edit center'></td>
+<td id='sv-3481_p67' class='edit center'></td>
+<td id='sv-3481_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3481</td>
+<td id='sv-3481_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>15</td>
+<td id='sv-3486_name' class=''>การขออนุญาตใช้ที่ดินหรือทรัพย์สินกรมชลประทาน ที่ได้รับตามพระราชบัญญัติจัดรูปที่ดินเพื่อเกษตรกรรม พ.ศ. 2558</td>
+<td id='sv-3486_count' class='edit right'></td>
+<td id='sv-3486_per' class='edit center'>เดือน</td>
+<td id='sv-3486_elec' class='edit center'></td>
+<td id='sv-3486_p66' class='edit center'></td>
+<td id='sv-3486_p67' class='edit center'></td>
+<td id='sv-3486_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3486</td>
+<td id='sv-3486_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>16</td>
+<td id='sv-3458_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อก่อสร้างสะพานเลียบทางน้ำชลประทาน</td>
+<td id='sv-3458_count' class='edit right'></td>
+<td id='sv-3458_per' class='edit center'>เดือน</td>
+<td id='sv-3458_elec' class='edit center'></td>
+<td id='sv-3458_p66' class='edit center'></td>
+<td id='sv-3458_p67' class='edit center'></td>
+<td id='sv-3458_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3458</td>
+<td id='sv-3458_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>17</td>
+<td id='sv-3466_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อระบายน้ำที่ผ่านระบบบำบัดน้ำเสียลงทางน้ำชลประทาน</td>
+<td id='sv-3466_count' class='edit right'></td>
+<td id='sv-3466_per' class='edit center'>เดือน</td>
+<td id='sv-3466_elec' class='edit center'></td>
+<td id='sv-3466_p66' class='edit center'></td>
+<td id='sv-3466_p67' class='edit center'></td>
+<td id='sv-3466_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3466</td>
+<td id='sv-3466_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>18</td>
+<td id='sv-3490_name' class=''>การขออนุญาตแก้ไขผังแปลง แบ่งกรรมสิทธิ์ รวมกรรมสิทธิ์ ที่ดินในเขตโครงการจัดรูปที่ดิน</td>
+<td id='sv-3490_count' class='edit right'></td>
+<td id='sv-3490_per' class='edit center'>เดือน</td>
+<td id='sv-3490_elec' class='edit center'></td>
+<td id='sv-3490_p66' class='edit center'></td>
+<td id='sv-3490_p67' class='edit center'></td>
+<td id='sv-3490_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3490</td>
+<td id='sv-3490_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>19</td>
+<td id='sv-3484_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อเลี้ยงปลาในกระชัง</td>
+<td id='sv-3484_count' class='edit right'></td>
+<td id='sv-3484_per' class='edit center'>เดือน</td>
+<td id='sv-3484_elec' class='edit center'></td>
+<td id='sv-3484_p66' class='edit center'></td>
+<td id='sv-3484_p67' class='edit center'></td>
+<td id='sv-3484_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3484</td>
+<td id='sv-3484_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>20</td>
+<td id='sv-3467_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อขุดลอก</td>
+<td id='sv-3467_count' class='edit right'></td>
+<td id='sv-3467_per' class='edit center'>เดือน</td>
+<td id='sv-3467_elec' class='edit center'></td>
+<td id='sv-3467_p66' class='edit center'></td>
+<td id='sv-3467_p67' class='edit center'></td>
+<td id='sv-3467_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3467</td>
+<td id='sv-3467_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>21</td>
+<td id='sv-3472_name' class=''>การขออนุญาตเช่าที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อเกษตรกรรม</td>
+<td id='sv-3472_count' class='edit right'></td>
+<td id='sv-3472_per' class='edit center'>เดือน</td>
+<td id='sv-3472_elec' class='edit center'></td>
+<td id='sv-3472_p66' class='edit center'></td>
+<td id='sv-3472_p67' class='edit center'></td>
+<td id='sv-3472_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3472</td>
+<td id='sv-3472_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>22</td>
+<td id='sv-3454_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างทางเชื่อม</td>
+<td id='sv-3454_count' class='edit right'></td>
+<td id='sv-3454_per' class='edit center'>เดือน</td>
+<td id='sv-3454_elec' class='edit center'></td>
+<td id='sv-3454_p66' class='edit center'></td>
+<td id='sv-3454_p67' class='edit center'></td>
+<td id='sv-3454_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3454</td>
+<td id='sv-3454_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>23</td>
+<td id='sv-3465_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อฝังท่อก๊าซ และท่อน้ำมัน</td>
+<td id='sv-3465_count' class='edit right'></td>
+<td id='sv-3465_per' class='edit center'>เดือน</td>
+<td id='sv-3465_elec' class='edit center'></td>
+<td id='sv-3465_p66' class='edit center'></td>
+<td id='sv-3465_p67' class='edit center'></td>
+<td id='sv-3465_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3465</td>
+<td id='sv-3465_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>24</td>
+<td id='sv-3457_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างสิ่งปลูกสร้างเป็นการชั่วคราวในเขตที่ดินกรมชลประทาน</td>
+<td id='sv-3457_count' class='edit right'></td>
+<td id='sv-3457_per' class='edit center'>เดือน</td>
+<td id='sv-3457_elec' class='edit center'></td>
+<td id='sv-3457_p66' class='edit center'></td>
+<td id='sv-3457_p67' class='edit center'></td>
+<td id='sv-3457_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3457</td>
+<td id='sv-3457_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>25</td>
+<td id='sv-3475_name' class=''>การขออนุญาตเช่าที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อประโยชน์อย่างอื่น</td>
+<td id='sv-3475_count' class='edit right'></td>
+<td id='sv-3475_per' class='edit center'>เดือน</td>
+<td id='sv-3475_elec' class='edit center'></td>
+<td id='sv-3475_p66' class='edit center'></td>
+<td id='sv-3475_p67' class='edit center'></td>
+<td id='sv-3475_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3475</td>
+<td id='sv-3475_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>26</td>
+<td id='sv-3461_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อใช้ที่ดินบริเวณอ่างเก็บน้ำ และแหล่งน้ำต่าง ๆ ของกรมชลประทานเพื่อจัดเป็นสถานที่ท่องเที่ยว</td>
+<td id='sv-3461_count' class='edit right'></td>
+<td id='sv-3461_per' class='edit center'>เดือน</td>
+<td id='sv-3461_elec' class='edit center'></td>
+<td id='sv-3461_p66' class='edit center'></td>
+<td id='sv-3461_p67' class='edit center'></td>
+<td id='sv-3461_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3461</td>
+<td id='sv-3461_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>27</td>
+<td id='sv-3470_name' class=''>การขออนุญาตเช่าที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่ออยู่อาศัย</td>
+<td id='sv-3470_count' class='edit right'></td>
+<td id='sv-3470_per' class='edit center'>เดือน</td>
+<td id='sv-3470_elec' class='edit center'></td>
+<td id='sv-3470_p66' class='edit center'></td>
+<td id='sv-3470_p67' class='edit center'></td>
+<td id='sv-3470_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3470</td>
+<td id='sv-3470_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>28</td>
+<td id='sv-3469_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อระบายน้ำที่ผ่านระบบบำบัดน้ำเสียลงทางน้ำชลประทาน</td>
+<td id='sv-3469_count' class='edit right'></td>
+<td id='sv-3469_per' class='edit center'>เดือน</td>
+<td id='sv-3469_elec' class='edit center'></td>
+<td id='sv-3469_p66' class='edit center'></td>
+<td id='sv-3469_p67' class='edit center'></td>
+<td id='sv-3469_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3469</td>
+<td id='sv-3469_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>29</td>
+<td id='sv-3485_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างถนนและปรับปรุงถนนคันคลอง คันกั้นน้ำ และถนนชลประทาน</td>
+<td id='sv-3485_count' class='edit right'></td>
+<td id='sv-3485_per' class='edit center'>เดือน</td>
+<td id='sv-3485_elec' class='edit center'></td>
+<td id='sv-3485_p66' class='edit center'></td>
+<td id='sv-3485_p67' class='edit center'></td>
+<td id='sv-3485_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3485</td>
+<td id='sv-3485_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>30</td>
+<td id='sv-3462_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อวางท่อประปาในเขตชลประทาน</td>
+<td id='sv-3462_count' class='edit right'></td>
+<td id='sv-3462_per' class='edit center'>เดือน</td>
+<td id='sv-3462_elec' class='edit center'></td>
+<td id='sv-3462_p66' class='edit center'></td>
+<td id='sv-3462_p67' class='edit center'></td>
+<td id='sv-3462_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3462</td>
+<td id='sv-3462_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>31</td>
+<td id='sv-3453_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างสะพานข้ามทางน้ำชลประทาน</td>
+<td id='sv-3453_count' class='edit right'></td>
+<td id='sv-3453_per' class='edit center'>เดือน</td>
+<td id='sv-3453_elec' class='edit center'></td>
+<td id='sv-3453_p66' class='edit center'></td>
+<td id='sv-3453_p67' class='edit center'></td>
+<td id='sv-3453_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3453</td>
+<td id='sv-3453_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>32</td>
+<td id='sv-3473_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อใช้น้ำชลประทาน ตั้งโรงสูบน้ำและวางท่อส่งน้ำ</td>
+<td id='sv-3473_count' class='edit right'></td>
+<td id='sv-3473_per' class='edit center'>เดือน</td>
+<td id='sv-3473_elec' class='edit center'></td>
+<td id='sv-3473_p66' class='edit center'></td>
+<td id='sv-3473_p67' class='edit center'></td>
+<td id='sv-3473_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3473</td>
+<td id='sv-3473_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>33</td>
+<td id='sv-3471_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างอาคารป้องกันตลิ่งทางน้ำชลประทาน</td>
+<td id='sv-3471_count' class='edit right'></td>
+<td id='sv-3471_per' class='edit center'>เดือน</td>
+<td id='sv-3471_elec' class='edit center'></td>
+<td id='sv-3471_p66' class='edit center'></td>
+<td id='sv-3471_p67' class='edit center'></td>
+<td id='sv-3471_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3471</td>
+<td id='sv-3471_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>34</td>
+<td id='sv-3459_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อก่อสร้างสะพานเลียบทางน้ำชลประทาน</td>
+<td id='sv-3459_count' class='edit right'></td>
+<td id='sv-3459_per' class='edit center'>เดือน</td>
+<td id='sv-3459_elec' class='edit center'></td>
+<td id='sv-3459_p66' class='edit center'></td>
+<td id='sv-3459_p67' class='edit center'></td>
+<td id='sv-3459_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3459</td>
+<td id='sv-3459_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>35</td>
+<td id='sv-3478_name' class=''>การขออนุญาตใช้ที่ดินของรัฐประเภทอื่นที่กรมชลประทานใช้ประโยชน์เพื่อปักเสา พาดสายหรือร้อยสายไฟฟ้า/โทรศัพท์ในเขตชลประทาน</td>
+<td id='sv-3478_count' class='edit right'></td>
+<td id='sv-3478_per' class='edit center'>เดือน</td>
+<td id='sv-3478_elec' class='edit center'></td>
+<td id='sv-3478_p66' class='edit center'></td>
+<td id='sv-3478_p67' class='edit center'></td>
+<td id='sv-3478_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3478</td>
+<td id='sv-3478_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>36</td>
+<td id='sv-3487_name' class=''>การขออนุญาตจำหน่าย ก่อให้เกิดภาระติดพัน หรือกระทำการใดๆ ในท้องที่ที่จะสำรวจการจัดรูปที่ดิน</td>
+<td id='sv-3487_count' class='edit right'></td>
+<td id='sv-3487_per' class='edit center'>เดือน</td>
+<td id='sv-3487_elec' class='edit center'></td>
+<td id='sv-3487_p66' class='edit center'></td>
+<td id='sv-3487_p67' class='edit center'></td>
+<td id='sv-3487_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3487</td>
+<td id='sv-3487_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>37</td>
+<td id='sv-3464_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อเลี้ยงปลาในกระชัง</td>
+<td id='sv-3464_count' class='edit right'></td>
+<td id='sv-3464_per' class='edit center'>เดือน</td>
+<td id='sv-3464_elec' class='edit center'></td>
+<td id='sv-3464_p66' class='edit center'></td>
+<td id='sv-3464_p67' class='edit center'></td>
+<td id='sv-3464_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3464</td>
+<td id='sv-3464_pro' class='edit center'></td>
+</tr>
+<tr><td class='center'>38</td>
+<td id='sv-3477_name' class=''>การขออนุญาตใช้ที่ราชพัสดุในความครอบครองของกรมชลประทานเพื่อปักเสา พาดสายหรือร้อยสายไฟฟ้า/โทรศัพท์ในเขตชลประทาน</td>
+<td id='sv-3477_count' class='edit right'></td>
+<td id='sv-3477_per' class='edit center'>เดือน</td>
+<td id='sv-3477_elec' class='edit center'></td>
+<td id='sv-3477_p66' class='edit center'></td>
+<td id='sv-3477_p67' class='edit center'></td>
+<td id='sv-3477_p68' class='edit center'></td>
+<td class='center '>0</td>
+<td class='center'>3477</td>
+<td id='sv-3477_pro' class='edit center'></td>
+</tr>
+
+</table>
+<a href='orglist.html'>กลับหน้าหน่วยงาน</a>
+</body>
+<script src="service.js"></script>
+</html>
+

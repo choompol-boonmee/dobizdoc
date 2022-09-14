@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220913090155046  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#596> ;
+vp:orgName  'บริษัท ข้อมูลเครดิตแห่งชาติ จำกัด (เครดิตบูโร)' ;
+vp:editor   'ภคินี พิพัฒน์โภคา' ;
+vp:editorOrg   'บริษัท ข้อมูลเครดิตแห่งชาติ จำกัด' ;
+vp:email    'pakineep@ncb.co.th' ;
+vp:time     '3H' ;
+vp:start     '20220913090155046' ;
+vp:end     '20220913120155046' ;
+vp:link		'https://dga.tueng.org/acc/20220913090155046/sv-596.html' .
+

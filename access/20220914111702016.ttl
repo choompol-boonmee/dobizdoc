@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220914111702016  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#239> ;
+vp:orgName  'กรมศิลปากร' ;
+vp:editor   'ณัฐภัทร สุขวิลัย' ;
+vp:editorOrg   'กรมศิลปากร' ;
+vp:email    'nattapat_suk@finearts.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220914111702016' ;
+vp:end     '20220914141702016' ;
+vp:link		'https://dga.tueng.org/acc/20220914111702016/sv-239.html' .
+
