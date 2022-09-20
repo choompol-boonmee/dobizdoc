@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220915063547807  a  vp:Data ;
+vp:token   <ac:20220915062837429> ;
+vp:email   'worrapong@office.nfe.go.th' ;
+vp:service   'sv-2568_per' ;
+vp:value  'ปี' .
+

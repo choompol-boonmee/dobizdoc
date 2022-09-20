@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915113731164  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#127> ;
+vp:orgName  'กรมเจ้าท่า' ;
+vp:editor   'ภาณุมาศ  ยอดเถื่อน' ;
+vp:editorOrg   'กลุุ่มตรวจท่า สำนักความปลอดภัยและสิ่งแวดล้อมทางน้ำ กรมเจ้าท่า' ;
+vp:email    'Safenvi@md.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220915113731164' ;
+vp:end     '20220915143731164' ;
+vp:link		'https://dga.tueng.org/acc/20220915113731164/sv-127.html' .
+

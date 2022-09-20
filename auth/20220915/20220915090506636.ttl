@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915090506636  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#15> ;
+vp:orgName  'กรมศุลกากร' ;
+vp:editor   'วิทยา ปกรณ์ประเสริฐ' ;
+vp:editorOrg   'ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร กรมศุลกากร' ;
+vp:email    '108529@customs.go.th' ;
+vp:time     '3H' ;
+vp:start     '20220915090506636' ;
+vp:end     '20220915120506636' ;
+vp:link		'https://dga.tueng.org/acc/20220915090506636/sv-15.html' .
+

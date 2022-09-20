@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220920100822035  a  vp:Data ;
+vp:token   <ac:20220920100343029> ;
+vp:email   'issaree@erc.or.th' ;
+vp:service   'sv-3219_elec' ;
+vp:value  'y' .
+

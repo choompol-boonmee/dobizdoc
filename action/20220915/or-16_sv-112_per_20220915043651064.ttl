@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220915043651064  a  vp:Data ;
+vp:token   <ac:20220915042516393> ;
+vp:email   'nut.itcexcise@gmail.com' ;
+vp:service   'sv-112_per' ;
+vp:value  'ปี' .
+

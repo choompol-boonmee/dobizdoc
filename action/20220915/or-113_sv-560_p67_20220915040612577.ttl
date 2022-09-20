@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220915040612577  a  vp:Data ;
+vp:token   <ac:20220915034034609> ;
+vp:email   'nalakkhana.l@alro.go.th' ;
+vp:service   'sv-560_p67' ;
+vp:value  'Y' .
+

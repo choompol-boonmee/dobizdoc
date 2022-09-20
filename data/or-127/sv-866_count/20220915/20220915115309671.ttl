@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220915115309671  a  vp:Data ;
+vp:token   <ac:20220915113731164> ;
+vp:email   'Safenvi@md.go.th' ;
+vp:service   'sv-866_count' ;
+vp:value  '2500' .
+

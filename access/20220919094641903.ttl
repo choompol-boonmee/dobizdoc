@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220919094641903  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#207> ;
+vp:orgName  'กรมส่งเสริมการปกครองท้องถิ่น' ;
+vp:editor   'ณัฐกฤตา เอมชม' ;
+vp:editorOrg   'กรมส่งเสริมการปกครองท้องถิ่น' ;
+vp:email    'for.first994@gmail.com' ;
+vp:time     '1D' ;
+vp:start     '20220919094641903' ;
+vp:end     '20220920094641903' ;
+vp:link		'https://dga.tueng.org/acc/20220919094641903/sv-207.html' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915072137662  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#162> ;
+vp:orgName  'กรมทรัพยากรน้ำ' ;
+vp:editor   'ทักษิณา พวงมาลี' ;
+vp:editorOrg   'สำนักบริหารจัดการน้ำ' ;
+vp:email    'taksina.fernn@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220915072137662' ;
+vp:end     '20220915102137662' ;
+vp:link		'https://dga.tueng.org/acc/20220915072137662/sv-162.html' .
+

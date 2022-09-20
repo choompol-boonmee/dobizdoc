@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220920162850494  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#211> ;
+vp:orgName  'การไฟฟ้านครหลวง' ;
+vp:editor   'เทวา คำปาเชื้อ' ;
+vp:editorOrg   'มธ' ;
+vp:email    'tawa.k@fte.kmutnb.ac.th' ;
+vp:time     '1D' ;
+vp:start     '20220920162850494' ;
+vp:end     '20220921162850494' ;
+vp:link		'https://dga.tueng.org/acc/20220920162850494/sv-211.html' .
+

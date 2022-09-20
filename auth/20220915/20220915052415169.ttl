@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915052415169  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#204> ;
+vp:orgName  'กรมที่ดิน' ;
+vp:editor   'เกตุนภา  ตั้งจิตถนอม' ;
+vp:editorOrg   'กรมที่ดิน สำนักส่งเสริมธุรกิจอสังหาริมทรัพย์' ;
+vp:email    'nuemui@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220915052415169' ;
+vp:end     '20220915082415169' ;
+vp:link		'https://dga.tueng.org/acc/20220915052415169/sv-204.html' .
+

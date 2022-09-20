@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915042516393  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#16> ;
+vp:orgName  'กรมสรรพสามิต' ;
+vp:editor   'นายณัทธร กานตะดา' ;
+vp:editorOrg   'กรมสรรพสามิต ศูนย์เทคโนโลยีสารสนเทศ' ;
+vp:email    'nut.itcexcise@gmail.com' ;
+vp:time     '1D' ;
+vp:start     '20220915042516393' ;
+vp:end     '20220916042516393' ;
+vp:link		'https://dga.tueng.org/acc/20220915042516393/sv-16.html' .
+

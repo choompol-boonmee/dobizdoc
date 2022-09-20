@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220920163522414  a  vp:Data ;
+vp:token   <ac:20220920162850494> ;
+vp:email   'tawa.k@fte.kmutnb.ac.th' ;
+vp:service   'sv-2242_per' ;
+vp:value  'ปี' .
+

@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220916093332007  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#177> ;
+vp:orgName  'กรมธุรกิจพลังงาน' ;
+vp:editor   'นางสาวณัฐวดี คำภิรานนท์' ;
+vp:editorOrg   'ศูนย์เทคโนโลยีสารสนเทศและการสื่อสาร กรมธุรกิจพลังงาน กระทรวงพลังงาน' ;
+vp:email    'natthawadee@doeb.go.th' ;
+vp:time     '7D' ;
+vp:start     '20220916093332007' ;
+vp:end     '20220923093332007' ;
+vp:link		'https://dga.tueng.org/acc/20220916093332007/sv-177.html' .
+

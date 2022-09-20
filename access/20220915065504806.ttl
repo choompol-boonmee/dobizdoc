@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220915065504806  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#128> ;
+vp:orgName  'กรมทางหลวง' ;
+vp:editor   '' ;
+vp:editorOrg   '' ;
+vp:email    'ADSD.DOH02@GMAIL.COM' ;
+vp:time     '3H' ;
+vp:start     '20220915065504806' ;
+vp:end     '20220915095504806' ;
+vp:link		'https://dga.tueng.org/acc/20220915065504806/sv-128.html' .
+

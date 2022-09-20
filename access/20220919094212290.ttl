@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220919094212290  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#100> ;
+vp:orgName  'กรมชลประทาน' ;
+vp:editor   'ศิริลักษณ์ วิริยะกุล' ;
+vp:editorOrg   'กรมชลประทาน' ;
+vp:email    'wobrid2564@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220919094212290' ;
+vp:end     '20220919124212290' ;
+vp:link		'https://dga.tueng.org/acc/20220919094212290/sv-100.html' .
+

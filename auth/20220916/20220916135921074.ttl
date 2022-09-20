@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220916135921074  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#259> ;
+vp:orgName  'สำนักงานปลัดกระทรวงศึกษาธิการ' ;
+vp:editor   'วรพงษ์ น่วมอินทร์' ;
+vp:editorOrg   'สำนักงาน กศน.' ;
+vp:email    'worrapong@office.nfe.go.th' ;
+vp:time     '1M' ;
+vp:start     '20220916135921074' ;
+vp:end     '20221016135921074' ;
+vp:link		'https://dga.tueng.org/acc/20220916135921074/sv-259.html' .
+
