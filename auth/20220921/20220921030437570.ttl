@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220921030437570  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#102> ;
+vp:orgName  'กรมประมง' ;
+vp:editor   'นางสาวสุรินทร์พร ยิ้มกัน' ;
+vp:editorOrg   'กรมประมง' ;
+vp:email    'lek_surinporn@yahoo.com' ;
+vp:time     '1D' ;
+vp:start     '20220921030437570' ;
+vp:end     '20220922030437570' ;
+vp:link		'https://dga.tueng.org/acc/20220921030437570/sv-102.html' .
+

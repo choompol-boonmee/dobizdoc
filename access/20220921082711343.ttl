@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220921082711343  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#278> ;
+vp:orgName  'สำนักงานคณะกรรมการอาหารและยา' ;
+vp:editor   'นางสาวอศัลยา รอดจีรา' ;
+vp:editorOrg   'ศูนย์ข้อมูลและสารสนเทศ' ;
+vp:email    'asanraya@fda.moph.go.th' ;
+vp:time     '1M' ;
+vp:start     '20220921082711343' ;
+vp:end     '20221021082711343' ;
+vp:link		'https://dga.tueng.org/acc/20220921082711343/sv-278.html' .
+

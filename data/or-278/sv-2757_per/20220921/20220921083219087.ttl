@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220921083219087  a  vp:Data ;
+vp:token   <ac:20220921082711343> ;
+vp:email   'asanraya@fda.moph.go.th' ;
+vp:service   'sv-2757_per' ;
+vp:value  'ปี' .
+

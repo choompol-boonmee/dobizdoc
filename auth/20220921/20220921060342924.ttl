@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220921060342924  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#187> ;
+vp:orgName  'กรมการค้าต่างประเทศ' ;
+vp:editor   'เทวา คำปาเชื้อ' ;
+vp:editorOrg   'มธ.' ;
+vp:email    'mookkitiya.w@gmail.com' ;
+vp:time     '3H' ;
+vp:start     '20220921060342924' ;
+vp:end     '20220921090342924' ;
+vp:link		'https://dga.tueng.org/acc/20220921060342924/sv-187.html' .
+
