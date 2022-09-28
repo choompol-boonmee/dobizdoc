@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220922085130939  a  vp:Data ;
+vp:token   <ac:20220921095005469> ;
+vp:email   'sirilak_p@port.co.th' ;
+vp:service   'sv-3534_count' ;
+vp:value  '4039' .
+

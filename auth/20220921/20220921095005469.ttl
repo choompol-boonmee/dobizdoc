@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220921095005469  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#132> ;
+vp:orgName  'การท่าเรือแห่งประเทศไทย' ;
+vp:editor   'น.ส.ศิริลักษณ์ อินทโกษี' ;
+vp:editorOrg   'พรป. กพร. ฝทส. การท่าเรือแห่งประเทศไทย' ;
+vp:email    'sirilak_p@port.co.th' ;
+vp:time     '7D' ;
+vp:start     '20220921095005469' ;
+vp:end     '20220928095005469' ;
+vp:link		'https://dga.tueng.org/acc/20220921095005469/sv-132.html' .
+

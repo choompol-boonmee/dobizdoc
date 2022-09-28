@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220921100908556  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#573> ;
+vp:orgName  'สำนักงานคณะกรรมการกำกับกิจการพลังงาน' ;
+vp:editor   'อิสสรี จ้อยจุมพจน์' ;
+vp:editorOrg   'สำนักงานคณะกรรมการกำกับกิจการพลังงาน' ;
+vp:email    'issaree@erc.or.th' ;
+vp:time     '1D' ;
+vp:start     '20220921100908556' ;
+vp:end     '20220922100908556' ;
+vp:link		'https://dga.tueng.org/acc/20220921100908556/sv-573.html' .
+

@@ -1,0 +1,10 @@
+@prefix dt: <http://dga.tueng.org/rdf/dt#> .
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+dt:20220923034623949  a  vp:Data ;
+vp:token   <ac:20220923033910175> ;
+vp:email   'sky.works@hotmail.com' ;
+vp:service   'sv-887_count' ;
+vp:value  '' .
+

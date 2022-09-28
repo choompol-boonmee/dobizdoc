@@ -68,22 +68,30 @@ document.querySelectorAll('#reload').forEach( el => {
 });
 
 function reload() {
-	let url = "read?t="+Math.random()+"&orid="+orgid;
+	getdata(orgid);
+}
+
+function reload2() {
+	let orgs = orgids.join("_");
+	getdata(orgs);
+}
+
+function getdata(oid) {
+	let url = "read?t="+Math.random()+"&orid="+oid;
 
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			let x = this.responseText;
+			window.xx = x;
 			let xs = x.split("\n");
-			let ln = "";
 			for(let i=0; i<xs.length; i++) {
 				let kv = xs[i].split("=");
 				let k = kv[0];
 				let v = kv[1];
 				let inp = document.getElementById(k);
+				if(inp!= null)
 				inp.innerHTML = v;
-				if(i>0) ln += "\n";
-				ln += "SET '"+k+"' = '"+v+"'";
 			}
 		}
 	};
@@ -148,5 +156,5 @@ document.querySelectorAll('.canbtn').forEach(el=> {
 	});
 });
 
-reload();
+//reload();
 

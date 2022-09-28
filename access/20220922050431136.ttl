@@ -1,0 +1,14 @@
+@prefix ac: <http://dga.tueng.org/rdf/ac#> .
+@prefix vp: <http://dga.tueng.org/rdf/vp#> .
+
+ac:20220922050431136  a  vp:Access ;
+vp:orgId  <http://dga.tueng.org/rdf/or#202> ;
+vp:orgName  'กรมการปกครอง' ;
+vp:editor   'นายสุรชัย ธรรมภักดี ' ;
+vp:editorOrg   'สำนักบริหารการทะเบียน' ;
+vp:email    'genr.dopa@gmail.com' ;
+vp:time     '7D' ;
+vp:start     '20220922050431136' ;
+vp:end     '20220929050431136' ;
+vp:link		'https://dga.tueng.org/acc/20220922050431136/sv-202.html' .
+
